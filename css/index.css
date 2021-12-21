@@ -36,7 +36,7 @@ a{
 /* top.css */
 #top{
     height: 5px;
-    background-color: #00925f;
+    background-color: pink;
 }
 
 
@@ -44,45 +44,38 @@ a{
 
 /* header.css */
 #header{
-    height: 30px;
+    height: 180px;
     background-color: #2d2d2d;
     color: #17925f;
 }
-#header .xlwb{
-    width: 20px;
-    height: 17px;
-    background: url("../img/icons.png") no-repeat -47px -95px;
-}
-#header .txwb{
-    width: 20px;
-    height: 20px;
-    background: url("../img/icons.png") no-repeat -27px -92px;
+#header #title{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px; 
+	line-height: 180px;
+	text-shadow: #4FB59D 20px 20px 6  0px;
 }
 #header .h_left div{
     float: left;
     margin-right: 10px;
     margin-top: 5px;
+	position: absolute;
+	top: 150px;
 }
-#header ul li{
-    float: left;
-    margin-left: 10px;
-    line-height: 30px;
+#header .xlwb{
+    width: 20px;
+    height: 17px;
+    background: url("../img/icons.png") no-repeat -47px -95px;
+	left: 1300px;
 }
-#header li a{
-    color: #b2b2b2;
-    font-size: 14px;
-    border-right: 1px solid #b2b2b2;
-    padding-right: 10px;
+#header .txwb{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icons.png") no-repeat -27px -92px;
+	left: 1330px;
 }
-#header li a:hover{
-    color: #00925f;
-}
-#header ul li span{
-    width: 19px;
-    height: 16px;
-    display: inline-block;
-    vertical-align: middle;
-    background: url("../img/icons.png") no-repeat 0px -96px;
+#header .tel{
+	left: 1360px;
 }
 
 
@@ -104,6 +97,17 @@ a{
 #nav a:hover{
     color: #00925f;
 }
+#nav #logo{
+	margin-top: 10px;
+	height: 70px;
+}
+#nav #tips{
+	line-height: 90px; 
+	color: #828282; 
+	margin-left: 100px; 
+	font-size: 8px;
+	font-weight: 100;
+}
 
 
 /* banner.css */
@@ -116,7 +120,14 @@ a{
 }
 #star .star_top{
     text-align: center;
-    margin: 10px;
+    margin: 60px;
+}
+#star #title{
+	padding: 4px;
+	border-bottom: 2px solid #828282; 
+	border-right: 2px solid #828282; 
+	font-size: 30px;
+	box-shadow: #828282 10px 10px 10px;
 }
 #star ul{
     width: 1263px;
@@ -125,9 +136,10 @@ a{
 #star li{
     width: 300px;
     text-align: center;
-    float: left;
+    float: left; 
     border-bottom: 4px solid #dfdfdf;
     transition: all .3s;
+	margin-bottom: 20px;
 }
 #star li:hover{
     border-bottom: 4px solid #4fb59d;
@@ -140,12 +152,7 @@ a{
     margin: 10px;
 }
 #star p{
-    font-size: 12px;
-    color: #bdbdbd;
-}
-#star .money{
-    font-size: 14px;
-    color: #00925f;
+    font-size: 12px; 
 }
 #star span{
     width: 13px;
@@ -162,238 +169,12 @@ a{
 }
 
 
-/* 精选配件.css */
-#accessory{
-    height: 950px;
-    background-color: #f6f6f6;
-    overflow: hidden;
-}
-#accessory .acc_top{
-    text-align: center;
-    margin: 10px 0px;
-}
-#accessory .acc_main{
-    width: 1200px;
-    margin: 0 auto;
-}
-#accessory .acc_left{
-    width: 580px;
-    height: 950px;
-    /* border: 2px solid rgb(129, 68, 68); */
-}
-#accessory .acc_left div{
-    float: left;
-    border-bottom: 3px solid #eaeaea;
-    margin: 10px;
-    transition: all .3s;
-}
-#accessory .acc_left div:hover{
-    border-bottom: 3px solid #00925f;
-    transform: translateY(-10px);
-}
-#accessory .acc_left img{
-    width: 260px;
-}
-#accessory .acc_left>div:last-child img{
-    width: 560px;
-}
-#accessory .acc_all{
-    height: 270px;
-    width: 270px;
-    border:3px solid #eaeaea;
-    background-color: #fff;
-}
-#accessory .acc_all p:first-child{
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-    margin: 10px;
-}
-#accessory .acc_all li{
-    float: left;
-    width: 135px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-}
-#accessory .acc_all li:hover{
-    color: #00925f;
-}
-#accessory .acc_all .line{
-    width: 140px;
-    height: 0;
-    border-top: 1px solid #ccc;
-    clear: both;
-    margin: 10px auto;
-}
-#accessory span{
-    width: 13px;
-    height: 13px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-    background: url("../img/icons-1.png") no-repeat -177px -1014px;
-}
-#accessory .acc_all p:last-child{
-    text-align: center;
-    margin-top: 15px;
-}
-#accessory .acc_right{
-    width: 580px;
-}
-#accessory .acc_right div{
-    float: left;
-    margin: 10px;
-    border-bottom: 3px solid #eaeaea;
-    transition:all .3s;
-}
-#accessory .acc_right div:hover{
-    border-bottom: 3px solid #00925f;
-    transform: translateY(-10px);
-}
-#accessory .acc_right img{
-    width: 265px;
-}
-#accessory .acc_right>div:first-child img{
-    width: 560px;
-}
-#accessory .acc_right>div:last-child img{
-    height: 255px;
-}
-
-
-
-/* world.css */
-#world {
-    height: 700px;
-    overflow: hidden;
-    /* clear: both; */
-    background-color: #eaeaea;
-}
-#world .world_top{
-    text-align: center;
-    margin: 20px;
-
-}
-#world .world_main{
-    width: 1214px;
-    margin: 0 auto;
-}
-#world .world_left{
-    width: 800px;
-}
-#world .world_left>div{
-    float: left;
-    margin: 10px;
-}
-#world .world_left div div{
-    border-bottom: 3px solid #eaeaea;
-    transition: all .3s;
-}
-#world .world_left>div:hover div{
-    transform: translateY(-10px);
-    border-bottom: 3px solid #00925f;
-}
-#world .world_right{
-    width: 400px;
-    height: 565px;
-    margin-top: 10px;
-    background-color: #fff;
-}
-#world .world_right img{
-    width: 80px;
-}
-#world .world_right .world_title{
-    width: 400px;
-    height: 50px;
-}
-#world .world_right .world_title div{
-    width: 200px;
-    height: 50px;
-    background-color: #eaeaea;
-    text-align: center;
-    line-height: 50px;
-}
-#world .world_right .world_title .new{
-    background-color: #fff;
-    border-top: 3px solid #1fbb71;
-}
-#world .world_right ul li{
-    background-color: #eaeaea;
-    margin: 20px 10px;
-}
-#world .world_right dl{
-    width: 380px;
-    height: 80px;
-}
-#world .world_right dl dt{
-    position: relative;
-    top: 6px;
-    left: 10px;
-}
-#world .world_right dl dd{
-    width: 300px;
-    position: relative;
-    top: -30px;
-    left: 100px;
-}
-
-
-/* serve.css */
-#sever{ 
-    height: 100px;
-    background-color: #fff;
-}
-#serve dl{
-    width: 200px;
-    height: 100px;
-    /* border: 1px solid #000; */
-}
-#serve dt{
-    width: 41px;
-    height: 41px;
-    background: url("../img/icons.png") no-repeat 0px -44px;
-    position: relative;
-    top: 30px;
-    left: 10px;
-}
-#serve .dd1{
-    position: relative;
-    top: -15px;
-    left: 60px;
-    font-weight: bold;
-}
-#serve .dd2{
-    width: 100px;
-    position: relative;
-    top: -10px;
-    left: 60px;
-    font-size: 12px;
-    color: #aaa;
-}
-#serve li{
-    float: left;
-    margin: 0 10px;
-    transition: all .3s;
-}
-#serve li:hover{
-    transform: translateY(-10px);
-}
-#serve ul{
-    width: 1110px;
-    margin: 0 auto;
-    height: 99px;
-    border-bottom: 1px solid #333;
-}
-
-
 
 /* after_sale.css */
 #after_sale{
-    height: 200px;
+    height: 70px;
     background-color: #fff;
+	border-top: 2px solid #828282;
 }
 #after_sale ul{
     width: 1100px;
@@ -423,7 +204,7 @@ a{
 
 /* footer.css */
 #footer{
-    height: 40px;
+    height: 70px;
     background-color: #2d2d2d;
 }
 #footer p{
@@ -452,8 +233,8 @@ a{
 }
 #back_top a{
     position: fixed;
-    top: 900px;
-    left: 1800px;
+    top: 800px;
+    left: 1700px;
     width: 80px;
     height: 70px;
     background-color: black;
