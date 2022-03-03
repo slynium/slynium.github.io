@@ -1,313 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <title>SlyNium个人博客</title>
-    <style type="text/css">
-		body {
-            background: #eee;
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            color: #000;
-            margin: 0;
-            padding: 0;
-        }
-        #banner{
-        	height:630px;
-        }
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SlyNium个人博客</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<!-- top -->
+		<div id="top">
+		</div>
 
-        .swiper-container {
-			width: 1300px;
-            height: 632px;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
-	</style>
-</head>
-<body>
-    <!-- 页面top -->
-    <div id="top">
-        <div class="container">
-
-        </div>
-    </div>
-    <!-- 页面header -->
-    <div id="header">
-        <div class="container">
-			<div id="title">
-				这是SlyNium的个人博客
+		<!-- head -->
+		<div id="header">
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<p id="title">SlyNium个人博客</p>
+				</div>
+				<div class="col-sm-3">
+				</div>
 			</div>
-            <div class="h_left">
-                <div class="xlwb"></div>
-                <div class="txwb"></div>
-                <div class="tel">TEL：10086&nbsp;or&nbsp;1000（&nbsp;想peach…手动滑稽</div>
-            </div>
-        </div>
-    </div>
-    <!-- 页面nav -->
-    <div id="nav">
-        <div class="container">
-            <div class="left">
-                <img id="logo" src="img/川大透明校徽.png" alt="SiChuan University">
-            </div>
-            <ul class="right">
-                <li><a href="#">身高</a></li>
-                <li><a href="#">体重</a></li>
-                <li><a href="#">住址</a></li>
-                <li><a href="#">秘密</a></li>
-                <li><a href="#">联系方式</a></li>
-                <li><a href="#">征婚要求</a></li>
-            </ul>
-			<div>
-				<b class="right" id="tips">温馨tips：此栏功能纯纯搞笑</b>
+		</div>
+
+		<!-- nav -->
+		<div id="nav">
+			<br>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-2">
+					<img id="logo" src="img/川大透明校徽.png" alt="SiChuan University">
+				</div>
+				<div class="col-sm-4"></div>
+				<div class="col-sm-2">
+					<p style="text-align: right; line-height: 90px;">GitHub:<a href="https://github.com/slynium">SlyNium</a></p>
+				</div>
+				<div class="col-sm-3">
+					<p style="line-height: 90px;">QQ邮箱:<a href="https://mail.qq.com/">159544527@qq.com</a></p>
+				</div>
 			</div>
-        </div>
-    </div> 
-    <!-- 页面banner -->
-    <div id="banner">
-        <!-- <div class="container"></div> -->
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="img/self (1).jpg" height="100%"></div>
-                <div class="swiper-slide"><img src="img/self (2).jpg" height="100%"></div>
-                <div class="swiper-slide"><img src="img/self (3).jpg" height="100%"></div>
-                <div class="swiper-slide"><img src="img/self (4).jpg" height="100%"></div>
-				<div class="swiper-slide"><img src="img/self (5).jpg" height="100%"></div>
-				<div class="swiper-slide"><img src="img/self (6).jpg" height="100%"></div>
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"> </div>
-            <div class="swiper-button-prev"></div>
-        </div>
-        <div class="banner-nav-bg"></div>
-    </div>
-    <!-- 页面明星机型 -->
-    <div id="star">
-        <div class="container">
-            <div class="star_top">
-                <b id="title">个人文章(作品)</b>
-            </div>
-            <ul>
-                <li>
-					<a href="WEB-INFO/JDBC源码分析.html">
-						<div>
-							<img src="img/cover1.png" width="300px" height="450px" alt="作品1">
-						</div>
-					</a>
-                    <p>JDBC接口代码</p>
-					<a href="source/JDBC.pdf">
-						<p>点击下载<span></span></p>
-					</a>
-                </li>
-                <li class="line"></li>
-                <li>
-                   <a href="https://www.bilibili.com/video/BV1DU4y1N7BZ?spm_id_from=333.999.0.0">
-                   	<div>
-                   		<img src="img/cover2.jpg" width="300px" height="450px" alt="作品2">
-                   	</div>
-                   </a>
-                   <p>资源管理系统</p>
-                   <a href="source/StudentMS.zip">
-						<p>点击下载<span></span></p>
-                   </a>
-                </li>
-                <li class="line"></li>
-                <li>
-                    <a href="https://www.bilibili.com/video/BV1pL411573C?spm_id_from=333.999.0.0">
-                    	<div>
-                    		<img src="img/cover3.jpg" width="300px" height="450px" alt="作品3">
-                    	</div>
-                    </a>
-                    <p>飞机大战</p>
-                    <a href="source/Aircraft.zip">
-                    	<p>点击下载<span></span></p>
-                    </a>
-                </li>
-                <li class="line"></li>
-                <li>
-                    <a href="https://www.bilibili.com/video/BV1jQ4y1a7Yi?spm_id_from=333.999.0.0">
-                    	<div>
-                    		<img src="img/cover4.jpg" width="300px" height="450px" alt="作品4">
-                    	</div>
-                    </a>
-                    <p>课程表</p>
-                    <a href="source/课程表.apk">
-                    	<p>点击下载<span></span></p>
-                    </a>
-                </li>
-				
-				
-				
-				<!--second row-->
-				<li>
-				    <a href="WEB-INFO/flag.html">
-				    	<div>
-				    		<img src="img/cover5.jpg" width="300px" height="450px" alt="作品4">
-				    	</div>
-				    </a>
-				    <p>flag：回忆论坛</p>
-				    <a href="#">
-				    	<p>点击下载<span></span></p>
-				    </a>
-				</li>
-            </ul>
-        </div>
-    </div>
-    <!-- 页面的售后 -->
-    <div id="after_sale">
-        <div class="container">
-            <ul>
-                <li>
-                    <ol>
-                        <li><span class="xl "></span><a href="#">新浪微博</a></li>
-                    </ol>
-                </li>
-                <li>
-                    <ol>
-                        <li><span class="tx"></span><a href="#">腾讯微博</a></li>
-                    </ol>
-                </li>
-                <li>
-                    <ol>
-                        <li><span class="rr"></span><a href="#">人人网</a></li>
-                    </ol>
-                </li>
-                <li>
-                    <ol>
-                        <li><span class="QQ"></span><a href="#">QQ空间</a></li>
-                    </ol>
-                </li>
-                <li>
-                    <ol>
-                        <li><a href="#">关于我</a></li>
-                    </ol>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- 页面的底部 -->
-    <div id="footer">
-        <div class="container">
-            <p>
-                <img src="img/四川大学logo.png" width="60px" style="margin-top: 5px;" alt="">
-                <span>@2021-12-21 成都市双流区四川大学江安校区</span>
-                <a>版权说明&nbsp;&nbsp;
-					Wrote by <em style="color: red;">@SlyNium</em>
-				</a>
-            </p>
-        </div>
-    </div>
-    <!-- 返回顶部 -->
-    <div id="back_top">
-        <a href="javascript:;" id="btn"></a>
-    </div>
-</body>
-<script src="js/swiper.js"></script>
-<script src="js/jquery-1.11.3.js"></script>
-<script src="js/index.js"></script>
+		</div>
+
+		<!-- banner -->
+		<div id="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/self (1).jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/self (2).jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/self (3).jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/self (4).jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/self (5).jpg" width="100%"></div>
+					<div class="swiper-slide"><img src="img/self (6).jpg" width="100%"></div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next"> </div>
+				<div class="swiper-button-prev"></div>
+			</div>
+			<div class="banner-nav-bg"></div>
+		</div>
+
+		<!-- info -->
+		<div id="info">
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div id="box" class="col-sm-4">
+					<p id="info-title">个人作品</p>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" work">
+						<a href="WEB-INFO/JDBC源码分析.html">
+							<div>
+								<img src="img/cover1.png" width="300px" height="450px">
+							</div>
+						</a>
+						<p>JDBC接口代码</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class=" work">
+						<a href="https://www.bilibili.com/video/BV1DU4y1N7BZ?spm_id_from=333.999.0.0">
+							<div>
+								<img src="img/cover2.jpg" width="300px" height="450px">
+							</div>
+						</a>
+						<p>资源管理系统</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class=" work">
+						<a href="https://www.bilibili.com/video/BV1pL411573C?spm_id_from=333.999.0.0">
+							<div>
+								<img src="img/cover3.jpg" width="300px" height="450px">
+							</div>
+						</a>
+						<p>飞机大战</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class=" work">
+						<a href="https://www.bilibili.com/video/BV1jQ4y1a7Yi?spm_id_from=333.999.0.0">
+							<div>
+								<img src="img/cover4.jpg" width="300px" height="450px">
+							</div>
+						</a>
+						<p>课程表</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class=" work">
+						<a href="WEB-INFO/flag.html">
+							<div>
+								<img src="img/cover5.jpg" width="300px" height="450px">
+							</div>
+						</a>
+						<p>flag：回忆论坛</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-<!-- swiper效果 -->
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        loop: true,
-        autoplay: 3000,
+		<!-- foot -->
+		<div id="footer">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="img/四川大学logo.png" style="margin-top: 5px;" height="60px">
+				</div>
+				<div class="col-sm-6">
+					<p class="signature">@2021-12-21 成都市双流区四川大学江安校区</p>
+				</div>
+				<div class="col-sm-3">
+					<p class="signature">
+						版权说明&nbsp;&nbsp;Wrote by <em style="color: red;">@SlyNium</em>
+					</p>
+				</div>
 
-        
-        speed: 1000,
-        prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next',
-        effect: 'cube',//  effect: 'flip',effect: 'coverflow',slide', 'fade','cube'
-        grabCursor: true,
-        cube: {
-            shadow: false,
-            slideShadows: false,
-            shadowOffset: 20,
-            shadowScale: 0.94
-        }
-    });
-</script>
+			</div>
+		</div>
 
 
+		<!-- swiper效果 -->
 
-<!-- 返回顶部效果 -->
-<script>
-    // 页面加载后执行
-    window.onload = function(){
-        // 按钮
-        var toTop = document.getElementById("btn");
-        var timer = null;
-        // 吸顶灯
-        var nav = document.getElementById("nav");
-        var navTop = nav.offsetTop;
-        toTop.onclick = function(){
-
-            timer = setInterval(function(){
-                var backTop = document.documentElement.scrollTop || document.body.scrollTop;
-                
-                var speedTop = backTop / 5;
-                document.documentElement.scrollTop = backTop - speedTop;
-                //清除定时器;
-                if(backTop == 0){
-                    clearInterval(timer);
-                }
-            },30);
-
-        }
-        //设置临界值
-        var pageHeight = 700;
-        //按钮是否显示(滚轮事件)
-        window.onscroll = function(){
-            var backTop = document.documentElement.scrollTop || document.body.scrollTop;
-            
-            //返回顶部效果 
-            if(backTop > pageHeight){
-                toTop.style.display = "block";
-            }
-            else{
-                toTop.style.display = "none";
-            }
+		<script src="js/swiper.js"></script>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				loop: true,
+				autoplay: 3000,
 
 
-
-            // 吸顶灯效果
-            if(backTop >= navTop){
-                nav.style.position = "fixed";
-                nav.style.top = "0";
-                nav.style.left = "0";
-                nav.style.zIndex = "100";
-            }
-            else{
-                nav.style.position = "static";
-            }
-        }
-    }
-</script>
-
+				speed: 1000,
+				prevButton: '.swiper-button-prev',
+				nextButton: '.swiper-button-next',
+				effect: 'cube', //  effect: 'flip',effect: 'coverflow',slide', 'fade','cube'
+				grabCursor: true,
+				cube: {
+					shadow: false,
+					slideShadows: false,
+					shadowOffset: 20,
+					shadowScale: 0.94
+				}
+			});
+		</script>
+	</body>
 </html>
