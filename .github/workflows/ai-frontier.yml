@@ -27,7 +27,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       SKIP_GENERATE: ${{ inputs.skip_generate || (github.event_name == 'push' && contains(github.event.head_commit.message, '[deploy cached]')) }}
     steps:
       - uses: actions/checkout@v4
@@ -65,20 +65,20 @@ jobs:
           restore-keys: model-checkpoints-v1-
 
       - name: Generate daily digest
-        if: ${{ env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
         working-directory: ai-frontier-src
         timeout-minutes: 50
         run: npm run generate
 
       - name: Save validated model checkpoints
-        if: ${{ always() && env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        if: ${{ always() && env.DEEPSEEK_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
         uses: actions/cache/save@v4
         with:
           path: ai-frontier-src/.digest-cache
           key: model-checkpoints-v1-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Archive editorial diagnostics
-        if: ${{ always() && env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        if: ${{ always() && env.DEEPSEEK_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: editorial-diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
@@ -91,7 +91,7 @@ jobs:
         run: npx tsx scripts/verify-edition.ts
 
       - name: Save verified editions
-        if: ${{ env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
         uses: actions/cache/save@v4
         with:
           path: |
@@ -101,18 +101,18 @@ jobs:
 
       # 未配置 API key 的定时任务只做校验，不重建、不提交。
       - name: Build static site
-        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         working-directory: ai-frontier-src
         env:
           NEXT_PUBLIC_BASE_PATH: /ai-frontier
         run: npm run build
 
       - name: Publish build into /ai-frontier
-        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         run: rsync -a --delete ai-frontier-src/out/ ai-frontier/
 
       - name: Commit refreshed data and site
-        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
+        if: ${{ env.DEEPSEEK_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

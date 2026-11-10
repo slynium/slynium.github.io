@@ -15,7 +15,7 @@
 
 1. 32 个可配置来源（RSS 与官方新闻页），覆盖官方博客、论文、专业媒体、中文媒体、独立作者与长访谈。新闻回看 14 天，访谈回看 30 天。不可用、没有近期条目、缺失日期分别记录，不把抓取时间当发布日期。
 2. 按发布者轮询选材，一手来源在每轮优先；最多 64 篇、每源最多 6 篇。对允许名单内的短 RSS 内容补抓公开正文，不绕过付费墙。GitHub 使用独立额度。
-3. 使用 API 层 JSON Schema 约束输出，并用稳定文章 ID 分类和深读。与 AI 无关或材料过少的内容淘汰；保留发布时间、来源类型、影响与限制。输出乱序不会使摘要与链接串位；缺项、重复 ID、截断 JSON 均重试后失败退出。分类和专题都保留业务校验；已验证分类按输入内容和模型配置缓存，失败重跑时可复用，避免重复付费。
+3. 用 JSON Schema 描述输出结构并在应用层校验，用稳定文章 ID 分类和深读。与 AI 无关或材料过少的内容淘汰；保留发布时间、来源类型、影响与限制。输出乱序不会使摘要与链接串位；缺项、重复 ID、截断 JSON 均重试后失败退出。分类和专题都保留业务校验；已验证分类按输入内容和模型配置缓存，失败重跑时可复用，避免重复付费。
 4. 编辑模型先规划 2–3 个跨来源选题，单一发布者选题会独立检索其他发布者的相关证据，仍不足则弃题，不牵连其他选题。再分别生成导语与四节正文，每节独立校验、重试和缓存。每节保留来源 ID 和事实/分析/不确定性标签，拒绝未知引用或单域名专题。多个域名不等于独立验证；访谈嘉宾观点也不是产品内部实现的证据。
 5. 热榜限近 7 天且有充分材料的条目；旧闻可以作为专题背景。本期洞见拆成选重点、逐点解释、总判断三个阶段；每个单元最多修复 3 次，修复时携带上版正文和具体错误。只有通过校验的内容才缓存复用。
 6. 发布硬门槛：同一天的本期洞见（2–3 个重点、逐字匹配的高亮、至少两个发布者）和至少 1 篇本期趋势专题（四节完整正文、跨来源引用、近 72 小时新材料、至少两个后续观察指标）必须同时存在。旧专题、占位文字和日期不符的内容都不能凑数。生成结束和部署之前分别校验，完整校验后原子替换 `latest.json`。生成失败不发布，保留线上上一期。GitHub Actions 缓存近期日报与上榜历史，另保留 90 天数据 artifact；缓存可能被 GitHub 清理，不能视为永久存储。
@@ -35,15 +35,15 @@ npm run build
 npm run dev
 # 不调用模型，检查来源可用性
 npx tsx scripts/check-feeds.ts
-# 设置 ANTHROPIC_API_KEY 后执行；.env.local 不会被 tsx 自动读取
+# 设置 DEEPSEEK_API_KEY 后执行；.env.local 不会被 tsx 自动读取
 node --env-file=.env.local --import tsx scripts/generate-digest.ts
 ```
 
-默认沿用仓库的 Claude Haiku / Sonnet 模型，可用 `CLASSIFY_MODEL`、`EDITOR_MODEL` 覆盖。API 成本取决于实际材料长度和选题数量，不再按旧版短摘要费用估算。
+默认调用 DeepSeek 的 `deepseek-chat`（OpenAI 兼容接口，JSON 输出模式），可用 `CLASSIFY_MODEL`、`EDITOR_MODEL` 覆盖模型，`DEEPSEEK_BASE_URL` 可指向自建网关。API 成本取决于实际材料长度和选题数量。
 
 ## 部署
 
-在仓库 Settings → Secrets and variables → Actions 配置 `ANTHROPIC_API_KEY`。工作流位于 `.github/workflows/ai-frontier.yml`，推送 `main`、手动执行或北京时间每日 08:17 首次触发，11:17、14:17、20:17 自动补跑。
+在仓库 Settings → Secrets and variables → Actions 配置 `DEEPSEEK_API_KEY`。工作流位于 `.github/workflows/ai-frontier.yml`，推送 `main`、手动执行或北京时间每日 08:17 首次触发，11:17、14:17、20:17 自动补跑。
 
 生成并通过完整性校验后，工作流以 `NEXT_PUBLIC_BASE_PATH=/ai-frontier` 构建静态站点，将产物写入本仓库 `ai-frontier/`，再由 GitHub Pages（`main` 分支根目录）发布。未配置 key 时跳过生成，仅用现有 `data/digests/latest.json` 重建界面。本地 `npm run dev` 默认根路径，页面始终显示数据文件里的真实日报日期。
 
