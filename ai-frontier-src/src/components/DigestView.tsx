@@ -537,7 +537,7 @@ export function DigestView({ digest }: { digest: DailyDigest }) {
             <div className="w-7 h-7 rounded-xl bg-[var(--text-primary)] flex items-center justify-center">
               <span className="text-[11px] font-bold text-white tracking-tight">日报</span>
             </div>
-            <span className="font-semibold text-[13px] sm:text-[15px] text-[var(--text-primary)] tracking-tight">pupu的AI日报</span>
+            <span className="font-semibold text-[13px] sm:text-[15px] text-[var(--text-primary)] tracking-tight">鸢叔的AI日报</span>
           </div>
 
           {/* Search — desktop only, fixed width centered */}
@@ -617,7 +617,7 @@ export function DigestView({ digest }: { digest: DailyDigest }) {
 
           {/* Hero */}
           <div className="mb-6">
-            <h1 className="text-[22px] sm:text-[26px] font-bold text-[var(--text-primary)] tracking-tight mb-1">每日 AI 前沿 · 从资讯到洞见</h1>
+            <h1 className="text-[22px] sm:text-[26px] font-bold text-[var(--text-primary)] tracking-tight mb-1">鸢叔的AI日报 · 从资讯到洞见</h1>
             <p className="text-[13px] text-[var(--text-muted)]">{digest.dateZh} · 共 {allItems.length} 条去重资讯 · {topics.length} 个专题</p>
             <button onClick={() => document.querySelector<HTMLDialogElement>("#keyboard-help")?.showModal()} className="digest-help-trigger mt-3">键盘阅读指南 ?</button>
           </div>
@@ -695,7 +695,7 @@ export function DigestView({ digest }: { digest: DailyDigest }) {
 
           <footer className="mt-16 pt-6 border-t border-[var(--border-subtle)]">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-              <span className="text-[12px] text-[var(--text-muted)]">pupu的AI日报 · Claude API 每日自动生成</span>
+              <span className="text-[12px] text-[var(--text-muted)]">鸢叔的AI日报 · DeepSeek 每日自动生成</span>
               <div className="flex items-center gap-3 flex-wrap">
                 {(["model-release","benchmark","knowledge-base","thought-leader"] as const).map((k) => (
                   <span key={k} className="digest-badge">
