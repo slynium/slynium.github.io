@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-09",
+  "origin": "curated",
+  "takeaway": "今天最值得注意的，是 AI 开始更深入地接手真实工作。我们的判断是：模型能答对多少题仍然重要，但下一步更要看它能不能接入现有流程，把任务做完，并让结果经得起检查。",
+  "highlights": ["接手真实工作", "把任务做完", "结果经得起检查"],
+  "points": [
+    {
+      "title": "Agent 好不好用，要放进真实工作流程里训练和检验",
+      "fact": "微软研究院 10 月 7 日发布 Agent Lightning v1.0，让 Agent 在部署时使用的工具和运行流程直接参与训练。在其编程实验中，Qwen3.5-9B 的 SWE-bench Verified Pass@1 从 41.8% 提高到 56.4%。",
+      "meaning": "工具怎么调用、上下文怎么组织，会直接影响任务结果。对做 Agent 产品的人来说，训练时的环境和上线后的环境是否一致，值得和模型选型一起考虑。",
+      "watch": "看真实任务的完成率、耗时和成本。这组提升来自编程实验，还不能推到所有业务场景。",
+      "highlights": ["41.8% 提高到 56.4%", "环境是否一致", "完成率、耗时和成本"],
+      "sourceIds": ["lightning"]
+    },
+    {
+      "title": "AI 找到更多漏洞，离真正提升安全还有一步",
+      "fact": "Anthropic 10 月 8 日推出 Cyber Mission，面向关键基础设施和开源项目。它同时承认：AI 让发现漏洞变容易了，但验证、排序和修复仍然困难，先前的 Glasswing 项目尚未充分降低网络风险。",
+      "meaning": "发现问题只是开始。特别是电力、供水等系统，不能为了打补丁随便停机。安全产品的价值最终要落在能否安全地修好问题，而不是扫描出了多少条告警。",
+      "watch": "看漏洞修复耗时、修复完成率，以及修复是否影响系统运行；这些比漏洞数量更接近实际效果。",
+      "highlights": ["验证、排序和修复", "安全地修好问题", "修复耗时、修复完成率"],
+      "sourceIds": ["cyber"]
+    },
+    {
+      "title": "AI 科研投入开始覆盖工具、设备和实际使用门槛",
+      "fact": "Anthropic 10 月 8 日宣布，未来三年向 Genesis Mission 承诺投入 1.5 亿美元，支持模型使用、培训和技术服务；同时提到让 AI Agent 安全操作实验设备的 Model Hardware Standard 研究预览。",
+      "meaning": "研究人员拿到模型账号还不够，还需要接上工具、设备和研究流程。这些配套决定了 AI 能否从回答科研问题，进一步参与实际研究。",
+      "watch": "看有多少项目真正用起来，以及实验能否复现、研究周期是否缩短。投入承诺不等于科研成果。",
+      "highlights": ["三年", "1.5 亿美元", "投入承诺不等于科研成果"],
+      "sourceIds": ["genesis"]
+    }
+  ],
+  "boundary": "以上是对 10 月 7–8 日三份一手材料的编辑综合，不是对整个 AI 市场的定论。两条来自同一家公司，且主要是厂商发布与自报实验；实际部署效果仍需独立验证。",
+  "sources": [
+    {"id":"lightning","title":"Agent Lightning v1.0: A 3,500-line lightweight agentic RL framework for training agents with real harnesses","url":"https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/","source":"Microsoft Research","kind":"primary","publishedAt":"2026-10-07"},
+    {"id":"cyber","title":"Introducing Anthropic Cyber Mission","url":"https://www.anthropic.com/news/anthropic-cyber-mission","source":"Anthropic","kind":"primary","publishedAt":"2026-10-08"},
+    {"id":"genesis","title":"Building on our commitment to American scientific discovery","url":"https://www.anthropic.com/news/genesis-mission-commitment","source":"Anthropic","kind":"primary","publishedAt":"2026-10-08"}
+  ]
+}

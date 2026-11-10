@@ -1,0 +1,121 @@
+name: AI Frontier daily edition
+
+on:
+  schedule:
+    # 北京时间 08:17 首次；11:17 / 14:17 / 20:17 自动补跑
+    - cron: "17 0,3,6,12 * * *"
+  workflow_dispatch:
+    inputs:
+      skip_generate:
+        description: "跳过生成，用最近一期数据重建界面"
+        type: boolean
+        default: false
+  push:
+    branches: ["main"]
+    paths:
+      - "ai-frontier-src/**"
+      - ".github/workflows/ai-frontier.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-frontier-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SKIP_GENERATE: ${{ inputs.skip_generate || (github.event_name == 'push' && contains(github.event.head_commit.message, '[deploy cached]')) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ai-frontier-src/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ai-frontier-src
+        run: npm ci --no-audit --no-fund
+
+      - name: Validate code and editorial data
+        working-directory: ai-frontier-src
+        run: |
+          npm test
+          npm run lint
+          npx tsc --noEmit
+
+      - name: Restore recent editions and GitHub history
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ai-frontier-src/data/digests
+            ai-frontier-src/data/github-seen.json
+          key: digest-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: digest-v2-
+
+      - name: Restore validated model checkpoints
+        uses: actions/cache/restore@v4
+        with:
+          path: ai-frontier-src/.digest-cache
+          key: model-checkpoints-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: model-checkpoints-v1-
+
+      - name: Generate daily digest
+        if: ${{ env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        working-directory: ai-frontier-src
+        timeout-minutes: 50
+        run: npm run generate
+
+      - name: Save validated model checkpoints
+        if: ${{ always() && env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: ai-frontier-src/.digest-cache
+          key: model-checkpoints-v1-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Archive editorial diagnostics
+        if: ${{ always() && env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ai-frontier-src/.digest-cache/diagnostics
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Require a complete edition before publishing
+        working-directory: ai-frontier-src
+        run: npx tsx scripts/verify-edition.ts
+
+      - name: Save verified editions
+        if: ${{ env.ANTHROPIC_API_KEY != '' && env.SKIP_GENERATE != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ai-frontier-src/data/digests
+            ai-frontier-src/data/github-seen.json
+          key: digest-v2-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Build static site
+        working-directory: ai-frontier-src
+        env:
+          NEXT_PUBLIC_BASE_PATH: /ai-frontier
+        run: npm run build
+
+      - name: Publish build into /ai-frontier
+        run: rsync -a --delete ai-frontier-src/out/ ai-frontier/
+
+      - name: Commit refreshed data and site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-frontier ai-frontier-src/data
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+          else
+            git commit -m "chore(ai-frontier): refresh daily edition"
+            git push
+          fi

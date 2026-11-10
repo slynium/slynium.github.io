@@ -1,0 +1,57 @@
+{
+  "id": "dots-persistent-agents-2026-10",
+  "title": "Dots 为什么值得关注：从对话助手到持续工作的 Agent",
+  "thesis": "持续工作的助手，把竞争从“这次回答好不好”推向“长期任务能否可靠推进”。产品价值取决于记忆、执行、反馈和权限能否共同形成可验证的闭环。",
+  "whyNow": "OpenAI 于 9 月 29 日发布 Dots；结合 9 月 17 日 Noam Brown 的多 Agent 访谈，分别理解产品变化与研究思路。本专题核对至 10 月 7 日，访谈不是 Dots 的架构披露。",
+  "layers": ["models", "agents", "products", "business", "governance"],
+  "updatedAt": "2026-10-07",
+  "origin": "curated",
+  "sections": [
+    {
+      "heading": "先看已经公开的产品事实",
+      "kind": "fact",
+      "body": "OpenAI 将 Dots 定位为持续工作的助手：有独立云端电脑，可使用已连接的应用，并围绕用户目标推进工作。官方强调持续上下文、跨渠道沟通和反馈，而不只是一次对话中的回答。这里描述的是厂商公布的产品能力，不能据此断言真实任务成功率或企业部署收益已经得到验证。",
+      "sourceIds": ["dots-launch"]
+    },
+    {
+      "heading": "用一个日报场景解释“持续工作”",
+      "kind": "analysis",
+      "body": "以这个 AI 日报为例，可以把目标拆成持续发现材料、记录已报道主题、补充证据、更新专题和等待发布决策。一次任务结束后，下一次应从已有状态继续，而不是重新接收同一段提示词。由此推导，产品需要管理任务状态、材料版本和用户反馈；这是一种分析框架，不代表 Dots 内部一定采用某种数据库、调度器或记忆算法。评估这类产品时，可以看它能否记住已确认的编辑标准，能否在失败后恢复，以及能否解释哪些内容发生了变化。",
+      "sourceIds": ["dots-launch"]
+    },
+    {
+      "heading": "访谈里的原理：并行协作有收益，也有代价",
+      "kind": "fact",
+      "body": "在 Dwarkesh 的访谈中，Noam Brown 把多 Agent 解释为并行扩展推理计算的一种办法：可缩短等待时间，但上下文分散与协调也会降低效率，收益取决于任务是否适合拆分。他描述的研究路线是提供消息通信等基础工具，让 Agent 学习协调，而不是完全依赖固定的主从流程。这些是嘉宾对其研究的陈述，不是对 Dots 具体实现的确认，也不意味着增加 Agent 数量必然提升结果质量。",
+      "sourceIds": ["brown-interview"]
+    },
+    {
+      "heading": "从研究到业务：应怎样设计一次有效验证",
+      "kind": "analysis",
+      "body": "对日报这种任务，可并行收集不同来源，但最终必须统一事件身份、去重、核对日期和证据。多个 Agent 若只是重复同一篇转载，得到的是重复劳动，不是交叉验证。一个可执行的评估方式，是固定选题和来源池，分别测试单 Agent 与协作流程，比较遗漏率、引用错误率、编辑返工时间和总成本。把这些指标放在一起，才能判断更快的输出是否真的节省了人的工作。对企业来说，采购对象也因此从生成文本的工具，逐渐转向能被检查和接管的工作流程。",
+      "sourceIds": ["brown-interview", "dots-launch"]
+    },
+    {
+      "heading": "持续在线不意味着可以无限制行动",
+      "kind": "fact",
+      "body": "官方 FAQ 区分后台主动研究与已授权任务：主动研究工具限于读取，不能直接发消息、修改应用内容或操作电脑；后续行动仍受通常的权限和审批规则约束。Auto-review 会对特定计划执行的动作进行检查。理解这个边界很重要：主动发现一个机会，与获得替用户采取行动的授权，是两个不同步骤。",
+      "sourceIds": ["dots-faq"]
+    },
+    {
+      "heading": "证据够不够：把产品说明、访谈和独立验证分开",
+      "kind": "uncertainty",
+      "body": "当前材料能够帮助理解产品方向和研究者的思路，但不能证明 Dots 采用了访谈中的全部机制。发布页和 FAQ 都来自厂商；访谈虽在外部平台发布，嘉宾仍是 OpenAI 研究者，因此不能算独立性能验证。尚缺相同任务、相同预算下的长期对照实验，也缺少可比较的失败恢复、误操作和人工接管数据。真正需要追踪的是这些证据，而不是把一次演示或一个热门名称当成能力结论。",
+      "sourceIds": ["dots-launch", "dots-faq", "brown-interview"]
+    }
+  ],
+  "sources": [
+    { "id": "dots-launch", "title": "Introducing dots", "url": "https://openai.com/index/introducing-dots/", "source": "OpenAI · 产品发布", "kind": "primary", "publishedAt": "2026-09-29" },
+    { "id": "dots-faq", "title": "Dots privacy, security, and safety FAQs", "url": "https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs", "source": "OpenAI · 官方说明（10月7日核对）", "kind": "primary" },
+    { "id": "brown-interview", "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement", "url": "https://www.dwarkesh.com/p/noam-brown", "source": "Dwarkesh · Noam Brown 访谈", "kind": "analysis", "publishedAt": "2026-09-17" }
+  ],
+  "watchNext": [
+    "固定任务和预算下，持续 Agent 相比单次助手减少了多少编辑返工和人工接管？",
+    "多 Agent 协作能否降低漏项与引用错误，而不是只增加输出量？",
+    "长时间运行后的权限、状态恢复与记忆纠错是否有可复现评测？"
+  ]
+}
