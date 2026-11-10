@@ -99,16 +99,20 @@ jobs:
             ai-frontier-src/data/github-seen.json
           key: digest-v2-${{ github.run_id }}-${{ github.run_attempt }}
 
+      # 未配置 API key 的定时任务只做校验，不重建、不提交。
       - name: Build static site
+        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         working-directory: ai-frontier-src
         env:
           NEXT_PUBLIC_BASE_PATH: /ai-frontier
         run: npm run build
 
       - name: Publish build into /ai-frontier
+        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         run: rsync -a --delete ai-frontier-src/out/ ai-frontier/
 
       - name: Commit refreshed data and site
+        if: ${{ env.ANTHROPIC_API_KEY != '' || env.SKIP_GENERATE == 'true' || github.event_name == 'push' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
