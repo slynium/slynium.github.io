@@ -1,0 +1,2855 @@
+{
+  "schemaVersion": 3,
+  "date": "2026-11-11",
+  "dateZh": "2026年11月11日星期三",
+  "hotRanking": [
+    {
+      "id": "f306715d4f340cf2",
+      "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+      "titleZh": "Google 开放 Gemini 4 Carbon：面向多智能体与网络安全任务",
+      "summary": "AI 大模型的发布节奏已经快到让人应接不暇。 就在刚刚，Google DeepMind 正式宣布，旗下最新旗舰模型 Gemini 4 Carbon 正式面向开发者、企业、科研人员及普通消费者提供服务。 Carbon 是目前 Gemini 家族综合能力最强的公开上线模型，尤其擅长复杂编程、网络安全、科学推理，以及需要长时间执行的多智能体任务。 图｜官方博客 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ 两周前，谷歌已经通过 Fairwind 计划向部分网络安全防御人员开放 Carbon，如今进一步扩大了使用范围。 与此前发布的 Gemini 4 Argon 相比，Carbon 主要面向复杂软件工程、跨领域研究等高难度任务，能够消耗更多 Token 进行深入推理、反复验证和错误修正，而 Argon 继续承担大多数日常编程和知识工作。 在 CursorBench 4.0、Perplexity WANDR 和 Zapier Automa",
+      "summaryZh": "据爱范儿报道，Google DeepMind 宣布将 Gemini 4 Carbon 面向开发者、企业、科研人员及消费者开放，此前仅通过 Fairwind 计划向部分网络安全防御人员开放。报道称 Carbon 与 Argon 分工：Carbon 处理复杂软件工程、跨领域研究等高难任务，可消耗更多 Token 深入推理与验证；Argon 承担日常编程与知识工作。谷歌在 Antigravity 中推出 /swarm 多 Agent 编排预览，并展示由多 Agent 完成的 3D 游戏、建筑模型等演示，还有第三方开发者与 HubX 的案例数据。价格方面，报道称 API 现为每百万输入 2 美元、输出 10 美元，12 月 1 日起上调。消费者需订阅 Google AI Ultra。",
+      "whyItMatters": "多家厂商正把旗舰模型从单次对话推向长时间、多智能体协作任务，并强调成本效率。若报道所述能力成立，企业自动化与安全审计的采购评估标准会从单点跑分转向以单任务成本为约束下的端到端完成率。",
+      "limitations": "内容以厂商演示和官方博客为主，所列基准、94% 问题解决率、零日漏洞发现等均为谷歌及其合作方口径，缺乏独立复现；发布时间与定价变更需以官方为准。",
+      "insight": "分析：报道的核心信号不是单项跑分，而是多 Agent 分工编排与单位任务成本的组合。但演示项目由厂商挑选，真实工程收益仍待第三方在自有代码库中验证。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "多智能体",
+        "网络安全",
+        "模型定价"
+      ],
+      "url": "https://www.ifanr.com/1688883",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T00:26:39.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "d48977b6fbc84b1e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "titleZh": "微软研究揭示 Lazarus：改写休眠神经元即可给 AI Agent 植入后门",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retr",
+      "summaryZh": "微软研究院披露一种名为 Lazarus 的后门方法：无需重新训练，仅改写 LLM 中不到 10 个“休眠神经元”，就能让模型在特定触发条件（如日期跨过 2027 年）下输出攻击者指令，由具备工具或终端权限的 Agent 执行下载并运行恶意代码。原理是预训练使内部表征高度线性可分，用约 50 个样本即可拟合区分触发输入的线性分类器，被改写的神经元可通过残差流强制注入任意 token，多个神经元可串联生成任意载荷。该方法只需推理级算力与对 checkpoint 的写权限，因此闭源自研模型同样暴露。微软建议将权重视同代码审计、依赖溯源与签名，并在 Foundry 侧做来源校验与环境扫描。",
+      "whyItMatters": "若攻击门槛仅为“能加载模型”，则模型来源与权重完整性将成为 Agent 部署的核心安全前提，直接影响企业选择开源权重、模型分发渠道与 Agent 权限设计。",
+      "limitations": "博客为研究与产品防御介绍，未给出完整论文指标与检测召回率；具体神经元数量、触发成功率与检测效果需看原文与复现。厂商同时推销自家防御方案，存在立场。",
+      "insight": "分析：这条把 Agent 安全的焦点从提示注入转向供应链——权重本身可被篡改而评测全绿。真正的缓解不是更强的对齐，而是可验证的权重溯源、差异比对与最小权限执行。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "模型后门",
+        "Agent 安全",
+        "权重完整性",
+        "供应链",
+        "微软"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "ae543fdc68f7cb26",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "titleZh": "纽约 RAISE Act 落地：前沿 AI 公司须在 2027 年前注册并公开安全框架",
+      "summary": "New York is gearing up to enforce one of the country’s most significant AI safety laws. The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. The RAISE Act, New York’s safety and transparency bill, kicks in at the start of the year. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, re",
+      "summaryZh": "TechCrunch 报道，纽约州启用注册门户，年收入超 5 亿美元的大型前沿 AI 开发商（如 OpenAI、Anthropic）须在 2027 年 1 月 1 日前完成注册。RAISE Act 要求企业在官网公布安全框架、72 小时内报告重大安全事故，并发布模型透明度报告；由新设机构 DIGIT 负责实施与监督，单次违规最高罚款 100 万美元，后续违规最高 300 万美元，未注册也可能被执法。州长 Hochul 同时宣布依托纽约州立大学宾汉姆顿分校成立纽约 AI 责任与研究中心，将独立评估先进 AI 系统并与 DIGIT 协作审查企业安全框架。报道还列举加州 SB 53（15 天内报告事故）和伊利诺伊 SB 315（含独立合规审计）等类似立法，以及纽约此前针对 AI 伴侣与未成年人的聊天机器人法律。",
+      "whyItMatters": "这是美国州级首个带注册、报告时限与罚款的综合前沿 AI 安全制度，合规义务具体且时间明确，对在美运营的大模型公司有直接成本。",
+      "limitations": "报道未披露注册信息提交范围、事故判定标准与执法细节，州方发言人也拒绝说明未注册的后果；法规实际执行力度与首轮执法案例仍待观察。",
+      "insight": "值得跟踪的是“安全框架公开 + 事故限时报告”是否形成跨州事实标准，以及独立评估机构能否获得足够信息。罚款额度相对大厂收入有限，约束力主要来自透明度。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "RAISE Act",
+        "纽约",
+        "AI 安全",
+        "合规",
+        "事故报告"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:13.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员与消费者开放，称其在网络安全与长程 Agent 工作流上具备前沿性能，与 Gemini 4 Argon 并列但定位更偏复杂多步任务。官方称 Carbon 在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，每任务成本较次优外部模型低 2 倍以上；API 定价与 Argon 相同，为每百万输入 2 美元、输出 10 美元。同时预览 Google Antigravity 的 /swarm，把单条提示转为可实时追踪的多 Agent 团队。安全方面称在 Fairwind Program 下于漏洞发现、利用与修补基准领先。",
+      "whyItMatters": "若官方基准与成本数据成立，前沿模型竞争将进一步转向长程 Agent 任务与单位任务成本，多 Agent 编排产品化也会改变开发者的工程组织方式。",
+      "limitations": "性能、排名与成本数据均来自厂商博客及厂商参与设计的基准，缺少第三方独立复现；/swarm 处于预览阶段，实际稳定性未知。",
+      "insight": "分析：Carbon 强调“更多 token、更深推理与验证循环”，与 /swarm 的多 Agent 分工配套，说明竞争焦点正从单次回答质量转向任务完成率与每任务经济性。",
+      "importance": 8,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "Agent",
+        "基准测试",
+        "网络安全"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "6c91404759576779",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "titleZh": "Anthropic提交S-1：七位联合创始人拟各套现约2.5亿美元",
+      "summary": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell. Each will sell 3,378,378 shares. Anthropic has floated an unusually broad initial price range of $70 to $78 a share. At the midrange of $74, each founder would take in just shy of $250 million. At the low end, $70, each would have to settle for pocketing just over $236 million in cash; at the h",
+      "summaryZh": "TechCrunch依据Anthropic新提交的S-1披露，七位联合创始人在IPO中各计划出售3,378,378股，公司给出的初始发行价区间为每股70至78美元，按中位74美元计算每人约套现2.5亿美元。承销前公司估值被报道为可能达1.4万亿美元。S-1还显示董事Reed Hastings拟通过捐赠人建议基金购入3亿美元股份、Christopher Liddell拟购300万美元。出售后每位创始人约持有Class A股的3.2%，合计约22%；Class A只是公司股份类别之一，Amazon与Google等持有的无投票权Class N股未计入该比例。七人另各获一股带超级投票权的Class F股，合计控制51.1%投票权，且无人持股显著高于其他人。",
+      "whyItMatters": "这是AI头部公司治理与股权结构的明确信号：创始人通过超级投票权在上市后保留控制，同时大额套现。对投资人和从业者而言，它反映前沿模型公司的资本化路径与利益分配，也影响外界对其安全承诺能否在公开市场压力下延续的判断。",
+      "limitations": "材料仅依据S-1披露与发行价区间推算套现额，最终发行价可能高于区间；1.4万亿美元估值、需求热度均为报道表述，非已定价事实。持股比例仅指Class A，不等于公司总股本口径。",
+      "insight": "分析：超级投票权加创始人集体控制，使Anthropic在成为公众公司后仍可能维持治理主导权，但套现与外部股东进入会带来新的问责压力。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "公司治理",
+        "股权结构"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:57:52.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "fafff4292c09fd93",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "titleZh": "Gemini Intelligence 扩展至更多设备并新增功能",
+      "summary": "Gemini Intelligence: New features, on more devices Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini Intelligence is now available on more devices, including motorola signature 27 and Pixel 10. See how expanded capabilities across these devices help you do more. Karthik Thirumalai Product Director, Android AI Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Gener",
+      "summaryZh": "Google 宣布 Gemini Intelligence 登陆更多 Android 设备，包括 motorola signature 27 与 Pixel 10 系列，并随 Pixel Drop 推送新能力。文中列出：Rambler 4 可实时把口语整理为结构化文本；任务自动化扩展到英国、印度和日本，可跨应用下单、叫车、订位；Create My Widget 允许用自然语言描述生成个性化小组件，并计划登陆 Pixel Watch；Device Assistance 支持通过提问清理存储、检查位置权限、静音干扰等设备操作。此外，Gemini Intelligence 将向 Android Auto 提供主动建议，Googlebook 为首款为其设计的笔记本。以上均为厂商发布信息。",
+      "whyItMatters": "这显示 Gemini 从聊天助手转向系统级代理，嵌入跨应用任务与设备管理，直接影响 Android 用户的使用方式与第三方应用的分发入口。",
+      "limitations": "内容为 Google 官方博客，功能可用性、地区与时间表可能变化；任务自动化的实际成功率与隐私影响未在文中量化。",
+      "insight": "分析：跨应用任务自动化与系统级设备控制同时推进，意味着 Agent 竞争从模型能力转向操作系统入口与权限体系，生态伙伴的接入条件将成为关键变量。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "Android",
+        "Agent",
+        "任务自动化",
+        "Google"
+      ],
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "3ec8add99452b340",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "titleZh": "OpenAI 在 ChatGPT 中推出经认证的 Business Agents",
+      "summary": "AINewsOpenAIChatGPT is getting verified AI ‘Business Agents’ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.by Jay PetersNov 10, 2026, 6:00 PM UTCLinkShareGiftImage: OpenAIJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.ChatGPT is going to let you chat with verified “Busine",
+      "summaryZh": "据 The Verge 报道，OpenAI 于 2026 年 11 月 10 日宣布在 ChatGPT 中测试面向企业的“Business Agents”：由品牌方创建并代表该企业，用户在与 ChatGPT 的对话中出现该企业时可直接与其 Agent 对话，咨询产品差异等问题，场景包括比价购物。企业通过 Business Hub 认领组织并完成认证（OpenAI 未披露具体验证方式，变现副总裁 Benji Shomair 称不同企业方式不同），在 Hub 中可看到被 ChatGPT 提及的情况和热门发现话题。该功能首先面向美国符合条件的电商与在线服务企业，属于当日公布的商业功能套件的一部分，处于 beta。",
+      "whyItMatters": "若落地，ChatGPT 将从回答入口延伸为品牌与消费者直接交互的渠道，改变比价、导购与商家在 AI 中的曝光方式；对用户而言，需关注带认证标签的 Agent 是否真正代表企业，以及推荐是否被商业关系影响。",
+      "limitations": "信息来自单一媒体报道及发布会简报，验证机制、计费方式、是否影响排序均未披露；beta 阶段，规模与效果未知，不能视为已验证的商业模式。",
+      "insight": "分析：把品牌代表 Agent 嵌入回答流，本质是把“被发现”与“被对话”合并，认证机制的可信度与平台是否披露商业影响将决定其用户接受度。",
+      "importance": 7,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Business Agents",
+        "电商",
+        "认证"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "cba41f0395d50b9e",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "titleZh": "Meta 发布最小最省模型 Muse Ember，主打 Agent 重复工作",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million ou",
+      "summaryZh": "Meta AI 推出小模型 Muse Ember，定位对标 Claude Haiku 与 GPT Luna 这一档，官方称面向复杂推理执行与 Agent 全天重复的工作：工具调用、编码子任务、路由、信息抽取、长文档解析。短提示下定价与 GPT-6 Luna、Claude Haiku 5.5 相同，为每百万输入 0.10 美元、输出 0.50 美元；但三者都设有输入长度阈值，超阈值后涨价，Ember 阈值约 200k，超阈值后输入 0.30、输出 1.50 美元，介于两者之间。文章引用 Artificial Analysis 的智能指数与单任务成本图，称 Ember 位于帕累托前沿，即要提升一项指标须牺牲另一项；模型提供六档推理级别。作者用生成 SVG 鹈鹕测试，发现推理档位与输出视觉质量并不一一对应，部分档位输出不完整。",
+      "whyItMatters": "小模型加多档推理正成为 Agent 规模化落地的成本主干：价格、长上下文阈值和每任务成本直接影响 Agent 是否能全天运行。对开发者的实际意义是按任务难度选推理档位，而非只看每 token 单价。",
+      "limitations": "材料来自个人博客的发布解读，价格与帕累托结论引用厂商与第三方评测，未独立复现；六档推理与画图测试样本极小，不能据此判断通用能力；长上下文阈值后的单位成本还需按实际工作负载核算。",
+      "insight": "分析：竞争重心从单 token 单价转向“每任务成本+推理档位选择”，意味着模型选型需要与 Agent 编排策略协同设计；但帕累托前沿是特定评测集上的结论，换任务分布后可能位移。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Meta",
+        "小模型",
+        "Agent",
+        "推理成本",
+        "定价"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "0cdd057b459d4c2b",
+      "title": "The backlash about data centers might really just be about electricity",
+      "titleZh": "MIT 科技评论：数据中心反对声浪的核心其实是电力",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox ",
+      "summaryZh": "MIT 科技评论记者走访弗吉尼亚 Ashburn“数据中心走廊”后提出，围绕数据中心的反弹与其说是 OpenAI 高管 Chris Lehane 所称的文化战争，不如说核心是电力。现有设施多接入电网，当地单座平均容量 54 兆瓦，超过丹佛国际机场用电；抗议已推动州级规则要求数据中心全额承担新输电线路成本，开发商也在准备高峰期限电规则。新建 AI 数据中心多为 300 兆瓦起，理想规模达 6000 兆瓦，接近芝加哥全市用电，因此更多选址在缺乏电网的乡村并自建燃气轮机与柴油备用电源，带来空气污染与社区选址争议。Anthropic 据报以 34 亿美元购买燃气轮机。文中还提及 Google 宣布在马来西亚投资 150 亿美元数据中心项目。",
+      "whyItMatters": "电力供给与社区许可正成为 AI 算力扩张的硬约束，影响训练集群选址、成本结构与部署节奏，也把 AI 产业政策与能源、环境治理直接绑定。",
+      "limitations": "以记者实地观察与受访者观点为主，缺乏系统性统计；部分数字为个案或转述，未独立核实。属分析性报道而非量化研究。",
+      "insight": "分析：当算力扩张从“买卡”变成“建电厂”，AI 公司的瓶颈就从芯片转向许可与电网接入；自备电源看似绕开电网，实则把环境外部性转移到社区，反弹只会换形式。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "数据中心",
+        "电力",
+        "算力基础设施",
+        "能源",
+        "社区治理"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "c02cc2dffd5e3bd4",
+      "title": "Fable 5.2 and Jagged AGI",
+      "titleZh": "Ethan Mollick 实测 Claude Fable 5.2：提出“锯齿状 AGI”判断",
+      "summary": "Before getting started, I wanted to thank my readers for making my new book, Co-Existence, a New York Times bestseller two weeks in a row. If you haven’t read it, you can get a copy here. I have had the chance to use the new Claude Fable 5.2 quite a bit before its public launch1, and it is very impressive, following on the already excellent Opus 5.5. AI has gotten so good, in fact, that it is worth asking if Anthropic’s newest models (and the inevitable competing models OpenAI and Google will so",
+      "summaryZh": "Ethan Mollick 在博客中称，他在 Claude Fable 5.2 公开发布前获得使用机会，并据其有限定义——“在多数可用电脑完成的智力任务上达到多数人类专家水平”——认为该模型接近但未达到 AGI，称之为“锯齿状 AGI”。他给出若干测试：单提示词生成可嵌入网页的创意视频；无公开文档情况下把 Codex Micro 小键盘改造成包含六款游戏的主机；规划一项面向设备销售代表的公共项目信息订阅生意，并自评成功率 20%–40%；重建 Auden 1941 年课程网站，含 35 部作品页面与注释；以及完成一篇关于 LLC 注册费变化的实证论文草稿，但研究未真正预注册。他认为差距不再是简单的幻觉，而体现在品味、判断与自我发现问题。",
+      "whyItMatters": "该文提供了少见的多领域一手实测记录，把“能力跃升”与“自主运行仍不可靠”的边界区分开，有助于从业者避免用单点演示外推 AGI 结论；对评估设计与产品预期管理有参考价值。",
+      "limitations": "属个人博客的主观体验，非受控基准；测试作者身份与模型提示词未公开，失败案例未系统采样，商业与研究任务均被中途叫停，结论不能视为模型能力已验证。",
+      "insight": "分析：Mollick 的“锯齿”描述指向评估难点——模型能一次性产出高分成果，却难在长程任务中自行发现目标偏差；这把讨论焦点从基准分数转向任务规格与人类反馈成本。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Claude",
+        "AGI",
+        "模型评测",
+        "智能体"
+      ],
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source": "Ethan Mollick (One Useful Thing)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T19:04:26.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    }
+  ],
+  "pmHighlights": [
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员与消费者开放，称其在网络安全与长程 Agent 工作流上具备前沿性能，与 Gemini 4 Argon 并列但定位更偏复杂多步任务。官方称 Carbon 在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，每任务成本较次优外部模型低 2 倍以上；API 定价与 Argon 相同，为每百万输入 2 美元、输出 10 美元。同时预览 Google Antigravity 的 /swarm，把单条提示转为可实时追踪的多 Agent 团队。安全方面称在 Fairwind Program 下于漏洞发现、利用与修补基准领先。",
+      "whyItMatters": "若官方基准与成本数据成立，前沿模型竞争将进一步转向长程 Agent 任务与单位任务成本，多 Agent 编排产品化也会改变开发者的工程组织方式。",
+      "limitations": "性能、排名与成本数据均来自厂商博客及厂商参与设计的基准，缺少第三方独立复现；/swarm 处于预览阶段，实际稳定性未知。",
+      "insight": "分析：Carbon 强调“更多 token、更深推理与验证循环”，与 /swarm 的多 Agent 分工配套，说明竞争焦点正从单次回答质量转向任务完成率与每任务经济性。",
+      "importance": 8,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "Agent",
+        "基准测试",
+        "网络安全"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "3ec8add99452b340",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "titleZh": "OpenAI 在 ChatGPT 中推出经认证的 Business Agents",
+      "summary": "AINewsOpenAIChatGPT is getting verified AI ‘Business Agents’ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.by Jay PetersNov 10, 2026, 6:00 PM UTCLinkShareGiftImage: OpenAIJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.ChatGPT is going to let you chat with verified “Busine",
+      "summaryZh": "据 The Verge 报道，OpenAI 于 2026 年 11 月 10 日宣布在 ChatGPT 中测试面向企业的“Business Agents”：由品牌方创建并代表该企业，用户在与 ChatGPT 的对话中出现该企业时可直接与其 Agent 对话，咨询产品差异等问题，场景包括比价购物。企业通过 Business Hub 认领组织并完成认证（OpenAI 未披露具体验证方式，变现副总裁 Benji Shomair 称不同企业方式不同），在 Hub 中可看到被 ChatGPT 提及的情况和热门发现话题。该功能首先面向美国符合条件的电商与在线服务企业，属于当日公布的商业功能套件的一部分，处于 beta。",
+      "whyItMatters": "若落地，ChatGPT 将从回答入口延伸为品牌与消费者直接交互的渠道，改变比价、导购与商家在 AI 中的曝光方式；对用户而言，需关注带认证标签的 Agent 是否真正代表企业，以及推荐是否被商业关系影响。",
+      "limitations": "信息来自单一媒体报道及发布会简报，验证机制、计费方式、是否影响排序均未披露；beta 阶段，规模与效果未知，不能视为已验证的商业模式。",
+      "insight": "分析：把品牌代表 Agent 嵌入回答流，本质是把“被发现”与“被对话”合并，认证机制的可信度与平台是否披露商业影响将决定其用户接受度。",
+      "importance": 7,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Business Agents",
+        "电商",
+        "认证"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    }
+  ],
+  "githubNew": [],
+  "githubHot": [
+    {
+      "id": "8b93800629a09a9e",
+      "title": "upscayl/upscayl",
+      "titleZh": "Upscayl：开源跨平台 AI 图像放大工具",
+      "summary": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.\n当前星数 52210，当日增加 82；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "GitHub 仓库 upscayl/upscayl 的简介显示，这是一款面向 Linux、macOS 和 Windows 的免费开源 AI 图像放大工具，主要语言为 TypeScript。简介自称“#1”，但材料未给出模型来源、放大倍率、推理后端或画质指标，也未说明当日是否有版本发布或功能变更；仅显示当前星数 52210、当日增加 82。可确认的是它提供跨平台桌面端形态，并把 AI 超分辨率能力封装成面向普通用户的工具，而非仅提供命令行或云 API。",
+      "whyItMatters": "超分辨率是普通用户最易感知的本地 AI 能力之一，开源且跨平台的桌面工具可降低使用门槛，也便于组织在本地处理图片而不上传云端。但“第一”是仓库自述，不构成能力排名。",
+      "limitations": "仅有仓库简介与星数，缺少发布日期、模型来源、画质基准与实际功能边界；无法据此判断新版本或性能提升。",
+      "insight": "（分析）该项目的行业意义主要在于分发形态：把超分模型打包成跨平台桌面应用，比模型本身更决定普通用户能否用上。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "图像超分辨率",
+        "跨平台桌面"
+      ],
+      "url": "https://github.com/upscayl/upscayl",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "0cd067b759075341",
+      "title": "neuml/txtai",
+      "titleZh": "txtai：集语义搜索、LLM 编排与工作流于一体的框架",
+      "summary": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows\n当前星数 13283，当日增加 48；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "neuml/txtai 的仓库简介称其为 all-in-one AI 框架，覆盖语义搜索、LLM 编排和语言模型工作流；主要语言为 Python，当前星数 13283，当日增加 48。材料仅给出定位描述，没有列出支持的向量索引、模型接入方式、编排接口或性能数据，也未说明是否有新版本。可确认的是项目把检索与生成编排放在同一框架内，面向需要自行搭建语义检索和模型调用流程的开发者，而非终端产品。",
+      "whyItMatters": "语义检索与 LLM 编排常需拼接多个组件，一体化框架可减少集成成本；对自建知识检索或文档问答的团队有直接参考价值，但实际能力需看文档与基准。",
+      "limitations": "仅有仓库简介，缺少版本信息、功能清单与性能评测；不能据此判断其相对同类框架的优劣。",
+      "insight": "（分析）此类框架的竞争点通常不在模型，而在检索、编排与部署的耦合程度；简介无法验证这一点。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "语义搜索",
+        "LLM 编排"
+      ],
+      "url": "https://github.com/neuml/txtai",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1643157b768c76e7",
+      "title": "f/prompts.chat",
+      "titleZh": "prompts.chat：可自托管的社区提示词库",
+      "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n当前星数 176863，当日增加 147；语言 MDX。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "f/prompts.chat 原名 Awesome ChatGPT Prompts，仓库简介称用于分享、发现和收集社区提示词，免费开源，并支持组织自托管以获得完整隐私。主要语言为 MDX，当前星数 176863，当日增加 147。材料未给出提示词数量、分类体系、许可证细节或自托管部署要求，也未说明当日是否有内容更新。可确认的是它把提示词作为可协作维护的文本资产，并提供私有化部署选项，形式上更接近内容库而非模型工具。",
+      "whyItMatters": "提示词库反映社区实践积累，自托管选项对不愿把内部用法放到公共平台的组织有用；但提示词效果高度依赖具体模型与任务，不宜当作通用最佳实践。",
+      "limitations": "仅有仓库简介与星数，缺少内容规模、质量审核机制和自托管技术细节；星数高不代表提示词质量或新近活跃度。",
+      "insight": "（分析）其价值主要在组织内部知识沉淀与共享流程，而非提示词本身的技术壁垒。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "提示词",
+        "自托管"
+      ],
+      "url": "https://github.com/f/prompts.chat",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "7b1fbe1cb210003a",
+      "title": "Data augmentation using generative networks to identify dementia",
+      "titleZh": "用生成模型做数据增强以识别痴呆症",
+      "summary": "arXiv:2004.05989v1 Announce Type: cross Abstract: Data limitation is one of the most common issues in training machine learning classifiers for medical applications. Due to ethical concerns and data privacy, the number of people that can be recruited to such experiments is generally smaller than the number of participants contributing to non-healthcare datasets. Recent research showed that generative models can be used as an effective approach for data augmentation, which can ultimately help to ",
+      "summaryZh": "该论文研究在自动痴呆检测系统采集的语音与音频交互特征上使用生成模型进行数据增强。作者使用两种生成模型合成样本，并观察其对深度神经网络分类器性能的影响。结果显示，变分自编码器（VAE）使区分记忆门诊常见四类患者的分 classifier 的 F-score 从 58% 提升至约 74%，相对提升约 16 个百分点。研究背景是医疗数据受隐私与伦理限制，可招募样本量通常小于非医疗数据集，因此数据增强被视为缓解稀疏数据域训练困难的手段。边界：实验针对其自有检测系统提取的语音/音频特征，不能直接外推到影像或其他病种。",
+      "whyItMatters": "医疗 AI 常受样本规模限制，合成数据增强若可复现，能帮助在数据稀缺的语音筛查场景训练更稳健的分类器，对痴呆早期筛查研究有参考价值。",
+      "limitations": "仅有 arXiv 摘要，未提供完整实验设置、受试者规模与统计显著性；16 个百分点提升来自单一实验，尚待独立复现与外部数据验证。",
+      "insight": "摘要层面可确认 VAE 增强带来分类提升，但机制解释（如类别不平衡改善或正则化）属于分析性推测，原文未在摘要中说明。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "生成模型",
+        "数据增强",
+        "医疗AI",
+        "痴呆检测",
+        "语音特征"
+      ],
+      "url": "https://arxiv.org/abs/2004.05989",
+      "source": "ArXiv CS.AI",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "c434fea01d1f9e9b",
+      "title": "Differential Diagnosis of Frontotemporal Dementia and Alzheimer's Disease using Generative Adversarial Network",
+      "titleZh": "用生成对抗网络鉴别额颞叶痴呆与阿尔茨海默病",
+      "summary": "arXiv:2109.05627v2 Announce Type: cross Abstract: Frontotemporal dementia and Alzheimer's disease are two common forms of dementia and are easily misdiagnosed as each other due to their similar pattern of clinical symptoms. Differentiating between the two dementia types is crucial for determining disease-specific intervention and treatment. Recent development of Deep-learning-based approaches in the field of medical image computing are delivering some of the best performance for many binary clas",
+      "summaryZh": "该研究针对额颞叶痴呆（FTD）与阿尔茨海默病（AD）临床易误诊的问题，提出利用生成对抗网络（GAN）结合多尺度结构特征进行鉴别诊断。方法上，从 MRI 扫描中提取由粗到细的多尺度体量特征，并用 GAN 做合成数据增强，以区分 FTD、AD 与正常对照。作者报告在 1,954 张图像上做 10 折交叉验证取得较高准确率，并称多尺度结构特征与 GAN 合成增强的组合能改善这一较难的亚型鉴别任务。边界：研究为影像分类框架，尚非临床诊断工具。",
+      "whyItMatters": "痴呆亚型鉴别直接影响干预与治疗路径，若基于影像与合成增强的方法可泛化，有望辅助临床减少误诊，属于医疗 AI 中价值明确的方向。",
+      "limitations": "仅摘要，未给出具体准确率数值、数据来源与人群分布，也未与其他方法做完整对比；高准确率需独立队列验证。",
+      "insight": "摘要可确认方法组合与交叉验证设计，但“高准确率”缺乏具体数字，不能据此判断临床可用性。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "GAN",
+        "医学影像",
+        "痴呆鉴别",
+        "数据增强",
+        "MRI"
+      ],
+      "url": "https://arxiv.org/abs/2109.05627",
+      "source": "ArXiv ML",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员与消费者开放，称其在网络安全与长程 Agent 工作流上具备前沿性能，与 Gemini 4 Argon 并列但定位更偏复杂多步任务。官方称 Carbon 在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，每任务成本较次优外部模型低 2 倍以上；API 定价与 Argon 相同，为每百万输入 2 美元、输出 10 美元。同时预览 Google Antigravity 的 /swarm，把单条提示转为可实时追踪的多 Agent 团队。安全方面称在 Fairwind Program 下于漏洞发现、利用与修补基准领先。",
+      "whyItMatters": "若官方基准与成本数据成立，前沿模型竞争将进一步转向长程 Agent 任务与单位任务成本，多 Agent 编排产品化也会改变开发者的工程组织方式。",
+      "limitations": "性能、排名与成本数据均来自厂商博客及厂商参与设计的基准，缺少第三方独立复现；/swarm 处于预览阶段，实际稳定性未知。",
+      "insight": "分析：Carbon 强调“更多 token、更深推理与验证循环”，与 /swarm 的多 Agent 分工配套，说明竞争焦点正从单次回答质量转向任务完成率与每任务经济性。",
+      "importance": 8,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "Agent",
+        "基准测试",
+        "网络安全"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "19b4fcb1faac9c9b",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "titleZh": "Tether AI 发布 0.8B 端侧 Agent 模型 BotPsy：主打工具调用与隐私",
+      "summary": "Back to Articles BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model Team Article Published November 11, 2026 Upvote 1 Milan Gritta milangritta Follow qvac Jihye Back happy-jihye Follow qvac JinUk, Cho jucho2725 Follow qvac ohjoon kwon joooon Follow qvac Patrik Lambert patrik-lambert Follow qvac Mathias Buus mafintosh Follow qvac Amril Nurman Nurman Follow qvac Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on su",
+      "summaryZh": "Tether AI Research 发布 BotPsy，一个基于 Qwen3.5-0.8B 后训练的 0.8B 参数模型，面向函数调用与 Agent 工作流，可在设备端运行，覆盖搜索、旅行、金融、设备控制、日历、邮件等场景。训练分四阶段：监督微调、多教师同策略蒸馏（三个经 RL 训练的 Qwen3.5-4B 教师）、两轮 RL。官方称其在测试的 ≤1.2B 模型中六个工具使用与 Agent 基准全面领先，BFCL v4 从基座 23.4 升至 44.0，τ-bench 从 23.2 升至 51.5；在五项上超过 2.5 倍大小的 Qwen3.5-2B-Think。安全方面，红队测试不安全回答率 21%（基座 36%），提示注入场景 31%（基座 46%）。以 Apache 2.0 开源权重，提供 bf16/Q8/Q4 及 GGUF。官方明确其适合低至中等难度任务，不适合高风险用途。",
+      "whyItMatters": "小参数端侧 Agent 若真能可靠完成工具调用，可把隐私敏感的日常任务留在本地，降低云端推理成本与供应商锁定风险，也为移动端 Agent 产品提供可自托管的候选底座。",
+      "limitations": "数据与结论均来自厂商自测，对比模型与基准实现细节未完整披露，属宣传材料；实际端侧延迟、功耗与真实任务成功率需第三方复现。发布日期显示为 2026 年，需注意时序。",
+      "insight": "分析：小模型价值不在通用智能，而在“会调工具、不乱调工具”这两件事；BotPsy 把幻觉测试与指令跟随作为卖点，方向正确，但开源小模型的真实部署门槛在工具生态与错误恢复，而非基准分。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "端侧模型",
+        "工具调用",
+        "Agent",
+        "开源权重",
+        "Qwen"
+      ],
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:01:16.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "d48977b6fbc84b1e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "titleZh": "微软研究揭示 Lazarus：改写休眠神经元即可给 AI Agent 植入后门",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retr",
+      "summaryZh": "微软研究院披露一种名为 Lazarus 的后门方法：无需重新训练，仅改写 LLM 中不到 10 个“休眠神经元”，就能让模型在特定触发条件（如日期跨过 2027 年）下输出攻击者指令，由具备工具或终端权限的 Agent 执行下载并运行恶意代码。原理是预训练使内部表征高度线性可分，用约 50 个样本即可拟合区分触发输入的线性分类器，被改写的神经元可通过残差流强制注入任意 token，多个神经元可串联生成任意载荷。该方法只需推理级算力与对 checkpoint 的写权限，因此闭源自研模型同样暴露。微软建议将权重视同代码审计、依赖溯源与签名，并在 Foundry 侧做来源校验与环境扫描。",
+      "whyItMatters": "若攻击门槛仅为“能加载模型”，则模型来源与权重完整性将成为 Agent 部署的核心安全前提，直接影响企业选择开源权重、模型分发渠道与 Agent 权限设计。",
+      "limitations": "博客为研究与产品防御介绍，未给出完整论文指标与检测召回率；具体神经元数量、触发成功率与检测效果需看原文与复现。厂商同时推销自家防御方案，存在立场。",
+      "insight": "分析：这条把 Agent 安全的焦点从提示注入转向供应链——权重本身可被篡改而评测全绿。真正的缓解不是更强的对齐，而是可验证的权重溯源、差异比对与最小权限执行。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "模型后门",
+        "Agent 安全",
+        "权重完整性",
+        "供应链",
+        "微软"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "7622332dc9759260",
+      "title": "Robustness Verification in Neural Networks",
+      "titleZh": "神经网络鲁棒性验证的形式化理论框架",
+      "summary": "arXiv:2403.13441v2 Announce Type: replace Abstract: In this paper we investigate formal verification problems for Neural Network computations. Of central importance will be various robustness and minimization problems such as: Given symbolic specifications of allowed inputs and outputs in form of Linear Programming instances, one question is whether there do exist valid inputs such that the network computes a valid output? And does this property hold for all valid inputs? Do two given networks c",
+      "summaryZh": "一篇 arXiv 综述性论文提出用统一的理论框架分析神经网络的鲁棒性与最小化验证问题。作者把问题形式化为：给定线性规划形式的输入输出符号规格，判断是否存在合法输入使网络输出合法、该性质是否对所有合法输入成立、两个网络是否计算同一函数、是否存在计算同一函数的更小网络。论文给出复杂度分类，指出在分段线性激活函数并结合求和或最大值度量时，多数问题落在 P 或至多 NP 类，从而把安全性与效率问题纳入同一套半线性设定下的分析框架。",
+      "whyItMatters": "为神经网络的形式化验证提供了可归类的复杂度边界，有助于区分哪些鲁棒性验证问题可以多项式求解、哪些只能依赖启发式，对安全关键场景的验证工具设计有参考价值。",
+      "limitations": "材料仅为论文摘要，未给出具体证明细节、实验或与已有验证器的对比；结论限于分段线性激活与特定度量设定，实际网络规模下能否落地未知。",
+      "insight": "分析：把安全性与效率问题统一进半线性设定的复杂度分类，是理论层面的贡献，但论文摘要层面的信息不足以判断其对工程验证器的直接可用性。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "神经网络验证",
+        "鲁棒性",
+        "计算复杂度",
+        "形式化方法"
+      ],
+      "url": "https://arxiv.org/abs/2403.13441",
+      "source": "ArXiv CS.AI",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "c684bd38d31d9aab",
+      "title": "Bandit Profit-maximization for Targeted Marketing",
+      "titleZh": "面向定向营销的多臂老虎机利润最大化算法",
+      "summary": "arXiv:2403.01361v3 Announce Type: replace Abstract: We study a sequential profit-maximization problem, optimizing for both price and ancillary variables like marketing expenditures. Specifically, we aim to maximize profit over an arbitrary sequence of multiple demand curves, each dependent on a distinct ancillary variable, but sharing the same price. A prototypical example is targeted marketing, where a firm (seller) wishes to sell a product over multiple markets. The firm may invest different m",
+      "summaryZh": "一篇 arXiv 论文研究序贯利润最大化问题，同时优化价格与营销支出等辅助变量：卖方在多个市场销售同一产品，可对不同市场投入不同营销费用，但须维持统一价格，各市场需求曲线对价格和营销的响应不同。作者在对抗性 bandit 设定下（需求曲线为任意非自适应序列，仅能观测带噪声的取值）给出近优算法，对 n 条需求曲线证明遗憾上界约 Õ(nT^{3/4})、下界 Ω((nT)^{3/4})，并在需求曲线对价格单调、对辅助变量凹的条件下得到 Õ(nT^{2/3}) 的遗憾界。",
+      "whyItMatters": "定向营销中的定价与投放预算通常需要联动决策，该结果为统一价格约束下的跨市场分配提供了理论保证，对营销自动化与收益管理算法的设计有参考意义。",
+      "limitations": "材料仅为摘要，未涉及真实数据实验或与工业系统的对照；结论依赖对抗性 bandit 与单调性、凹性等假设，实际需求曲线是否满足未知。",
+      "insight": "分析：这是算法理论层面的遗憾界结果，与 AI Agent 或广告系统产品化无直接材料证据关联，不宜解读为已验证的投放效果提升。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "多臂老虎机",
+        "定向营销",
+        "收益管理",
+        "定价"
+      ],
+      "url": "https://arxiv.org/abs/2403.01361",
+      "source": "ArXiv ML",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "business"
+      ]
+    },
+    {
+      "id": "0e9fb0eb84f13acf",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "titleZh": "DeepMind 发布 AlphaProof Code，称用 Agent 生成三百万行 Lean 证明验证 Signal 加密",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "summaryZh": "Google DeepMind 发布 AlphaProof Code，称其 Agent 在 Lean 中写下三百万行证明，用于验证 Signal 的核心加密实现。材料仅给出这一简介，未说明证明覆盖的具体模块、验证流程、人工介入程度或证明是否通过独立检查。该方向属于用形式化证明与自动定理证明来验证复杂软件，若成立，意味着加密等安全关键代码可在机器辅助下获得更强的正确性保证。",
+      "whyItMatters": "加密实现一旦有细微缺陷，影响面很大；若自动证明能扩展到真实生产代码，软件验证的成本结构可能改变，安全关键系统与合规审计的方式也会受影响。",
+      "limitations": "仅有博客标题式简介，三百万行证明的构成、是否含大量自动生成冗余、验证结论的独立性及可复现性均未知，不能视为已验证的产业结论。",
+      "insight": "分析：值得关注的是 Agent 与形式化证明结合用于真实软件验证的路径，而“三百万行”更接近产出规模指标，不宜直接等同于验证深度或安全保证。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AlphaProof",
+        "Lean",
+        "形式化验证",
+        "Signal",
+        "Agent"
+      ],
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "5f3963726dbe36e6",
+      "title": "Decision Models in Hugging Face",
+      "titleZh": "Hugging Face 博客介绍“决策模型”：不生成文本，直接对预设选项输出概率",
+      "summary": "Back to Articles Decision Models in Hugging Face Published November 10, 2026 Update on GitHub Upvote 49 +43 Aritra Roy Gosthipaty ariG23498 Follow Lysandre lysandre Follow Pedro Cuenca pcuenq Follow Tom Aarsen tomaarsen Follow Large Language Models (LLMs) are exceptionally good at generating text. We use them to answer questions, write code, reason about problems, and so much more. But not every problem requires generating text. Consider a customer support system receiving the following message:",
+      "summaryZh": "Hugging Face 博客文章介绍一种被称为“决策模型”（decision model）的接口范式。其核心是给定输入状态（state）、若干命名问题与预定义候选答案，模型直接返回选定答案及概率分布，而不做逐 token 文本生成。文章区分三种基本原语：choice（在选项中择一）、score（有序量表打分）、noul（对是否命题给概率）。作者把它与传统固定标签分类器和零样本分类（如基于 NLI 的 bart-large-mnli）对比，指出决策模型的差异在于支持推理时定义标签、同一状态上多个带类型的提问，以及以概率分布为中心的接口。文中还列举直接用 LLM 输出 JSON 的问题：不保证遵循 schema、受限解码有额外开销、为少量选项生成整段文本属浪费。示例使用名为 autotrust/GEV-26B-Decide 的模型与 transformers 的 decision pipeline。",
+      "whyItMatters": "对做分类、路由、风控等结构化判断的团队，这套接口把“让 LLM 生成 JSON”换成概率输出，便于设定阈值、做置信度校准和失败回退，也减少 schema 违规。",
+      "limitations": "文章含明显推广性质，使用未广泛验证的模型示例，未给出与 LLM 提示法在准确率、延迟、成本上的系统对比或基准数据；“决策模型”命名与能力边界仍在社区讨论中。",
+      "insight": "真正值得关注的是接口约定，而非新模型：把候选答案和问题类型写进请求，输出概率分布，本质是把生成式模型改造成可校准的判别器。这类接口能否成立，取决于概率是否可靠，需独立评测。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "decision model",
+        "结构化输出",
+        "分类",
+        "概率校准",
+        "transformers"
+      ],
+      "url": "https://huggingface.co/blog/decision",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents"
+      ]
+    },
+    {
+      "id": "3a45181f6d992343",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "titleZh": "微软研究院推出 PDD Kit：用 Verus 形式化验证 Agent 编写的全栈应用",
+      "summary": "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can’t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here. Exhaustive line-by-line human review can become difficult to scale as AI agents generate increasingly large amounts of code. ",
+      "summaryZh": "微软研究院博客介绍 PDD Kit（Proof-Driven Development Kit），目标是在编码 Agent 大量生成代码时，用形式化证明替代逐行人工审查。流程是：在 GitHub Next 的 Chopin 协作环境中，先由人和 Agent 澄清意图，把可形式化的需求转成 Verus（Rust 证明语言）规格，由工具生成证明证明代码对所有输入满足规格；无法证明覆盖的部分（如第三方加密库、UI）退化为测试，并明确标注为经验证据。文章强调 TCB（可信计算基）边界需人工签核。案例是一个约 5000 行 Rust 的全栈商店应用 Pet Store，后端 Axum+SQLite，前端 Leptos/WASM，重点验证登录逻辑：只有正确密码才发 token、只有管理员才发管理员 token。作者称过程中发现了既有 bug，开发者未逐行读生成代码。",
+      "whyItMatters": "如果 Agent 写代码成为常态，审查瓶颈会从写代码转向验证代码。把“计划即合同”升级为可检查的形式化规格，是治理 Agent 产出的可行方向之一。",
+      "limitations": "基于单一博客与一个演示应用；未报告误报率、证明维护成本、在大型遗留代码库中的扩展性，也未经第三方复现；“已验证无登录 bug”仅相对给定规格成立。",
+      "insight": "值得注意的设计是区分证明与测试并显式标注证据强度，以及要求人确认 TCB。这比“AI 自测通过”更接近可审计工程，但形式化规格本身的正确性仍是弱点。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "形式化验证",
+        "Verus",
+        "编码 Agent",
+        "Rust",
+        "软件工程"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "c4f4822e7ba7bb5d",
+      "title": "Learning Beyond Rigid Manipulation with Hybrid Soft-Rigid Robots",
+      "titleZh": "刚柔混合机械臂：用模仿学习获得超越刚性操作的技能",
+      "summary": "arXiv:2410.07787v4 Announce Type: replace-cross Abstract: Rigid-soft robot hybrids promise to unite the precision and repeatability of rigid manipulators with the compliance and adaptability of soft structures. Yet, full-fledged rigid-soft manipulators remain largely unexplored, in part because the intelligence required to exploit this combination is still missing. Here, we introduce a hybrid robotic system obtained by the series interconnection of a rigid arm and a soft manipulator, and systema",
+      "summaryZh": "论文提出一种刚柔混合机器人系统，由刚性机械臂与软体操作器串联而成，并系统评估其在经典与新任务上的操作能力。作者称现有全刚柔混合操作器研究较少，部分原因是缺少利用这种组合的智能方法。为此提出一种适用于该类混合系统的定制模仿学习算法，利用刚性部分提供精度与可重复性、软体部分提供柔顺与适应性，从而习得操作技能，并能在任务变化下一次性泛化。实验中系统在堆叠等经典任务上达到或超过刚性机器人水平，同时实现此前难以完成的行为，例如通过狭窄开口抓取物体。",
+      "whyItMatters": "若可靠，该工作说明软硬件协同设计与模仿学习结合可扩展机器人的可达空间与任务类型，对仓储、装配等需要柔顺接触的场景有潜在价值；也提示机器人学习研究需同时考虑本体特性。",
+      "limitations": "仅依据 arXiv 摘要，缺少实验规模、基线细节与失败案例分析；一次性泛化的边界条件、真实环境鲁棒性与可重复性未在材料中说明，结论尚待同行评审与复现。",
+      "insight": "分析：软体本体带来的状态维度与动力学不确定性较高，模仿学习能否稳定覆盖是核心难点；该方向的价值更可能在特定受限任务先落地，而非通用操作。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "机器人",
+        "模仿学习",
+        "软体机器人",
+        "操作技能"
+      ],
+      "url": "https://arxiv.org/abs/2410.07787",
+      "source": "ArXiv CS.AI",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "6b6709b612e5913e",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "titleZh": "Google DeepMind 发布 Gemini Robotics 2.5 视觉-语言-动作模型",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "summaryZh": "Google DeepMind 博客称 Gemini Robotics 2.5 是其“能力最强”的视觉-语言-动作（VLA）模型，目标是提升机器人在真实环境中的灵巧性、可靠性和安全性。按博客标题与摘要，重点在“real-world general dexterity”，即让机器人完成更多样的物理操作任务。但材料只有一句话简介，未给出模型规模、训练数据、评测任务、成功率数值、支持的机器人平台，也未说明与上一代的差异。因此目前能确认的是发布意图与能力方向，而非可比较的性能结论。",
+      "whyItMatters": "VLA 模型是把大模型能力延伸到物理操作的关键路径，DeepMind 的表态会影响机器人本体厂商与具身智能团队的模型选型预期。",
+      "limitations": "仅有标题和一句摘要，缺少参数量、评测基准、成功率、安全机制细节与商用可用性信息，所有能力表述均为厂商自述。",
+      "insight": "分析：若该模型确有跨本体泛化提升，竞争焦点将从“演示视频”转向可复现的操作成功率与安全边界；当前材料不足以判断。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini Robotics",
+        "VLA",
+        "具身智能",
+        "机器人"
+      ],
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T19:51:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents"
+      ]
+    },
+    {
+      "id": "cb93d68b445c05b0",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "titleZh": "Hugging Face Hub 支持通过 Google Cloud 账户付费",
+      "summary": "Back to Articles Pay for Hugging Face Hub with your Google Cloud Account Published November 10, 2026 Update on GitHub Upvote 9 +3 Zaïd Alhadad zaid-alhadad Follow Pierric Cistac pierric Follow Simon Pagezy pagezyhf Follow Michelle Habonneau michellehbn Follow You can now link your Hugging Face organization to your Google Cloud account, so that your Hugging Face usage shows up on your Google Cloud bill instead of being charged to a credit card. Get started on the Google Cloud Marketplace. Why pay",
+      "summaryZh": "Hugging Face 博客介绍，组织可将 Hugging Face 账号关联到 Google Cloud 账户，使 Hub 用量计入 Google Cloud 账单，而不再走信用卡。覆盖范围包括 Team/Enterprise 订阅、按量计费的 Jobs、Inference Endpoints、Inference Providers、GPU Spaces、ZeroGPU 配额扩展以及额外存储。流程为：在 Google Cloud Marketplace 订阅、选择组织并关联、经 Hugging Face 审核后生效；已有信用卡的组织在下一计费周期切换，免费层组织通常立即切换。博客还说明，关联后不可再加 credits，订阅内包含的月度额度仍会先抵扣，关联与解绑都会写入审计日志。",
+      "whyItMatters": "对已采用 Google Cloud 的企业，采购与合规流程可复用现有云合同，降低引入模型托管与推理服务的行政成本，影响开源模型平台的企业侧渗透。",
+      "limitations": "为厂商博客，未披露定价差异、审核时长、地区可用性与实际企业采用数据；对企业采购效率的影响仍待观察。",
+      "insight": "分析：模型托管平台的竞争正从模型数量转向企业采购路径，云市场账单整合是典型的渠道与结算层竞争。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Hugging Face",
+        "Google Cloud",
+        "Marketplace",
+        "计费"
+      ],
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "products"
+      ]
+    },
+    {
+      "id": "32aabc03de736b72",
+      "title": "Learn the rules: The hacker mindset",
+      "titleZh": "微软研究院播客：黑客思维、规则与自动化网络防御",
+      "summary": "For some, rules pose limitations. For others, like Microsoft Research Manager Mike Walker, they’re opportunities. Walker’s fascination with rules and their role in the social order has allowed him to find success professionally and personally, from uncovering weaknesses in networked systems to redefining how computers are trained to fend off cyberattacks to pushing the limits of a reliable mode of transportation—the bicycle—in ultra-endurance racing. In this conversation with Principal Technical",
+      "summaryZh": "这是微软研究院播客的文字稿，主持人为 Weishung Liu，嘉宾为研究经理 Mike Walker，他负责 AI、网络安全与大规模分布式系统交叉方向的项目，此前领导过 DARPA 的 Cyber Grand Challenge（自动发现并修补软件漏洞的自主系统项目，材料称 2026 年为其十周年）。对话主要围绕个人经历与观念：规则是社会建构、安全系统向用户索取信任、信任被消耗则安全机制失效，以及竞赛黑客中的团队协作与集体智能。材料包含完整对话文本，但属于人物访谈，不是技术论文或产品发布。",
+      "whyItMatters": "自动化漏洞发现与修补是 Agent 在安全领域最接近落地的方向之一，从业者对信任与规则约束的看法影响这类系统的设计取舍。",
+      "limitations": "为人物访谈，观点属受访者个人；材料未给出具体系统性能、漏洞修复成功率或部署效果，不能作为能力验证。",
+      "insight": "分析：访谈的价值在于提示自动化安全 Agent 的瓶颈常在信任与责任划分，而非纯检测能力，但此判断需更多实证支撑。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "网络安全",
+        "自动化漏洞修补",
+        "DARPA CGC",
+        "微软研究院"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-03T17:14:38.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance"
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "id": "fafff4292c09fd93",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "titleZh": "Gemini Intelligence 扩展至更多设备并新增功能",
+      "summary": "Gemini Intelligence: New features, on more devices Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini Intelligence is now available on more devices, including motorola signature 27 and Pixel 10. See how expanded capabilities across these devices help you do more. Karthik Thirumalai Product Director, Android AI Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Gener",
+      "summaryZh": "Google 宣布 Gemini Intelligence 登陆更多 Android 设备，包括 motorola signature 27 与 Pixel 10 系列，并随 Pixel Drop 推送新能力。文中列出：Rambler 4 可实时把口语整理为结构化文本；任务自动化扩展到英国、印度和日本，可跨应用下单、叫车、订位；Create My Widget 允许用自然语言描述生成个性化小组件，并计划登陆 Pixel Watch；Device Assistance 支持通过提问清理存储、检查位置权限、静音干扰等设备操作。此外，Gemini Intelligence 将向 Android Auto 提供主动建议，Googlebook 为首款为其设计的笔记本。以上均为厂商发布信息。",
+      "whyItMatters": "这显示 Gemini 从聊天助手转向系统级代理，嵌入跨应用任务与设备管理，直接影响 Android 用户的使用方式与第三方应用的分发入口。",
+      "limitations": "内容为 Google 官方博客，功能可用性、地区与时间表可能变化；任务自动化的实际成功率与隐私影响未在文中量化。",
+      "insight": "分析：跨应用任务自动化与系统级设备控制同时推进，意味着 Agent 竞争从模型能力转向操作系统入口与权限体系，生态伙伴的接入条件将成为关键变量。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "Android",
+        "Agent",
+        "任务自动化",
+        "Google"
+      ],
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "0cdd057b459d4c2b",
+      "title": "The backlash about data centers might really just be about electricity",
+      "titleZh": "MIT 科技评论：数据中心反对声浪的核心其实是电力",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox ",
+      "summaryZh": "MIT 科技评论记者走访弗吉尼亚 Ashburn“数据中心走廊”后提出，围绕数据中心的反弹与其说是 OpenAI 高管 Chris Lehane 所称的文化战争，不如说核心是电力。现有设施多接入电网，当地单座平均容量 54 兆瓦，超过丹佛国际机场用电；抗议已推动州级规则要求数据中心全额承担新输电线路成本，开发商也在准备高峰期限电规则。新建 AI 数据中心多为 300 兆瓦起，理想规模达 6000 兆瓦，接近芝加哥全市用电，因此更多选址在缺乏电网的乡村并自建燃气轮机与柴油备用电源，带来空气污染与社区选址争议。Anthropic 据报以 34 亿美元购买燃气轮机。文中还提及 Google 宣布在马来西亚投资 150 亿美元数据中心项目。",
+      "whyItMatters": "电力供给与社区许可正成为 AI 算力扩张的硬约束，影响训练集群选址、成本结构与部署节奏，也把 AI 产业政策与能源、环境治理直接绑定。",
+      "limitations": "以记者实地观察与受访者观点为主，缺乏系统性统计；部分数字为个案或转述，未独立核实。属分析性报道而非量化研究。",
+      "insight": "分析：当算力扩张从“买卡”变成“建电厂”，AI 公司的瓶颈就从芯片转向许可与电网接入；自备电源看似绕开电网，实则把环境外部性转移到社区，反弹只会换形式。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "数据中心",
+        "电力",
+        "算力基础设施",
+        "能源",
+        "社区治理"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "3b53bf6090ab9868",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "titleZh": "OpenAI 收购 AI 旅行创业公司 Odessia，创始人 Francis Davidson 加入",
+      "summary": "OpenAI has acquired an AI travel agent called Odessia, according to Odessia’s founder, Francis Davidson. Davidson says in a post announcing the deal that he’s now working for OpenAI, helping the AI lab with the future of travel. Terms of the deal were not disclosed, but this looks like an acqui-hire. Davidson’s announcement focused largely on how he built his AI travel agent Odessia by directing teams of AI agents. The year-old Odessia raised a $6 million pre-seed round led by Sequoia and launch",
+      "summaryZh": "TechCrunch 报道，OpenAI 收购了 AI 旅行 Agent 公司 Odessia，交易条款未披露，创始人 Francis Davidson 在公告中称已加入 OpenAI 负责旅行业务方向，外界判断更接近 acqui-hire。Odessia 成立约一年，获红杉领投的 600 万美元 pre-seed，约五个月前上线 AI 旅行 Agent，称已帮助早期用户规划价值数百万美元的行程，但该工具现已关停。OpenAI 发言人确认聘用 Davidson，但未公布任何旅行专属产品或计划；公司称每周有 12 亿人使用 ChatGPT 处理日常任务，旅行是高频需求之一，且 Booking.com、Expedia、KAYAK 等为其客户或合作伙伴。Davidson 此前创办的 Sonder 曾上市、后破产。",
+      "whyItMatters": "旅行是个人助手最典型的高频交易场景，若 OpenAI 从对话入口向行程规划与预订延伸，将直接影响 OTA 与旅行搜索的流量分配和分成结构。",
+      "limitations": "交易金额与结构未披露，“acqui-hire”为报道方判断；OpenAI 未确认任何产品路线，收购是否转化为功能尚不可知。",
+      "insight": "分析：这次收购更像买人而非买产品——Odessia 已关停，价值在于 Davidson 的旅行行业经验与“指挥多 Agent 完成规划”的方法论。是否意味着 OpenAI 亲自做交易闭环，目前无证据。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "收购",
+        "旅行",
+        "Agent",
+        "ChatGPT"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T21:08:52.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "business",
+        "agents"
+      ]
+    },
+    {
+      "id": "38f7683430bac085",
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "titleZh": "The Verge：英伟达CEO黄仁勋涉间谍风波，或波及美国AI芯片供应与出口管制",
+      "summary": "AITechNvidiaThe US is winning the AI race. Jensen Huang could have blown itNvidia’s chips are powering America’s AI boom. Of course Chinese spies are interested.Nvidia’s chips are powering America’s AI boom. Of course Chinese spies are interested.by Robert HartNov 10, 2026, 7:04 PM UTCLinkShareGiftImage: Bloomberg via Getty ImagesPart OfEverything we know so far about the Nvidia spy scandal targeting CEO Jensen Huangsee all updates Robert Hart is a London-based reporter at The Verge covering all",
+      "summaryZh": "The Verge于2026年11月10日报道，英伟达CEO黄仁勋承认与一名疑似中国间谍的女性有婚外情，报道称该女性的间谍活动此前已被美国情报部门和特朗普知晓。报道引述智库专家观点：与嫌疑人有关联的公司据称促成了至少70亿美元英伟达芯片对华销售，但无公开证据显示黄仁勋本人协助转移受限芯片或泄露敏感信息。专家提出两类风险：一是相关企业可能在芯片紧缺时获得优先供货；二是黄仁勋与政商决策者的密切关系本身具有情报价值。报道同时称英伟达股价在消息曝光后下跌，国会通过AI芯片管制立法的可能性上升。",
+      "whyItMatters": "英伟达是先进AI芯片的关键供应方，其治理与安全事件可能影响芯片分配节奏和客户算力获取，并可能推动美国出口管制立法收紧，进而影响中美AI算力供给与采购成本。",
+      "limitations": "报道核心事实基于匿名消息源与专家评论，间谍指控未经司法确认；对产业的实际影响多为专家推演，缺少供货、股价、立法进展的可核查数据。",
+      "insight": "分析：事件把\"单一公司治理风险\"转化为\"AI算力供应链风险\"，但材料未提供芯片流向或交付延迟的实证，产业影响仍属待观察。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "出口管制",
+        "AI芯片",
+        "中美竞争"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:04:05.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "9836df3492903c3f",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "titleZh": "报道称苹果将推出新 Mac 应用，简化本地 AI 模型运行",
+      "summary": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 146 # Comments: 105",
+      "summaryZh": "9to5Mac 报道称苹果正在为 Mac 开发一款新应用，目的是让运行本地 AI 模型变得更容易。该条目在 Hacker News 上获得 146 分、105 条评论，讨论热度较高。但资料仅为标题、链接和社区互动数据，没有提供应用名称、发布时间、支持模型格式、硬件要求或是否依赖苹果自有框架等具体信息，也没有苹果官方声明确认。因此目前只能确认存在这样一则报道及其引发的社区讨论，无法据此判断产品形态与可用范围。",
+      "whyItMatters": "若报道属实，苹果以系统级应用降低本地模型运行门槛，可能影响开发者在 Mac 上部署和试验开源模型的路径，也关系到端侧 AI 的隐私与成本优势。当前仅能作为待验证的产品动向跟踪。",
+      "limitations": "证据仅为新闻标题与 HN 讨论链接，缺少原文细节与官方确认；应用功能、发布时间、兼容范围均未知。",
+      "insight": "分析：本地推理工具长期分散在第三方项目，若由操作系统厂商提供统一入口，可能改变端侧模型的采用曲线；但目前信息不足以评估其与其他本地推理工具的关系。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Apple",
+        "Mac",
+        "本地推理",
+        "端侧 AI"
+      ],
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+      "source": "HackerNews AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T21:25:03.000Z",
+      "sourceKind": "community",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "001cd33c965241bc",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "titleZh": "Anthropic 推出 Claude Whiteboards、Claude Sheets 与 Claude Data",
+      "summary": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 175 # Comments: 138",
+      "summaryZh": "根据 Hacker News 上分享的 Claude 官方资源页链接，Anthropic 发布了名为 Claude Whiteboards、Claude Sheets 和 Claude Data 的三项产品。该帖获得 175 分、138 条评论，是当日讨论较多的条目之一。但资料只包含标题与链接，没有披露各产品的具体功能、可用范围、定价、与现有 Claude 应用的集成方式，也没有说明底层模型或数据处理的边界。因此目前可以确认的是产品名称与发布动作本身，产品能力与适用场景仍需查阅官方页面或实际试用后才能判断。",
+      "whyItMatters": "白板、表格与数据三类工具指向协作与办公场景，若与 Claude 的对话能力深度集成，会影响知识工作者使用 AI 的方式，也意味着模型厂商在应用层的竞争进一步延伸到通用办公软件。",
+      "limitations": "仅有标题和社区讨论热度，缺少功能细节、发布时间线与官方说明；无法判断三者是独立应用还是既有界面的新模块。",
+      "insight": "分析：从对话界面扩展到白板、表格和数据工具，反映模型厂商正把产品价值从模型能力转向工作流嵌入，但资料不足以评估其与现有办公套件的差异。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "办公工具",
+        "产品发布"
+      ],
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "source": "HackerNews Models",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T17:55:07.000Z",
+      "sourceKind": "community",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents"
+      ]
+    },
+    {
+      "id": "e192e4f92a704298",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "titleZh": "Google 与 Adobe 扩大合作：创意与办公工具接入 Gemini 及搜索",
+      "summary": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps. Nov 10, 2026 Today at Adobe MAX, we announced we’re expanding our partnership with Adobe.Switching between apps to edit a PDF or fine-tune an image can quickly break your focus. Our partnership will bring Adobe’s creative and productivity tools directly into the Google products you use every day. It will also bring Google’s frontier AI models into Adobe’s apps. Here’s what’s coming:Work faster with PDFs: ",
+      "summaryZh": "在 Adobe MAX 上，Google 宣布扩大与 Adobe 的合作，把 Adobe 的创意与生产力工具嵌入 Google 常用应用，同时将 Google 的前沿 AI 模型引入 Adobe 应用。官方列出的方向包括：Google Drive 与 Gmail 中出现通往 Adobe Acrobat 的入口及文件预览中的“Edit with”建议；Adobe 在 Gemini 与 Gemini Enterprise 中扩展 Acrobat 等连接器，并把创意工具带入 Google 搜索的 AI Mode；企业可在 Gemini Enterprise 中使用 Adobe 的 CX Enterprise Coworker 代理，用于设计图形、处理 PDF 与发起营销活动；Adobe 与 Google DeepMind 将探索面向创意专业人士的编辑能力，首先是可能实现近实时编辑的 Photoshop 图像模型。",
+      "whyItMatters": "若落地，用户在搜索、邮件与文档流程中可直接调用 Adobe 工具，企业侧则出现跨应用的代理式工作流；这也显示前沿模型厂商与创意软件厂商在分发入口上的绑定加深。",
+      "limitations": "内容为厂商公告，多为“将推出”“将探索”的规划表述，具体上线时间、可用范围、定价与图像模型的实际能力均未披露，需以实际发布验证。",
+      "insight": "分析：合作同时包含工具入口嵌入与模型能力引入两个方向，前者影响用户分发路径，后者影响创意工具的能力边界；CX Enterprise Coworker 的代理形态是观察企业 Agent 落地的样本。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google",
+        "Adobe",
+        "Gemini",
+        "企业Agent",
+        "产品集成"
+      ],
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "a7e59e4f72113c3a",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "titleZh": "赢得佩洛西旧金山席位的 Scott Wiener 谈联邦 AI 监管立场",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely interp",
+      "summaryZh": "MIT Technology Review 采访了刚赢下南希·佩洛西旧金山空缺席位的加州州参议员 Scott Wiener。他此前起草 SB 1047（被纽森否决）和 SB 53（获签署）。采访中他表示对 AI 风险担忧，多次提及“递归自我改进”，引用了 METR 前一日发布、被广泛解读为 Anthropic 实现递归自我改进的报告，并称国会今年内采取果断行动的可能性不大。他支持设立强有力的联邦监管机构、举报人保护、测试与审计要求以及“终止开关”，反对联邦广泛抢先于州法。报道还提到其竞选获约 300 万美元来自支持 AI 监管的非营利组织 Public First Action（Anthropic 为其重要资助方），以及他回应利益关联质疑的说法。文章同时指出全国层面围绕数据中心的反对情绪与 Wiener 的旧金山视角存在落差。",
+      "whyItMatters": "美国 AI 立法长期停滞，州级行动者进入国会可能改变议程；其立场与资金来源也提示 AI 安全监管讨论中产业资助的角色。",
+      "limitations": "仅一次约 20 分钟采访，属记者转述；关于 METR 报告“证明递归自我改进”的解读是外界解读，文中未给技术细节，不宜当作已验证结论。",
+      "insight": "Wiener 的影响力更多取决于委员会席位与跨党派空间，而非个人表态。把数据中心地方反对等同于 AI 风险监管支持，是一种常见误读，文中本人也作了区分。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI 监管",
+        "美国国会",
+        "AI 安全",
+        "SB 1047",
+        "采访"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance"
+      ]
+    },
+    {
+      "id": "ae543fdc68f7cb26",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "titleZh": "纽约 RAISE Act 落地：前沿 AI 公司须在 2027 年前注册并公开安全框架",
+      "summary": "New York is gearing up to enforce one of the country’s most significant AI safety laws. The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. The RAISE Act, New York’s safety and transparency bill, kicks in at the start of the year. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, re",
+      "summaryZh": "TechCrunch 报道，纽约州启用注册门户，年收入超 5 亿美元的大型前沿 AI 开发商（如 OpenAI、Anthropic）须在 2027 年 1 月 1 日前完成注册。RAISE Act 要求企业在官网公布安全框架、72 小时内报告重大安全事故，并发布模型透明度报告；由新设机构 DIGIT 负责实施与监督，单次违规最高罚款 100 万美元，后续违规最高 300 万美元，未注册也可能被执法。州长 Hochul 同时宣布依托纽约州立大学宾汉姆顿分校成立纽约 AI 责任与研究中心，将独立评估先进 AI 系统并与 DIGIT 协作审查企业安全框架。报道还列举加州 SB 53（15 天内报告事故）和伊利诺伊 SB 315（含独立合规审计）等类似立法，以及纽约此前针对 AI 伴侣与未成年人的聊天机器人法律。",
+      "whyItMatters": "这是美国州级首个带注册、报告时限与罚款的综合前沿 AI 安全制度，合规义务具体且时间明确，对在美运营的大模型公司有直接成本。",
+      "limitations": "报道未披露注册信息提交范围、事故判定标准与执法细节，州方发言人也拒绝说明未注册的后果；法规实际执行力度与首轮执法案例仍待观察。",
+      "insight": "值得跟踪的是“安全框架公开 + 事故限时报告”是否形成跨州事实标准，以及独立评估机构能否获得足够信息。罚款额度相对大厂收入有限，约束力主要来自透明度。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "RAISE Act",
+        "纽约",
+        "AI 安全",
+        "合规",
+        "事故报告"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:13.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "3ec8add99452b340",
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "titleZh": "OpenAI 在 ChatGPT 中推出经认证的 Business Agents",
+      "summary": "AINewsOpenAIChatGPT is getting verified AI ‘Business Agents’ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.ChatGPT’s new AI agents represent companies and can help with things like comparison shopping.by Jay PetersNov 10, 2026, 6:00 PM UTCLinkShareGiftImage: OpenAIJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.ChatGPT is going to let you chat with verified “Busine",
+      "summaryZh": "据 The Verge 报道，OpenAI 于 2026 年 11 月 10 日宣布在 ChatGPT 中测试面向企业的“Business Agents”：由品牌方创建并代表该企业，用户在与 ChatGPT 的对话中出现该企业时可直接与其 Agent 对话，咨询产品差异等问题，场景包括比价购物。企业通过 Business Hub 认领组织并完成认证（OpenAI 未披露具体验证方式，变现副总裁 Benji Shomair 称不同企业方式不同），在 Hub 中可看到被 ChatGPT 提及的情况和热门发现话题。该功能首先面向美国符合条件的电商与在线服务企业，属于当日公布的商业功能套件的一部分，处于 beta。",
+      "whyItMatters": "若落地，ChatGPT 将从回答入口延伸为品牌与消费者直接交互的渠道，改变比价、导购与商家在 AI 中的曝光方式；对用户而言，需关注带认证标签的 Agent 是否真正代表企业，以及推荐是否被商业关系影响。",
+      "limitations": "信息来自单一媒体报道及发布会简报，验证机制、计费方式、是否影响排序均未披露；beta 阶段，规模与效果未知，不能视为已验证的商业模式。",
+      "insight": "分析：把品牌代表 Agent 嵌入回答流，本质是把“被发现”与“被对话”合并，认证机制的可信度与平台是否披露商业影响将决定其用户接受度。",
+      "importance": 7,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Business Agents",
+        "电商",
+        "认证"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "a4978faa7e166cdb",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "titleZh": "Chrome 联合 Firefox、MDN、Edge 发布面向编码代理的现代 Web 指南 1.0",
+      "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, `` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0])Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent +JS based pattern. We started ",
+      "summaryZh": "该项目提供一个 Agent skill 加 CLI，向编码代理补充现代浏览器原生能力知识，例如用 CSS.highlights 做文本范围高亮、用 dialog 与 showModal() 获得背景与焦点管理、用 field-sizing 让文本域随输入增长。发布者称代理虽知道部分 API 名称，却倾向沿用旧式 JavaScript 写法。内容含 200 多份指南（约1.7MB），开源，并做成交互式检索与 legacy-scan：后者据称训练于 3 万个 GitHub 仓库，识别陈旧模式，留出仓库平均精度 92%。评测方面称在 200 个任务上约 1700 条 Playwright/AST 断言，代理通过率从无引导时 55% 提升到有引导时 92%。项目由 Chrome 发起，与 Firefox、MDN、Edge 合作发布 1.0。",
+      "whyItMatters": "它把“领域知识以技能形式注入编码代理”做成可安装组件，并公开对比评测，为 Agent 知识更新与前端代码现代化提供了可复用路径；对使用编码代理的团队，意味着可减少旧模式回潮带来的技术债。",
+      "limitations": "精度与通过率均为项目方自述，任务集与断言设计未在材料中详述，可能存在针对自身指南的优化；跨模型、跨仓库的泛化效果未知；1.7MB 知识包对上下文的实际开销需实测。",
+      "insight": "分析：这体现了一种“平台方维护技能包+评测闭环”的 Agent 知识供给模式，比依赖模型预训练记忆更可控，但需警惕评测任务与指南同源带来的乐观偏差。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "编码代理",
+        "Agent Skill",
+        "Web 平台",
+        "Chrome",
+        "评测"
+      ],
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": "HackerNews AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T18:01:15.000Z",
+      "sourceKind": "community",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "c979be8e72cc92b8",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "titleZh": "Google Cloud 推出医疗版 Gemini，面向临床与行政多步工作流",
+      "summary": "Google Cloud launches Gemini for healthcare. Nov 10, 2026 Google Cloud has announced Gemini for healthcare, an AI solution engineered to unify fragmented clinical, operational, and administrative systems. Moving beyond simple information retrieval, it enables healthcare teams to turn siloed data into coordinated action.Clinicians lose nearly 28 hours each week to paperwork and administrative tasks, fueling burnout and straining budgets. By integrating specialized skills and data connectors with ",
+      "summaryZh": "Google Cloud 宣布 Gemini for healthcare，定位整合分散的临床、运营与行政系统。官方称其不止于信息检索，而是把孤立数据转为协同行动：通过专门技能与数据连接器接入第三方系统，汇集电子健康记录、账单平台、临床指南与 Medicare 数据集。模型在这些上下文中进行推理，在既定护栏与适当人工监督下编排并执行多步流程，例如病历综合与事前授权审核。产品初期以预览形式提供，合作方包括 HCA Healthcare、Highmark Health 与 Northwell Health。官方给出的动机是临床人员每周近 28 小时耗于文书与行政事务。",
+      "whyItMatters": "医疗是 Agent 落地中合规与责任边界最严的领域，把连接器、护栏与人工监督放在同一产品形态中，决定了这类系统能否进入真实工作流；对行业而言，这也是云厂商切入垂直工作流的重要样本。",
+      "limitations": "内容为厂商发布稿，效果与效率提升无独立验证；预览阶段的实际可用范围、监管认证情况、数据合规与错误责任划分未在材料中说明，28 小时数据来源亦未给出。",
+      "insight": "分析：医疗 Agent 的瓶颈通常不在模型能力而在系统集成、审计与责任归属；合作医院名单可视为试点信号，但距离规模化部署仍需监管与临床验证。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Cloud",
+        "医疗",
+        "Gemini",
+        "工作流",
+        "合规"
+      ],
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents",
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "1041d0c56d06b40f",
+      "title": "Innovating with AI in the special chemicals industry",
+      "titleZh": "路博润谈特种化学品行业的 AI 研发落地",
+      "summary": "SponsoredIn partnership withInfosys As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed decisions, and develop more sustainable mat",
+      "summaryZh": "这是 MIT Technology Review 定制内容团队与 Infosys 合作制作的内容，采访路博润 IT 副总裁 Girish Rao。内容描述该公司搭建连接业务流程、现代数据平台与云基础设施的数字底座，把数十年技术数据与化学家、工程师的经验结合；数据科学家在物理实验前做模式识别、假设检验与建模。Rao 强调“不是替代科学判断，而是给科学家更好的工具”，并提到由科学家、数据科学家与 IT 组成的“融合团队”，从小型试点建立信任。云资源用于避免自建数据中心的重投入；数字建模可用于评估更多配方、探索淀粉与玉米基等替代材料及生命周期权衡。",
+      "whyItMatters": "展示了传统材料企业引入 AI 的现实约束：数据质量、跨职能协作与从实验室到量产的放大问题，比模型本身更决定成效。",
+      "limitations": "属赞助定制内容，无量化收益、试点数量或成本数据；观点来自受访高管，规模化效果未经独立验证。",
+      "insight": "分析：此类案例的可用信息主要在组织与流程层面；“AI 加速研发”的实际产出仍需企业披露可核查指标。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "特种化学品",
+        "研发数字化",
+        "云基础设施",
+        "融合团队"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "business",
+        "products"
+      ]
+    },
+    {
+      "id": "6c91404759576779",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "titleZh": "Anthropic提交S-1：七位联合创始人拟各套现约2.5亿美元",
+      "summary": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell. Each will sell 3,378,378 shares. Anthropic has floated an unusually broad initial price range of $70 to $78 a share. At the midrange of $74, each founder would take in just shy of $250 million. At the low end, $70, each would have to settle for pocketing just over $236 million in cash; at the h",
+      "summaryZh": "TechCrunch依据Anthropic新提交的S-1披露，七位联合创始人在IPO中各计划出售3,378,378股，公司给出的初始发行价区间为每股70至78美元，按中位74美元计算每人约套现2.5亿美元。承销前公司估值被报道为可能达1.4万亿美元。S-1还显示董事Reed Hastings拟通过捐赠人建议基金购入3亿美元股份、Christopher Liddell拟购300万美元。出售后每位创始人约持有Class A股的3.2%，合计约22%；Class A只是公司股份类别之一，Amazon与Google等持有的无投票权Class N股未计入该比例。七人另各获一股带超级投票权的Class F股，合计控制51.1%投票权，且无人持股显著高于其他人。",
+      "whyItMatters": "这是AI头部公司治理与股权结构的明确信号：创始人通过超级投票权在上市后保留控制，同时大额套现。对投资人和从业者而言，它反映前沿模型公司的资本化路径与利益分配，也影响外界对其安全承诺能否在公开市场压力下延续的判断。",
+      "limitations": "材料仅依据S-1披露与发行价区间推算套现额，最终发行价可能高于区间；1.4万亿美元估值、需求热度均为报道表述，非已定价事实。持股比例仅指Class A，不等于公司总股本口径。",
+      "insight": "分析：超级投票权加创始人集体控制，使Anthropic在成为公众公司后仍可能维持治理主导权，但套现与外部股东进入会带来新的问责压力。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "公司治理",
+        "股权结构"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:57:52.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "c619bb88505937dc",
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "titleZh": "IGF评审争议生成式AI，《Big Walk》承认少量使用LLM",
+      "summary": "GamingAIEntertainmentThe indie game community is in disarray over AI and Big WalkBig Walk’s developers said that they used AI ‘sparingly’ to help work through ‘difficult technical challenges.’Big Walk’s developers said that they used AI ‘sparingly’ to help work through ‘difficult technical challenges.’by Jay PetersNov 10, 2026, 5:32 PM UTCLinkShareGiftIf you buy something from a link, The Verge may earn a commission. See our ethics statement.Image: PanicJay Peters is a senior reporter covering t",
+      "summaryZh": "据The Verge报道，部分独立游戏节（IGF）评审发表声明，称不会投票给“任何程度”使用生成式AI的游戏，署名者包括Sam Barlow与Lena Raine；声明强调不代表IGF组织或全部评审，并提到有评审担心署名带来职业后果。此后，《Big Walk》开发商House House回应称在开发“最后阶段”少量使用AI处理技术难题与bug，估计涉及代码不到0.1%，用法是通过聊天机器人研究第三方代码问题、把LLM建议代码片段作为修改起点。House House称在IGF申报中已披露，但Steam页面未披露，因平台不要求披露代码或聊天机器人使用；公司承认当时没有AI政策，是“失败”，将制定更完整政策。Barlow随后表示《Big Walk》并非讨论的起因，而是“棘手的边缘案例”。",
+      "whyItMatters": "它把生成式AI披露标准问题推到评奖与平台规则层面：极低比例的LLM辅助是否影响评奖资格、平台是否应要求披露，目前都无共识。对开发者、评审与发行平台而言，这关系到合规成本与声誉风险。",
+      "limitations": "材料基于当事方声明与媒体报道，未提供第三方核查的代码比例；0.1%为开发商自估。IGF最终规则与是否影响评奖结果尚不明确。",
+      "insight": "分析：争议核心不是用量大小，而是披露与规范的缺位；若评奖机构形成硬性规则，将外溢为游戏行业的AI使用治理模板。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "生成式AI",
+        "独立游戏",
+        "IGF",
+        "披露规范"
+      ],
+      "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T17:32:47.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "products"
+      ]
+    }
+  ],
+  "thoughtLeaders": [
+    {
+      "id": "47970ec7c8c0ce63",
+      "title": "The benchmark where AIs have to lie to win",
+      "titleZh": "作者自建《血染钟楼》基准：让 AI 在社交欺骗游戏中对抗",
+      "summary": "I’m a big fan of this social deception game called Blood on the Clocktower. It’s similar to Werewolf or Mafia. I had different AI models play tons of matches of this game against each other. And watching them play actually lets us learn a lot about how AI is progressing on a set of AI capabilities that no other benchmark that I know of gives you clear visibility on. You get to watch AIs execute these brilliant secret schemes together, which require tons of creative and on-the-spot bluffing. And ",
+      "summaryZh": "Dwarkesh Patel 介绍其自建的多智能体基准：让不同 AI 模型在社交推理游戏 Blood on the Clocktower（类似狼人杀）中对抗。作者称花费约 2 万美元 API 额度搭建测试框架，运行 386 局，每局好人与邪恶阵营分别全部由同一模型的多份副本组成，以比较模型间胜率。结果称模型一年内进步显著：据其排名，2026 年 2 月发布的 Claude Opus 4.6 与 9 月的 GPT-6 Astra 相差约 430 Elo，Astra 胜率约 92%；OpenAI 模型在“好人阵营”上的提升尤其明显，对证据更审慎，而 Anthropic 模型倾向直接采信陈述信息。文中还描述了邪恶方通过牺牲队友、诱导处决“圣徒”来翻盘的局例。",
+      "whyItMatters": "该基准针对长期一致性、多智能体协作、欺骗与反欺骗推理，这些能力在现有静态测评中较难体现，与 Agent 产品在真实多方环境中的可靠性直接相关；同时它提示不同厂商模型在“怀疑证据”倾向上存在差异。",
+      "limitations": "全部数据来自作者个人项目与自述排名，未经同行复评；游戏规则与模型版本、运行配置未完整公开；胜率与 Elo 差值仅反映该游戏设定，不可外推为通用能力结论，具体可复现性未知。",
+      "insight": "值得关注的是基准的设计取向：用阵营化、信息不对称的多局对抗，替代单轮问答来观察模型的长程谋划与协作稳定性；但作者自述的花费与局例属个人实验，应视为能力信号而非行业定论。",
+      "importance": 6,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "多智能体",
+        "基准评测",
+        "社交推理",
+        "模型对比"
+      ],
+      "url": "https://www.dwarkesh.com/p/clocktower",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-05T21:05:50.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "c02cc2dffd5e3bd4",
+      "title": "Fable 5.2 and Jagged AGI",
+      "titleZh": "Ethan Mollick 实测 Claude Fable 5.2：提出“锯齿状 AGI”判断",
+      "summary": "Before getting started, I wanted to thank my readers for making my new book, Co-Existence, a New York Times bestseller two weeks in a row. If you haven’t read it, you can get a copy here. I have had the chance to use the new Claude Fable 5.2 quite a bit before its public launch1, and it is very impressive, following on the already excellent Opus 5.5. AI has gotten so good, in fact, that it is worth asking if Anthropic’s newest models (and the inevitable competing models OpenAI and Google will so",
+      "summaryZh": "Ethan Mollick 在博客中称，他在 Claude Fable 5.2 公开发布前获得使用机会，并据其有限定义——“在多数可用电脑完成的智力任务上达到多数人类专家水平”——认为该模型接近但未达到 AGI，称之为“锯齿状 AGI”。他给出若干测试：单提示词生成可嵌入网页的创意视频；无公开文档情况下把 Codex Micro 小键盘改造成包含六款游戏的主机；规划一项面向设备销售代表的公共项目信息订阅生意，并自评成功率 20%–40%；重建 Auden 1941 年课程网站，含 35 部作品页面与注释；以及完成一篇关于 LLC 注册费变化的实证论文草稿，但研究未真正预注册。他认为差距不再是简单的幻觉，而体现在品味、判断与自我发现问题。",
+      "whyItMatters": "该文提供了少见的多领域一手实测记录，把“能力跃升”与“自主运行仍不可靠”的边界区分开，有助于从业者避免用单点演示外推 AGI 结论；对评估设计与产品预期管理有参考价值。",
+      "limitations": "属个人博客的主观体验，非受控基准；测试作者身份与模型提示词未公开，失败案例未系统采样，商业与研究任务均被中途叫停，结论不能视为模型能力已验证。",
+      "insight": "分析：Mollick 的“锯齿”描述指向评估难点——模型能一次性产出高分成果，却难在长程任务中自行发现目标偏差；这把讨论焦点从基准分数转向任务规格与人类反馈成本。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Claude",
+        "AGI",
+        "模型评测",
+        "智能体"
+      ],
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source": "Ethan Mollick (One Useful Thing)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T19:04:26.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "f212b578030fd2b6",
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "titleZh": "Import AI 480：AI 证明量子猜想、Meta 触觉手套与月球工业论文",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable to unremarkable to see computers gain the ability to identify objects in images, we’re now in an era where it’s rapidly going from remarkable to unremarkable f",
+      "summaryZh": "Jack Clark 在 Import AI 第 480 期汇总三则材料。其一，AI 科学创业公司 Physical Superintelligence 称，其内部研究系统使用非公开 Anthropic 模型，为 Aaronson 与 Ambainis 2008 年提出的量子计算加速猜想找到证明，并由 Lean 证明助手逐步校验；系统随后改进结果两次。其二，Meta Reality Labs 介绍 Tactus 织物触觉与位姿传感手套，厚约 1.5 毫米指尖栈，含电容触觉传感器与 IMU 融合跟踪，用于在遮挡情况下采集手部操作数据。其三，一篇 2016 年 NASA 肯尼迪航天中心论文讨论月球自持工业的启动质量，基线情形约 41 吨、减速情形约 12 吨，分六代制造能力推进。Clark 以“早期奇点”和个人视角评论这些进展。",
+      "whyItMatters": "三则材料分别涉及 AI 参与数学证明、机器人操作数据采集硬件和地外工业设想：前者触及 AI 产出可验证知识的方式，后两者关系具身智能与算力/资源基础设施，对判断 AI 科研与机器人数据路径有参考意义。",
+      "limitations": "量子猜想证明仅来自公司博客，未见同行评审或独立复现；手套为实验室研究与论文，未证明量产与通用性；月球论文为 2016 年设想，成本与 Starship 运力假设需外部核验。",
+      "insight": "分析：Lean 校验降低了“AI 证明”的可信门槛，但突破性结论仍需数学界审读；三则材料共同显示 AI 进展正从纯软件延伸到形式化验证与物理数据采集两端。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI for Science",
+        "量子计算",
+        "具身智能",
+        "月球工业"
+      ],
+      "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-09T13:31:34.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "229eabb18a4037ae",
+      "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+      "titleZh": "OpenAI 在 AI Engineer Code Summit 谈 Codex 的云端、语音与个人代理",
+      "summary": "AI Engineer Code Summit kicked off today with a series of workshops, including from leading frontier labs OpenAI, Anthropic and Google DeepMind. I attended the OpenAI workshop, intriguingly titled “New Ways of Working with Codex” and hosted by two of its Developer Experience engineers, Dominik Kundel and Charlie Guo. The past year in coding agents has been one of constant product upgrades by all the frontier labs. But not all of these changes have gone smoothly. The shift to cloud, for example, ",
+      "summaryZh": "Latent Space 报道 AI Engineer Code Summit 上 OpenAI 开发者体验工程师 Dominik Kundel 与 Charlie Guo 的工作坊“New Ways of Working with Codex”。两人回顾 2026 年 6 月以来 Codex 的密集更新，重点谈及云端体验：Codex 最初定位为云端并行编码代理，但云端长期体验割裂；2026 年 9 月底 DevDay 后推出 Codex Cloud v2，支持发布一次环境并在隔离实例中并行运行任务、公司内共享，并强调合上笔记本后任务继续。Kundel 承认本地与云端任务迁移仍令人困惑，正通过让 Codex 推送分支并新建云端线程来改善。工作坊还演示语音作为控制面管理多个线程，以及 dots 个人代理在 Slack 中分派任务、作为安全网和跨环境存在感，但 Guo 称其对开发者仍不够直观。",
+      "whyItMatters": "这是前沿实验室对编码代理实际工作流的公开说明，涉及环境复用、本地与云端切换和语音编排等具体机制，可帮助团队评估多代理开发流程的落地成本与当前摩擦点。",
+      "limitations": "基于一场工作坊与会后问答的二手报道，产品细节与时间线来自现场演示，未提供独立测试或采用数据；功能名称与可用范围以厂商后续文档为准。",
+      "insight": "分析：报道显示编码代理的竞争点正从模型能力转向执行环境与上下文交接；语音与个人代理被当作调度层，但本地/云端状态同步仍是未解决的工程问题。",
+      "importance": 6,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "Codex",
+        "编码代理",
+        "OpenAI",
+        "开发者工具"
+      ],
+      "url": "https://latent.space/p/codex-work",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T04:49:48.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "ecb2e13c36b51ce4",
+      "title": "How big is the open model economy today?",
+      "titleZh": "开源模型推理市场规模有多大？一份付费研究笔记的测算方法",
+      "summary": "TranslateHow big is the open model economy today?Our first open model economy research note for paid subscribers.Nathan LambertNov 04, 2026∙ Paid453ShareMy longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platfor",
+      "summaryZh": "Nathan Lambert 在 Interconnects 发布首篇面向付费订阅者的“开源模型经济”研究笔记，追问开源模型推理市场有多大、是否在增长、相对 OpenAI/Anthropic 是否只是零头。他主要把 Baseten、Fireworks、Together AI 三家开源模型推理初创公司的公开 token 量作为风向标，并叠加 OpenRouter API 中开源模型的 token 占比；同时指出亚马逊 Bedrock 与 Azure 模型花园等超大规模厂商可能占有很大份额，但未按模型类别披露用量。文中还援引 Fireworks 在公司首届大会上称其每日为客户定制模型提供超 40T token、该垂直业务自今夏增长逾 2 倍，并称这一数字仅是其推理业务的一部分。作者强调现有测量极不精确：平台指标噪声大、初创公司指标偏营销、公开评测不完整，这些笔记是其“当前最佳近似”。",
+      "whyItMatters": "开源模型推理的商业规模长期缺乏可靠口径，若只能依赖少数初创公司自报数据，政策制定者与投资者容易高估或低估开源生态的实际体量。该笔记把可核查指标与推测分开，对判断开源模型是否形成独立市场有参考价值。",
+      "limitations": "原文为付费订阅内容，可见部分只给出方法与个别数字，未展示完整图表和与 Google 财报 token 量对比的结论；40T token/日等数据来自厂商公开披露，未经独立验证。",
+      "insight": "分析：把推理初创公司当作开源模型经济的代理指标有其合理性，但样本集中、口径不一，且缺少超大规模云厂商的分模型数据，短期内难以得出市场规模的确定结论。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源模型",
+        "推理市场",
+        "token 量",
+        "Interconnects"
+      ],
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-04T16:35:44.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business",
+        "infrastructure",
+        "models"
+      ]
+    },
+    {
+      "id": "5bf610d1dd7d8e14",
+      "title": "llm-gemini 0.36",
+      "titleZh": "llm-gemini 0.36 发布：Gemini 4 Carbon 向公众开放并公布定价",
+      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high: ",
+      "summaryZh": "Simon Willison 介绍 llm-gemini 0.36 插件对应的 Gemini 4 Carbon：该模型两周前仅面向“部分网络防御者”发布，现向所有用户开放。文中给出的发布定价为每百万输入 token 2 美元、每百万输出 token 10 美元，并称其与 GPT-6.1 Sol、Claude Sonnet 5.5 同价位，但计划于 12 月 1 日翻倍至 4 美元/20 美元。作者用惯常的“鹈鹕骑自行车”提示测试低、中、高三档思考强度（默认中档），并借助 Google 的 Antigravity IDE 让模型生成一个 Three.js 动画，令“Yonkers”化为巨型机甲在纽约三区行走。文末还引用 Sundar Pichai 在 YouTube 分享的演示：Antigravity 的 /swarm 功能协调子代理，用 Blender 建模、Three.js 与 WebGL 着色器构建游戏、配合 Lyria 音乐。",
+      "whyItMatters": "这是一次模型发布与定价变化的公开记录，显示前沿模型在开放初期的价格策略可能快速调整；Antigravity 中多子代理协作的演示也反映了 IDE 内 Agent 编排的产品方向。",
+      "limitations": "内容以个人博客的体验测试为主，鹈鹕与游戏演示均为厂商或作者单次演示，不能作为模型能力或可靠性的系统评测；定价翻倍信息来自作者转述，需以官方公告为准。",
+      "insight": "分析：演示中多子代理协调建模、写代码与配乐，说明竞争焦点正从单次生成转向工具链与编排体验，但演示效果与实际开发可用性之间仍有差距。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "模型发布",
+        "定价",
+        "Antigravity",
+        "多代理"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products",
+        "agents"
+      ]
+    },
+    {
+      "id": "a7d06db3298395c6",
+      "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+      "titleZh": "Realtime-Bench：前沿模型在低延迟实时交互任务中的表现",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built Realtime-Bench, “a suite of carefully curated dynamic tasks where delayed actions directly affect success”. The test helps evaluate how well modern, general-",
+      "summaryZh": "来自得克萨斯大学奥斯汀分校、俄亥俄州立大学、伊利诺伊大学厄巴纳-香槟分校、NVIDIA、西北大学和Steadyworks的研究者构建了 Realtime-Bench，用于评估通用 AI 系统在决策延迟会直接影响结果的动态任务中的表现。基准包含 50 个交互任务：30 个网页任务（旅行、电商、服务、安全四类）与 20 个游戏任务（街机、解谜、策略、模拟四类）。它设置三种计时条件：真实时钟（测试真实延迟下的表现）、暂停时钟（测基线能力）和令牌时钟（按生成令牌推进环境时间）。测试维度包括时序状态感知（RT-Perceive）、自适应思考（RT-Deliberate）与时间感知行动选择（RT-Act）。在真实时钟设置下，GPT-6 Astra（high）通过率最高为 36%；暂停时钟下高推理模型可接近 70%–80%。",
+      "whyItMatters": "该基准揭示了当前 AI Agent 的一大结构性短板：它们擅长离线、可暂停的推理，却难以在时间窗口不断关闭的环境中及时决策。这直接影响自动购票、在线拍卖、实时游戏等场景的产品可行性，也为评估 Agent 可靠性提供了可量化的维度。",
+      "limitations": "材料来自 Import AI 的转述，未提供完整论文数据与榜单细节；基准仅覆盖 50 个任务，且模型名单含大量未来型号，需以官方论文与榜单核实具体分数与可复现性。",
+      "insight": "分析：暂停时钟与真实时钟之间的巨大差距说明，当前模型能力瓶颈更多在于时间预算下的推理调度，而非单纯的认知能力。这可能推动实时推理、投机执行等方向成为 Agent 产品化的关键工程问题。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Realtime-Bench",
+        "Agent评测",
+        "实时交互",
+        "基准"
+      ],
+      "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-02T14:30:54.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "93ae92fecf61cfb3",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "titleZh": "Resend CEO 谈为 Agent 设计产品：AEO、MCP 工具与定价页可读性",
+      "summary": "Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare. So why do agents keep suggesting we use Resend despite having an existing “home bias” and much larger incumbent player? Well, we got the guy who “does AEO for resend” - the CEO of AEO, Zeno Rocha, who has been writing about AEO since 2024 and Agent Experience since Feb 2025, on the pod today: In a",
+      "summaryZh": "Latent Space 播客邀请 Resend 联合创始人兼 CEO Zeno Rocha，讨论“Agent 体验优化”（AEO）。他提到一项 AEO 研究：在可提取的 102 次邮件推荐中，Claude Code 有 64 次首选 Resend，SendGrid 仅 7 次居首但作为备选出现 55 次；作者据此认为 Agent 的首次推荐可能决定后续采用。Resend 早期以 React Email 模板作为获客入口，并通过在定价页 URL 后加 .md 返回表格，让 Agent 一次请求即可读取价格。其 MCP 服务器从约 20 个工具增长到 80 多个，与 Cloudflare Code Mode 通过 search()、execute() 两个工具暴露 API 的做法形成对比。访谈还涉及自定义跟踪域名、免费层滥用与反垃圾策略。",
+      "whyItMatters": "当开发者让 Agent 直接生成并提交代码时，Agent 的默认推荐会实质影响开发工具的选型与分发。让文档、定价和 MCP 工具结果对模型更友好，正成为开发者工具新的产品设计与增长议题。",
+      "limitations": "文中用户数、付费客户数及推荐研究数据均来自受访者单方陈述，材料未提供研究全文或统计口径；AEO 效果与商业转化之间的因果关系尚待独立验证。",
+      "insight": "分析：Agent 渠道的竞争焦点从“人类可读的营销页”转向“模型可解析的结构化接口”，但工具数量并非越多越好，上下文窗口和返回结果体积可能成为新的可用性瓶颈。",
+      "importance": 6,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "AEO",
+        "MCP",
+        "Resend",
+        "Agent体验"
+      ],
+      "url": "https://latent.space/p/resend",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:05:17.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "d4d35b3da5b2f286",
+      "title": "Was I wrong about open models & cyber risks?",
+      "titleZh": "开放权重模型是否加剧网络风险：对“Black October”预测的复盘",
+      "summary": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize. It seemed like the news cycle had stabilized a bit when I started writing this, but then there was news about another major crypto security incident at Binance. The crypto industry has a very long history of hacks, so it’s not the best industry to indicate vulnerabilit",
+      "summaryZh": "Nathan Lambert 在 Interconnects 中复盘自己此前关于开放权重模型与网络风险的观点。他提出“Black October”一词，指涉一系列关键漏洞披露，如 PHP2Shell 与长期存在的 GitLab 漏洞，以及其后的 Binance 安全事件。他认为被宣传为“网络武器级”的 Claude Mythos 若被开放权重发布，后果更可能是风险加速而非阶跃式灾难；并以 GLM-5.3 发布一个多月后公开证据有限作为论据。文中引用多位评论者的措辞，包括 Rob Wiblin、Anthropic 的 Project Glasswing 公告与 Zvi Mowshowitz 的表述，并讨论 Epoch AI 用 GLM-5.3 在 Firefox 中发现漏洞并串联攻击的案例。他同时承认自己并非网络安全专家，预测存在较大误差。",
+      "whyItMatters": "开放权重模型的风险争论长期停留在假设层面，而漏洞披露与攻击链实际案例正在提供可观察的证据。这对评估模型发布政策、防御方资源分配以及开放与闭源路线的监管取向都有直接参考价值。",
+      "limitations": "这是一篇观点性复盘，核心判断依赖作者个人对公开信息的解读；引用他人言论为转述，可能存在语境偏差；漏洞被利用与造成实际社会危害之间的因果链尚未被系统测量。",
+      "insight": "分析：从“能否发现漏洞”到“是否造成危害”之间存在多阶段门槛，包括攻击者动机、资源与运营模式。讨论开放权重风险时，应把能力扩散与攻击者行为结构分开评估，否则容易把能力提升误读为灾难概率提升。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开放权重",
+        "网络安全",
+        "漏洞",
+        "模型风险"
+      ],
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-10-30T17:36:56.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "cba41f0395d50b9e",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "titleZh": "Meta 发布最小最省模型 Muse Ember，主打 Agent 重复工作",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million ou",
+      "summaryZh": "Meta AI 推出小模型 Muse Ember，定位对标 Claude Haiku 与 GPT Luna 这一档，官方称面向复杂推理执行与 Agent 全天重复的工作：工具调用、编码子任务、路由、信息抽取、长文档解析。短提示下定价与 GPT-6 Luna、Claude Haiku 5.5 相同，为每百万输入 0.10 美元、输出 0.50 美元；但三者都设有输入长度阈值，超阈值后涨价，Ember 阈值约 200k，超阈值后输入 0.30、输出 1.50 美元，介于两者之间。文章引用 Artificial Analysis 的智能指数与单任务成本图，称 Ember 位于帕累托前沿，即要提升一项指标须牺牲另一项；模型提供六档推理级别。作者用生成 SVG 鹈鹕测试，发现推理档位与输出视觉质量并不一一对应，部分档位输出不完整。",
+      "whyItMatters": "小模型加多档推理正成为 Agent 规模化落地的成本主干：价格、长上下文阈值和每任务成本直接影响 Agent 是否能全天运行。对开发者的实际意义是按任务难度选推理档位，而非只看每 token 单价。",
+      "limitations": "材料来自个人博客的发布解读，价格与帕累托结论引用厂商与第三方评测，未独立复现；六档推理与画图测试样本极小，不能据此判断通用能力；长上下文阈值后的单位成本还需按实际工作负载核算。",
+      "insight": "分析：竞争重心从单 token 单价转向“每任务成本+推理档位选择”，意味着模型选型需要与 Agent 编排策略协同设计；但帕累托前沿是特定评测集上的结论，换任务分布后可能位移。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Meta",
+        "小模型",
+        "Agent",
+        "推理成本",
+        "定价"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "55a30966cc422eea",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "titleZh": "NaiveAI 发布 Naive-N0.5-Flash 并宣称 2100 tokens/s，第三方实测编码与速度",
+      "summary": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space.Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible. It was developed by a Chinese company called NaiveAI, with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The ",
+      "summaryZh": "Latent Space 评测了中国公司 NaiveAI 的新开放权重模型 Naive-N0.5-Flash。该模型基于小米 MiMo-V2.5（310B 参数稀疏 MoE、15B 激活、48T token 训练）继续训练，改为 DeepSeek Sparse Attention 层，额外约 3.25T token，其中约 3T 在固定 1M 上下文与恒定学习率下训练，并搭配自有 NaiveRT 推理引擎。官方宣称面向编码任务、追求极高吞吐，长期目标是递归自我改进。评测用 30 道题（MATH-500、GPQA-Diamond、HLE-Diamond 各 10 题）对比 DeepSeek V4.1 Flash 1017 与 GLM 5.3 Flash，发现 Naive 吞吐接近或超过 1000 TPS，但思考模式下困难题平均输出约 10.85 万 token，远高于对手，均值端到端时延并不占优；中位数为 3.1 秒，优于对手。另用三个建站提示做应用对比。",
+      "whyItMatters": "高吞吐模型若能在编码与推理任务上保持可用质量，会改变开发者迭代与 Agent 工作流的时延成本结构；但速度宣称需与准确性一并看，否则“快而错”没有价值。",
+      "limitations": "样本每档仅 10 题且未评分答案正确性；Naive 的吞吐为服务端测量，对手来自 OpenRouter，口径不同不可直接比较倍数；基准分数来自各家自报模型卡。",
+      "insight": "评测把“每秒 token 数”和“端到端完成时间”分开看，暴露了高速模型在长思考任务上可能以更多 token 换速度，这提醒采购方按时延与正确率而非峰值吞吐做选型。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "NaiveAI",
+        "MiMo",
+        "开放权重模型",
+        "编码模型",
+        "推理速度"
+      ],
+      "url": "https://latent.space/p/naiveai",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T18:56:32.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "infrastructure",
+        "products"
+      ]
+    },
+    {
+      "id": "887c59818f68e469",
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "titleZh": "Artificial Analysis 发布 Intelligence Index v5，独立评测的取舍争议",
+      "summary": "Hill-climbing is easy, knowing what to hill-climb is hard. Making scores go up is expensive, but we have a much clearer playbook for it than we do for creating meaningful benchmarks at the true frontier of AI today.Independent evaluation of language models is under-appreciated in how hard of a task it is. These groups are not just taking current models and certifying their scores, which is a technically involved task. This is their job if AI progress is slow. When AI progress is as fast as it is",
+      "summaryZh": "Nathan Lambert 分析 Artificial Analysis 新版 Intelligence Index v5。v5 将总分均分为四块：知识工作 25%（AA-Briefcase 15%、AutomationBench-AA 5%、GDP.pdf 5%）、编码 25%（FrontierCode 2.0 15%、Terminal-Bench 4.0 10%）、科学 25%（Terminal-Bench-Science 15%、CritPt v2 难子集 10%）、通用 25%（AA-Omniscience 1.1 占 15%，含 10% 准确率与 5% 非幻觉；HLE-Diamond 10%）。作者认为新榜显示 8 个闭源模型领先最好的开放权重模型 Kimi K3.1 Pro，方向上是合理的，但可能低估开放模型未来的经济角色。文章还讨论 AA 转向私有基准的利弊：可防训练数据针对评测，却牺牲社区查错与透明度。作者指出 OpenAI、Anthropic 已较少受公共榜单驱动，而中小实验室高度依赖榜单。",
+      "whyItMatters": "独立智能指数正在影响万亿级市场的模型选型与舆论，其权重设计与是否公开题目直接决定谁能被看见，也影响开放权重模型的商业叙事。",
+      "limitations": "为评论文章而非基准复现；文中排名与分数引用 AA 官方结果，未独立验证；私有基准的具体题目与流程未公开。",
+      "insight": "作者的核心判断是：单一总分必然压缩能力维度，解决办法不是调权重而是增加带不同偏向的指数（如编码专用榜），让多个视角并存而非由一个榜单定义前沿。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Artificial Analysis",
+        "基准评测",
+        "开放权重模型",
+        "Intelligence Index"
+      ],
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-10-28T12:58:39.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "19c160f4485a55c0",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "titleZh": "Anthropic 文档：提示中声明代码归属会影响 Claude 是否重构重复代码",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll k",
+      "summaryZh": "Simon Willison 引用 Anthropic 关于 Claude Fable 5.2 的提示文档：在小规模编码任务测试中，若提示未说明代码归属、或把代码库描述为他人所有，模型倾向于沿用现有结构，即使这会导致重复代码。若在提示中明确代码属于模型自己（如“这份代码库是你的，用途与构建方式由你决定，你会继续在此基础上开发”），模型在约一半的尝试中合并了重复代码；没有这句话时该比例不到十分之一。这是一条关于提示措辞如何影响代码编辑行为的可操作发现，适用于小任务测试环境。",
+      "whyItMatters": "编码 Agent 的默认行为偏保守、倾向追加而非重构，提示中明确“所有权”可改变这一倾向，对希望模型主动改善结构的团队有直接参考价值。",
+      "limitations": "证据来自 Anthropic 自身小规模编码任务测试的二手引用，样本与任务类型未披露；比例数字仅为该测试下的观察，不能外推到大型代码库。",
+      "insight": "这条发现的意义不在于某一句咒语，而在于说明模型的编辑策略对上下文中的角色与归属表述敏感，工程上可把“是否允许重构”变成提示中的显式契约。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "提示工程",
+        "代码重构"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    }
+  ],
+  "chinese": [
+    {
+      "id": "b0f387eff3effa44",
+      "title": "用Grok Bot搭建选品作战小组：7×24小时自动跑完「竞品分析-产品改进」一条龙！",
+      "titleZh": "实操教程：用Grok Bot多角色分工加卖家精灵MCP搭建亚马逊选品分析流程",
+      "summary": "跨境卖家的数字员工团队再升级！本文手把手教你用 Grok Bot 搭配卖家精灵 MCP，搭建由总助统筹、竞品情报与用户反馈分工协作的亚马逊选品作战小队。从竞品拆解到评论挖矿，一套提示词跑通全流程，让选品调研在云端自动运转。 我在国庆回来后写了一篇用Grok Bot搭建5个跨境电商数字员工，实现自动化经营（附部署教程），一开始阅读量还挺惨淡。 当时我还纳闷这么好用趁手的Agent怎么没人在意，没想到最近Grok Bot越来越火。 GB满足了我们跨境卖家对“数字员工”的想象：有岗位身份，能分工协作，配备一台7×24 小时不关机的云电脑，能在人类睡觉的时候持续工作。 今天这篇文章继续分享：怎么用【Grok Bot + 卖家精灵MCP】组建一个亚马逊选品作战小队，把从竞品情报到需求洞察的流程一次性跑通。 架构设计：1个总助+3个专业岗位Bot 很多卖家好奇这套数字员工组合到底是怎么跑起来的，其实核心就在几个Grok Bot功能的配合： 云电脑负责把工作环境和分析资料沉淀在云端，关掉窗口也不丢进度 不同 Bot 拥有明确分工，可以在群聊中通过消息直接交换资料 挂载的 Skill 负责把业务规程固",
+      "summaryZh": "人人都是产品经理刊发的一篇实操教程，作者介绍用Grok Bot的云电脑、群聊协作、Skill挂载与Routine定时任务，组建由总助Bot统筹、竞品情报Bot与用户反馈Bot分工的亚马逊选品小队，并接入卖家精灵MCP获取Listing与评论数据。文中给出建队提示词、竞品调研与评论打标的具体案例（如500条评论中仅14条抱怨高度不匹配），以及每周监控价格、主图与变体变化的定时任务配置。作者强调产品研究环节仍由人工定义规范、保留决策权。",
+      "whyItMatters": "展示了多Agent分工、外部数据MCP接入与定时任务在电商选品中的可操作组合，为评估Agent工作流的成本、幻觉控制与人机分工边界提供了一线样本。",
+      "limitations": "单一作者的产品使用经验，案例数据与结论未经独立验证；Grok Bot功能与卖家精灵MCP能力以作者描述为准，可能存在版本差异。",
+      "insight": "分析：教程的价值点不在自动化本身，而在用样本基数、正反证据和\"暂不改\"选项约束Agent输出，这是降低幻觉的工程化做法。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Grok Bot",
+        "MCP",
+        "Agent工作流",
+        "跨境电商"
+      ],
+      "url": "https://www.woshipm.com/ai/6492254.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T06:30:54.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "353bf26ab132443d",
+      "title": "闪购 Agent 情感设计探索",
+      "titleZh": "淘宝闪购设计团队复盘 AI Agent 情感化设计方法",
+      "summary": "当AI语气切换不再新鲜，情感化体验的下半场拼的是什么？淘宝闪购设计团队从价值观、情感承接策略到语气规则三层拆解，把「关心用户」变成可执行、可测试的设计标准，为AI Agent的情感化设计提供了一套可复用的方法论。 在淘宝闪购 AI Agent 的一期探索中，我们上线了「清爽高效」「轻松自然」和「灵光风趣」三种对话语气，用户可以按自己的偏好手动切换。 上线后，我们实际体验了一下，发现在很多场景仅靠语气调整的情感化，还不足以让用户真正感觉产品的情感体验做得好。 01 语气之外，还需要定义什么 带着这个问题，我们调研了市面上十多个竞品，包括通用的 Chat AI 、垂直行业 AI 以及一些硬件/车机产品，去看看目前竞品在哪些部分有体现情感化，实现更像人一样沟通，都在哪些地方进行了相应的定义。 把回应用户情感的原则写进价值观 为应对 AI 输出的不确定性，越来越多产品会确定一套“价值观”。主要定义了Agent如何做选择、如何表达，并融入对用户情感体验的关注，让AI的行为和输出更加稳定。 垂类AI侧重结合业务场景，提供「解决途径」 通用AI产品在面对用户的情绪问题时，会给出更加完整的原因分析、比",
+      "summaryZh": "淘宝闪购设计团队发文复盘其 AI Agent 情感化设计探索：一期已上线“清爽高效”“轻松自然”“灵光风趣”三种可手动切换的对话语气，但团队认为仅靠语气不足以实现情感体验。文章提出三层方法：价值观界定“关心用户”的边界（不做心理顾问、不承诺做不到的事）；情感承接策略按“分析情绪—理解需要—调整服务”处理，例如对催单先回应情绪再说明进度与补偿；语气风格借鉴文体学的风格标记，从标点、用词、句式等六类文本特征写成规则，保持业务信息一致。验证上用 Prompt 分项试跑，建立含十二项检查的评分标准，并尝试把生成、批量评分、版本比较串成自动化流程。",
+      "whyItMatters": "为高频、目的明确的交易型 Agent 提供了把“情感化”转成可写规则、可比较测试的工程化路径，对客服、导购类 Agent 的产品设计有直接参考价值，也提示语气调整须建立在任务承接之上。",
+      "limitations": "为设计团队自述的探索性实践，无对照实验、样本量或量化上线效果；“情绪行动预测理论”的应用属启发式；自动化评分与人工判断的一致性未披露。",
+      "insight": "分析：把价值观、承接策略、语气规则分层，实质是将不可测的“体验”拆成可复测的文本约束，难点在于评分标准是否能反映真实满意度。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "淘宝闪购",
+        "AI Agent",
+        "情感化设计",
+        "对话体验"
+      ],
+      "url": "https://www.woshipm.com/ucd/6492207.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T03:52:41.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "7d01e08e91d01e93",
+      "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+      "titleZh": "派早报：Claude Code 设置文件泄露凭据、MiniMax 开源 H3-Image 等",
+      "summary": "周三11 派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等 可以直接屏蔽 700 以外的服务号段？12 分钟阅读早报速览700 号段保护服务试点获批7Claude Code 设置文件泄露凭据0卫星导航基准站网安全国标发布0影目召回 4701 副 AIR3 眼镜0AI 相关资讯 8 则1Apple TV 将支持手语翻译功能0看看就行的简讯0700 号段保护服务试点获批11 月 10 日，工业和信息化部公布，已批复同意 10 家企业开展号码保护服务业务试点，并为试点企业核配号码保护服务业务专用的 700 号段码号资源。此前工业和信息化部印发《关于开展号码保护服务业务试点的通知》，规划 15 位 700 号段作为号码保护服务业务专用码号，用于整治违规使用手机号等号码充当中间号的问题。试点企业将与基础电信企业、互联网平台合作，优先在外卖、网约车等场景开展；用户可自主选择是否启用号码保护服务，开通后，骑手、司机等可通过 700 开头的中间号与用户双向通话，通话过程中双方真实号码相互隐藏，用户还可通过来电显示、接通前语音播报等方式获知来电的使用场景和平台主体。10 ",
+      "summaryZh": "少数派早报汇总多条 AI 相关消息。安全方面，Apiiro 发现 Claude Code 本地设置文件被上传至公开 GitHub 仓库，超 10 万个文件中约 1100 个含密钥，215 个未被常用扫描工具识别；Anthropic 的 Boris Cherny 回应称正研究防护并建议使用扫描工具。模型与产品方面：MiniMax 公布并开放 H3-Image 图像模型权重，称可 10 秒生成 4096×4096 图像；Google 扩大 Gemini 4 Carbon 开放范围并预览 /swarm 多智能体功能；DeepMind 公布 Gemini Robotics 2.5；美团以 MIT 协议开源 1.6 万亿参数 LongCat-2.5；蚂蚁开源触觉模型 LingBot-Touch；Anthropic 推出 Claude Sheets、Whiteboards 测试版；Gemini 上线记忆摘要。",
+      "whyItMatters": "单条早报覆盖开源权重、Agent 多智能体协作、机器人 VLA 与密钥泄露等方向，反映模型开放与 Agent 工具链同步推进；Claude Code 凭据泄露对开发者有直接操作风险，值得优先处置。",
+      "limitations": "条目为新闻汇编，多数数据来自厂商自述，未独立验证；模型能力、成功率等为官方口径，不构成产业结论。",
+      "insight": "分析：开源权重与 Agent 编排能力密集发布的同时，开发工具默认行为造成的密钥外泄提示生态安全治理滞后于工具普及。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Claude Code",
+        "MiniMax",
+        "Gemini",
+        "LongCat",
+        "开源模型"
+      ],
+      "url": "https://sspai.com/post/118905",
+      "source": "少数派",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T00:26:34.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "f306715d4f340cf2",
+      "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+      "titleZh": "Google 开放 Gemini 4 Carbon：面向多智能体与网络安全任务",
+      "summary": "AI 大模型的发布节奏已经快到让人应接不暇。 就在刚刚，Google DeepMind 正式宣布，旗下最新旗舰模型 Gemini 4 Carbon 正式面向开发者、企业、科研人员及普通消费者提供服务。 Carbon 是目前 Gemini 家族综合能力最强的公开上线模型，尤其擅长复杂编程、网络安全、科学推理，以及需要长时间执行的多智能体任务。 图｜官方博客 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ 两周前，谷歌已经通过 Fairwind 计划向部分网络安全防御人员开放 Carbon，如今进一步扩大了使用范围。 与此前发布的 Gemini 4 Argon 相比，Carbon 主要面向复杂软件工程、跨领域研究等高难度任务，能够消耗更多 Token 进行深入推理、反复验证和错误修正，而 Argon 继续承担大多数日常编程和知识工作。 在 CursorBench 4.0、Perplexity WANDR 和 Zapier Automa",
+      "summaryZh": "据爱范儿报道，Google DeepMind 宣布将 Gemini 4 Carbon 面向开发者、企业、科研人员及消费者开放，此前仅通过 Fairwind 计划向部分网络安全防御人员开放。报道称 Carbon 与 Argon 分工：Carbon 处理复杂软件工程、跨领域研究等高难任务，可消耗更多 Token 深入推理与验证；Argon 承担日常编程与知识工作。谷歌在 Antigravity 中推出 /swarm 多 Agent 编排预览，并展示由多 Agent 完成的 3D 游戏、建筑模型等演示，还有第三方开发者与 HubX 的案例数据。价格方面，报道称 API 现为每百万输入 2 美元、输出 10 美元，12 月 1 日起上调。消费者需订阅 Google AI Ultra。",
+      "whyItMatters": "多家厂商正把旗舰模型从单次对话推向长时间、多智能体协作任务，并强调成本效率。若报道所述能力成立，企业自动化与安全审计的采购评估标准会从单点跑分转向以单任务成本为约束下的端到端完成率。",
+      "limitations": "内容以厂商演示和官方博客为主，所列基准、94% 问题解决率、零日漏洞发现等均为谷歌及其合作方口径，缺乏独立复现；发布时间与定价变更需以官方为准。",
+      "insight": "分析：报道的核心信号不是单项跑分，而是多 Agent 分工编排与单位任务成本的组合。但演示项目由厂商挑选，真实工程收益仍待第三方在自有代码库中验证。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "多智能体",
+        "网络安全",
+        "模型定价"
+      ],
+      "url": "https://www.ifanr.com/1688883",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T00:26:39.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "cd383cd307647736",
+      "title": "灵光2.0上线两周，累计托管事务量突破300万",
+      "titleZh": "灵光2.0上线两周：事务托管量超300万项",
+      "summary": "11月11日，蚂蚁集团旗下个人AI助理灵光公布最新数据：自10月27日灵光2.0上线以来，累计托管事务量突破300万项，累计执行任务超过1100万次。这是灵光2.0上线以来又一次披露事务托管数据。11月5日，灵光曾公布，上线一周已托管超过116万项事务，累计执行任务超过360万次，用户规模突破2000万。与用户规模、对话次数等传统AI产品指标不同，事务托管量衡量的是用户有多少件事交由AI持续跟进。其增长反映出，个人AI助理的使用方式正在从即时问答、单次任务执行，向长期事务管理延伸。这一变化的关键，是AI从响应指令转向持续履约。传统AI助手通常在用户发起问题或指令后完成一次交互。而灵光2.0推出的“帮我管”功能，允许用户在授权后，将需要长期关注的事务交给AI，由其持续监测状态，并在满足条件或到达关键节点时主动提醒、执行相应操作。例如，家长可以让灵光持续关注钉钉班级群，汇总重要通知和待办事项；消费者可以托管机票价格变化监测、会员自动续费提醒；用户还可以通过连接智能家居设备，让AI根据预设条件自动执行操作。这些场景的共同点是：任务并不在一次对话中结束，而是需要AI在用户不持续介入的情况下，保",
+      "summaryZh": "雷锋网报道，蚂蚁集团个人 AI 助理灵光2.0自10月27日上线，两周累计托管事务量突破300万项，累计执行任务超1100万次。此前11月5日披露上线一周托管116万项、执行360万次、用户规模突破2000万。报道称其“帮我管”功能允许用户授权后，由 AI 持续监测长期事务并在关键节点提醒或执行，例如汇总钉钉班级群通知、机票价格监测、会员续费提醒、智能家居联动。支撑能力被描述为长期任务调度、跨会话上下文管理与外部服务连接；截至11月3日已接入支付宝、钉钉、夸克、飞书等40余项连接器。",
+      "whyItMatters": "若数据属实，个人 Agent 的竞争指标正在从对话次数转向“交给 AI 持续管理的事务量”。这会推动产品设计从单轮问答转向长期任务履约、授权边界与失败兜底机制。",
+      "limitations": "数据全部来自蚂蚁方面披露，缺少口径定义、留存与完成质量数据，也无第三方审计；托管量不等于成功完成量，长期可靠性未知。",
+      "insight": "分析：事务托管需要跨应用连接与长期调度，价值与风险同在——授权范围和误执行的纠错机制将决定用户是否愿意持续交出事务。",
+      "importance": 6,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "个人Agent",
+        "蚂蚁集团",
+        "灵光",
+        "任务托管",
+        "连接器"
+      ],
+      "url": "https://www.leiphone.com/category/industrynews/588lnnPVveccwufm.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:43:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "cbfacfb01aa85922",
+      "title": "Claude Fable 5.2证明了，AI可以靠代码吞噬一切。",
+      "titleZh": "作者实测Claude Fable 5.2：以数千行Python代码驱动Blender生成3D与绘画",
+      "summary": "同一段提示词，Fable 5.2跑出的庆生视频和灯塔小渔港，静态帧就能看出差别。它用4800行Python调Blender建完整个3D场景，审美成了新benchmark。 Claude Fable 5.2出来一天的时间了，然后，所有的社媒、社群都玩疯了。 我的X的时间线，更是几乎全部都是Claude Fable 5.2。 当然我知道你肯定会问今天凌晨Gemini 4 Carbon不是也正式上线了吗，跟Fable 5.2比怎么样，我自己确实也实测了，跑了不少的case。 但是跟Claude Fable 5.2相比，我觉得还是缺了一个很重要的东西。 那就是无法用任何Benchmark所评估、但是人人好像都能模糊感受到的东西。 审美。 我随手举两个对比的case，大家就能看出来了。 这是昨天我用Claude Fable 5.2跑的给ChatGPT 4周年的庆生视频，相信很多人都看过了。 节奏很棒、视觉更是严格按照我的Prompt，参考的OpenAI每一代模型的主视觉来的，这个GPT 4o的视觉就很典型，非常的漂亮。 而这是Antigravity里的Gemini 4 carbon high跑出",
+      "summaryZh": "人人都是产品经理刊载的作者实测文章称，Claude Fable 5.2可通过编写数千行Python调用Blender API，在不操作图形界面的情况下完成3D场景建模、动画、打光与渲染；文中举例包括约4800行代码制作的鹈鹕骑车3D场景、用Three.js约2000行代码生成的动画，以及用一两千行代码模拟颜料与笔刷引擎“逐笔作画”，其中一幅据称绘制约70万笔。作者把与Gemini 4 Carbon的对比视为“审美”差异，认为这类能力难以用现有基准衡量，并提出代码是数字内容的通用底层表达，因而模型可借代码扩展到图像、视频、音乐等创作。",
+      "whyItMatters": "若这类代码生成能力稳定，创作工具的门槛与工作流会变化：模型直接操作Blender等专业软件API，可能减少对图形界面和人工建模的依赖。对产品负责人而言，这意味着“代码作为通用执行层”的Agent式用法值得关注。",
+      "limitations": "属个人实测与观点文章，案例为作者与社区挑选，缺少可复现的提示词、代码与横向基准；与Gemini的“审美”比较为主观判断。“吞噬一切”“AGI雏形”等为作者推测，非验证结论。",
+      "insight": "分析：真正可检验的不是“审美”叙事，而是模型能否稳定生成可执行、可调试的专业软件脚本；这决定其能否进入生产管线而非停留在演示。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Claude",
+        "代码生成",
+        "Blender",
+        "创作工具"
+      ],
+      "url": "https://www.woshipm.com/ai/6492118.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T03:44:49.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "38993415bdcd2f3b",
+      "title": "早报｜华为小折叠电脑MateBook Fold S亮相/《GTA VI》开启预载，全平台目标30fps/董明珠回应格力业绩下滑：铜价上涨，格力将继续用铜",
+      "titleZh": "爱范儿早报：Anthropic启动IPO路演、谷歌开放Gemini 4 Carbon、Claude推出表格白板",
+      "summary": "Anthropic 启动上市路演，拟以每股 70 至 78 美元发行 华为小折叠电脑 MateBook Fold S 亮相，11 月 14 日开启预订 Google 开放最强 AI 模型 Gemini 4 Carbon 京东被曝内测免费短剧，计划让观众购买剧中同款 李斌：蔚来 ES9 将迎来第 4 万辆交付 董明珠谈格力业绩下滑：铜价上涨，格力将继续用铜 台积电 10 月营收创今年单月新高，同比增长近六成 阿里巴巴拟分拆平头哥，芯片子公司已向港交所递表 奥迪与上汽合作项目 CEO 称，AUDI 未来三年将推三款新车 Oura 拟以 6.25 亿美元收购 Counsel Health，将医生服务接入健康数据 派拉蒙天舞 CEO：AI 工具或让片商更敢为新人导演下注 宝马新世代 iX3 本月开启交付，i3 将在广州车展上市 曝苹果开发「Harbor」，可将多台 Mac 的统一内存用于本地 AI 推理 大晓机器人在酒店演示从客房取衣到洗烘送回 小鹏汇天带「陆地航母」亮相里斯本，展示可分离飞行器 Blender 5.3 上线，可直接导入和渲染三维高斯泼溅 蚂蚁灵波开源触觉模型，让机器人的「手感",
+      "summaryZh": "爱范儿11月11日早报汇总多条AI动态。Anthropic启动纳斯达克IPO路演，发行价区间70至78美元，完全稀释估值最高约1.4万亿美元，谷歌、英伟达、AMD、微软、台积电等拟在IPO后按同价合计认购260亿美元N类普通股。谷歌向开发者、企业和订阅用户开放Gemini 4 Carbon，官方称在CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench三项第三方基准居首。Claude推出Whiteboards与Sheets测试版，付费套餐可用。ChatGPT上线Businesses商家认领测试版，美国合资格商家可建客服智能体。另曝苹果开发Harbor应用，可将多台Thunderbolt 5 Mac统一内存汇成推理集群。",
+      "whyItMatters": "这批动态覆盖资本、模型供给和办公协作入口：头部模型公司上市将重塑算力采购与定价格局；Gemini开放与Claude表格白板把竞争推向团队协作场景；ChatGPT商家智能体则尝试把对话流量变成商业入口。",
+      "limitations": "早报为二次汇编，基准排名与成本对比均为谷歌自述，未经独立复现；260亿美元私募认购附条件；Harbor仅为开发者发现的应用介绍，非苹果官方发布，功能与时间未知；商家智能体仅美国部分商家测试。",
+      "insight": "分析：单条新闻价值有限，但组合起来显示竞争重心正从模型分数转向分发入口与协作工作流，同时资本动作会加剧推理算力供给的集中度。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "Gemini",
+        "Claude",
+        "ChatGPT",
+        "IPO"
+      ],
+      "url": "https://www.ifanr.com/1688852",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T00:20:24.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "83553670cc4f46ca",
+      "title": "文心 5.5 Flash Preview发布！编程、3D 建模、知识工作、内容创作等全面升级",
+      "titleZh": "百度发布文心5.5 Flash Preview：2800亿总参数，支持百万Token上下文",
+      "summary": "11月11日，百度最新基础模型文心 5.5 Flash Preview正式发布。文心 5.5 Flash Preview总参数量达 2800 亿，每个 Token 激活 140 亿参数，支持最长 100 万 Token 的上下文，在编程、3D 建模、知识工作、内容创作等方面表现突出。目前在Terminal-Bench、AutomationBench等多项基准测试中，文心5.5 Flash Preview 取得了具有竞争力的得分，并保持极致的解码速度。 编程能力为文心新模型的一大亮点。文心5.5 Flash Preview 覆盖从真实代码库中修复迭代，到完整构建复杂应用的广泛编码场景。尤其在长周期的开发任务中，模型展现出更强的规划、执行与持续迭代能力，这也大幅提升了文心 5.5 Flash Preview 的游戏开发效果。模型针对游戏开发场景进行了专项训练，并适配主流开发工具，根据用户的创意和需求，完成游戏设计、功能制作和场景搭建，让用户更便捷地将游戏创意变成可体验的作品。 同时，文心新模型在参数化建模和空间推理方面尤为出色。通过加强模型对 Blender 和 CAD 等工具软件使用的专",
+      "summaryZh": "百度发布基础模型文心5.5 Flash Preview，总参数2800亿、每Token激活140亿，支持最长100万Token上下文。官方称其在Terminal-Bench、AutomationBench等基准取得有竞争力得分，生成速度超过每秒200 tokens。能力侧重覆盖编码、Blender与CAD程序化建模、专业文档表格生成及视频素材编排。底层采用混合稀疏注意力、多路由器MoE、ECHO多Token预测，并首次引入自研RSI技术，由ERNIE Evolve参与推理优化。模型已上线百度智能云千帆平台，输入每百万Token忙时2元、闲时1元，输出忙时8元、闲时4元，限时五折；权重计划11月25日面向全球开源。",
+      "whyItMatters": "稀疏激活架构加百万上下文和低价API，意味着中等规模团队可用更低成本处理长文档与代码库任务；若开源权重如期发布，将影响国内可本地部署模型的选择面。",
+      "limitations": "参数、基准得分、生成速度与训练环境数据均来自官方发布稿，无第三方复现；多项基准为厂商自选；权重目前仅预告11月25日开源，实际许可证与可下载状态待确认。",
+      "insight": "分析：文心此代明显把重点放在工具调用与长周期编码任务上，价格策略与开源承诺的组合更像是争夺开发者生态而非单纯刷榜。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "文心",
+        "百度",
+        "MoE",
+        "开源权重",
+        "长上下文"
+      ],
+      "url": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T05:22:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "infrastructure",
+        "agents"
+      ]
+    }
+  ],
+  "editorNote": "",
+  "coreInsight": {
+    "date": "2026-11-11",
+    "origin": "generated",
+    "takeaway": "模型风险门槛从跑分转向权重来源与事故报备，同时顶尖模型竞争分化为堆参数上限与低成本工具调用两条线，谷歌Gemini 4 Carbon的工程能力成绩仍为自报。",
+    "highlights": [
+      "权重来源与事故报备",
+      "低成本工具调用",
+      "Gemini 4 Carbon"
+    ],
+    "points": [
+      {
+        "title": "跑分之外：模型权重来源与事故报备成新门槛",
+        "fact": "2026年11月10日，微软研究院披露名为Lazarus的后门手法：仅改写大模型内不到10个休眠神经元、无需重新训练，就能让Agent在日常任务中响应隐藏触发条件（例如时钟跨入2027年）下载并执行攻击者代码，且仍能通过标准评测。同日，纽约州RAISE法案开放登记门户，年收入超5亿美元的前沿开发商须在2027年1月1日前注册，公开安全框架、72小时内报告重大安全事件，单次违规罚款最高100万美元。",
+        "meaning": "编辑推断：模型能力越强、Agent权限越大，光看评测分数已不足以判断风险，权重从哪来、出事后是否报备正成为同等的准入门槛。",
+        "watch": "观察Microsoft Foundry的权重扫描与签名是否落地，以及2027年1月1日前有多少前沿实验室完成RAISE登记。",
+        "highlights": [
+          "不到10个休眠神经元",
+          "72小时内",
+          "2027年1月1日"
+        ],
+        "sourceIds": [
+          "d48977b6fbc84b1e",
+          "ae543fdc68f7cb26"
+        ]
+      },
+      {
+        "title": "Gemini 4 Carbon 开放，工程能力仍待第三方复现",
+        "fact": "2026 年 11 月 10 日，谷歌 DeepMind 宣布 Gemini 4 Carbon 向开发者、企业、科研人员和消费者开放，此前两周已通过 Fairwind 计划向部分网络安全防御人员提供。谷歌称其在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，单任务成本比次优外部模型低一半以上；API 优惠价为每百万输入 2 美元、输出 10 美元，12 月 1 日起调至 4 美元和 20 美元。谷歌同时在 Antigravity 预览 /swarm 多 Agent 协作功能。",
+        "meaning": "编辑推断：这些成绩与演示均由谷歌自报，长周期多 Agent 协作能否支撑真实复杂工程，还需第三方复现和独立评测来验证。",
+        "watch": "关注第三方在 CursorBench 等基准的复现结果、/swarm 在真实项目中的完成率与成本。",
+        "highlights": [
+          "Gemini 4 Carbon",
+          "Fairwind",
+          "/swarm"
+        ],
+        "sourceIds": [
+          "55cb0588b3e8436e",
+          "f306715d4f340cf2"
+        ]
+      },
+      {
+        "title": "顶尖模型竞争分成堆上限与跑工具两条线",
+        "fact": "2026年11月10日至11日，Meta推出主打工具调用与日常重复任务的轻量模型Muse Ember，Tether AI Research发布0.8B参数的端侧模型BotPsy。据Simon Willison整理，Muse Ember短提示价格与GPT-6 Luna、Claude Haiku 5.5同为每百万输入0.10美元、输出0.50美元，而同日发布的Claude Fable 5.2为8/40美元，相差80倍。Tether称BotPsy在BFCL v4得44.0分，高于Qwen3.5-2B-Think的37.7分。",
+        "meaning": "编辑推断：模型竞争正按任务类型分化，日常工具调用不必用最贵的大模型，成本与响应方式会随之改变。",
+        "watch": "观察Muse Ember与BotPsy上线后的实际调用量、任务成功率与每任务成本变化。",
+        "highlights": [
+          "Muse Ember",
+          "BotPsy",
+          "80倍"
+        ],
+        "sourceIds": [
+          "cba41f0395d50b9e",
+          "19b4fcb1faac9c9b"
+        ]
+      }
+    ],
+    "boundary": "Lazarus后门与RAISE登记的实际约束力尚未验证，Gemini 4 Carbon的成绩和/swarm协作完成率需第三方复现，Muse Ember与BotPsy的实际调用效果未知。",
+    "sources": [
+      {
+        "id": "d48977b6fbc84b1e",
+        "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+        "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+        "source": "Microsoft Research",
+        "kind": "primary",
+        "publishedAt": "2026-11-10T20:52:56.000Z"
+      },
+      {
+        "id": "ae543fdc68f7cb26",
+        "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+        "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+        "source": "TechCrunch AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-10T20:52:13.000Z"
+      },
+      {
+        "id": "55cb0588b3e8436e",
+        "title": "Gemini 4 Carbon is now available",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+        "source": "Google DeepMind",
+        "kind": "primary",
+        "publishedAt": "2026-11-10T16:03:47.000Z"
+      },
+      {
+        "id": "f306715d4f340cf2",
+        "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+        "url": "https://www.ifanr.com/1688883",
+        "source": "爱范儿",
+        "kind": "reporting",
+        "publishedAt": "2026-11-11T00:26:39.000Z"
+      },
+      {
+        "id": "cba41f0395d50b9e",
+        "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+        "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+        "source": "Simon Willison",
+        "kind": "analysis",
+        "publishedAt": "2026-11-10T07:28:21.000Z"
+      },
+      {
+        "id": "19b4fcb1faac9c9b",
+        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "url": "https://huggingface.co/blog/qvac/botpsy",
+        "source": "HuggingFace Blog",
+        "kind": "primary",
+        "publishedAt": "2026-11-11T05:01:16.000Z"
+      }
+    ]
+  },
+  "topics": [
+    {
+      "id": "ffe097489370a76a",
+      "title": "Gemini 4 Carbon 上线：长程 Agent 与网络安全成为前沿模型的新竞争维度？",
+      "thesis": "谷歌把竞争焦点从单点能力转向长程 Agent 工作流与网络安全这两条可被工程化验证的维度，但多数能力仍是厂商自述与演示，产业结论待第三方复现。",
+      "whyNow": "2026年11月10日，Google DeepMind 正式开放 Gemini 4 Carbon；两周前它已通过 Fairwind 计划向网络安全防御人员开放。谷歌称其在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，并在 Google Antigravity 预览 /swarm 多 Agent 协作功能；API 按与 Argon 相同的每百万输入 2 美元、输出 10 美元优惠价提供，12 月 1 日起调至 4 美元和 20 美元。",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "2026年11月10日，Google DeepMind 在官方博客宣布 Gemini 4 Carbon 正式向开发者、企业、科研人员和消费者开放，署名为 Google DeepMind 高级副总裁兼 Google 首席 AI 架构师 Koray Kavukcuoglu。Google DeepMind 称，Carbon 是其在网络安全能力和长程 Agent 工作流上具备前沿表现的模型，覆盖复杂知识工作、软件工程与科学推理；两周前该模型已通过 Fairwind 计划向部分网络安全防御人员开放。Google DeepMind 表示，Carbon 与今年早前发布的 Gemini 4 Argon 分工不同，Argon 仍面向多数日常软件工程与知识工作，Carbon 则用更多 Token 做深入推理和反复验证。爱范儿同日报道称，Carbon 已在 CursorBench 4.0、Perplexity WANDR 和 Zapier AutomationBench 三项基准中排名第一，API 优惠价与 Argon 相同（每百万输入 Token 2 美元、输出 10 美元），12 月 1 日起将上调至 4 美元和 20 美元，普通消费者需订阅 Google AI Ultra 才能使用。",
+          "sourceIds": [
+            "55cb0588b3e8436e",
+            "f306715d4f340cf2"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "之所以把长程 Agent 与网络安全单列为竞争维度，机制在于它们都需要模型在较长时间里反复试错并自我校验。按 Google DeepMind 博客的说法，Carbon 会用更多 Token 探索、推理并运行延长的验证循环，再通过 Antigravity 的 /swarm 把单一提示拆成多个 Agent 分工，由 Carbon 负责架构设计、协调与审计，轻量模型并行执行，另有对抗性验证器逐项检查改动。爱范儿报道中提到，多智能体用 10 轮通宵循环，把 7 份规划 PDF 里的 206 张工程图纸重建成约 90.6 万个三角形的 Three.js 模型；这种“生成—检查—返工”的闭环恰好把长时程能力和漏洞发现绑定在同一套工程化流程上。以上为分析，具体内部实现未披露。",
+          "sourceIds": [
+            "55cb0588b3e8436e",
+            "f306715d4f340cf2"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两个来源放在一起看，互补关系很清楚：Google DeepMind 博客给出的是官方定位、价格与基准口径，爱范儿则补上了发布时间表、涨价节点、订阅门槛和第三方工程师的个案反馈。分歧主要不在事实层面，而在证据强度——博客把 CursorBench 4.0、WANDR、Zapier AutomationBench 的第一名和“成本低一半以上”作为厂商主张输出，爱范儿转述了同一组数字，但也点明普通消费者需订阅 Google AI Ultra 才能用上，并把 HubX 94% 解决率、Wiz 两小时发现零日漏洞等归为相关方自述。编辑推断是：如果这些长程 Agent 与网络安全能力能被独立复现，企业采购的评估重点会从单次问答质量转向任务成本、验证闭环和权限治理；在此之前，读者宜把榜单与演示当作方向信号，而非已验证的产业结论。",
+          "sourceIds": [
+            "55cb0588b3e8436e",
+            "f306715d4f340cf2"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "真正的证据缺口在于，上述能力几乎都来自 Google DeepMind 官方博客和爱范儿转述的厂商口径与演示，缺少可复现的独立评测。CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 的排名与“单任务成本低一半以上”，以及 HubX 94% 解决率、Wiz 两小时内发现零日漏洞、Project Fortify 扫描召回率 100% 与分类精确率 95%，均属相关方自报或个案，材料未披露评测方法、样本量和复现条件；MKA 基准虽由 Google 与 Artificial Analysis 合作推出，Carbon 也只列第二。因此这些结论只适用于说明谷歌的产品方向与自我定位，不能外推为已验证的产业领先或采购依据，第三方复现前应保留判断。",
+          "sourceIds": [
+            "55cb0588b3e8436e",
+            "f306715d4f340cf2"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "55cb0588b3e8436e",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+          "source": "Google DeepMind",
+          "kind": "primary",
+          "publishedAt": "2026-11-10T16:03:47.000Z"
+        },
+        {
+          "id": "f306715d4f340cf2",
+          "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+          "url": "https://www.ifanr.com/1688883",
+          "source": "爱范儿",
+          "kind": "reporting",
+          "publishedAt": "2026-11-11T00:26:39.000Z"
+        }
+      ],
+      "watchNext": [
+        "第三方独立复现 CursorBench 4.0、WANDR、AutomationBench 与 MKA 结果的进度与口径",
+        "/swarm 多 Agent 协作在真实项目中的完成率、成本与人工干预比例",
+        "12 月 1 日价格上调后开发者与企业采用率的变化，以及 Fairwind 计划外网络安全能力的开放范围"
+      ],
+      "updatedAt": "2026-11-11",
+      "origin": "generated"
+    },
+    {
+      "id": "2df973ce4c271b02",
+      "title": "Claude Code 设置文件泄露凭据：编码 Agent 权限持久化的设计代价",
+      "thesis": "这是编码 Agent 把授权规则写入本地设置文件、且该文件可能被提交进 Git 仓库所导致的凭据外泄，反映的是权限持久化的设计取舍，并非偶发漏洞。",
+      "whyNow": "11 月 9 日，AI 安全公司 Apiiro 称在公开 GitHub 仓库发现超过 10 万个 Claude Code 设置文件，其中约 1100 个含密钥；该问题最早于 2025 年 8 月有人在错误报告中提出，相关报告均在 60 天无活动后被关闭。",
+      "layers": [
+        "agents",
+        "governance",
+        "products"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "11 月 9 日，AI 安全公司 Apiiro 发现 Claude Code 的设置文件正在公开 GitHub 仓库中泄露数据库密码、API 令牌和 root 登录信息等敏感信息。少数派 11 月 11 日早报转述称，用户在审批 shell 命令时若选择「Yes, and don’t ask again」，这条授权会作为规则写入本地 .claude/settings.local.json，规则有时以模式记录，但很多时候会原样写入命令本身，包括其中嵌入的敏感信息；Anthropic 文档称该文件会被加入开发者的全局 .gitignore，但这一设置不体现在仓库层面，仓库被克隆到其他机器、或文件夹后来才变成仓库时，文件可能被误传，Apiiro 还称 Claude Code 在很多情况下会在用户不介入时自行提交对该文件的修改。Apiiro 共发现超过 10 万个被上传到公开 GitHub 仓库的此类设置文件，其中约 1100 个、来自 63 个组织的文件含有密钥，215 个未被 gitleaks 和 TruffleHog 识别。同一议题在 Latent Space 对 OpenAI Codex 工作坊的报道中并未涉及，其内容集中在云端任务移交、语音控制与个人 Agent 等使用方式上，说明此次披露的讨论主要围绕 Anthropic 的 Claude Code 展开。该问题最早在 2025 年 8 月就有人在 Claude Code 错误报告中提出，相关报告均在 60 天无活动后被关闭。",
+          "sourceIds": [
+            "7d01e08e91d01e93",
+            "229eabb18a4037ae"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "机制上的关键在于：用户为省去反复确认，把一次性审批固化成持久规则，而这条规则的载体是一个普通本地 JSON 文件。按少数派转述 Apiiro 的说法，用户在审批 shell 命令时选择「Yes, and don’t ask again」，授权就会写入 .claude/settings.local.json；若命令本身带数据库密码或 API 令牌，这些内容可能被原样存进文件。Anthropic 文档称该文件会进入开发者的全局 .gitignore，但这只是个人机器的配置，不会随仓库分发；别人克隆仓库，或本地文件夹后来才变成仓库，文件就可能被一并提交。Apiiro 还称，Claude Code 在很多情况下会在用户不介入时自行提交该文件的修改。Apiiro 在公开仓库中发现超过 10 万个此类文件，约 1100 个含密钥。分析来看，这是把便利性放在权限边界清晰性之前的设计取舍带来的可预期后果，并非偶发漏洞。",
+          "sourceIds": [
+            "7d01e08e91d01e93"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两份材料放在一起看，可以看到它们报道的对象和角度并不相同：少数派 11 月 11 日早报转述 Apiiro 的发现，并记录了 Boris Cherny 在 Hacker News 上的回应，属于从安全事件角度切入的报道；Latent Space 对 OpenAI Codex 工作坊的记录则完全不涉及这一泄露问题，讨论的是云端任务移交、语音控制和个人 Agent 等使用方式。两者可以互相补充，因为后者说明权限持久化、跨会话代理这类设计已经成为编码 Agent 的通用方向，前者则提示这类设计在落地时会把授权边界问题带到本地文件和仓库层面。据少数派转述，Cherny 称这类设置文件基本不应提交到 Git 仓库，相关情况似乎只出现在文件被手动创建并提交时；这是来源方的回应，并非独立验证的结论。分析来看，对用户的直接影响是：授权规则的存储位置和提交行为需要被认真对待，密钥扫描也应从事后补救变成持续性的措施；对行业而言，这次披露提醒各家在追求便利性的同时，需要把权限持久化与仓库层面的防护一并设计，而非依赖单机的全局 .gitignore。",
+          "sourceIds": [
+            "229eabb18a4037ae",
+            "7d01e08e91d01e93"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "证据缺口首先在归因：超过 10 万个文件、约 1100 个含密钥、涉及 63 个组织、215 个未被 gitleaks 和 TruffleHog 识别，这些数字均为少数派转述 Apiiro 的一方披露，材料中未见 Apiiro 报告原文、采样方法或复核结果，也未见独立第三方复现。Boris Cherny 称相关情况似乎只出现在文件被手动创建并提交时，属于 Anthropic 员工的回应，与 Apiiro 所称 Claude Code 会在用户不介入时自行提交修改存在张力，材料不足以判定哪种情形占多数。泄露文件是否已被实际利用、密钥是否已轮换，材料均未涉及。适用范围上，这只说明 Claude Code 这一设置文件机制在公开仓库中的暴露情况，不能外推到其他编码 Agent，也不能据此认定权限持久化路线整体不可行。",
+          "sourceIds": [
+            "7d01e08e91d01e93",
+            "229eabb18a4037ae"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "7d01e08e91d01e93",
+          "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+          "url": "https://sspai.com/post/118905",
+          "source": "少数派",
+          "kind": "reporting",
+          "publishedAt": "2026-11-11T00:26:34.000Z"
+        },
+        {
+          "id": "229eabb18a4037ae",
+          "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+          "url": "https://latent.space/p/codex-work",
+          "source": "Latent Space · 访谈与工程",
+          "kind": "analysis",
+          "publishedAt": "2026-11-11T04:49:48.000Z"
+        }
+      ],
+      "watchNext": [
+        "Anthropic 是否按 Boris Cherny 的说法在 Claude Code 中内置密钥扫描，以及何时落地",
+        ".claude/settings.local.json 的默认 gitignore 与仓库层防护是否有机制性修复",
+        "含密钥文件被删除后，其分叉中的残留密钥清理与轮换进展"
+      ],
+      "updatedAt": "2026-11-11",
+      "origin": "generated"
+    },
+    {
+      "id": "aa447003fc7216fe",
+      "title": "纽约 RAISE Act 进入执行准备：州级前沿模型安全监管能否补上联邦空缺？",
+      "thesis": "纽约以注册、公开安全框架和72小时事故报告构建州级前沿模型监管执行链条，但它只覆盖大厂，联邦层面仍无同等力度立法，州级能否补缺要看执行而非条文。",
+      "whyNow": "纽约州于2026年11月10日开放前沿AI开发者注册门户，要求年收入超5亿美元的开发商在2027年1月1日前注册；RAISE Act同时于2027年初生效，新设DIGIT办公室负责执行，并已启动依托宾汉姆顿大学的AI责任与研究中心。",
+      "layers": [
+        "governance",
+        "business"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "纽约州于2026年11月10日开放前沿AI开发者注册门户，要求年收入超过5亿美元的OpenAI、Anthropic等大型开发商在2027年1月1日前完成登记。据TechCrunch报道，这项名为RAISE Act的州级法律于2027年初生效，要求企业公开安全框架、在72小时内报告重大安全事件并发布模型透明度报告，由新设的Office of Digital Innovation, Governance, Integrity, and Trust负责执行，单次违规罚款最高100万美元、后续违规最高300万美元。州长Kathy Hochul当天在发布会上宣布启动该门户，并同步在纽约州立大学宾汉姆顿分校设立纽约AI责任与研究中心，用于独立评估先进AI系统安全并与监管机构共同审查企业安全框架。此前在加州，州参议员Scott Wiener曾先后推动SB 1047与SB 53两部前沿AI立法，后者由州长Gavin Newsom签署生效；据MIT Technology Review报道，Wiener在赢得国会席位后表示，他希望国会在年底前采取果断行动，但“这似乎并未发生”。",
+          "sourceIds": [
+            "ae543fdc68f7cb26",
+            "a7e59e4f72113c3a"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "这一格局的直接原因是联邦立法没有跟上。据MIT Technology Review报道，Scott Wiener在赢得国会席位后表示，他希望国会在年底前对AI采取果断行动，但“这似乎并未发生”；他支持设立一个有实权、反应灵活的联邦监管机构，同时反对联邦广泛抢占州法空间，理由是各州可以充当“实验室”。在联邦空缺之下，州一级只能先用自己的工具箱补位：纽约把门槛设在年收入5亿美元以上，用注册、公开安全框架和72小时报告把大厂纳入可核查流程，再以罚款和执法诉讼形成约束。分析来看，这种设计使监管成本集中在少数大公司，中小企业并不在覆盖范围内；机制上，注册门户提供对象清单，公开框架与透明度报告提供可审查文本，72小时报告形成事件触发链条，研究中心的独立评估则为审查提供外部依据。但它能否补上联邦空缺，取决于DIGIT是否持续执法、罚款是否真正落地，而非条文本身。",
+          "sourceIds": [
+            "a7e59e4f72113c3a",
+            "ae543fdc68f7cb26"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两篇报道并置，可以看到州级执行与联邦立法在时间上错位。据TechCrunch报道，纽约RAISE Act以注册、公开安全框架和72小时事件报告构成可核查链条，罚款最高300万美元，其直接效果是把OpenAI、Anthropic等年收入超5亿美元的大厂纳入明确流程，行业需为合规配置报告与披露资源，中小企业则暂不受覆盖。据MIT Technology Review报道，Wiener主张有实权的联邦监管机构，并反对联邦抢占州法，但他对国会行动仅“谨慎乐观”。分析来看，两篇并不冲突：纽约展示州如何先行，Wiener代表把州经验推向联邦的路径；差异在于前者描述已落地机制，后者是立法者主张。对用户而言，短期内透明度报告和事件披露增加，可比较信息增多，但覆盖面有限，联邦是否跟进仍未知。",
+          "sourceIds": [
+            "ae543fdc68f7cb26",
+            "a7e59e4f72113c3a"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "仍有若干问题不能下结论。TechCrunch的报道显示，RAISE Act的注册、安全框架公开与72小时事故报告要求将在2027年初才进入执行，DIGIT是否持续执法、罚款是否真正落地，目前没有已发生的执行记录可查，报道也提到州发言人拒绝说明对未注册企业的具体执法方式。由此带来的证据缺口是：企业公开的安全框架与透明度报告属于厂商自报材料，材料没有说明这些文本如何被独立核验，宾汉姆顿的纽约AI责任与研究中心虽被描述为将独立评估并与DIGIT共同审查，但其评估结论、方法和对监管决定的实际影响均未知。因此上述判断只适用于纽约州对年收入超5亿美元大型开发商的这一覆盖范围，不能外推到中小企业，也不能据此断言州级监管已补上联邦空缺或已产生可测量的安全效果。",
+          "sourceIds": [
+            "ae543fdc68f7cb26"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "ae543fdc68f7cb26",
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+          "source": "TechCrunch AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-10T20:52:13.000Z"
+        },
+        {
+          "id": "a7e59e4f72113c3a",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+          "source": "MIT Technology Review",
+          "kind": "reporting",
+          "publishedAt": "2026-11-09T17:05:43.000Z"
+        }
+      ],
+      "watchNext": [
+        "2027年1月1日前，Anthropic、OpenAI等大厂在注册门户的登记与安全框架公开情况",
+        "DIGIT 对未注册或未按期报告事故企业的首例执法与罚款力度",
+        "加州 SB 53、伊利诺伊 SB 315 与纽约 RAISE Act 在报告时限、审计要求上的差异是否引发企业跨州合规冲突"
+      ],
+      "updatedAt": "2026-11-11",
+      "origin": "generated"
+    }
+  ],
+  "topicGeneration": {
+    "status": "complete",
+    "attempted": 3,
+    "published": 3,
+    "failures": []
+  },
+  "highlights": [
+    {
+      "id": "f306715d4f340cf2",
+      "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+      "titleZh": "Google 开放 Gemini 4 Carbon：面向多智能体与网络安全任务",
+      "summary": "AI 大模型的发布节奏已经快到让人应接不暇。 就在刚刚，Google DeepMind 正式宣布，旗下最新旗舰模型 Gemini 4 Carbon 正式面向开发者、企业、科研人员及普通消费者提供服务。 Carbon 是目前 Gemini 家族综合能力最强的公开上线模型，尤其擅长复杂编程、网络安全、科学推理，以及需要长时间执行的多智能体任务。 图｜官方博客 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ 两周前，谷歌已经通过 Fairwind 计划向部分网络安全防御人员开放 Carbon，如今进一步扩大了使用范围。 与此前发布的 Gemini 4 Argon 相比，Carbon 主要面向复杂软件工程、跨领域研究等高难度任务，能够消耗更多 Token 进行深入推理、反复验证和错误修正，而 Argon 继续承担大多数日常编程和知识工作。 在 CursorBench 4.0、Perplexity WANDR 和 Zapier Automa",
+      "summaryZh": "据爱范儿报道，Google DeepMind 宣布将 Gemini 4 Carbon 面向开发者、企业、科研人员及消费者开放，此前仅通过 Fairwind 计划向部分网络安全防御人员开放。报道称 Carbon 与 Argon 分工：Carbon 处理复杂软件工程、跨领域研究等高难任务，可消耗更多 Token 深入推理与验证；Argon 承担日常编程与知识工作。谷歌在 Antigravity 中推出 /swarm 多 Agent 编排预览，并展示由多 Agent 完成的 3D 游戏、建筑模型等演示，还有第三方开发者与 HubX 的案例数据。价格方面，报道称 API 现为每百万输入 2 美元、输出 10 美元，12 月 1 日起上调。消费者需订阅 Google AI Ultra。",
+      "whyItMatters": "多家厂商正把旗舰模型从单次对话推向长时间、多智能体协作任务，并强调成本效率。若报道所述能力成立，企业自动化与安全审计的采购评估标准会从单点跑分转向以单任务成本为约束下的端到端完成率。",
+      "limitations": "内容以厂商演示和官方博客为主，所列基准、94% 问题解决率、零日漏洞发现等均为谷歌及其合作方口径，缺乏独立复现；发布时间与定价变更需以官方为准。",
+      "insight": "分析：报道的核心信号不是单项跑分，而是多 Agent 分工编排与单位任务成本的组合。但演示项目由厂商挑选，真实工程收益仍待第三方在自有代码库中验证。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "多智能体",
+        "网络安全",
+        "模型定价"
+      ],
+      "url": "https://www.ifanr.com/1688883",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T00:26:39.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "d48977b6fbc84b1e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "titleZh": "微软研究揭示 Lazarus：改写休眠神经元即可给 AI Agent 植入后门",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retr",
+      "summaryZh": "微软研究院披露一种名为 Lazarus 的后门方法：无需重新训练，仅改写 LLM 中不到 10 个“休眠神经元”，就能让模型在特定触发条件（如日期跨过 2027 年）下输出攻击者指令，由具备工具或终端权限的 Agent 执行下载并运行恶意代码。原理是预训练使内部表征高度线性可分，用约 50 个样本即可拟合区分触发输入的线性分类器，被改写的神经元可通过残差流强制注入任意 token，多个神经元可串联生成任意载荷。该方法只需推理级算力与对 checkpoint 的写权限，因此闭源自研模型同样暴露。微软建议将权重视同代码审计、依赖溯源与签名，并在 Foundry 侧做来源校验与环境扫描。",
+      "whyItMatters": "若攻击门槛仅为“能加载模型”，则模型来源与权重完整性将成为 Agent 部署的核心安全前提，直接影响企业选择开源权重、模型分发渠道与 Agent 权限设计。",
+      "limitations": "博客为研究与产品防御介绍，未给出完整论文指标与检测召回率；具体神经元数量、触发成功率与检测效果需看原文与复现。厂商同时推销自家防御方案，存在立场。",
+      "insight": "分析：这条把 Agent 安全的焦点从提示注入转向供应链——权重本身可被篡改而评测全绿。真正的缓解不是更强的对齐，而是可验证的权重溯源、差异比对与最小权限执行。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "模型后门",
+        "Agent 安全",
+        "权重完整性",
+        "供应链",
+        "微软"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "ae543fdc68f7cb26",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "titleZh": "纽约 RAISE Act 落地：前沿 AI 公司须在 2027 年前注册并公开安全框架",
+      "summary": "New York is gearing up to enforce one of the country’s most significant AI safety laws. The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027. The RAISE Act, New York’s safety and transparency bill, kicks in at the start of the year. It mandates that large frontier developers — companies with more than $500 million in annual revenue — have to publish safety frameworks on their websites, re",
+      "summaryZh": "TechCrunch 报道，纽约州启用注册门户，年收入超 5 亿美元的大型前沿 AI 开发商（如 OpenAI、Anthropic）须在 2027 年 1 月 1 日前完成注册。RAISE Act 要求企业在官网公布安全框架、72 小时内报告重大安全事故，并发布模型透明度报告；由新设机构 DIGIT 负责实施与监督，单次违规最高罚款 100 万美元，后续违规最高 300 万美元，未注册也可能被执法。州长 Hochul 同时宣布依托纽约州立大学宾汉姆顿分校成立纽约 AI 责任与研究中心，将独立评估先进 AI 系统并与 DIGIT 协作审查企业安全框架。报道还列举加州 SB 53（15 天内报告事故）和伊利诺伊 SB 315（含独立合规审计）等类似立法，以及纽约此前针对 AI 伴侣与未成年人的聊天机器人法律。",
+      "whyItMatters": "这是美国州级首个带注册、报告时限与罚款的综合前沿 AI 安全制度，合规义务具体且时间明确，对在美运营的大模型公司有直接成本。",
+      "limitations": "报道未披露注册信息提交范围、事故判定标准与执法细节，州方发言人也拒绝说明未注册的后果；法规实际执行力度与首轮执法案例仍待观察。",
+      "insight": "值得跟踪的是“安全框架公开 + 事故限时报告”是否形成跨州事实标准，以及独立评估机构能否获得足够信息。罚款额度相对大厂收入有限，约束力主要来自透明度。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "RAISE Act",
+        "纽约",
+        "AI 安全",
+        "合规",
+        "事故报告"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T20:52:13.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员与消费者开放，称其在网络安全与长程 Agent 工作流上具备前沿性能，与 Gemini 4 Argon 并列但定位更偏复杂多步任务。官方称 Carbon 在 CursorBench 4.0、Perplexity WANDR、Zapier AutomationBench 排名第一，每任务成本较次优外部模型低 2 倍以上；API 定价与 Argon 相同，为每百万输入 2 美元、输出 10 美元。同时预览 Google Antigravity 的 /swarm，把单条提示转为可实时追踪的多 Agent 团队。安全方面称在 Fairwind Program 下于漏洞发现、利用与修补基准领先。",
+      "whyItMatters": "若官方基准与成本数据成立，前沿模型竞争将进一步转向长程 Agent 任务与单位任务成本，多 Agent 编排产品化也会改变开发者的工程组织方式。",
+      "limitations": "性能、排名与成本数据均来自厂商博客及厂商参与设计的基准，缺少第三方独立复现；/swarm 处于预览阶段，实际稳定性未知。",
+      "insight": "分析：Carbon 强调“更多 token、更深推理与验证循环”，与 /swarm 的多 Agent 分工配套，说明竞争焦点正从单次回答质量转向任务完成率与每任务经济性。",
+      "importance": 8,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "Agent",
+        "基准测试",
+        "网络安全"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "6c91404759576779",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "titleZh": "Anthropic提交S-1：七位联合创始人拟各套现约2.5亿美元",
+      "summary": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell. Each will sell 3,378,378 shares. Anthropic has floated an unusually broad initial price range of $70 to $78 a share. At the midrange of $74, each founder would take in just shy of $250 million. At the low end, $70, each would have to settle for pocketing just over $236 million in cash; at the h",
+      "summaryZh": "TechCrunch依据Anthropic新提交的S-1披露，七位联合创始人在IPO中各计划出售3,378,378股，公司给出的初始发行价区间为每股70至78美元，按中位74美元计算每人约套现2.5亿美元。承销前公司估值被报道为可能达1.4万亿美元。S-1还显示董事Reed Hastings拟通过捐赠人建议基金购入3亿美元股份、Christopher Liddell拟购300万美元。出售后每位创始人约持有Class A股的3.2%，合计约22%；Class A只是公司股份类别之一，Amazon与Google等持有的无投票权Class N股未计入该比例。七人另各获一股带超级投票权的Class F股，合计控制51.1%投票权，且无人持股显著高于其他人。",
+      "whyItMatters": "这是AI头部公司治理与股权结构的明确信号：创始人通过超级投票权在上市后保留控制，同时大额套现。对投资人和从业者而言，它反映前沿模型公司的资本化路径与利益分配，也影响外界对其安全承诺能否在公开市场压力下延续的判断。",
+      "limitations": "材料仅依据S-1披露与发行价区间推算套现额，最终发行价可能高于区间；1.4万亿美元估值、需求热度均为报道表述，非已定价事实。持股比例仅指Class A，不等于公司总股本口径。",
+      "insight": "分析：超级投票权加创始人集体控制，使Anthropic在成为公众公司后仍可能维持治理主导权，但套现与外部股东进入会带来新的问责压力。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "公司治理",
+        "股权结构"
+      ],
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-10T19:57:52.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "governance"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "id": "8b93800629a09a9e",
+      "title": "upscayl/upscayl",
+      "titleZh": "Upscayl：开源跨平台 AI 图像放大工具",
+      "summary": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.\n当前星数 52210，当日增加 82；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "GitHub 仓库 upscayl/upscayl 的简介显示，这是一款面向 Linux、macOS 和 Windows 的免费开源 AI 图像放大工具，主要语言为 TypeScript。简介自称“#1”，但材料未给出模型来源、放大倍率、推理后端或画质指标，也未说明当日是否有版本发布或功能变更；仅显示当前星数 52210、当日增加 82。可确认的是它提供跨平台桌面端形态，并把 AI 超分辨率能力封装成面向普通用户的工具，而非仅提供命令行或云 API。",
+      "whyItMatters": "超分辨率是普通用户最易感知的本地 AI 能力之一，开源且跨平台的桌面工具可降低使用门槛，也便于组织在本地处理图片而不上传云端。但“第一”是仓库自述，不构成能力排名。",
+      "limitations": "仅有仓库简介与星数，缺少发布日期、模型来源、画质基准与实际功能边界；无法据此判断新版本或性能提升。",
+      "insight": "（分析）该项目的行业意义主要在于分发形态：把超分模型打包成跨平台桌面应用，比模型本身更决定普通用户能否用上。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "图像超分辨率",
+        "跨平台桌面"
+      ],
+      "url": "https://github.com/upscayl/upscayl",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "0cd067b759075341",
+      "title": "neuml/txtai",
+      "titleZh": "txtai：集语义搜索、LLM 编排与工作流于一体的框架",
+      "summary": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows\n当前星数 13283，当日增加 48；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "neuml/txtai 的仓库简介称其为 all-in-one AI 框架，覆盖语义搜索、LLM 编排和语言模型工作流；主要语言为 Python，当前星数 13283，当日增加 48。材料仅给出定位描述，没有列出支持的向量索引、模型接入方式、编排接口或性能数据，也未说明是否有新版本。可确认的是项目把检索与生成编排放在同一框架内，面向需要自行搭建语义检索和模型调用流程的开发者，而非终端产品。",
+      "whyItMatters": "语义检索与 LLM 编排常需拼接多个组件，一体化框架可减少集成成本；对自建知识检索或文档问答的团队有直接参考价值，但实际能力需看文档与基准。",
+      "limitations": "仅有仓库简介，缺少版本信息、功能清单与性能评测；不能据此判断其相对同类框架的优劣。",
+      "insight": "（分析）此类框架的竞争点通常不在模型，而在检索、编排与部署的耦合程度；简介无法验证这一点。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "语义搜索",
+        "LLM 编排"
+      ],
+      "url": "https://github.com/neuml/txtai",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1643157b768c76e7",
+      "title": "f/prompts.chat",
+      "titleZh": "prompts.chat：可自托管的社区提示词库",
+      "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.\n当前星数 176863，当日增加 147；语言 MDX。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "f/prompts.chat 原名 Awesome ChatGPT Prompts，仓库简介称用于分享、发现和收集社区提示词，免费开源，并支持组织自托管以获得完整隐私。主要语言为 MDX，当前星数 176863，当日增加 147。材料未给出提示词数量、分类体系、许可证细节或自托管部署要求，也未说明当日是否有内容更新。可确认的是它把提示词作为可协作维护的文本资产，并提供私有化部署选项，形式上更接近内容库而非模型工具。",
+      "whyItMatters": "提示词库反映社区实践积累，自托管选项对不愿把内部用法放到公共平台的组织有用；但提示词效果高度依赖具体模型与任务，不宜当作通用最佳实践。",
+      "limitations": "仅有仓库简介与星数，缺少内容规模、质量审核机制和自托管技术细节；星数高不代表提示词质量或新近活跃度。",
+      "insight": "（分析）其价值主要在组织内部知识沉淀与共享流程，而非提示词本身的技术壁垒。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源",
+        "提示词",
+        "自托管"
+      ],
+      "url": "https://github.com/f/prompts.chat",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-11",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products"
+      ]
+    }
+  ],
+  "coverage": {
+    "fetchedAt": "2026-11-11T06:42:26.416Z",
+    "lookbackDays": 14,
+    "sources": [
+      {
+        "source": "Karpathy Newsletter",
+        "url": "https://karpathy.beehiiv.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 404"
+      },
+      {
+        "source": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Ethan Mollick (One Useful Thing)",
+        "url": "https://www.oneusefulthing.org/feed",
+        "status": "ok",
+        "items": 1,
+        "undated": 0
+      },
+      {
+        "source": "Nathan Lambert (Interconnects)",
+        "url": "https://interconnects.ai/feed",
+        "status": "ok",
+        "items": 3,
+        "undated": 0
+      },
+      {
+        "source": "SemiAnalysis",
+        "url": "https://www.semianalysis.com/feed",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Jack Clark (Import AI)",
+        "url": "https://jack-clark.net/feed/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "HackerNews AI",
+        "url": "https://hnrss.org/frontpage?q=AI+OR+LLM+OR+agent&points=50",
+        "status": "ok",
+        "items": 3,
+        "undated": 0
+      },
+      {
+        "source": "HackerNews Models",
+        "url": "https://hnrss.org/frontpage?q=GPT+OR+Claude+OR+Gemini+OR+Llama&points=30",
+        "status": "ok",
+        "items": 1,
+        "undated": 0
+      },
+      {
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/api/rss/ai",
+        "status": "ok",
+        "items": 9,
+        "undated": 0
+      },
+      {
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "VentureBeat AI",
+        "url": "https://venturebeat.com/category/ai/feed/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 429"
+      },
+      {
+        "source": "OpenAI News",
+        "url": "https://openai.com/news/rss/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 403"
+      },
+      {
+        "source": "Anthropic News",
+        "url": "https://www.anthropic.com/news",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv CS.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv ML",
+        "url": "https://rss.arxiv.org/rss/cs.LG",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "36氪",
+        "url": "https://36kr.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Unencoded <\nLine: 9\nColumn: 169\nChar: <"
+      },
+      {
+        "source": "雷锋网",
+        "url": "https://www.leiphone.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "人人都是产品经理",
+        "url": "https://www.woshipm.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "机器之心",
+        "url": "https://www.jiqizhixin.com/rss",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Unexpected close tag\nLine: 16\nColumn: 19\nChar: >"
+      },
+      {
+        "source": "少数派",
+        "url": "https://sspai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "爱范儿",
+        "url": "https://www.ifanr.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Latent Space · 访谈与工程",
+        "url": "https://www.latent.space/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Dwarkesh Podcast · 深度访谈",
+        "url": "https://www.dwarkesh.com/feed",
+        "status": "ok",
+        "items": 4,
+        "undated": 0
+      },
+      {
+        "source": "Lex Fridman · 访谈",
+        "url": "https://lexfridman.com/feed/podcast/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "status": "ok",
+        "items": 7,
+        "undated": 0
+      },
+      {
+        "source": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/",
+        "status": "ok",
+        "items": 5,
+        "undated": 0
+      },
+      {
+        "source": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+        "status": "ok",
+        "items": 5,
+        "undated": 0
+      }
+    ],
+    "selected": 68,
+    "published": 53,
+    "warnings": []
+  }
+}
