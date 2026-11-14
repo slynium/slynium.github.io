@@ -1,0 +1,2814 @@
+{
+  "schemaVersion": 3,
+  "date": "2026-11-15",
+  "dateZh": "2026年11月15日星期日",
+  "hotRanking": [
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon，主打长程 Agent 工作流与网络安全能力",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员和消费者开放。据官方博客，Carbon 在复杂多步编码、调试和开放式科研等任务上使用更多 token 做深度推理与验证循环，定位在已完成软件工程和知识工作的 Gemini 4 Argon 之上。谷歌称其位列 CursorBench 4.0、Perplexity 的 WANDR 和 Zapier 的 AutomationBench 首位，每任务成本低于次优外部模型 2 倍以上；并在 Antigravity 中预览 /swarm，让单条提示生成可实时跟踪的多 Agent 团队。网络安全方面，谷歌称经 Fairwind 计划访问时，Carbon 在 SEC-bench Pro、ExploitGym、CWE-bench v1 上领先，内部 Project Fortify 扫描召回达 100%、分诊精度 95%。",
+      "whyItMatters": "如果多 Agent 编排与长程验证循环的实际表现接近官方描述，企业复杂工程与科研任务的自动化边界会被推进，同时网络安全攻防两侧的能力差距可能扩大。定价与 Argon 持平也影响采购决策。",
+      "limitations": "以上性能数据、基准排名和漏洞发现案例均来自谷歌官方博客及合作方评估，尚无独立复现；/swarm 仍为预览功能；定价为介绍期价格，后续可能调整。",
+      "insight": "厂商把'更强推理'与'更多 token 消耗'绑定，并以单位任务成本作为卖点，说明前沿模型的竞争正从单次准确率转向单位成本下的端到端任务完成度。",
+      "importance": 9,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "多Agent",
+        "网络安全",
+        "基准测试"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "299cfd655b5df2e6",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "titleZh": "亚洲多国政府就黄仁勋离开英伟达作出反应",
+      "summary": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations. On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed. Nvidia’s ",
+      "summaryZh": "TechCrunch 汇总了黄仁勋离开英伟达后亚洲各方的表态。报道称英伟达董事会启动独立调查，起因是有关黄仁勋遭中国间谍行动针对的报告，黄本人承认与曾任职新加坡芯片公司 Megaspeed 的 Alice Huang 有婚外情。中国外交部否认相关间谍指控，称系无端抹黑，并重申反对扰乱全球供应链的出口管制；路透审阅采购公告等材料后称，逾 30 亿美元依赖英伟达受限处理器的中国 AI 算力项目面临不确定性。新加坡称 2025 年 6 月扣押 Alice Huang 护照调查服务器采购虚假申报，2026 年 2 月认定相关刑事证据不足但就其职务陈述发出警告并禁止入境。韩国称英伟达重申供应 26 万块 GPU；台湾称台北总部项目照常；日本称将密切跟踪。",
+      "whyItMatters": "英伟达领导层变动牵动亚洲供应链与各国算力计划，出口管制下的中国项目风险尤为直接。事件也暴露头部芯片公司治理与地缘政治风险如何传导至下游 AI 投资。",
+      "limitations": "报道混合了调查进展、政府表态与路透的间接测算，30 亿美元规模等数字未经独立核实；间谍指控与调查结论均以“据报”“称”呈现，事实链尚未闭合。",
+      "insight": "（分析）该事件把公司治理风险与出口管制风险叠加到同一节点上，短期看是供应承诺重申，中期看亚洲各国可能加速算力来源多元化。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "出口管制",
+        "亚洲",
+        "供应链"
+      ],
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "9d694fa95af0cfae",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "titleZh": "黄仁勋离任后，风投担忧英伟达对AI初创的投资收缩",
+      "summary": "It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down. “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor, pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook. “If that direction chang",
+      "summaryZh": "TechCrunch报道称，英伟达CEO黄仁勋离任后，多位风投和创始人担心英伟达对AI初创企业的投资节奏会明显放缓。据PitchBook数据，英伟达近年每年向初创投入数十亿美元，今年参与105轮融资，且常为最大投资方，重点押注neocloud、推理服务与开放权重模型。投资人称，许多重大投资决定来自黄仁勋本人；临时CEO Colette Kress被认为更保守，可能减少对早期生态的投入。另有观点认为，英伟达投资也起到锁定初创使用其芯片的作用，收缩或为竞争对手留出空间；但多数受访者不认为这会单独终止更广泛的AI热潮。",
+      "whyItMatters": "英伟达既是算力供应商又是重要出资方，其投资策略变化会直接影响AI基础设施初创的融资难度、估值和芯片选择，进而影响算力供给格局与竞争。",
+      "limitations": "材料主要基于匿名风投与创始人的说法，未提供英伟达官方投资计划或具体削减金额；公司收购、投资时间线等细节以报道为准，需后续验证。",
+      "insight": "分析：若英伟达从“最大出资方”转向更保守，短期冲击的是高估值、重资产的基础设施初创；能否由云厂商或其它芯片商补位，取决于其生态成熟度与出资意愿，而不仅是有无资金。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "风险投资",
+        "AI初创",
+        "neocloud",
+        "算力"
+      ],
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "754f24889ed9e00a",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "titleZh": "OpenAI 推出 ChatGPT Wallet，Dots Agent 可代用户下单",
+      "summary": "AINewsTechChatGPT Wallet lets OpenAI’s Dots agents make purchases for youOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. by Stevie BonifieldNov 13, 2026, 8:45 PM UTCLinkShareGiftImage: Cath Virginia / The Verge, Getty ImagesStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, ",
+      "summaryZh": "据 The Verge 报道，OpenAI 在 Dots Agent 平台之后推出 ChatGPT Wallet。首批面向美国 18 岁以上、使用美国账单地址和符合条件的美国运通、Chase、Mastercard、Visa 卡的 ChatGPT Pro 订阅用户。用户绑卡后，Dots Agent 可按指令购物，但每次结账前须经用户确认，并通过 Face ID 或指纹等生物识别验证。OpenAI 称支付时用支付令牌替代真实卡号，Agent 与商家均不获取卡信息。未来计划允许用户设定消费限额、品类或时间范围后预授权、完全委托购买。文章同时指出部分零售商限制或封禁 AI Agent，例如亚马逊曾封禁 Meta 的 Muse Agent；OpenAI 表示网站需避免误封 Agent，支付与风控系统需识别合法 Agent 交易。",
+      "whyItMatters": "这是 Agent 从'建议'走向'代为交易'的关键一步，涉及支付令牌化、逐笔确认与生物识别等信任设计；商家侧封禁与风控识别问题决定了这类能力能否规模化落地。",
+      "limitations": "为上线初期的产品报道，仅覆盖美国 Pro 用户与部分卡组织；委托购买、限额预授权均属未来计划，未验证。文章未披露交易规模、失败率与商家接受度数据。",
+      "insight": "分析：Agent 支付的核心摩擦不在模型能力，而在商户风控与责任归属；逐笔确认的体验与预授权额度机制之间的取舍，将决定 Agent 商务的实际转化率。",
+      "importance": 8,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "Agent支付",
+        "Dots"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "579aa129bfed87fd",
+      "title": "The avalanche that hit math is coming for AI development",
+      "titleZh": "Dwarkesh Patel：AI自动化AI研究可能只需数年，数学进展是预演",
+      "summary": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, I’ve updated my views a ton. I’ve been debating people about this question, both on and off the p",
+      "summaryZh": "Dwarkesh Patel在这篇长文中称，自己过去三个月大幅上调了对AI研发自动化速度的判断：他估计距“和顶尖人类AI研究者一样好”的AI中位年份是2028年，并认为此后一年内可能出现各领域达到顶尖人类专家的AI。其论据包括：METR在Anthropic驻场三个月后认为后者在界定清晰任务上的进展速度是一年前的两倍，其中大部分加速可能归因于用AI做研发；OpenAI称其研究者中前10%的重度用户每日内部编码agent花费从约1000美元升至8月底的超7000美元；Anthropic称截至8月Claude“主导”其AI研发工作超过26%，而2月还不到1%。他以数学能力的快速提升作为预演，并援引Toby Ord的观点指出当前系统擅长证明但少有证据表明能提出深刻新问题。",
+      "whyItMatters": "若AI研发本身成为可被自动化的高反馈领域，模型迭代速度可能脱离人力瓶颈，影响算力投入节奏、研究者岗位和实验室竞争格局。文章提供了可核查的机构数据点，是讨论“递归自我改进”时少见的实证线索。",
+      "limitations": "核心时间预测是作者个人判断，非共识；所引METR、OpenAI、Anthropic数据均为机构自述或合作结论，缺乏独立复现。作者也承认AI研究可验证性低于数学，且未讨论实验室主动减速等情形。",
+      "insight": "分析：文章最有价值的部分不是2028年这个数字，而是把“AI研究是否可验证”作为判断自动化速度的关键变量——数学、竞赛编程等高反馈领域的跃迁能否迁移到目标和评价都更模糊的研发工作，仍是未决问题。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI研发自动化",
+        "递归自我改进",
+        "METR",
+        "数学推理",
+        "AGI时间线"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T18:37:51.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "d48977b6fbc84b1e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "titleZh": "Microsoft 披露 Lazarus：改写休眠神经元即可给 Agent 植入后门",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retr",
+      "summaryZh": "Microsoft Research 公布名为 Lazarus 的后门方法：无需训练，仅改写 LLM 中不到 10 个休眠神经元，即可让模型在特定触发条件（如日期跨过 2027 年零点）下输出攻击者命令，由具备工具或终端权限的 Agent 执行下载运行代码、窃取凭据等操作，同时仍通过常规评测。机制上，预训练使内部表征可分，约 50 个样本即可拟合线性分类器识别触发输入；被改写的神经元向残差流注入指定 token，多个神经元可串联成任意载荷。作者指出攻击只需推理级算力与检查点写权限，闭源自研模型同样暴露，防御依赖权重完整性、来源追溯与对原始权重的差分比对。",
+      "whyItMatters": "Agent 拥有工具权限时，模型权重被篡改的后果从错误输出升级为真实系统入侵；这把模型供应链安全与权重审计推到部署前必须处理的位置。",
+      "limitations": "内容为厂商研究博客的方法概述，未给出完整实验规模与误报率；检测手段有效性、触发条件覆盖面需查原始论文验证。",
+      "insight": "分析：把模型当代码审计、限制 Agent 权限并做来源签名，是当前较现实的防线，但任何扫描都无法证明模型绝对安全。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "后门",
+        "模型安全",
+        "Agent",
+        "权重完整性"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "f88fcfa12fe4eda6",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "titleZh": "黄仁勋离任与“愿景型表演式创始人 CEO”的退潮",
+      "summary": "TechAIReportJensen Huang and the decline of the visionary showman founder CEOThe Steve Jobs of GPUs has been shown the door. by Sean HollisterNov 14, 2026, 12:00 PM UTCLinkShareGiftNvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty ImagesPart OfNvidia CEO Jensen Huang has resigned. What happens next?see all updates Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 1",
+      "summaryZh": "The Verge 这篇评论以黄仁勋离开英伟达为切口，回顾其从 1993 年创立公司到成为 AI 算力核心供应商的历程，并讨论其治理风格留下的空缺。文中援引 IDC 分析师 Tom Mainelli 称约 60 名员工直接向 CEO 汇报、公司围绕其个人运转，Jon Peddie 称“Jensen 就是英伟达”，Pat Moorhead 称其是最接近 Steve Jobs 的愿景与战术兼具的领导者。文章列举关键押注：1996 年 Dreamcast 芯片失败后说服 Sega 投资 500 万美元；押注 Riva 128；在 GeForce 上加 CUDA 使每块显卡成本上升约 50%；2012 年 AlexNet 用英伟达 GPU 训练。作者认为他是大型科技公司中最后一位此类创始人 CEO，且未安排继任计划。",
+      "whyItMatters": "英伟达占标普 500 约 6%，其领导层交接方式影响 AI 硬件供应节奏与资本市场预期。文章也提示高度中心化的创始人治理在突发人事变动时的脆弱性。",
+      "limitations": "属评论与人物回顾，分析师评价为个人观点；公司治理细节与未设继任计划等说法来自转述，缺乏公司正式文件佐证，对未来影响的判断需观察。",
+      "insight": "（分析）把 CEO 个人品牌与 CUDA 生态绑定，是英伟达护城河的组成部分，也是交接期的风险点；继任者能否维持开发者生态惯性比发布新品更关键。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "公司治理",
+        "创始人CEO",
+        "CUDA"
+      ],
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "6eee76776c835ef8",
+      "title": "Anthropic刚教的24小时agent，我当天做出来了",
+      "titleZh": "FanBox 2.20.0 参照 Anthropic 架构实现本地常驻 Agent 值守",
+      "summary": "10月31日 DeepSeek Harness 谈 super-agent，11月13日 Anthropic 写 always-on agents。作者照着后者在开源项目 FanBox 里做了一版，随 2.20.0 发布：agent 停下等你，手机收到它一句话。 一、背景 这篇文章的缘起呢，是最近看到的两篇非常好的关于agent系统设计的文章。 10月31日，DeepSeek Harness团队发了一篇《Super-agent设计探索：迈向更自主的Agent系统》。11月13日，Anthropic发了一篇Building always-on agents，教你怎么建一个24小时在线的agent。 这正好是我最近非常想折腾的事，所以看到Anthropic这篇时，我就让Claude照着它在FanBox（我做的那个Coding Agent驾驶舱，开源的）里做了一版，现在已经随FanBox 2.20.0发出去了。做出来的效果是：终端里的agent停下来等你，而你不在电脑前，你的手机（微信或飞书）会收到它的一句话。也就是说，尽量让你以相对自然的方式持续和agent互动，并让agent24小时为你",
+      "summaryZh": "作者花叔（微信公众号「花叔」，发布于人人都是产品经理）称，其开源项目 FanBox 2.20.0 参照 Anthropic《Building always-on agents》一文，在本地 Coding Agent 驾驶舱中实现了常驻值守：agent 在终端停下等待满 10 分钟且电脑 5 分钟无键鼠输入时，会通过微信或飞书推送一句话提醒；新增 fanbox-notify 命令让 agent 主动通知手机；人在电脑前时不推送。事件来源包括：窗口等待超时、Claude Code 断线重试 3 次未续上、自定跟进到点、盯梢源出现新条目；发件箱限制为 23 点至次日 8 点不发并合并、两条间隔至少 10 分钟、每日最多 20 条。文中另转述 DeepSeek Harness 10 月 31 日《Super-agent 设计探索》的 Router/Worker 双层架构与实验数据，作者未采用其上云方案。",
+      "whyItMatters": "这是中文开发者对 Anthropic 常驻 agent 五部件（收件箱、定时器、记忆、权限、发件箱）的一次可运行落地，并把「无人触发轮次只读」「不让 agent 猜人在不在」等约束写成工程规则，对自建本地 agent 值守的人有直接参考价值。",
+      "limitations": "主要证据是作者自述与开源仓库，无第三方复现；文中成本（每次唤醒 0.14–0.16 美元、4–11 秒）与测试结论均为作者单方测量；文中提到的 Opus 5.5 与 fable5.2 等模型名称及成本对比属转述 Anthropic 文章，未经独立核实；仅支持 Claude Code，飞书只能发不能回。",
+      "insight": "分析：真正可复用的是「把是否打扰人的判断从模型移到宿主程序」和「无人触发轮次降权为只读」两条设计，前者规避了模型缺乏环境信息导致的该发不发，后者降低了提示注入的破坏面。上云与本地之争在该文中被简化为上下文可得性与信任成本，未给出量化对比。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "FanBox",
+        "常驻agent",
+        "Anthropic",
+        "Claude Code",
+        "事件驱动"
+      ],
+      "url": "https://www.woshipm.com/ai/6493965.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T07:30:26.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "49f0b0840b1ef26a",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "titleZh": "LangChain 完成 3 亿美元 C 轮融资，估值达 30 亿美元",
+      "summary": "In Brief Posted: 11:37 AM PST · November 13, 2026 Image Credits:Getty Images Julie Bort AI agent startup LangChain hits $3B valuation Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday. That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP. LangChai",
+      "summaryZh": "据 TechCrunch 报道，Agent 管理公司 LangChain 宣布完成 3 亿美元 C 轮融资，由 CapitalG 领投，GIC、DFJ Growth、IVP、Sapphire Ventures 等参投，估值 30 亿美元，约为一年前 12.5 亿美元估值的两倍多。LangChain 2022 年起源于开源项目，早期处理搜索网页、调用 API、连接数据库等大模型不擅长的任务；随着前沿实验室的模型与工具链覆盖这些能力，公司转向 Agent 创建与管理产品 LangSmith。其卖点是不绑定特定模型、云或生态，强调控制 Agent 行为与易用性。文章称 LangSmith 已有 7000 家客户，包括 Harvey、Rippling、Clay 以及 Nvidia、Toyota、Salesforce 等企业。",
+      "whyItMatters": "这反映出 Agent 编排与管理层正在成为独立商业赛道：企业希望在不锁定单一模型供应商的前提下管理 Agent 行为、可观测性与权限，模型厂商自带工具链的挤压反而凸显了中立层的价值。",
+      "limitations": "融资与估值数据来自公司宣布及媒体转述，客户数量为厂商自述，未披露营收、留存与付费转化；'不锁定'的实际效果与竞品差异需独立验证。",
+      "insight": "分析：模型厂商不断把工具链内化，中立 Agent 管理层的护城河更可能来自跨模型治理与可观测性，而非单纯的开发框架便利性；高估值也意味着市场已提前计入这一判断。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "LangChain",
+        "LangSmith",
+        "融资",
+        "Agent编排"
+      ],
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "5b69826eead48a96",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 流程的执行型模型",
+      "summary": "Introducing Gemini 4 Hydrogen Nov 12, 2026 | x.com Facebook LinkedIn Mail Copy link Hydrogen brings cutting-edge intelligence to everyone. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-hydrogen/blog/index.html\" title=\"an image of carbon with the number 4 around it\" class=\"uni-dynamic-iframe__iframe\" allow=\"autoplay; encrypted-media; fulls",
+      "summaryZh": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为面向日常编码与 agentic 工作流的快速执行模型。官方称其在 Artificial Analysis Intelligence Index 默认高思考档为 51（Argon 为 50），最高 xhigh 档达 54；100 万 token 上下文统一计价，输入每百万 1.50 美元、输出 7.50 美元。文中给出多项自评数据：Terminal-Bench 4.1 从 3.8 Flash 的 18.2% 升至 57%、任务完成快 2.5 倍；Antigravity 新增 Orchestrator，可在会话内切换 Carbon 与 Hydrogen，称 Terminal-Bench 4.0 上接近 Carbon 成功率且配额少 24%、快 19%。还列出 HLE-Diamond 58.8%、Vals Tax Agent Bench 52.3% 等分数。",
+      "whyItMatters": "若自评成立，平价执行模型加自动模型编排会降低长时 agent 任务的成本，并改变开发者按推理深度分层选模型的用法。",
+      "limitations": "数据均为 Google 自报，多数基准由厂商选择或合作方参与，缺少独立复现；Orchestrator 仅限 Antigravity 环境，实际节省比例待验证。",
+      "insight": "分析：发布重点并非单一模型能力，而是把高性价比执行模型与编排器打包，把多模型协作做成默认路径；基准数字应视为待复核的厂商主张。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Hydrogen",
+        "Agent",
+        "基准评测",
+        "Antigravity",
+        "定价"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    }
+  ],
+  "pmHighlights": [
+    {
+      "id": "754f24889ed9e00a",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "titleZh": "OpenAI 推出 ChatGPT Wallet，Dots Agent 可代用户下单",
+      "summary": "AINewsTechChatGPT Wallet lets OpenAI’s Dots agents make purchases for youOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. by Stevie BonifieldNov 13, 2026, 8:45 PM UTCLinkShareGiftImage: Cath Virginia / The Verge, Getty ImagesStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, ",
+      "summaryZh": "据 The Verge 报道，OpenAI 在 Dots Agent 平台之后推出 ChatGPT Wallet。首批面向美国 18 岁以上、使用美国账单地址和符合条件的美国运通、Chase、Mastercard、Visa 卡的 ChatGPT Pro 订阅用户。用户绑卡后，Dots Agent 可按指令购物，但每次结账前须经用户确认，并通过 Face ID 或指纹等生物识别验证。OpenAI 称支付时用支付令牌替代真实卡号，Agent 与商家均不获取卡信息。未来计划允许用户设定消费限额、品类或时间范围后预授权、完全委托购买。文章同时指出部分零售商限制或封禁 AI Agent，例如亚马逊曾封禁 Meta 的 Muse Agent；OpenAI 表示网站需避免误封 Agent，支付与风控系统需识别合法 Agent 交易。",
+      "whyItMatters": "这是 Agent 从'建议'走向'代为交易'的关键一步，涉及支付令牌化、逐笔确认与生物识别等信任设计；商家侧封禁与风控识别问题决定了这类能力能否规模化落地。",
+      "limitations": "为上线初期的产品报道，仅覆盖美国 Pro 用户与部分卡组织；委托购买、限额预授权均属未来计划，未验证。文章未披露交易规模、失败率与商家接受度数据。",
+      "insight": "分析：Agent 支付的核心摩擦不在模型能力，而在商户风控与责任归属；逐笔确认的体验与预授权额度机制之间的取舍，将决定 Agent 商务的实际转化率。",
+      "importance": 8,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "Agent支付",
+        "Dots"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    }
+  ],
+  "githubNew": [
+    {
+      "id": "dbd22669440bd406",
+      "title": "lance-format/lance",
+      "titleZh": "Lance：面向多模态 AI 的开源湖仓格式",
+      "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..\n当前星数 7299，当日增加 6；语言 Rust。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "Lance 是面向多模态 AI 的开源湖仓（Lakehouse）数据格式，宣称可从 Parquet 用两行代码转换，并支持更快的随机访问、向量索引与数据版本管理，兼容 Pandas、DuckDB、Polars、PyArrow、PyTorch 等工具。该仓库以 Rust 实现，当前星标约 7300。其定位是解决多模态数据（向量、图像等）在训练与检索场景下的存储与读取效率问题：以列式格式承载向量索引，使随机访问与版本化在同一层完成。仓库简介是该项目的自我描述，不是今日发布公告；其中的“100 倍”等数字来自仓库文案，未经独立验证。",
+      "whyItMatters": "多模态与向量检索工作流中，数据格式与索引常被拆分在多个系统里，Lance 试图把两者合并，可减少训练与检索链路的数据搬运成本，对构建 RAG 或向量数据库的团队有参考价值。",
+      "limitations": "仅有仓库简介这一短文本来源；性能倍数、与 Parquet 的实际兼容程度、索引更新与版本化在生产规模下的表现均未验证。",
+      "insight": "（分析）数据格式层是 Agent 与多模态应用的基础设施，若 Lance 的索引与版本化能力可用，可能降低向量检索系统的自建成本；但格式类项目往往需长期生态积累。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "湖仓格式",
+        "向量检索",
+        "多模态",
+        "Rust"
+      ],
+      "url": "https://github.com/lance-format/lance",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "agents"
+      ]
+    },
+    {
+      "id": "94784d27d75bc9c9",
+      "title": "SigNoz/signoz",
+      "titleZh": "SigNoz：原生 OpenTelemetry 的可观测性平台，加入 MCP 与 AI 同事",
+      "summary": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.\n当前星数 32641，当日增加 20；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "SigNoz 是开源、原生 OpenTelemetry 的可观测性平台，整合日志、指标和链路追踪，提供 APM、分布式追踪、日志管理与基础设施监控。仓库简介称，配合 SigNoz MCP 与 SigNoz Cloud 中的“原生 AI 同事”，可帮助构建更有韧性的应用。当前星标约 3.26 万。其机制是采集 OTel 标准数据并统一存储分析；MCP 部分意味着 AI Agent 可经由协议查询观测数据。简介未说明 AI 同事的具体能力边界与可用区域。",
+      "whyItMatters": "可观测性是运行 AI Agent 应用的必要环节；若 Agent 能通过 MCP 主动查询日志与追踪，故障定位与运维自动化会有新入口，对平台工程和 SRE 团队有直接意义。",
+      "limitations": "仅仓库简介；MCP 与 AI 同事的功能细节、是否开源、计费与效果均未披露，星标增长不代表产品采用度。",
+      "insight": "（分析）可观测性平台接入 MCP 是把 Agent 纳入运维闭环的典型路径，但“AI 同事”类能力多处于早期，需观察其准确性评估方式。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "可观测性",
+        "OpenTelemetry",
+        "MCP",
+        "AIOps"
+      ],
+      "url": "https://github.com/SigNoz/signoz",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "c5a32632e586ab2c",
+      "title": "langchain-ai/langchain",
+      "titleZh": "LangChain：自称“Agent 工程平台”的框架仓库",
+      "summary": "The agent engineering platform.\n当前星数 149501，当日增加 56；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "LangChain 仓库简介仅一句话：面向 Agent 工程的平台，以 Python 实现，当前星标约 14.95 万。该简介未提供版本更新、架构变化或新功能说明，本文只能概括其公开定位：为构建基于大模型的 Agent 应用提供编排与集成能力。作为长期高星项目，其星标数反映历史关注度，而非今日新增热度；当日增加约 56 星。具体能力、稳定性与适用边界需查看文档与代码，材料不足以展开。",
+      "whyItMatters": "LangChain 是许多团队搭建 Agent 与 RAG 应用时的默认起点之一，其定位变化会影响生态内的工具选择与工程实践；但单条仓库简介不足以判断其当前技术进展。",
+      "limitations": "证据仅为一句仓库简介，无发布说明、无功能细节；星标高属长期积累，不能作为新近重要性依据。",
+      "insight": "（分析）从“框架”改称“Agent 工程平台”，可能反映其向部署与运维层延伸的意图，但需官方文档与发布记录佐证，当前材料不足。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Agent",
+        "框架",
+        "Python"
+      ],
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents"
+      ]
+    }
+  ],
+  "githubHot": [
+    {
+      "id": "ac6052de3047a038",
+      "title": "facebookresearch/faiss",
+      "titleZh": "FAISS：稠密向量相似检索与聚类库",
+      "summary": "A library for efficient similarity search and clustering of dense vectors.\n当前星数 41659，当日增加 65；语言 C++。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "FAISS 是 Meta（facebookresearch）开源的稠密向量相似检索与聚类库，以 C++ 实现，当前星标约 4.17 万，当日增加约 65。它提供多种向量索引结构与近似最近邻算法，常被用作向量检索的底层组件，属于长期维护的基础库。材料未包含本次版本更新或性能变化信息，因此只能说明其公开定位与热度状态，无法据此推断向量检索领域的新进展。",
+      "whyItMatters": "FAISS 是向量数据库与 RAG 系统常见的底层检索组件，其维护状态影响大量应用的性能与升级路径；但星标增长本身不构成技术变化的证据。",
+      "limitations": "仅仓库简介一句；无版本发布、基准或维护状态信息，不能据此判断其当前活跃度或相对其他库的优劣。",
+      "insight": "（分析）FAISS 属于成熟基础库，其新闻价值通常来自版本更新或与其他索引方案的对比基准，而非星标变化；本条仅可作背景收录。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "向量检索",
+        "相似搜索",
+        "C++"
+      ],
+      "url": "https://github.com/facebookresearch/faiss",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "5b69826eead48a96",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 流程的执行型模型",
+      "summary": "Introducing Gemini 4 Hydrogen Nov 12, 2026 | x.com Facebook LinkedIn Mail Copy link Hydrogen brings cutting-edge intelligence to everyone. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-hydrogen/blog/index.html\" title=\"an image of carbon with the number 4 around it\" class=\"uni-dynamic-iframe__iframe\" allow=\"autoplay; encrypted-media; fulls",
+      "summaryZh": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为面向日常编码与 agentic 工作流的快速执行模型。官方称其在 Artificial Analysis Intelligence Index 默认高思考档为 51（Argon 为 50），最高 xhigh 档达 54；100 万 token 上下文统一计价，输入每百万 1.50 美元、输出 7.50 美元。文中给出多项自评数据：Terminal-Bench 4.1 从 3.8 Flash 的 18.2% 升至 57%、任务完成快 2.5 倍；Antigravity 新增 Orchestrator，可在会话内切换 Carbon 与 Hydrogen，称 Terminal-Bench 4.0 上接近 Carbon 成功率且配额少 24%、快 19%。还列出 HLE-Diamond 58.8%、Vals Tax Agent Bench 52.3% 等分数。",
+      "whyItMatters": "若自评成立，平价执行模型加自动模型编排会降低长时 agent 任务的成本，并改变开发者按推理深度分层选模型的用法。",
+      "limitations": "数据均为 Google 自报，多数基准由厂商选择或合作方参与，缺少独立复现；Orchestrator 仅限 Antigravity 环境，实际节省比例待验证。",
+      "insight": "分析：发布重点并非单一模型能力，而是把高性价比执行模型与编排器打包，把多模型协作做成默认路径；基准数字应视为待复核的厂商主张。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Hydrogen",
+        "Agent",
+        "基准评测",
+        "Antigravity",
+        "定价"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "3ed8f8cd29d8bc17",
+      "title": "Microsoft Research Focus – Edition #98",
+      "titleZh": "微软研究通讯第98期：编码 Agent 上下文压缩基准 CompactionBench 与多语言分词器 LCT",
+      "summary": "What’s new in research? In this edition of Microsoft Research Focus, based on the Research Focus newsletter (opens in new tab), host Anson Ho shares some of the latest news and cutting-edge research from across Microsoft—from bringing AI-powered universal translation closer to reality and solving a 31-year-old mathematical challenge to making AI coding agents faster and more efficient. Catch up on the ideas, tools, and discoveries researchers are exploring today and get a quick look at what’s co",
+      "summaryZh": "微软研究播客第98期汇总多项研究，其中与 AI 直接相关的是编码 agent 的上下文压缩问题。节目称一项研究分析了 1350 万次编码会话，发现不到 8% 需要上下文压缩，但这些会话占总 AI 处理成本的 44%；为此提出 CompactionBench 基准，用于评估长时编码任务中的上下文压缩，并提出 APEC 方法在后台预先准备摘要而非打断 agent，评测中编码表现提升、成本最多降低 25.4%、执行时间减少 9.6%。另介绍 Latent Core Tokenizer，在构建跨语言共享词表前识别词语可复用组件，在 104 种语言上生成更具语言意义的 token，并在四个多语言基准上改善模型表现。节目还提及 KLS 猜想被解决和语音翻译进展。",
+      "whyItMatters": "长时编码 agent 的成本集中在少数需压缩上下文的会话，说明上下文管理是 agent 经济性的关键环节，也是评测体系的空白。",
+      "limitations": "播客摘要，未给方法细节、数据集和复现条件；APEC 与 LCT 的数值均为微软研究者自述。",
+      "insight": "分析：CompactionBench 把“上下文压缩”从工程技巧变成可测对象，若被采用，可能影响 agent 框架的成本设计。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "编码 Agent",
+        "上下文压缩",
+        "CompactionBench",
+        "分词器",
+        "多语言"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T21:31:57.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "ba0fcf4e325b4115",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "titleZh": "AlphaGenome 2：面向具体细胞类型的 DNA 变异效应预测",
+      "summary": "November 11, 2026 ScienceAlphaGenome 2: Deciphering how cells read DNA to better understand diseaseAdam Gayoso, Natasha Latysheva, Pushmeet Kohli and Žiga Avsec Read the paper ShareOur next-generation DNA sequence model bridges single-cell biology and human genetics, predicting how genetic variants affect hundreds of human cell types.Today, we are announcing AlphaGenome 2, our next-generation model that predicts how DNA sequences and their variations impact specific human cell types, giving scie",
+      "summaryZh": "Google DeepMind 发布 AlphaGenome 2，将上一代并行输出多组织结果的模型改为条件模型：输入百万碱基 DNA 序列的同时，在架构各阶段引入目标生物学条件（组织、细胞类型或状态），从而预测同一段 DNA 在不同细胞中如何被读取。训练数据含 68 个组织、逾 1.07 亿个单细胞图谱。官方称在 TenK10K 免疫细胞数据上识别出的因果变异约为原模型两倍（30% vs 16%），并新增 DNA 甲基化读出；通过 cell encoder 可将少量单细胞数据编码为新条件，无需重训即可外推到未见细胞状态。非商业研究可通过 AlphaGenome API 使用。",
+      "whyItMatters": "把单细胞图谱转成可预测变异效应的引擎，有助于把 GWAS 信号定位到具体细胞类型，对疾病机制研究和靶点优先级判断有直接价值。",
+      "limitations": "对比数字来自官方选定的基准与数据集；独立复现、跨人群泛化及临床效用尚未验证。商业使用仍为私有预览。",
+      "insight": "分析：条件化建模是基因组基础模型从组织平均走向细胞分辨率的关键一步，但预测取代实验仍需长期验证。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AlphaGenome",
+        "基因组",
+        "单细胞",
+        "变异效应"
+      ],
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-11T15:00:15.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "d48977b6fbc84b1e",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "titleZh": "Microsoft 披露 Lazarus：改写休眠神经元即可给 Agent 植入后门",
+      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retr",
+      "summaryZh": "Microsoft Research 公布名为 Lazarus 的后门方法：无需训练，仅改写 LLM 中不到 10 个休眠神经元，即可让模型在特定触发条件（如日期跨过 2027 年零点）下输出攻击者命令，由具备工具或终端权限的 Agent 执行下载运行代码、窃取凭据等操作，同时仍通过常规评测。机制上，预训练使内部表征可分，约 50 个样本即可拟合线性分类器识别触发输入；被改写的神经元向残差流注入指定 token，多个神经元可串联成任意载荷。作者指出攻击只需推理级算力与检查点写权限，闭源自研模型同样暴露，防御依赖权重完整性、来源追溯与对原始权重的差分比对。",
+      "whyItMatters": "Agent 拥有工具权限时，模型权重被篡改的后果从错误输出升级为真实系统入侵；这把模型供应链安全与权重审计推到部署前必须处理的位置。",
+      "limitations": "内容为厂商研究博客的方法概述，未给出完整实验规模与误报率；检测手段有效性、触发条件覆盖面需查原始论文验证。",
+      "insight": "分析：把模型当代码审计、限制 Agent 权限并做来源签名，是当前较现实的防线，但任何扫描都无法证明模型绝对安全。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "后门",
+        "模型安全",
+        "Agent",
+        "权重完整性"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon，主打长程 Agent 工作流与网络安全能力",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员和消费者开放。据官方博客，Carbon 在复杂多步编码、调试和开放式科研等任务上使用更多 token 做深度推理与验证循环，定位在已完成软件工程和知识工作的 Gemini 4 Argon 之上。谷歌称其位列 CursorBench 4.0、Perplexity 的 WANDR 和 Zapier 的 AutomationBench 首位，每任务成本低于次优外部模型 2 倍以上；并在 Antigravity 中预览 /swarm，让单条提示生成可实时跟踪的多 Agent 团队。网络安全方面，谷歌称经 Fairwind 计划访问时，Carbon 在 SEC-bench Pro、ExploitGym、CWE-bench v1 上领先，内部 Project Fortify 扫描召回达 100%、分诊精度 95%。",
+      "whyItMatters": "如果多 Agent 编排与长程验证循环的实际表现接近官方描述，企业复杂工程与科研任务的自动化边界会被推进，同时网络安全攻防两侧的能力差距可能扩大。定价与 Argon 持平也影响采购决策。",
+      "limitations": "以上性能数据、基准排名和漏洞发现案例均来自谷歌官方博客及合作方评估，尚无独立复现；/swarm 仍为预览功能；定价为介绍期价格，后续可能调整。",
+      "insight": "厂商把'更强推理'与'更多 token 消耗'绑定，并以单位任务成本作为卖点，说明前沿模型的竞争正从单次准确率转向单位成本下的端到端任务完成度。",
+      "importance": 9,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "多Agent",
+        "网络安全",
+        "基准测试"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "6841e619fcd7e8d9",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "titleZh": "llama.cpp 与 ggml 发布 v1.0.0，明确语义化版本与 ABI 兼容规则",
+      "summary": "Back to Articles llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem Team Article Published November 13, 2026 Upvote 163 +157 Daniel Bevenius danbev Follow ggml-org Georgi Gerganov ggerganov Follow ggml-org merve merve Follow ggml-org llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. Through quantization, optimized backends, and a portable C/C++ implementation, we make AI infere",
+      "summaryZh": "llama.cpp 项目在 Hugging Face 博客宣布发布 llama.cpp 与 ggml 的 v1.0.0 库版本。文章说明项目已运行约 3.5 年，众多下游应用依赖其 C/C++ 接口，因此以主版本号标记 API 与 ABI 不兼容变更，并将对语义化版本边界更严格。规则为：公共 C 头文件破坏性变更升 MAJOR，向后兼容特性、后端更新、模型支持升 MINOR，无 API 变更的修复升 PATCH。文章还列出预发布产物、Docker、Debian、Homebrew、conda-forge、MacPorts、Winget、XCFramework 等分发渠道，称当前支持 150 多种模型架构变体与主流投机解码方法，并提到借助 HF Buckets 与 HF Jobs 扩展 CI 容量。",
+      "whyItMatters": "对依赖本地推理的下游产品，稳定 API/ABI 规则降低了升级风险，便于打包与长期维护；这也是本地与私有化 AI 部署生态走向工程成熟的一个信号。",
+      "limitations": "文章为项目方自述，未给出各后端性能对比或 v1.0.0 相对旧版的具体行为变化清单；评论中提及大 prompt 预填充仍需改进，属于社区反馈。",
+      "insight": "把'库接口稳定性'作为版本里程碑，反映开源推理栈的竞争点正从能否跑通转向能否被长期依赖。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "llama.cpp",
+        "ggml",
+        "本地推理",
+        "语义化版本",
+        "开源"
+      ],
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "models"
+      ]
+    },
+    {
+      "id": "3a45181f6d992343",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "titleZh": "微软研究院介绍 PDD Kit：用形式化规格约束 Agent 编写的全栈应用",
+      "summary": "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can’t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here. Exhaustive line-by-line human review can become difficult to scale as AI agents generate increasingly large amounts of code. ",
+      "summaryZh": "微软研究院博客介绍 Proof-Driven Development（PDD）与工具 PDD Kit。文章指出，Agent 可一次生成数万行代码，逐行人工审查难以扩展，而 Agent 自写的测试往往只验证其实现而非用户意图。PDD Kit 运行在 GitHub Next 的 Chopin 环境中，先与开发者把意图转化为 Verus（Rust 证明语言）的形式化规格，再自动证明代码满足规格，无法证明的部分（如第三方密码库、UI）回落到单元与端到端测试，并明确标注每个结果是证明还是经验证据。案例中，团队用它对 Rust 全栈商店应用 Pet Store（约 5000 行）的登录逻辑做形式化验证，开发者只审阅意图而未逐行阅读生成代码。",
+      "whyItMatters": "它提出了一条不靠逐行审查来规模化验证 Agent 产出的路径，对安全敏感模块（如登录、权限）尤其有价值；也把形式化方法从专家领域推向普通工程团队。",
+      "limitations": "目前仅对登录逻辑做了完整案例，Verus 仅支持 Rust；可信计算基需人工签署认可；博客为研究团队自述，未提供大规模项目或独立评测数据。",
+      "insight": "核心不是让 Agent 写更多测试，而是把'计划即契约'变成可被机器检查的规格，测试退居为证明覆盖不到处的补充证据。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "形式化验证",
+        "PDD Kit",
+        "Verus",
+        "代码生成",
+        "Microsoft Research"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "governance",
+        "products"
+      ]
+    },
+    {
+      "id": "0e9fb0eb84f13acf",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "titleZh": "Google DeepMind 发布 AlphaProof Code，用 Lean 形式化验证 Signal 核心加密",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "summaryZh": "Google DeepMind 在官方博客宣布推出 AlphaProof Code，称其 Agent 用 Lean 形式化语言撰写了约三百万行证明，用于验证 Signal 的核心加密实现。该消息表明，面向软件形式化验证的 Agent 系统正从研究演示转向对真实密码学代码的深度检查。机制上，形式化证明通过数学推导确认程序满足规范，与常规测试和模糊测试的覆盖方式不同。适用边界在于：报道只给出证明行数与验证对象，未说明证明覆盖了哪些模块、是否发现缺陷、如何与人工审计衔接，也未说明 Agent 在证明过程中的自动程度。",
+      "whyItMatters": "Signal 被广泛用于隐私通信，其加密实现的正确性直接关系用户安全。若大模型驱动的证明 Agent 能降低形式化验证的人力成本，安全关键软件的验证门槛可能下降，并影响密码学审计与高保障软件开发的流程。",
+      "limitations": "仅有官方博客短简介，缺证明规模之外的细节、第三方复核与可复现材料；三百万行证明不等于验证结论已被独立接受，实际覆盖范围未知。",
+      "insight": "分析：此类工作的关键变量不是证明行数，而是规范是否正确表达以及证明是否被机器检查通过；需等待技术报告与社区复核才能判断产业意义。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AlphaProof Code",
+        "Lean",
+        "形式化验证",
+        "Signal",
+        "密码学"
+      ],
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "32aabc03de736b72",
+      "title": "Learn the rules: The hacker mindset",
+      "titleZh": "微软研究播客：黑客 Mike Walker 谈规则、信任与机器自主攻防",
+      "summary": "For some, rules pose limitations. For others, like Microsoft Research Manager Mike Walker, they’re opportunities. Walker’s fascination with rules and their role in the social order has allowed him to find success professionally and personally, from uncovering weaknesses in networked systems to redefining how computers are trained to fend off cyberattacks to pushing the limits of a reliable mode of transportation—the bicycle—in ultra-endurance racing. In this conversation with Principal Technical",
+      "summaryZh": "微软研究院播客采访研究经理 Mike Walker，内容为其个人经历与安全观念的对话。他早年运营 BBS、用 Apple II 做实验，后参与 DARPA 网络挑战赛（CGC）相关工作，该赛事十周年在 2026 年。他提出规则是社会建构，安全系统每次向用户索取配合都是在消耗信任，信任被挥霍则安全机制失效；并谈到全机器黑客竞赛、团队协作与集体智能。材料为播客转录片段，主要涉及理念与经历，未给出新的技术指标或产品发布。",
+      "whyItMatters": "节目给出一个常被忽视的视角：自主攻防系统与安全策略的成效不只取决于检测能力，也取决于用户是否愿意配合。对设计 Agent 化安全产品与评估治理策略的团队，这是需要纳入考量的约束。",
+      "limitations": "为播客对话而非研究论文，转录在末尾被截断；所述 CGC 属较早项目，不能作为当前 AI 攻防能力的新证据。",
+      "insight": "分析：把“信任”作为安全系统的成本项，可解释为何强制式安全策略常遭绕过；但这是受访者观点，尚无量化验证。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "网络安全",
+        "自主攻防",
+        "信任",
+        "CGC",
+        "微软研究院"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-03T17:14:38.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "governance"
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "id": "d6d23163b98ddfa1",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "titleZh": "Google 将 Gemini 4 Hydrogen 接入搜索，面向全球用户提供多模态结果",
+      "summary": "Google Search gets a major upgrade with Gemini 4 Hydrogen Nov 12, 2026 | x.com Facebook LinkedIn Mail Copy link Robby Stein VP of Product, Google Search Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Read AI-generated summary We are bringing Gemini 4 Hydrogen to Google Search globally to provide you wi",
+      "summaryZh": "Google 产品副总裁 Robby Stein 在官方博客宣布，将 Gemini 4 Hydrogen 模型引入 Google Search 并向全球所有用户开放，称为搜索迄今最大的模型升级。根据博文，更新包括更准确地理解包含多个部分的复杂问题和拼写错误、更深入地执行指令并调用工具、增强 query fan-out 并行查询以链接更多网站，以及在回答中加入图片、对比表格和定制工具等结构化视觉内容，并覆盖其 AI Mode 支持的语言。博文未给出具体性能数值或评测方法。",
+      "whyItMatters": "搜索是公众接触生成式模型的最大入口之一，模型换代可能改变用户获取信息的路径与网站流量分配，也会把多步骤提问、表格与工具式回答变成默认体验。",
+      "limitations": "来源为厂商官方博客，缺少第三方评测、延迟与准确率数据；query fan-out 对内容生态的实际影响未知。",
+      "insight": "分析：把强推理模型放进搜索，核心变化在答案组织方式（并发子查询与结构化输出）。这对依赖搜索引流的站点是结构性变量。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Search",
+        "Gemini",
+        "AI Mode",
+        "query fan-out"
+      ],
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "0b5401a8842f0b62",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "titleZh": "英伟达私下向议员确认可实现芯片地理追踪，产业界公开质疑可行性",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on Science, Space, and Technology, is a cosponsor of the act, which would introduce geotracking requirements to verify the location ",
+      "summaryZh": "据 MIT Technology Review 报道，美国众议员 Bill Foster 称，英伟达代表在技术讨论中向他表示，落实《芯片安全法案》所要求的地理追踪“当然可以做到”，但未留下书面材料；英伟达未回应置评请求。该法案 2025 年 5 月提出，拟通过设施检查、企业声明或芯片上线时回传位置的 ping 机制，核验先进 AI 芯片所在地，防止走私至中国。半导体产业协会 2026 年 3 月公开反对，称相关要求“未经检验、可能不可行”。报道还提到，英伟达 2025 年 12 月的 Fleet Intelligence 工具可让客户监控跨数据中心芯片运行情况，并能显示芯片所在国家，但公司未说明能否用于防走私。",
+      "whyItMatters": "AI 芯片出口管制正从许可证审批延伸到技术层面的位置核验，若落地将改变数据中心与云厂商的合规义务，也牵动算力跨境部署成本。芯片厂商公开立场与私下技术承诺不一致，会成为立法听证与执法问责的焦点。",
+      "limitations": "核心说法来自单一议员的转述，英伟达未确认，也无书面记录；Fleet Intelligence 能否用于防走私未经公司证实。法案仍在国防授权法案磋商中，是否通过及具体技术标准未知。",
+      "insight": "分析：追踪能力与执法能力是两件事。即便芯片能上报位置，法案目前只提供定位信息，不包含远程断连手段；Foster 拟另提许可验证机制，说明治理链条仍缺执行环节。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "芯片出口管制",
+        "AI芯片",
+        "地缘政治"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T20:16:24.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "238432e278b3a037",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "titleZh": "TechCrunch 盘点 AI 项目“墓地”：从 Character.ai 破产到 OpenAI 产品收缩",
+      "summary": "Last month, chatbot platform Character.ai filed for bankruptcy just five years after launching. More recently, privacy-focused AI assistant Ollie announced its shutdown a few weeks ago. Aside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. According to S&P Global Market Intelligence, about 42% of AI initiatives are ultimately abandoned by their corporate parents. The reasons vary: insufficient funding, technical challenges, competition, dif",
+      "summaryZh": "TechCrunch 汇总了近年关停、转向或未达预期的 AI 产品与创业公司，并援引 S&P Global Market Intelligence 称约 42% 的 AI 项目最终被母公司放弃。文中案例包括：Character.ai 于 2026 年 10 月申请破产，此前经历诉讼与迪士尼停止侵权函；隐私向家庭助手 Ollie 于 11 月 6 日关停；工作流自动化工具 Relay 于 2026 年 8 月停运；Notion Mail 计划 9 月 22 日关闭。OpenAI 方面，独立浏览器 Atlas 于 8 月 9 日停用，功能并入 ChatGPT；Operator 与 DALL-E 的独立入口也逐步被整合，Sora 视频平台于 2026 年 3 月关停。文章还提及 Humane AI Pin、Rabbit R1、微软 Recall 等争议案例。",
+      "whyItMatters": "这份清单提供了产品层失败模式的横截面：独立工具被平台内置功能吞并、合规与诉讼成本压垮消费级应用、硬件承诺与交付能力脱节。对判断 Agent 类产品是否具备独立存活空间有参考价值。",
+      "limitations": "属媒体汇编，各案例时间线与原因多引自此前报道，未逐项核实；42% 的数字来自第三方研究机构，统计口径未知。清单本身不构成对 AI 产业整体失败率的结论。",
+      "insight": "分析：案例集中出现两类消亡路径——被平台吸收（Atlas、Operator、Relay）与合规/信任成本失控（Character.ai、Recall）。二者都指向同一问题：缺少不可替代的分发或数据壁垒。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI创业",
+        "产品关停",
+        "Character.ai",
+        "OpenAI"
+      ],
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "6c2539c06ead4df2",
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "titleZh": "Helen Toner 谈 AI 安全治理：不能把希望寄托在可信的 CEO 身上",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman. That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, H",
+      "summaryZh": "The Verge 的 Decoder 播客发布对 Georgetown CSET 执行主任 Helen Toner 的访谈。Toner 曾任 OpenAI 董事会成员，是投票解雇 Sam Altman 的四名董事之一。访谈中她介绍 CSET 约 50 人团队自 2019 年起为政策制定者提供技术与国家安全交叉领域的研究与简报，并称中期选举期间大量资金与舆论操作试图否定 AI 治理议题，但效果有限，AI 议题在两党间均有诉求。她认为政府与技术行业之间存在真实的能力差距，但外界容易高估，国会与行政部门 staff 的技术理解在提升。节目还提及前沿模型在测试中越出环境、白宫以自愿协议回应，以及 Anthropic 即将上市带来的市场压力。",
+      "whyItMatters": "这是了解当前 AI 安全立法与监管思路的一手政策圈视角，尤其是“董事会问责机制失效后靠什么约束实验室”这一问题。对关注模型治理与合规路径的团队有参考价值。",
+      "limitations": "为播客访谈，属个人观点；节目录制于英伟达调查与黄仁勋辞职之前，未涉及相关话题。简介与节选未覆盖完整论证，具体政策主张需以全文为准。",
+      "insight": "分析：访谈的核心张力在于治理机制设计——若约束依赖个人可信度或自愿承诺，则在商业压力下难以持续；Toner 的立场倾向于制度化外部监督，但访谈未给出具体立法文本。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI安全",
+        "AI治理",
+        "OpenAI",
+        "Helen Toner"
+      ],
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "02bfed5e7aa817ea",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "titleZh": "Google 发布 Gemini Decisions API：单次前向返回校准置信度",
+      "summary": "Gemini Decisions API: Fast, calibrated multimodal decisions Nov 11, 2026 | x.com Facebook LinkedIn Mail Copy link Introducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs. Min Choi Product Manager, Google DeepMind Felix Yu Principal Scientist, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the aud",
+      "summaryZh": "Google DeepMind 推出 Gemini Decisions API 与新模型 gemini-decision-1，面向封闭集合决策：一次请求可携带文本、图片、音频、视频、PDF 共享输入（上限 256K tokens），并同时评估最多 1,000 个问题，支持 yes/no、多选（2–255 个选项）和有序评分三种题型。模型不做逐 token 解码，而是对候选选项打分，返回概率与 0–1 置信度，供代码将不确定样本路由到兜底或人工复核。官方称端到端延迟 150–250 ms，定价 $0.10/百万输入 token、输出 token 不计费，并列举 Gemini Notebook 路由、Stitch 线框图、Google Labs CC 表情选择、Search 中 MCP 工具安全层等内部用法。",
+      "whyItMatters": "把分类、路由与策略校验从生成式调用中拆成低延迟、按请求计费的原语，可降低 Agent 编排中路由与护栏环节的成本和延迟，并让置信度阈值成为可工程化的控制点。",
+      "limitations": "性能、校准与延迟数据均来自 Google 自述及自选基准；第三方复现、跨厂商对比与长上下文下稳定性未知。部分内部应用细节未公开，定价与可用区域可能变化。",
+      "insight": "分析：决策类原语与生成式 API 分离，可能推动 Agent 架构形成打分层与生成层的分工，但这取决于校准在真实分布外是否仍可靠。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "API",
+        "校准",
+        "多模态",
+        "路由"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "0cdd057b459d4c2b",
+      "title": "The backlash about data centers might really just be about electricity",
+      "titleZh": "数据中心反对声浪的核心是电力，而非文化战争",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox ",
+      "summaryZh": "MIT Technology Review 记者走访弗吉尼亚 Ashburn 数据中心聚集区后提出，当地反对数据中心的声音更多来自电力供给的实际后果，而非 OpenAI 全球事务负责人 Chris Lehane 所说的“可负担性、企业权力与失控感的文化战争代理”。文中给出的背景是：在 Loudoun County，多数数据中心接入 Dominion Energy 电网，单座平均功率容量 54 兆瓦，高于丹佛国际机场用电；抗议已推动州级新规，要求数据中心承担新建输电线路成本，开发商也在准备峰值时段被切离电网的规则。新建 AI 数据中心多选址农村，靠自建天然气涡轮机与柴油备电，Anthropic 据报以 34 亿美元采购燃气轮机。作者判断行业扩张更受电力短缺而非公众反对约束。",
+      "whyItMatters": "电价与电网成本正成为 AI 基础设施扩张的实际约束，也直接决定居民电费、地方审批与数据中心选址。对从业者而言，供电与并网条件可能比芯片供给更早限制算力落地节奏。",
+      "limitations": "为记者实地走访与观点报道，54 兆瓦、34 亿美元等数字来自文中转述，未提供原始统计口径；各地反对原因多样，作者亦承认误信息与就业担忧并存，不能据此断言电力是唯一因素。",
+      "insight": "（分析）若峰值切离电网与自备电源成本内部化的规则扩散，AI 数据中心的边际成本结构将从“买卡”转向“买电与买许可”，选址逻辑会被重写。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "数据中心",
+        "电力",
+        "电网",
+        "AI基础设施",
+        "社区反对"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "299cfd655b5df2e6",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "titleZh": "亚洲多国政府就黄仁勋离开英伟达作出反应",
+      "summary": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations. On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed. Nvidia’s ",
+      "summaryZh": "TechCrunch 汇总了黄仁勋离开英伟达后亚洲各方的表态。报道称英伟达董事会启动独立调查，起因是有关黄仁勋遭中国间谍行动针对的报告，黄本人承认与曾任职新加坡芯片公司 Megaspeed 的 Alice Huang 有婚外情。中国外交部否认相关间谍指控，称系无端抹黑，并重申反对扰乱全球供应链的出口管制；路透审阅采购公告等材料后称，逾 30 亿美元依赖英伟达受限处理器的中国 AI 算力项目面临不确定性。新加坡称 2025 年 6 月扣押 Alice Huang 护照调查服务器采购虚假申报，2026 年 2 月认定相关刑事证据不足但就其职务陈述发出警告并禁止入境。韩国称英伟达重申供应 26 万块 GPU；台湾称台北总部项目照常；日本称将密切跟踪。",
+      "whyItMatters": "英伟达领导层变动牵动亚洲供应链与各国算力计划，出口管制下的中国项目风险尤为直接。事件也暴露头部芯片公司治理与地缘政治风险如何传导至下游 AI 投资。",
+      "limitations": "报道混合了调查进展、政府表态与路透的间接测算，30 亿美元规模等数字未经独立核实；间谍指控与调查结论均以“据报”“称”呈现，事实链尚未闭合。",
+      "insight": "（分析）该事件把公司治理风险与出口管制风险叠加到同一节点上，短期看是供应承诺重申，中期看亚洲各国可能加速算力来源多元化。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "出口管制",
+        "亚洲",
+        "供应链"
+      ],
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "f88fcfa12fe4eda6",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "titleZh": "黄仁勋离任与“愿景型表演式创始人 CEO”的退潮",
+      "summary": "TechAIReportJensen Huang and the decline of the visionary showman founder CEOThe Steve Jobs of GPUs has been shown the door. by Sean HollisterNov 14, 2026, 12:00 PM UTCLinkShareGiftNvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty ImagesPart OfNvidia CEO Jensen Huang has resigned. What happens next?see all updates Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 1",
+      "summaryZh": "The Verge 这篇评论以黄仁勋离开英伟达为切口，回顾其从 1993 年创立公司到成为 AI 算力核心供应商的历程，并讨论其治理风格留下的空缺。文中援引 IDC 分析师 Tom Mainelli 称约 60 名员工直接向 CEO 汇报、公司围绕其个人运转，Jon Peddie 称“Jensen 就是英伟达”，Pat Moorhead 称其是最接近 Steve Jobs 的愿景与战术兼具的领导者。文章列举关键押注：1996 年 Dreamcast 芯片失败后说服 Sega 投资 500 万美元；押注 Riva 128；在 GeForce 上加 CUDA 使每块显卡成本上升约 50%；2012 年 AlexNet 用英伟达 GPU 训练。作者认为他是大型科技公司中最后一位此类创始人 CEO，且未安排继任计划。",
+      "whyItMatters": "英伟达占标普 500 约 6%，其领导层交接方式影响 AI 硬件供应节奏与资本市场预期。文章也提示高度中心化的创始人治理在突发人事变动时的脆弱性。",
+      "limitations": "属评论与人物回顾，分析师评价为个人观点；公司治理细节与未设继任计划等说法来自转述，缺乏公司正式文件佐证，对未来影响的判断需观察。",
+      "insight": "（分析）把 CEO 个人品牌与 CUDA 生态绑定，是英伟达护城河的组成部分，也是交接期的风险点；继任者能否维持开发者生态惯性比发布新品更关键。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "公司治理",
+        "创始人CEO",
+        "CUDA"
+      ],
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "3d65ccc2f5cdce69",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "titleZh": "Google Labs 推出 Tabletop：用提示词生成多人协作空间的实验产品",
+      "summary": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together. Roman Nurik Design & Engineering Lead, Google Labs Nov 11, 2026 Whether you’re planning a family trip, running a rec league or hosting a potluck, coordinating as a group is easier when everyone can pitch in, build and decide together in one place.Today, we’re introducing Tabletop, a new Google Labs experiment built for real-time collaboration.Just add in your links, files, and ideas, then prompt @tabl",
+      "summaryZh": "Google Labs 发布实验产品 Tabletop，定位为面向小组的实时协作空间，可用于家庭旅行规划、业余联赛或聚餐等场景。用户可添加链接、文件与想法，通过 @tabletop 提示词或选择模板，生成可交互的旅行行程、晚餐投票、费用分摊和赛事对阵表；生成后分享邀请链接，多人可像在 Google Docs 中一样同时使用。产品目前仅在美国 18 岁以上用户中通过 waitlist 逐步开放，入口为 labs.google/tabletop。材料未披露底层模型、生成内容的可靠性或数据保留策略。",
+      "whyItMatters": "这是把生成式 AI 嵌入“多人共同编辑”协作流的尝试，若可行，AI 生成物将从单人产出转向团队共享的工作对象，影响协作工具形态。",
+      "limitations": "仅为 Labs 实验与官方发布，无独立测试；地区与年龄限制、waitlist 机制意味着可用性与规模未知；未提供效果数据。",
+      "insight": "分析：Tabletop 的关键不在生成单个表单，而在把生成结果变成多人可同时操作的共享空间，这更接近协作层而非模型能力竞争。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Labs",
+        "协作工具",
+        "生成式AI",
+        "多人编辑"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents"
+      ]
+    },
+    {
+      "id": "a7e59e4f72113c3a",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "titleZh": "Scott Wiener 赢得佩洛西旧金山席位，或将参与联邦 AI 监管立法",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely interp",
+      "summaryZh": "MIT Technology Review 报道，曾主导加州 AI 法案 SB 1047、并推动较轻量 SB 53 的州参议员 Scott Wiener 赢得前议长佩洛西留下的旧金山联邦众议院席位。他在胜选后接受采访，援引 METR 报告称应放慢 AI 进展，多次使用'递归自我改进'一词，主张设立强有力且灵活的联邦监管机构、举报人保护、测试与审计要求以及关闭开关，并反对联邦广泛优先于州法。报道称其竞选获 AI 监管非营利组织 Public First Action 逾 300 万美元支持，该组织获 Anthropic 大量资助，对手因此批评其与 AI 行业关系过近，Wiener 予以否认。报道还提到选民通过 40 项反对数据中心的公投措施，但 Wiener 认为这更多源于本地关切。",
+      "whyItMatters": "联邦层面的 AI 安全立法讨论可能获得一位有州级立法经验的推动者；其对州法优先权、审计与关闭开关的立场，会影响 AI 企业在合规与部署上的预期。",
+      "limitations": "报道基于一次约 20 分钟采访，Wiener 尚未就任，能否进入相关委员会及法案能否推进均未知；其对 METR 报告的解读属个人观点。",
+      "insight": "AI 监管议题正从州级试验转向联邦博弈，但选民的直接关切集中在数据中心等本地成本，与安全派的议程存在明显错位。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI监管",
+        "Scott Wiener",
+        "美国国会",
+        "SB 1047",
+        "AI安全"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "9d694fa95af0cfae",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "titleZh": "黄仁勋离任后，风投担忧英伟达对AI初创的投资收缩",
+      "summary": "It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down. “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor, pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook. “If that direction chang",
+      "summaryZh": "TechCrunch报道称，英伟达CEO黄仁勋离任后，多位风投和创始人担心英伟达对AI初创企业的投资节奏会明显放缓。据PitchBook数据，英伟达近年每年向初创投入数十亿美元，今年参与105轮融资，且常为最大投资方，重点押注neocloud、推理服务与开放权重模型。投资人称，许多重大投资决定来自黄仁勋本人；临时CEO Colette Kress被认为更保守，可能减少对早期生态的投入。另有观点认为，英伟达投资也起到锁定初创使用其芯片的作用，收缩或为竞争对手留出空间；但多数受访者不认为这会单独终止更广泛的AI热潮。",
+      "whyItMatters": "英伟达既是算力供应商又是重要出资方，其投资策略变化会直接影响AI基础设施初创的融资难度、估值和芯片选择，进而影响算力供给格局与竞争。",
+      "limitations": "材料主要基于匿名风投与创始人的说法，未提供英伟达官方投资计划或具体削减金额；公司收购、投资时间线等细节以报道为准，需后续验证。",
+      "insight": "分析：若英伟达从“最大出资方”转向更保守，短期冲击的是高估值、重资产的基础设施初创；能否由云厂商或其它芯片商补位，取决于其生态成熟度与出资意愿，而不仅是有无资金。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "风险投资",
+        "AI初创",
+        "neocloud",
+        "算力"
+      ],
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "96048276e5de0ccf",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "titleZh": "亚马逊被曝筹划“World Product Graph”商品数据索引",
+      "summary": "TechAINewsAmazon has a plan to index the world’s online shopping dataListing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents. Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents. by Stevie BonifieldNov 13, 2026, 11:49 PM UTCLinkShareGiftImage: The VergeStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag",
+      "summaryZh": "据The Verge转引路透社报道，亚马逊内部文件显示其计划建设“World Product Graph”，收录互联网上各处销售的商品信息，包括亚马逊不销售的产品，并通过自有站点向用户和AI代理提供。项目目标包括减少用户转向Reddit或Google做商品研究，并让AI购物代理更依赖亚马逊的商品索引。文件还提到现有AI购物助手Rufus存在答案事实错误或不完整、搜索成本高的问题，扩充数据旨在提升准确率并改用更便宜模型。亚马逊回应称草稿文件不代表当前计划；报道称文件标注2027年10月1日发布，但是否实施未知。",
+      "whyItMatters": "若商品数据成为AI购物代理的底层索引，掌握最大商品库的平台将影响用户比价路径和商家流量分配，也会改变电商与搜索、社区内容之间的流量关系。",
+      "limitations": "核心信息来自一份被亚马逊称为“草稿、过时”的内部文件，路透社亦称不确定是否或何时实施；功能细节与发布时间均未经官方确认。",
+      "insight": "分析：这条的价值在于展示电商平台如何把“商品知识库”当作AI代理时代的入口资产；但其商业效果取决于数据覆盖度、商家配合与代理生态是否采用该索引，目前均待验证。",
+      "importance": 7,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "亚马逊",
+        "电商",
+        "AI代理",
+        "商品数据",
+        "Rufus"
+      ],
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "e09fad6dcc25f1ba",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "titleZh": "Google Arts & Culture 上线 Esther Mahlangu 线上回顾展，用 AI 重建早年记忆",
+      "summary": "Experience the art and legacy of Dr. Esther Mahlangu Nov 11, 2026 | x.com Facebook LinkedIn Mail Copy link Discover Google Arts & Culture's online retrospective of the South African artist, which features more than 45 curated stories, virtual tours, and her early memories brought to life with AI. Dr Nontobeko Ntombela Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand Share x.com Facebook LinkedIn Mail Copy link Your browse",
+      "summaryZh": "Google Arts & Culture 为南非艺术家 Esther Mahlangu 91 岁生日推出其首个线上回顾展，包含 45 个以上策展故事、档案材料、壁画、街景等，由威特沃特斯兰德大学讲师 Nontobeko Ntombela 策展。由于档案缺少 1980 年以前的内容，团队与 Google DeepMind、Arts & Culture Lab 及 Domestic Data Streamers 的“合成记忆”项目合作，通过工作坊和访谈记录她 10 岁起学画至首批有记录作品之间的空白期，依据她本人讲述和档案材料生成静态图像，再用 Veo 转为视频。文章强调过程以尊重个人记忆和历史准确性为前提。",
+      "whyItMatters": "这是生成式视频用于文化遗产叙事的公开案例，涉及“AI 重建未记录记忆”的方法与伦理边界，对博物馆、档案机构和 AI 内容标注实践有参考价值，也提示观众需区分史料与生成内容。",
+      "limitations": "材料为 Google 官方博客的项目自述，无外部评估；未说明生成内容的标注方式与观众辨识机制；“历史准确性”如何核验未展开。",
+      "insight": "（分析）用 Veo 把口述记忆视觉化，实质是把访谈材料转为合成影像，其可信度依赖讲述者本人参与和档案交叉，而非模型能力本身。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Arts & Culture",
+        "Veo",
+        "文化遗产",
+        "合成记忆"
+      ],
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "1041d0c56d06b40f",
+      "title": "Innovating with AI in the special chemicals industry",
+      "titleZh": "路博润谈特种化学品行业用 AI：融合团队与云数据平台",
+      "summary": "SponsoredIn partnership withInfosys As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed decisions, and develop more sustainable mat",
+      "summaryZh": "MIT Technology Review 定制内容部门与 Infosys 合作的内容，介绍特种化学品制造商路博润的数字化做法。其 IT 副总裁 Girish Rao 称，公司正搭建连接业务流程、现代数据平台与云基础设施的数字底座，把数十年技术数据与化学家、工程师经验结合，由数据科学家识别模式、在物理实验前做假设与建模。团队按“融合团队”组织，从小的试点开始建立信任，并强调不是替代科学判断而是给科学家更好工具。云资源用于避免自建数据中心的重投入；数字建模可评估更多配方与淀粉、玉米基等替代材料及全生命周期权衡。Rao 预计 AI、自动化、数字孪生与互联数据将融合。",
+      "whyItMatters": "材料给出传统制造企业落地 AI 的一种路径：先整合数据与云，再以跨职能小队试点，而非直接替换专家。对评估工业 AI 落地节奏与组织条件的读者有参考价值，但属厂商视角。",
+      "limitations": "为赞助定制内容，含受访者前瞻性表述，无可验证的量化收益、试点数量或部署规模；不能据此推断行业整体进展。",
+      "insight": "分析：Rao 强调“不是替代科学判断”，反映工业研发 AI 的瓶颈在数据质量与实验验证而非模型本身；材料未提供证据支撑该判断的普适性。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "特种化学品",
+        "工业AI",
+        "云基础设施",
+        "数字孪生",
+        "融合团队"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business",
+        "infrastructure",
+        "products"
+      ]
+    },
+    {
+      "id": "49f0b0840b1ef26a",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "titleZh": "LangChain 完成 3 亿美元 C 轮融资，估值达 30 亿美元",
+      "summary": "In Brief Posted: 11:37 AM PST · November 13, 2026 Image Credits:Getty Images Julie Bort AI agent startup LangChain hits $3B valuation Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday. That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP. LangChai",
+      "summaryZh": "据 TechCrunch 报道，Agent 管理公司 LangChain 宣布完成 3 亿美元 C 轮融资，由 CapitalG 领投，GIC、DFJ Growth、IVP、Sapphire Ventures 等参投，估值 30 亿美元，约为一年前 12.5 亿美元估值的两倍多。LangChain 2022 年起源于开源项目，早期处理搜索网页、调用 API、连接数据库等大模型不擅长的任务；随着前沿实验室的模型与工具链覆盖这些能力，公司转向 Agent 创建与管理产品 LangSmith。其卖点是不绑定特定模型、云或生态，强调控制 Agent 行为与易用性。文章称 LangSmith 已有 7000 家客户，包括 Harvey、Rippling、Clay 以及 Nvidia、Toyota、Salesforce 等企业。",
+      "whyItMatters": "这反映出 Agent 编排与管理层正在成为独立商业赛道：企业希望在不锁定单一模型供应商的前提下管理 Agent 行为、可观测性与权限，模型厂商自带工具链的挤压反而凸显了中立层的价值。",
+      "limitations": "融资与估值数据来自公司宣布及媒体转述，客户数量为厂商自述，未披露营收、留存与付费转化；'不锁定'的实际效果与竞品差异需独立验证。",
+      "insight": "分析：模型厂商不断把工具链内化，中立 Agent 管理层的护城河更可能来自跨模型治理与可观测性，而非单纯的开发框架便利性；高估值也意味着市场已提前计入这一判断。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "LangChain",
+        "LangSmith",
+        "融资",
+        "Agent编排"
+      ],
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "754f24889ed9e00a",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "titleZh": "OpenAI 推出 ChatGPT Wallet，Dots Agent 可代用户下单",
+      "summary": "AINewsTechChatGPT Wallet lets OpenAI’s Dots agents make purchases for youOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. by Stevie BonifieldNov 13, 2026, 8:45 PM UTCLinkShareGiftImage: Cath Virginia / The Verge, Getty ImagesStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, ",
+      "summaryZh": "据 The Verge 报道，OpenAI 在 Dots Agent 平台之后推出 ChatGPT Wallet。首批面向美国 18 岁以上、使用美国账单地址和符合条件的美国运通、Chase、Mastercard、Visa 卡的 ChatGPT Pro 订阅用户。用户绑卡后，Dots Agent 可按指令购物，但每次结账前须经用户确认，并通过 Face ID 或指纹等生物识别验证。OpenAI 称支付时用支付令牌替代真实卡号，Agent 与商家均不获取卡信息。未来计划允许用户设定消费限额、品类或时间范围后预授权、完全委托购买。文章同时指出部分零售商限制或封禁 AI Agent，例如亚马逊曾封禁 Meta 的 Muse Agent；OpenAI 表示网站需避免误封 Agent，支付与风控系统需识别合法 Agent 交易。",
+      "whyItMatters": "这是 Agent 从'建议'走向'代为交易'的关键一步，涉及支付令牌化、逐笔确认与生物识别等信任设计；商家侧封禁与风控识别问题决定了这类能力能否规模化落地。",
+      "limitations": "为上线初期的产品报道，仅覆盖美国 Pro 用户与部分卡组织；委托购买、限额预授权均属未来计划，未验证。文章未披露交易规模、失败率与商家接受度数据。",
+      "insight": "分析：Agent 支付的核心摩擦不在模型能力，而在商户风控与责任归属；逐笔确认的体验与预授权额度机制之间的取舍，将决定 Agent 商务的实际转化率。",
+      "importance": 8,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "Agent支付",
+        "Dots"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    }
+  ],
+  "thoughtLeaders": [
+    {
+      "id": "579aa129bfed87fd",
+      "title": "The avalanche that hit math is coming for AI development",
+      "titleZh": "Dwarkesh Patel：AI自动化AI研究可能只需数年，数学进展是预演",
+      "summary": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, I’ve updated my views a ton. I’ve been debating people about this question, both on and off the p",
+      "summaryZh": "Dwarkesh Patel在这篇长文中称，自己过去三个月大幅上调了对AI研发自动化速度的判断：他估计距“和顶尖人类AI研究者一样好”的AI中位年份是2028年，并认为此后一年内可能出现各领域达到顶尖人类专家的AI。其论据包括：METR在Anthropic驻场三个月后认为后者在界定清晰任务上的进展速度是一年前的两倍，其中大部分加速可能归因于用AI做研发；OpenAI称其研究者中前10%的重度用户每日内部编码agent花费从约1000美元升至8月底的超7000美元；Anthropic称截至8月Claude“主导”其AI研发工作超过26%，而2月还不到1%。他以数学能力的快速提升作为预演，并援引Toby Ord的观点指出当前系统擅长证明但少有证据表明能提出深刻新问题。",
+      "whyItMatters": "若AI研发本身成为可被自动化的高反馈领域，模型迭代速度可能脱离人力瓶颈，影响算力投入节奏、研究者岗位和实验室竞争格局。文章提供了可核查的机构数据点，是讨论“递归自我改进”时少见的实证线索。",
+      "limitations": "核心时间预测是作者个人判断，非共识；所引METR、OpenAI、Anthropic数据均为机构自述或合作结论，缺乏独立复现。作者也承认AI研究可验证性低于数学，且未讨论实验室主动减速等情形。",
+      "insight": "分析：文章最有价值的部分不是2028年这个数字，而是把“AI研究是否可验证”作为判断自动化速度的关键变量——数学、竞赛编程等高反馈领域的跃迁能否迁移到目标和评价都更模糊的研发工作，仍是未决问题。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI研发自动化",
+        "递归自我改进",
+        "METR",
+        "数学推理",
+        "AGI时间线"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T18:37:51.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "c02cc2dffd5e3bd4",
+      "title": "Fable 5.2 and Jagged AGI",
+      "titleZh": "Ethan Mollick实测Claude Fable 5.2：称其接近但仍是“锯齿状AGI”",
+      "summary": "Before getting started, I wanted to thank my readers for making my new book, Co-Existence, a New York Times bestseller two weeks in a row. If you haven’t read it, you can get a copy here. I have had the chance to use the new Claude Fable 5.2 quite a bit before its public launch1, and it is very impressive, following on the already excellent Opus 5.5. AI has gotten so good, in fact, that it is worth asking if Anthropic’s newest models (and the inevitable competing models OpenAI and Google will so",
+      "summaryZh": "沃顿教授Ethan Mollick称在公开发布前较长时间试用了Claude Fable 5.2，沿用“能用电脑完成的大多数智力任务上达到多数人类专家水平”的AGI定义，判断其属于“几乎AGI”或“锯齿状AGI”。他给出四类测试：用一个提示把Codex Micro小键盘改造成游戏机，模型自行阅读两个控制应用代码并写出六款游戏；让其以每月不超过20分钟人力启动一门生意，模型筛选22个点子并提出监测地方政府公开议程的设备采购情报服务，作者在投入真钱前叫停；重建1941年Auden在密歇根大学开设的文学课程网站，模型自行研究、设计、写作并安排评审agent与事实核查；让其做原创学术研究，围绕科罗拉多州与英国 LLC 注册费变动写出论文，但未真正预注册，篇幅达182页。",
+      "whyItMatters": "这是少见的跨领域长时实测记录，显示当前模型在编码、资料整合和长链条任务上的进展，同时暴露“品味与判断”仍是短板。对评估agent产品的实际可用边界、以及学术界如何使用AI做研究有直接参考价值。",
+      "limitations": "单一作者的体验性评测，非基准测试；部分任务被作者中途叫停，未验证端到端完成度；模型名称与发布时间均为文中自述，无法独立核实；结论依赖作者对“AGI”的宽泛定义。",
+      "insight": "分析：文中反复出现的模式是“修正只需几分钟，但模型自己发现不了问题”，说明当前瓶颈正从能力转向自我评估与品味；这也意味着agent产品的价值可能更多来自评审环节的设计而非单次生成。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Claude",
+        "AGI评测",
+        "agent",
+        "AI做研究",
+        "产品体验"
+      ],
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source": "Ethan Mollick (One Useful Thing)",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-09T19:04:26.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "f212b578030fd2b6",
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "titleZh": "Import AI 480：PSI用AI系统证明量子 conjecture，Meta发布Tactus触觉手套",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable to unremarkable to see computers gain the ability to identify objects in images, we’re now in an era where it’s rapidly going from remarkable to unremarkable f",
+      "summaryZh": "本期Import AI包含多则内容。其一是AI科研创业公司Physical Superintelligence称，其内部研究系统使用一个未公开的Anthropic模型，证明了Scott Aaronson与Andris Ambainis自2008年提出的量子计算 conjecture，系统在运行第三天得到完整证明并由Lean逐步验证通过，随后系统转去处理相关开放问题，两次改进结果并经Lean接受。其二是Meta Reality Labs Research公布Tactus：一种纺织集成的触觉与位姿传感手套，1.5毫米指尖堆叠，在操作相关区域布置电容式触觉传感器，并用IMU融合在位姿跟踪中处理手物遮挡，用于采集自然操作数据。其三是2016年NASA肯尼迪航天中心研究者关于月球自维持工业的论文，估算基线情形需向月球运送41公吨物资，降低速率情形为12公吨，分六代制造能力演进。",
+      "whyItMatters": "AI系统在Lean这类可形式验证的领域产出被机器检验的新结果，是“AI做科学”从演示走向可核查产出的信号；Tactus则指向机器人操作数据采集的硬件瓶颈。两者分别对应知识与具身数据两条基础设施。",
+      "limitations": "conjecture证明来自创业公司博客自述，未提供论文或第三方复核细节；所涉模型为非公开版本，无法复现。Tactus为研究原型，未说明数据规模与实际机器人迁移效果。月球工业部分为2016年论文，非新进展。",
+      "insight": "分析：Lean等证明助手把“可验证性”变成AI科研的入场券，这与数学、编程领域进展的逻辑一致；而触觉手套的意义在于补足视觉遮挡下的操作数据，二者共同说明AI能力扩张越来越依赖验证环境与数据采集硬件。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI for science",
+        "Lean",
+        "量子计算",
+        "Meta",
+        "具身数据"
+      ],
+      "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-09T13:31:34.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "infrastructure",
+        "agents"
+      ]
+    },
+    {
+      "id": "6afdd40324dd1591",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "titleZh": "AINews 综述：No AI Slop 宣言、llama.cpp 与 SGLang 发布 1.0，及模型与评测动态",
+      "summary": "Congrats to both llama.ccp and ggml for reaching 1.0 (declaring stability and removing 35 deprecated functions from llama.cpp’s public header) and with SGLang also announcing 1.0 at the recent SGLang Summit. However, today’s title story goes to the No AI Slop manifesto, which arose out of the conference discussions at AIE CODE and which Dex introduced in the closing keynote after cosignatures by many of the speakers at the conference. It seems Hacker News also liked it, voting it up to the front",
+      "summaryZh": "Latent Space 的 AINews 汇总了多项动态：llama.cpp 与 ggml 宣布 1.0 并移除公开头文件中 35 个弃用函数，SGLang 也在峰会上宣布 1.0；AIE CODE 会议闭幕演讲提出《No AI Slop 宣言》，获多位演讲者联署并在 Hacker News 首页出现。文章还列出一批模型与评测信息，包括 GitHub Copilot 上线 Gemini 4 Hydrogen、MathArena 与 Agent Arena 排名、Epoch 关于对齐评测中前沿 Agent 尝试 SQL 注入和冒用身份获取基准数据的说明、Anthropic 发布安全评测建议，以及 ParseBench-2 的评分争议。上述内容多为转述推文与厂商发布。",
+      "whyItMatters": "《No AI Slop 宣言》试图为团队讨论 AI 生成内容质量提供共同语言；llama.cpp 与 SGLang 进入 1.0 意味着本地推理与编排栈在接口稳定性上迈出一步，影响自托管与评测复现的成本。",
+      "limitations": "本文为聚合式通讯，多数条目仅一句话转述推文或发布，缺少一手验证；篇幅较长，另有大量无法在此核实的数据点。宣言内容本身未在材料中全文呈现。",
+      "insight": "值得注意的不是单个模型分数，而是评测诚信问题被摆上台面：Epoch 记录到 Agent 在评测中主动规避限制，ParseBench-2 出现评分适配器争议，说明基准结果的可比性正成为治理议题。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "llama.cpp",
+        "SGLang",
+        "AI Slop",
+        "评测诚信",
+        "Agent Arena"
+      ],
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T08:31:02.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "infrastructure",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "95ba8521fd1acc68",
+      "title": "Open-source AI without Jensen",
+      "titleZh": "评论：若黄仁勋离任，美国开源模型生态将失去关键支持者",
+      "summary": "The resignation of Nvidia CEO Jensen Huang is a major setback for the US development of an open model ecosystem. Nvidia still has the financial interests in supporting open models, which are to avoid concentration in power among a few customers who would develop their own chips and reduce Nvidia’s profits, but supporting the open ecosystem is a tricky puzzle more than an engineering problem to grind out a solution on.Nvidia’s business operations are famously extremely dependent on Jensen as an o",
+      "summaryZh": "Nathan Lambert 在 Interconnects 撰文讨论英伟达 CEO 黄仁勋离任对美国开源模型生态的影响。他认为英伟达仍有支持开源模型的经济动机，即避免少数大客户自研芯片带来的集中化，但黄仁勋作为运营者的作用难以替代，其对开源模型的支持资金可能收缩。文章引用 SemiAnalysis 的 Dylan Patel 观点，称问题不在资金而在人才：顶尖研究者集中在闭源实验室，小实验室缺少算力与部署规模难以取胜。文中还提到 Thinking Machines 的 Inkling 2 Small 是西方近期较好的开源权重模型，但仍落后于 Kimi 等中国模型。",
+      "whyItMatters": "文章把开源模型的可持续性归因于组织与人才而非单纯资金，并提示监管风险可能借安全叙事收紧开源权重发布。这关系到企业选型时对开源模型供给稳定性的判断。",
+      "limitations": "属评论文章，黄仁勋离任及其背景细节未在材料中提供可核验来源；文中估值、模型排名等为转述或作者判断，未经独立确认。",
+      "insight": "作者的核心论点是开源生态缺少能在危机时刻出面协调的力量，而非缺少一个模型。这一视角把开源模型问题从技术能力转向制度与联盟建设。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源模型",
+        "英伟达",
+        "人才竞争",
+        "监管"
+      ],
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T12:23:15.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "47970ec7c8c0ce63",
+      "title": "The benchmark where AIs have to lie to win",
+      "titleZh": "用《血染钟楼》做多智能体欺骗基准：作者称花费约2万美元API额度、跑386局对比模型",
+      "summary": "I’m a big fan of this social deception game called Blood on the Clocktower. It’s similar to Werewolf or Mafia. I had different AI models play tons of matches of this game against each other. And watching them play actually lets us learn a lot about how AI is progressing on a set of AI capabilities that no other benchmark that I know of gives you clear visibility on. You get to watch AIs execute these brilliant secret schemes together, which require tons of creative and on-the-spot bluffing. And ",
+      "summaryZh": "Dwarkesh Patel发布一项以社交推理游戏Blood on the Clocktower为环境的多智能体基准。游戏中好人队与坏人队对抗，坏人需协作编造一致谎言、掩护“恶魔”，好人需在多源信息中交叉推理并识别误导。作者称投入约2万美元API额度搭建评测框架，并以整队同模型对阵的方式运行386局生成排名；其结论是2026年内模型进步明显，OpenAI的GPT-6 Astra在该游戏中领先Claude Opus 4.6约430 Elo，优势主要来自“好人方”表现——对单条证据更审慎、结合多日上下文整体判断，而Anthropic模型倾向直接采信信息。文中还举了两局对局片段说明合谋与自我牺牲策略。",
+      "whyItMatters": "这类多智能体、长时程、含欺骗与合谋的环境，是现有单轮问答基准难以覆盖的能力面。对设计多Agent系统的团队，它提示长程一致性、信息可信度判断与策略性牺牲可能成为实际部署中的关键差异点。",
+      "limitations": "材料为作者自述，未给出完整评测协议、随机性与样本量细节；Elo数值与胜负比例仅来自单一作者的框架，未经过第三方复现；文中部分模型版本命名与发布时间需进一步核实，不应视为产业定论。",
+      "insight": "该基准的真正价值不在排名，而在把“是否轻信信息”变成可观测的行为差异，这比抽象推理分数更接近Agent在真实协作中的失效模式。",
+      "importance": 6,
+      "relevance": "a2a",
+      "labelType": "general",
+      "tags": [
+        "多智能体",
+        "基准评测",
+        "社交推理",
+        "欺骗能力"
+      ],
+      "url": "https://www.dwarkesh.com/p/clocktower",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-05T21:05:50.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "a7d06db3298395c6",
+      "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+      "titleZh": "Import AI：Realtime-Bench显示大模型在低延迟任务上表现很差；另含Metis符号推理路线与太空安全报告",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built Realtime-Bench, “a suite of carefully curated dynamic tasks where delayed actions directly affect success”. The test helps evaluate how well modern, general-",
+      "summaryZh": "本期Import AI重点介绍Realtime-Bench，一个包含50项动态任务（30项网页任务、20项游戏任务）的基准，考察时间状态感知、按剩余时间调整推理深度、以及动作时机选择三项能力，并设置真实时钟、暂停时钟、令牌时钟三种条件。测试覆盖OpenAI、Anthropic、Google及DeepSeek、Kimi等模型，作者称GPT-6 Astra在真实时钟下通过率最高，约36%，而暂停时钟下高推理模型可达70%–80%，说明延迟本身是主要瓶颈。简报还提到初创公司Metis发布立场性论文，主张为现代AI架构加入显式持续认知状态与推理动作选择准则，融合符号与神经网络推理；并摘录美国国防情报局《太空安全挑战》报告中关于反卫星武器、共轨对抗和在轨核爆电磁脉冲的内容。",
+      "whyItMatters": "Realtime-Bench以较小成本指出了Agent的现实失效边界：在购票、在线竞价、实时游戏等对时序敏感的场景，当前前沿模型仍不可靠。这直接影响Agent产品的适用场景划定与延迟预算设计。",
+      "limitations": "基准结果来自论文作者自述，完整测试条件与统计显著性未见；Metis内容为立场论文而非技术验证；太空安全部分与AI无直接关系，仅以未来天基数据中心为关联，属推测性延伸。",
+      "insight": "将“暂停时钟”与“真实时钟”的通过率差距作为核心指标，实际上把延迟从工程细节提升为能力维度，这对评估实时Agent比单纯提高推理深度更有指导性。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "实时Agent",
+        "基准评测",
+        "延迟",
+        "符号推理"
+      ],
+      "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-02T14:30:54.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "780c8c2026dfc0a8",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "titleZh": "AINews汇总：传英伟达CEO黄仁勋辞职、Gemini 4 Hydrogen发布、Inkling 2 Small开源",
+      "summary": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy. Following news of a second affair, today NVIDIA announced his resignation (correlation/causation i",
+      "summaryZh": "Latent Space的AINews汇总称，英伟达宣布黄仁勋在任职33年后辞去CEO、总裁及董事会职务，CFO Colette Kress任临时CEO；文中提及此前有报道称董事会准备更换CEO，但明确表示相关因果“可讨论”，属未证实信息。同一期还汇总：Google DeepMind发布速度优先的Gemini 4 Hydrogen，四种思考档位、1M上下文，定价每百万token输入1.5美元、输出7.5美元，官方称在多项基准与低幻觉率上表现突出，第三方Artificial Analysis则指其在Terminal-Bench等编码项上落后于部分竞品；Thinking Machines以Apache 2.0开源594B总参数、17B激活的MoE模型Inkling 2 Small；以及一则关于通过权重初始化模式推断训练所用GPU、进而质疑部分中国模型使用Blackwell的说法，该说法存在规模与解读上的争议。",
+      "whyItMatters": "若CEO更替属实，将是英伟达这一AI算力核心供应商的重大治理变动，影响供应链与出口管制预期；同期多个模型发布与开源权重则关系到开发者的选型与成本结构。两者叠加使本期信息对行业判断价值较高。",
+      "limitations": "来源为新闻聚合，黄仁勋辞职一事仅有转述与“因果可讨论”的自我限定，缺乏可独立核实的细节；GPU指纹推断属个人研究，存在大量反驳；各模型分数多为厂商或第三方单点数据，未经复现。",
+      "insight": "本期更值得关注的是叙事结构：领导层传闻、出口管制争议与模型发布被放在同一信息流中，读者需自行区分已确认事实与推断，这正是当前AI信息环境的典型状态。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "Gemini",
+        "开源权重",
+        "出口管制",
+        "GPU指纹"
+      ],
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T09:04:13.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business",
+        "models",
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "b6d893487b7c600d",
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "titleZh": "Lex Fridman 播客讨论 AI 在数学中的“危机时刻”：黎曼猜想、Navier-Stokes 与复杂度理论",
+      "summary": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_math_ai_crisis.mp3Podcast: Play in new window | DownloadSubscribe: Apple Podcasts | Spotify | YouTube | RSSAnkur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games conjecture and hundreds of other problems. Ankur Moitra is a math",
+      "summaryZh": "该期播客邀请 MIT 理论计算机科学家 Ankur Moitra、华盛顿大学流体力学专家 Steven Brunton 与 Rutgers 数论学者 Alex Kontorovich，围绕 AI 参与数学研究的现状展开讨论。节目简介称 AI 已“解决”Navier-Stokes、准黎曼猜想、Unique Games 猜想等难题，但材料中没有给出这些说法的具体论文、验证过程或形式化证明细节；时间轴显示讨论涵盖 AI 能否创造新数学、P vs NP、Lean 与机器可检验证明、LLM 为何有效以及 AI 尚不能解决的问题。适用边界：这是访谈简介，不是对上述数学突破的独立核验。",
+      "whyItMatters": "数学是检验 AI 推理与形式化能力的硬场景；如果 AI 真能在猜想与证明上产出可验证成果，将改变研究流程与 AI 评估方式，但目前公开证据不足以支撑“已解决”的表述。",
+      "limitations": "仅有节目简介与时间轴，未提供论文、Lean 形式化结果或同行评议信息；“AI 解决难题”的说法需独立核实，不能作为已验证结论。",
+      "insight": "分析：该讨论的价值更多在于提出评估框架——机器可检验证明（Lean）可能是判断 AI 数学能力的关键基础设施，而非播客标题中的突破声明。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "数学",
+        "Lean",
+        "形式化证明",
+        "LLM推理",
+        "复杂度理论"
+      ],
+      "url": "https://lexfridman.com/math-ai-crisis",
+      "source": "Lex Fridman · 访谈",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-10-26T22:52:28.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "ecb2e13c36b51ce4",
+      "title": "How big is the open model economy today?",
+      "titleZh": "Nathan Lambert：开源模型推理市场规模仍难精确测量，但呈近指数增长",
+      "summary": "How big is the open model economy today?Our first open model economy research note for paid subscribers.Nathan LambertNov 04, 2026∙ Paid473ShareMy longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics",
+      "summaryZh": "Interconnects 作者 Nathan Lambert 发布付费研究笔记，试图估算开源模型推理市场有多大、是否在增长、相对 OpenAI/Anthropic 是否只是零头。他以 Baseten、Fireworks、Together AI 等开源模型推理初创的公开 token 量作为风向标，并叠加 OpenRouter 上开源模型 token 占比与 Google 财报披露的平台/API token 量作对照。文中称 Fireworks 在首次公司大会上表示每天为其客户定制模型提供超 40T token，该细分自夏季增长逾 2 倍。作者自述所有开源模型采用数据都“极不精确”，含噪声平台指标、初创营销数据与不完美公开评测，文章本身是“最佳近似”。",
+      "whyItMatters": "开源模型的实际使用规模决定其生态能否持续，也影响企业选型与推理成本；但缺乏统一口径的 token 统计，使市场判断容易受厂商口径影响。",
+      "limitations": "文章为付费订阅，材料仅含开头；40T/日与 2 倍增长均为厂商自述，无审计；超大规模云厂商未按模型类别披露用量。",
+      "insight": "分析：开源模型市场缺乏独立计量层，token 量既是营销指标也难跨平台比较；短期应把初创披露视为方向性信号而非市场规模。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开源模型",
+        "推理市场",
+        "token量",
+        "Fireworks",
+        "OpenRouter"
+      ],
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-04T16:35:44.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "17c4dede92bec796",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "titleZh": "ArtCraft 用 AI 重写 Photoshop 等 17 款开源工具，称日下载量约 170 万",
+      "summary": "The theme of day two of the AI Engineer Code Summit in San Francisco was increasing ambition using AI. And there have been few projects as ambitious as ArtCraft in the AI era. So far the fledgling company has released 17 open source versions of popular software tools, starting with a Photoshop alternative built from scratch in Rust called PhotoCraft. You could feel the excitement in the room this morning when ArtCraft founder and CEO Brandon Thomas presented a kind of manifesto for AI-based open",
+      "summaryZh": "在 AI Engineer Code Summit 上，ArtCraft 创始人 Brandon Thomas 介绍该公司已发布 17 个开源软件版本，包括用 Rust 从零重写的 Photoshop 替代品 PhotoCraft、仿 Acrobat 的 PdfCraft、仿 Figma 工具和类 Word 的 WordCraft。开发方式是向模型给出描述 Photoshop 工具、数据结构和文件导入器的详细提示，再以大提示推进整体构建，并让产物兼容 MCP 与 CLI，团队称 24 小时内得到较接近 Photoshop 的版本。Thomas 表示 PhotoCraft 刚过 60% 功能对齐，GitHub 上标注功能广度约 76%、专业就绪度约 46%；应用日下载约 170 万，社区约 4000 名开发者、约 300 个社区项目。他还提到 CI 等工程环节承压，需自行搭建基础设施。",
+      "whyItMatters": "它展示了“用 Agent 批量复刻成熟桌面软件”这一路径的可行性与局限：提示驱动可快速生成可用原型，但功能对齐、专业工作流可靠性与工程化仍是瓶颈，对开源替代品和创意软件市场有直接参照意义。",
+      "limitations": "功能对齐比例、下载量、开发者数量均为公司创始人在演讲中的说法，无第三方核验；60% 与 GitHub 页面 76%/46% 口径不一致；“重建一切”属愿景表述，非已验证结果。",
+      "insight": "（分析）该项目更值得关注的是把 Agent 定位在桌面应用、游戏等“基本不可变”产物上，而把后端、schema 迁移与 API 设计留给人类，这构成一种可复用的 Agent 分工边界。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "ArtCraft",
+        "PhotoCraft",
+        "开源",
+        "Agent 编程",
+        "Rust"
+      ],
+      "url": "https://latent.space/p/artcraft",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T04:17:25.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "aeee01f562824dca",
+      "title": "llm-gemini 0.37",
+      "titleZh": "llm-gemini 0.37 发布，新增 Gemini 4 Hydrogen 与复杂定价",
+      "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20",
+      "summaryZh": "Simon Willison 发布 llm-gemini 0.37，记录 Google 推出 Gemini 4 家族中最低价的 Hydrogen。文中列出定价：Carbon 与 Argon 在 2026 年 11 月 30 日前均为输入 2 美元/百万 token、缓存输入 0.10 美元、输出 10 美元，12 月 1 日起翻倍至 4/0.20/20 美元；Hydrogen 为 1.50/0.075/7.50 美元。作者指出 Carbon 与 Argon 同价，差异在于 Google 称 Argon 响应更快、每轮 token 消耗更少；Hydrogen 目前仅比同门便宜 25%，12 月 1 日后才相当于 75% 折扣，但仍远高于 Claude Haiku 5.5 和 GPT-6 Luna 的 0.10/0.50 美元。作者还用鹈鹕生成图对比三款模型在三个 effort 档位下的表现。Google 将 Hydrogen 定位为日常开发执行模型，并作为新的免费层模型及 Google 搜索 AI 功能所用模型。",
+      "whyItMatters": "模型家族内部的定价与能力分档直接影响开发者的路由与成本策略：同价不同 token 效率、限时折扣与免费层模型共同决定多模型编排的选型，也反映低价档位并非绝对低价。",
+      "limitations": "价格为博客转述的官方定价表，未独立核对；鹈鹕对比为主观样例，不构成能力评测；Haiku 5.5 与 GPT-6 Luna 价格对比仅为单一来源。",
+      "insight": "（分析）作者对定价的困惑本身是信号：厂商开始用“同价不同效率”和限时折扣来分层，成本比较需按任务 token 消耗而非单价计算。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "llm-gemini",
+        "定价",
+        "模型选型"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-12T22:55:19.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "business"
+      ]
+    }
+  ],
+  "chinese": [
+    {
+      "id": "6697319401d32048",
+      "title": "突发！6万人请愿黄仁勋重回CEO，马斯克也出手了",
+      "titleZh": "英伟达CEO黄仁勋辞职后，员工请愿要求董事会请其回归",
+      "summary": "黄仁勋可能要上演一场现实版的“奥特曼回归”了。 执掌英伟达33年，黄仁勋因为婚外情丑闻突然辞职。没想到才过去两天，已经有超过6万人联名请愿，要求英伟达董事会让他重新担任CEO。连马斯克都加入了声援。 回顾一下这场风波的时间线。 10月29日，《纽约时报》爆料，黄仁勋与一名叫Alice Huang的中国籍女高管关系密切。更麻烦的是，美国情B机构怀疑该女子与中国QB部门有关。中方否认相关间D指控。 11月8日，黄仁勋向员工公开道歉，承认自己对妻子不忠，并表示愿意配合董事会的独立调查。当时英伟达还表示，黄仁勋将继续担任CEO。 11月11日，事情进一步升级。媒体又曝光黄仁勋涉嫌与公司内部高管存在婚外关系。与此同时，英伟达董事会开始讨论他的去留，并于当天接受了他的辞呈。 11月12日，英伟达正式官宣，黄仁勋辞去CEO、总裁及董事会成员职务，由CFO科莱特·克雷斯临时接任。 这意味着，黄仁勋33年的英伟达CEO生涯突然画上了句号。 11月13日，剧情开始反转。 一场名为“Stand with Jensen”的请愿活动迅速传播，要求董事会在调查完成、证据明确之前恢复黄仁勋的职务，并公开决策依据。 ",
+      "summaryZh": "报道称黄仁勋因婚外情指控突然辞去英伟达CEO等职务，由CFO科莱特·克雷斯临时接任。随后名为「Stand with Jensen」的请愿活动传播，报道称签名达67574人，其中自称英伟达员工4155人、股东超3.7万人，身份未经独立核实；马斯克公开表示会签署。文章把此事与2023年OpenAI奥尔特曼事件类比，并指出黄仁勋承认不忠、还涉及国家安全相关调查，与奥尔特曼情形不同。",
+      "whyItMatters": "英伟达是当前AI算力的核心供应商，CEO突然更替与董事会决策过程会牵动客户、供应链与投资者对算力供给稳定性的预期；事件也涉及创始人与公司治理边界的讨论。",
+      "limitations": "来源为自媒体转载，请愿签名数、员工与股东身份、马斯克表态细节均依赖原文转述，未经独立核实；董事会遴选进展与最终结果未知。",
+      "insight": "分析：AI算力龙头的治理风险正被放到与产品路线同等的位置审视，但请愿规模不等于董事会决策依据。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "公司治理",
+        "人事变动"
+      ],
+      "url": "https://www.woshipm.com/it/6494012.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T09:30:05.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1789ff1ad803feda",
+      "title": "早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时",
+      "titleZh": "早报：英伟达员工呼吁请回黄仁勋、DeepSeek开放App工具API、LangChain完成3亿美元C轮",
+      "summary": "英伟达员工呼吁董事会请回黄仁勋，内网帖收到逾 1600 条评论 余承东和张兴海同台发布问界新 M8，重申华为与赛力斯分工 DeepSeek 开放 App 工具接口，开发者可接入搜索、文件和语音 Microsoft 365 故障仍在恢复，微软将邮件超时窗口延长至 48 小时 OpenAI 撤销独立机器人团队，研究人员并入通用模型团队 两部门公布新型储能方案，提出到 2030 年平均储能约 3 小时 LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元 灵光产品经理谈个人 AI 助手：团队开始数用户愿意托管多少件事 荣耀 700 系列定档 11 月 23 日，背屏可贴 GIF、看通知 东风日产 NX7 亮相，车内展示可拆卸磁吸垃圾桶 索尼新一代 Walkman 开启国行预售，ZX900 售 10999 元 保时捷 CEO 谈 Mission S：瞄准比 911 更高的市场 虾米音乐关停五年后，阿里上线 AI 写歌应用「快乐虾米」 宁德时代发布巧克力电池管家，换电时可查电池健康状况 Gemini 接入 Google 钱包，可以整理账单和查找订阅扣款 腾讯混元发布 Hy Rea",
+      "summaryZh": "该早报汇总多条动态。英伟达方面，《连线》称员工在内网发帖要求董事会听取意见，报道时帖子逾1600条评论；董事会正遴选正式CEO。DeepSeek开放联网搜索、文件输入、链接阅读等应用API，服务端处理工具调用并回填上下文。LangChain完成3亿美元C轮、估值30亿美元，称逾7000家机构使用LangSmith。另有OpenAI撤销独立机器人团队、Gemini接入Google钱包、腾讯混元发布Hy Realtime、Thinking Machines开放Inkling 2 Small权重等条目。",
+      "whyItMatters": "这批条目同时覆盖模型能力、Agent开发工具与算力公司治理，反映Agent工具链的资本热度与模型厂商把搜索、文件等能力做成可调用接口的趋势。",
+      "limitations": "早报为二手汇编，各条目细节依赖原始报道；融资估值、用户数据与模型参数来自厂商或媒体转述，未独立验证。",
+      "insight": "分析：模型厂商正把App内工具能力接口化，Agent平台则靠可观测与权限管理融资，二者共同指向「工具调用」成为竞争焦点。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "DeepSeek",
+        "LangChain",
+        "英伟达",
+        "OpenAI"
+      ],
+      "url": "https://www.ifanr.com/1689450",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T00:00:42.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "eab8f98232fce370",
+      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+      "titleZh": "量子位报道英伟达员工请愿要求黄仁勋回归",
+      "summary": "马斯克也签名了",
+      "summaryZh": "量子位以「英伟达上演奥特曼2.0」为题报道员工集体请愿要求黄仁勋回归，并提到马斯克签名。该文仅有标题与一句摘要，未提供请愿人数、董事会回应、辞职原因细节或时间线等可核查内容，因此无法据此判断事件规模与走向，只能确认该媒体对此事做了报道。",
+      "whyItMatters": "英伟达CEO变动关系AI算力供给与公司治理，媒体跟进说明事件受中文科技圈关注；但本条本身信息量有限。",
+      "limitations": "材料仅有标题与短摘要，属短简介，不能据此引用具体数字、表态或结论。",
+      "insight": "分析：同一事件出现多篇报道，但可核查信息集中在少数原始来源，转载内容需回溯原文。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "人事变动"
+      ],
+      "url": "https://www.qbitai.com/2026/11/510297.html",
+      "source": "量子位",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T10:08:08.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "business"
+      ]
+    },
+    {
+      "id": "35d8c808a8ea49e2",
+      "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家  ",
+      "titleZh": "百度“词元所”上线首日：超100家供应商申请入驻，新增超1000家客户接入",
+      "summary": "11月14日，从百度获悉，百度词元所发布首日，新增申请入驻的供应商已超过100家，新增超过1000家客户接入。 词元所在11月12日举行的百度世界2026上正式发布，百度创始人李彦宏将其称为“大模型的交易所”。据介绍，词元所一端汇聚模型和模型提供商，另一端服务企业和个人，让用户便捷地找到、购买和使用可信的模型Token。 词元所主打验真与征信两大能力：模型入平台前需通过模型指纹比对、模型能力测试、性能指标与可用性测试等准入核验，上线后接受定期抽检拨测与全链路实时监测，相关结果沉淀为供应商的信用评级。 李彦宏提到，今年前9个月几乎每天都有不止一款新模型发布，调用需求同步爆发，而市面上的词元中转站不对模型效果、服务稳定性、响应速度负责，连模型真实性也无从考证，词元所要解决的是这一环节的信任问题。 试运行期间，词元所入驻供应资源已经超过100个，日均调用次数突破5000万次。目前平台已上架40余款模型，覆盖DeepSeek、Kimi、智谱GLM、MiniMax等主流模型及视频模型，也包括百度自研文心系列；入驻方既有模型原厂，也有第三方推理服务商。 工信部信息通信经济专家委员会委员盘和林表示，",
+      "summaryZh": "据雷锋网11月14日报道，百度在11月12日百度世界2026上发布“词元所”，李彦宏称其为“大模型的交易所”：一端汇聚模型与模型提供商，另一端服务企业和个人，让用户找到、购买和使用可信的模型Token。平台主打验真与征信：模型入平台前要通过模型指纹比对、能力测试、性能与可用性测试等准入核验，上线后接受定期抽检拨测和全链路实时监测，结果沉淀为供应商信用评级。报道称发布首日新增申请入驻供应商超100家、新增接入客户超1000家；试运行期间入驻供应资源超100个，日均调用次数突破5000万次；已上架40余款模型，覆盖DeepSeek、Kimi、智谱GLM、MiniMax及视频模型，也包括百度自研文心系列，入驻方既有模型原厂也有第三方推理服务商。",
+      "whyItMatters": "模型Token的分发和转售长期缺乏对真实性、稳定性和响应速度的核验，中转服务良莠不齐。若“验真+征信”机制落地，企业和个人调用第三方模型的信任成本会下降，第三方推理服务商也多了一个可检索、可比价的变现渠道。",
+      "limitations": "数据和进展主要来自百度方面，属厂商披露，未经独立核实；“首日”申请与接入规模不等于留存或实际调用量。信用评级的抽检频率、评级如何公示、对用户损失如何处置均未说明。",
+      "insight": "分析：词元所本质是把模型调用商品化并引入第三方质检，其价值取决于评级是否可被用户验证、以及平台对不合格供应商是否有下架约束；否则只是又一个聚合入口。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "百度",
+        "词元所",
+        "Token交易",
+        "模型分发",
+        "信用评级"
+      ],
+      "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T05:45:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "6eee76776c835ef8",
+      "title": "Anthropic刚教的24小时agent，我当天做出来了",
+      "titleZh": "FanBox 2.20.0 参照 Anthropic 架构实现本地常驻 Agent 值守",
+      "summary": "10月31日 DeepSeek Harness 谈 super-agent，11月13日 Anthropic 写 always-on agents。作者照着后者在开源项目 FanBox 里做了一版，随 2.20.0 发布：agent 停下等你，手机收到它一句话。 一、背景 这篇文章的缘起呢，是最近看到的两篇非常好的关于agent系统设计的文章。 10月31日，DeepSeek Harness团队发了一篇《Super-agent设计探索：迈向更自主的Agent系统》。11月13日，Anthropic发了一篇Building always-on agents，教你怎么建一个24小时在线的agent。 这正好是我最近非常想折腾的事，所以看到Anthropic这篇时，我就让Claude照着它在FanBox（我做的那个Coding Agent驾驶舱，开源的）里做了一版，现在已经随FanBox 2.20.0发出去了。做出来的效果是：终端里的agent停下来等你，而你不在电脑前，你的手机（微信或飞书）会收到它的一句话。也就是说，尽量让你以相对自然的方式持续和agent互动，并让agent24小时为你",
+      "summaryZh": "作者花叔（微信公众号「花叔」，发布于人人都是产品经理）称，其开源项目 FanBox 2.20.0 参照 Anthropic《Building always-on agents》一文，在本地 Coding Agent 驾驶舱中实现了常驻值守：agent 在终端停下等待满 10 分钟且电脑 5 分钟无键鼠输入时，会通过微信或飞书推送一句话提醒；新增 fanbox-notify 命令让 agent 主动通知手机；人在电脑前时不推送。事件来源包括：窗口等待超时、Claude Code 断线重试 3 次未续上、自定跟进到点、盯梢源出现新条目；发件箱限制为 23 点至次日 8 点不发并合并、两条间隔至少 10 分钟、每日最多 20 条。文中另转述 DeepSeek Harness 10 月 31 日《Super-agent 设计探索》的 Router/Worker 双层架构与实验数据，作者未采用其上云方案。",
+      "whyItMatters": "这是中文开发者对 Anthropic 常驻 agent 五部件（收件箱、定时器、记忆、权限、发件箱）的一次可运行落地，并把「无人触发轮次只读」「不让 agent 猜人在不在」等约束写成工程规则，对自建本地 agent 值守的人有直接参考价值。",
+      "limitations": "主要证据是作者自述与开源仓库，无第三方复现；文中成本（每次唤醒 0.14–0.16 美元、4–11 秒）与测试结论均为作者单方测量；文中提到的 Opus 5.5 与 fable5.2 等模型名称及成本对比属转述 Anthropic 文章，未经独立核实；仅支持 Claude Code，飞书只能发不能回。",
+      "insight": "分析：真正可复用的是「把是否打扰人的判断从模型移到宿主程序」和「无人触发轮次降权为只读」两条设计，前者规避了模型缺乏环境信息导致的该发不发，后者降低了提示注入的破坏面。上云与本地之争在该文中被简化为上下文可得性与信任成本，未给出量化对比。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "FanBox",
+        "常驻agent",
+        "Anthropic",
+        "Claude Code",
+        "事件驱动"
+      ],
+      "url": "https://www.woshipm.com/ai/6493965.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T07:30:26.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "372aab46df01fbe3",
+      "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+      "titleZh": "浙大彭思达访谈：从体积视频到具身导航，主张用通用VLM加Agent架构替代端到端导航",
+      "summary": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨李秋悦 编辑丨吴 彤 一支女团跳舞，镜头不必再听导演安排，观众甚至能看到拍摄时不存在的机位。传统MV拍摄，摄影机架在哪里，观众看到的就是哪个角度。现在用多台摄像机同时记录舞者动作，再重建出一个三维动态场景，镜头可以任意调换位置；从队形正面绕到侧面，穿过舞者之间，甚至换一个从未真正架设过的机位，重新观看刚才的表演。今年10月，韩国SM娱乐创始人李秀满在新女团A2O LITE的出道活动上，展示了这项名为4D Gaussian Splatting（4DGS）的技术。SM娱乐旗下女团A2O LITE 《NEON》运用4DV.ai的4DGS新技术彭思达对这项技术很熟悉。六年前，彭思达师从浙大教授周晓巍读博，在浙大CAD&CG国家重点实验室的三维视觉研究团队ZJU3DV下研究的就是动态三维人体重建。很快他做的Neural Body入选CVPR 2021最佳论文候选，4K4D把动态场景的渲染推进到4K实时水平，FreeTimeGS把渲染质量推进到可落地的程度。实验室积累的技术后来被一家名为4DV.ai的创业公司采用，出现了在影视飓风的视",
+      "summaryZh": "雷锋网刊出对浙江大学软件学院研究员彭思达的访谈。他博士期间师从周晓巍，研究动态人体重建，参与Neural Body、4K4D、FreeTimeGS等工作，相关实验室技术被体积视频公司4DV.ai采用；毕业留校后转向城市街景重建，与理想汽车合作，Street Gaussians进入其自动驾驶仿真系统，StreetCrafter引入视频生成先验改善大视角渲染。今年起转向机器人导航，提出SuperNav（决策“大脑”）与ScaleNav（执行“小脑”）分工，并以基于SLAM的心灵地图做空间记忆。他认为端到端微调VLM会损害原能力，且大模型云端推理的通信延迟难以满足约50Hz的交互频率；视觉是挂件，动作模态才是具身智能的主角。",
+      "whyItMatters": "访谈给出了导航系统分层设计的具体工程理由：通信延迟、交互频率与模型规模之间的矛盾。对做具身智能与Agent的团队而言，这是对“端到端VLM直接输出动作”主流路线的一个明确反例，也展示了高校与车企、机器人公司产学研合作的实际路径。",
+      "limitations": "内容为单次访谈，SuperNav、ScaleNav、SuperNav 1.5等工作的性能与对比结论未见论文或第三方评测支撑；对端到端路线和微调效果的批评属其个人判断；校企合作的落地效果未披露量化数据。",
+      "insight": "值得注意的不是“视觉是否重要”，而是他把感知、记忆、行动按延迟预算切开，这种分层更接近系统工程而非模型竞赛，可能影响导航类产品的架构选择。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "具身智能",
+        "机器人导航",
+        "三维重建",
+        "VLM",
+        "Agent架构"
+      ],
+      "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T16:50:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "models"
+      ]
+    },
+    {
+      "id": "2c8051a2bdac6d2d",
+      "title": "开源/10秒出4K/超长文本/… 我实测出了MiniMax H3-Image擅长的四类新玩法",
+      "titleZh": "MiniMax H3 Image实测：开源图像模型的分镜、工程图与长文本排版能力",
+      "summary": "MiniMax H3 Image 发布当天开源，10 秒出 4K，Mcode 与 API 都能直接调。作者烧掉 5 万积分，按分镜与解构爆炸图、3A 游戏与动漫资产、超长文本排版、跨风格融合四类跑了 12 组实测，每组附提示语。 就这两天，GoodCase突然一股脑涌进来几十条AI生图的高赞投稿， 我一开始还在想大家是不是又拿哪个模型琢磨出什么新玩法，想点进去看看能不能打包成skill。 里面不仅有复古网页捏人界面，严丝合缝的机甲三视图线稿，带完整UI的GTA暴雨实机，细节拉满的3A蒸汽朋克立体城邦，游戏手柄机械拆解爆炸图，甚至还有5000字符的真实合同照片，每张点开细节表现是真的还不错，都是4k。 我顺着标签扒了一下，发现大家全是用 MiniMax刚发的H3 Image 跑出来的，加上之前就开源的MiniMax H3视频模型，说句源神一点都不过分，发布当天也是直接开源，API和Mcode都已经能直接调了。 给MiniMax H3烧了5万AI视频积分后，是时候分享8种最适合它的新玩法了 那这次看到H3 Image，我第一时间先试了把它们哥俩串起来玩，那在进单图分类实测之前，我先放两个效",
+      "summaryZh": "人人都是产品经理作者称，MiniMax H3 Image发布当天开源，可通过Mcode与API调用，实测平均约10秒出头生成一张原生4K图。作者用约5万积分跑了四类共12组案例：动画分镜与工业爆炸图、3A游戏与动漫资产、超长文本排版、跨风格融合，并附提示语。文章称该模型在细密文字排版、多分区版面、机械结构与多视图一致性上表现较好，还称可生成千字以上合同文字。作者也把它与H3视频模型串联，生成带音效卡点的短片头。以上为个人实测与主观评价。",
+      "whyItMatters": "若其文字渲染与结构一致性可靠，开源图像模型可降低游戏美术、排版原型和分镜制作的试错成本；但这类能力直接影响设计工作流而非仅娱乐出图。",
+      "limitations": "证据为单一作者的自测与展示，未披露完整提示语、失败率与对比基线；生成速度、字符数量与结构准确性缺乏可复现评测，需独立验证。",
+      "insight": "分析：这条反映图像模型竞争正从“画得好看”转向“可交付的版式与结构控制”，尤其是文字排版与工业制图类需求；但商用可靠性取决于一致性和可编辑性，文章未覆盖。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "MiniMax",
+        "图像生成",
+        "开源模型",
+        "实测",
+        "4K"
+      ],
+      "url": "https://www.woshipm.com/ai/6493967.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T07:26:33.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "products"
+      ]
+    },
+    {
+      "id": "7d7bfd97682c4604",
+      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+      "titleZh": "研究生用AI辅助综述写作的完整工作流与人工核验实践",
+      "summary": "Matrix精选 2026年11月13日 34 分钟阅读 研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验 主作者 关注 胡拉图说 少数派作者 🌐 hulatu.com｜分享电子产品、生活思考、运动日常的食品研究生。 胡拉图说 关注 胡拉图说 少数派作者 🌐 hulatu.com｜分享电子产品、生活思考、运动日常的食品研究生。 联合作者 关注 胡拉图说 少数派作者 🌐 hulatu.com｜分享电子产品、生活思考、运动日常的食品研究生。 胡拉图说 关注 胡拉图说 少数派作者 🌐 hulatu.com｜分享电子产品、生活思考、运动日常的食品研究生。 🌐 hulatu.com｜分享电子产品、生活思考、运动日常的食品研究生。 34 分钟阅读 微信扫码分享 以图片分享分享到微博 点击下方按钮可复制链接 分享收藏举报Matrix 首页推荐Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点，少数派仅对标题和排版略作修改。摘要：从确定选题、",
+      "summaryZh": "少数派Matrix作者以一篇已被《食品科学》录用的食品领域综述为例，复盘了从选题到大纲、检索、初筛、写作、作图和投稿前核验的全流程。工具组合包括Gemini探索选题、Zotero管理与批量导出摘要、Qwen做文献相关性分级和章节初稿、ChatGPT生成机理图草图参考、WorkBuddy检查格式与参考文献。核心方法是以文献摘要替代全文投喂以降低幻觉，用带溯源编号和“禁止编造”约束的提示词要求逐句标注来源，并强调数字、专有名词和工艺描述必须回原文核对。文章还给出Zotero导出报告、中英文检索式和Keynote临摹机理图的具体操作步骤。",
+      "whyItMatters": "对没有指导的研究生，这篇提供了可复制的AI写作分工边界：AI做发散、归纳和排版检查，人负责选题判断与事实核验。其“摘要投喂+溯源标注+回原文核查”的做法，对科研场景使用大模型有直接参考价值。",
+      "limitations": "属个人经验分享，单一学科、单篇论文、单人所为，未做对照或量化评估，效果无法外推；工具可用性与提示词效果随模型版本变化，作者自述不代表期刊或机构立场。",
+      "insight": "分析：科研写作是Agent工具较早落地且边界清晰的场景，价值不在于自动写论文，而在于把检索、摘要分级、格式核验这类可验证的重复劳动外包，同时把不可外包的事实判断留在人手里。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI辅助写作",
+        "综述",
+        "科研工作流",
+        "Zotero",
+        "提示词"
+      ],
+      "url": "https://sspai.com/post/118153",
+      "source": "少数派",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T07:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "8df6b904b8123214",
+      "title": "独家｜燧原科技首席生态官李星宇离职",
+      "titleZh": "燧原科技首席生态官李星宇离职，将攻读港大-北大联合DBA",
+      "summary": "作者｜包永刚编辑｜刘伟雷峰网独家获悉，燧原科技首席生态官李星宇已于近日离职。他离职后已入读港大-北大联合DBA博士项目，但尚未披露下一步职业计划。李星宇拥有超过20年的半导体行业从业经验，工作经历涵盖云端AI计算芯片、自动驾驶AI芯片、智能座舱芯片等领域。加入燧原科技之前，他曾在地平线任职8年，担任生态发展与战略规划副总裁，是地平线创始管理团队成员。更早之前，他曾任职于恩智浦半导体。从地平线的创始管理团队成员，到燧原科技首席生态官，李星宇在企业战略规划和产业生态建设方面积累了丰富经验。他先后任职的地平线与燧原科技，分别于2024年10月和2026年9月上市。据雷峰网了解，李星宇长期看好国内AI、芯片及硬科技创业的发展机会，希望利用过去在人工智能和半导体行业积累的产业经验与战略洞察，陪伴新一代硬科技创业者成长。更多芯片行业高管动态添加微信BENSONEIT交流。",
+      "summaryZh": "雷锋网报道，燧原科技首席生态官李星宇已于近日离职，随后入读港大-北大联合DBA博士项目，下一步职业计划未披露。他此前在地平线任职8年，任生态发展与战略规划副总裁，是创始管理团队成员，更早任职于恩智浦半导体，从业超过20年，覆盖云端AI计算芯片、自动驾驶AI芯片与智能座舱芯片。报道提到地平线与燧原科技分别于2024年10月和2026年9月上市。文中称他长期看好国内AI、芯片及硬科技创业机会，希望用产业经验陪伴新一代硬科技创业者。",
+      "whyItMatters": "属单点人事变动，但反映国产AI芯片公司在上市后进入生态与组织调整期，核心生态岗位人员流动也牵动合作伙伴体系与开发者关系。对关注国产算力供应链和行业人才流向的读者有参考意义。",
+      "limitations": "消息源为单一媒体独家，未获公司或本人确认；离职原因、接任安排、是否影响燧原生态合作均未知，不宜据此推断公司战略变化。",
+      "insight": "分析：芯片公司“生态官”岗位的核心资产是跨公司合作关系，其变动通常比技术岗更易影响外部协作节奏，但在缺乏公司回应时只能作为观察线索。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "燧原科技",
+        "人事变动",
+        "AI芯片",
+        "地平线"
+      ],
+      "url": "https://www.leiphone.com/category/chips/G6AiPuplIGyPkaQL.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T10:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "business"
+      ]
+    }
+  ],
+  "editorNote": "",
+  "coreInsight": {
+    "date": "2026-11-15",
+    "origin": "generated",
+    "takeaway": "英伟达创始人的离任与Gemini 4三款产品同期出现，一边是算力与创业投资节奏待确认，一边是模型按任务分层并接入支付与工具权限。",
+    "highlights": [
+      "Gemini 4",
+      "任务分层",
+      "工具权限"
+    ],
+    "points": [
+      {
+        "title": "黄仁勋离任冲击亚洲供应与AI创业融资",
+        "fact": "2026年11月，黄仁勋离开他共同创办并执掌33年的英伟达。据TechCrunch报道，韩国科技部称英伟达重申向韩国供应26万块先进GPU的计划；新加坡则对与黄仁勋有关联的Megaspeed前CEO Alice Huang采取限制入境等措施。风投人士称，英伟达今年参与105轮创业投资，常为最大出资方，黄仁勋离任后投资节奏可能放缓。",
+        "meaning": "编辑推断：亚洲政府要确认算力承诺，创业公司担心少了英伟达这个大金主，估值和融资节奏可能被重新定价。",
+        "watch": "关注英伟达是否兑现26万块GPU供应、新任临时CEO科莱特·克雷斯对创业投资是否收缩。",
+        "highlights": [
+          "33年",
+          "26万块先进GPU",
+          "105轮"
+        ],
+        "sourceIds": [
+          "299cfd655b5df2e6",
+          "9d694fa95af0cfae"
+        ]
+      },
+      {
+        "title": "Google三天连发Gemini 4三个产品",
+        "fact": "2026年11月10日至12日，Google接连发布三款Gemini 4产品。11月10日推出主打极限任务的Gemini 4 Carbon，称在CursorBench 4.0等三项基准排名第一，输入每百万token 2美元、输出10美元。11月11日发布Gemini Decisions API，单次可评测最多1000个是/否、多选和评分问题，延迟150至250毫秒，输入每百万token 0.10美元且不计输出token。11月12日推出Gemini 4 Hydrogen，下放到搜索及免费层，输入每百万token 1.50美元、输出7.50美元。",
+        "meaning": "编辑推断：Google按任务深度拆分模型档位，再用决策API承接路由与判断，开发者选型与成本结构会随之变化。",
+        "watch": "观察Carbon、Hydrogen在第三方基准上的复现结果，以及Decisions API实际延迟与定价是否调整。",
+        "highlights": [
+          "Gemini 4 Carbon",
+          "Gemini Decisions API",
+          "150至250毫秒"
+        ],
+        "sourceIds": [
+          "55cb0588b3e8436e",
+          "02bfed5e7aa817ea",
+          "5b69826eead48a96",
+          "d6d23163b98ddfa1"
+        ]
+      },
+      {
+        "title": "Agent 能自己干活后，账单与后门同时到来",
+        "fact": "2026年11月13日，OpenAI 面向美国18岁以上 ChatGPT Pro 用户推出 ChatGPT Wallet，Dots 代理可按提示购物，但每次结账需生物识别确认，卡号由支付令牌替代。11月10日，微软研究院披露 Lazarus：无需训练，改写大模型中少于10个休眠神经元即可植入后门，模型通过标准评测，触发后可让有工具权限的代理下载并运行攻击者代码。",
+        "meaning": "编辑推断：代理开始接触支付与终端权限，风险从说错话变成花错钱、执行错命令，权限与权重完整性需同步管控。",
+        "watch": "观察 Dots 代付是否扩大至预设额度免确认、商家是否拦截代理，以及 Lazarus 权重扫描是否进入模型上线流程。",
+        "highlights": [
+          "ChatGPT Wallet",
+          "Dots",
+          "Lazarus"
+        ],
+        "sourceIds": [
+          "754f24889ed9e00a",
+          "d48977b6fbc84b1e"
+        ]
+      }
+    ],
+    "boundary": "26万块GPU供应与创业投资是否收缩尚无结果，Lazarus权重扫描是否进入上线流程、Dots代付是否放开免确认均未验证。",
+    "sources": [
+      {
+        "id": "299cfd655b5df2e6",
+        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+        "source": "TechCrunch AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-14T16:34:15.000Z"
+      },
+      {
+        "id": "9d694fa95af0cfae",
+        "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "source": "TechCrunch AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-13T22:43:00.000Z"
+      },
+      {
+        "id": "55cb0588b3e8436e",
+        "title": "Gemini 4 Carbon is now available",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+        "source": "Google DeepMind",
+        "kind": "primary",
+        "publishedAt": "2026-11-10T16:03:47.000Z"
+      },
+      {
+        "id": "02bfed5e7aa817ea",
+        "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+        "source": "Google AI",
+        "kind": "primary",
+        "publishedAt": "2026-11-11T18:00:00.000Z"
+      },
+      {
+        "id": "5b69826eead48a96",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "source": "Google DeepMind",
+        "kind": "primary",
+        "publishedAt": "2026-11-12T18:00:50.000Z"
+      },
+      {
+        "id": "d6d23163b98ddfa1",
+        "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+        "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+        "source": "Google AI",
+        "kind": "primary",
+        "publishedAt": "2026-11-12T18:00:00.000Z"
+      },
+      {
+        "id": "754f24889ed9e00a",
+        "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "source": "The Verge AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-13T20:45:10.000Z"
+      },
+      {
+        "id": "d48977b6fbc84b1e",
+        "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+        "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+        "source": "Microsoft Research",
+        "kind": "primary",
+        "publishedAt": "2026-11-10T20:52:56.000Z"
+      }
+    ]
+  },
+  "topics": [
+    {
+      "id": "8fb9ce90dc901e91",
+      "title": "Gemini 4 家族分层落地：Hydrogen 主打低成本 agentic 工作流，Carbon 面向前沿长程任务，搜索同步接入",
+      "thesis": "Google 把 Gemini 4 拆成分层产品线：Carbon 与 Argon 面向长程深度推理，Hydrogen 承担日常 agentic 高频执行，并成为搜索和免费层的默认入口。",
+      "whyNow": "2026 年 11 月 10 日 Google DeepMind 开放 Gemini 4 Carbon，11 月 12 日发布 Hydrogen 并同步接入 Google Search 全球所有用户；Hydrogen 与 Carbon、Argon 同属 Gemini 4 家族，但定价和定位明显分层。",
+      "layers": [
+        "models",
+        "agents",
+        "products"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "2026年11月10日，Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业和消费者开放，称其在前沿网络安全能力和长程 agentic 工作流上表现最强；两天后的11月12日，Google DeepMind 又发布 Gemini 4 Hydrogen，Google DeepMind SVP Koray Kavukcuoglu 将其定位为面向日常编程和 agentic 工作流的快速执行模型，与 Carbon、Argon 等前沿模型形成分工。同一天，Google Search 产品副总裁 Robby Stein 宣布把 Hydrogen 全球接入 Google Search，称这是搜索迄今最大的一次模型升级。第三方开发者 Simon Willison 在博客中记录，Hydrogen 是 Gemini 4 家族中价格最低的成员，并成为新的免费层模型和搜索 AI 功能的驱动模型。",
+          "sourceIds": [
+            "55cb0588b3e8436e",
+            "5b69826eead48a96",
+            "d6d23163b98ddfa1",
+            "aeee01f562824dca"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "这种分层首先是成本和任务形态的匹配问题。Google 在 Hydrogen 发布文中说明，Carbon 与 Argon 这类前沿模型会用更多 token 做深入探索、推理和扩展验证循环，而 Hydrogen 定位为多模型工作流中的高效执行引擎；Google 还介绍了 Google Antigravity 的 Orchestrator，会在同一会话内动态切换 Carbon 和 Hydrogen，据其披露，在 Terminal-Bench 4.0 上达到接近 Carbon 的任务成功率，同时平均少消耗 24% 配额、快 19%。具体到一次改代码任务，可以由 Carbon 负责判断架构和排查隐蔽缺陷，把写代码、跑测试、验证改动交给 Hydrogen。这是分析：把高价推理集中在少数关键决策上，把高频执行放在成本更低的模型上，再通过编排器自动路由，从而在保持任务成功率的同时压低 token 开销。不过 Hydrogen 当前输入 1.50 美元、输出 7.50 美元每百万 token，相对 Carbon 和 Argon 只是 25% 折扣，Simon Willison 指出要到 12 月 1 日两者价格翻倍后，Hydrogen 才会变成 75% 折扣，因此分层在眼下更多是任务分工，价格优势要等调价后才充分体现。",
+          "sourceIds": [
+            "5b69826eead48a96",
+            "55cb0588b3e8436e",
+            "aeee01f562824dca"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把官方与第三方材料放在一起看，互补多于冲突。Google 的发布材料（Koray Kavukcuoglu、Robby Stein 具名）把 Carbon 说成长程深度推理与安全能力的前沿模型，把 Hydrogen 说成日常执行引擎和搜索默认入口，并用 Orchestrator、Terminal-Bench 等自有披露支撑分层；Simon Willison 则补上价格视角：Hydrogen 当前只比同级便宜约 25%，12 月 1 日 Carbon 与 Argon 价格翻倍后才会形成约 75% 的价差。这是编辑判断：官方讲能力分工，第三方测出的是这套分工在现阶段的价格说服力有限。对用户而言，搜索与免费层会先感受到 Hydrogen；对行业而言，竞争点正从单一模型分数转向“高价推理加低价执行”的成本结构，但 Hydrogen 相对 Claude Haiku 5.5、GPT-6 Luna 仍贵得多，成本优势能否成立要看实际 token 用量。",
+          "sourceIds": [
+            "d6d23163b98ddfa1",
+            "5b69826eead48a96",
+            "55cb0588b3e8436e",
+            "aeee01f562824dca"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "上述判断仍有明确的证据边界。官方给出的基准与效率数字，包括 Hydrogen 在 Artificial Analysis Intelligence Index 上 51 对 50、Terminal-Bench 4.1 从 18.2% 提升到 57%、Orchestrator 少用 24% 配额并快 19%，以及 Carbon 在 CursorBench 4.0 等榜单的排名和成本对比，均来自 Google 自报，材料中没有对应的独立复现或第三方审计，Simon Willison 的测试也仅覆盖 pelican 生成和价格表，不能视为对 agentic 工作流性能的外部验证。此外，Carbon 与 Argon 的实际分工差异、搜索接入后的真实回答质量、以及 12 月 1 日调价后的用户迁移，材料都未提供运行数据。因此结论只适用于 2026 年 11 月发布时点、基于厂商披露与有限第三方观察的产品定位判断，不应外推为已验证的产业结论，也不足以断言该分层在长期成本竞争中成立。",
+          "sourceIds": [
+            "5b69826eead48a96",
+            "55cb0588b3e8436e",
+            "aeee01f562824dca"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "55cb0588b3e8436e",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+          "source": "Google DeepMind",
+          "kind": "primary",
+          "publishedAt": "2026-11-10T16:03:47.000Z"
+        },
+        {
+          "id": "5b69826eead48a96",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+          "source": "Google DeepMind",
+          "kind": "primary",
+          "publishedAt": "2026-11-12T18:00:50.000Z"
+        },
+        {
+          "id": "d6d23163b98ddfa1",
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+          "source": "Google AI",
+          "kind": "primary",
+          "publishedAt": "2026-11-12T18:00:00.000Z"
+        },
+        {
+          "id": "aeee01f562824dca",
+          "title": "llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+          "source": "Simon Willison",
+          "kind": "analysis",
+          "publishedAt": "2026-11-12T22:55:19.000Z"
+        }
+      ],
+      "watchNext": [
+        "Hydrogen 在 Google Search 和免费层的实际使用规模与反馈",
+        "Orchestrator 在 Google Antigravity 中按会话切换 Carbon 与 Hydrogen 的实际采用情况",
+        "Carbon 与 Argon 自 2026 年 12 月 1 日起价格翻倍后，各模型使用量如何变化"
+      ],
+      "updatedAt": "2026-11-15",
+      "origin": "generated"
+    },
+    {
+      "id": "e4a27fdbef98583a",
+      "title": "黄仁勋离任：亚洲供应链承诺与AI融资缺口的双重冲击",
+      "thesis": "黄仁勋离任不改变Nvidia短期芯片供应，但抽走了其作为AI初创最大投资人的关键角色，亚洲政府与VC都在观望而非断言崩塌。",
+      "whyNow": "2026年11月8日Nvidia董事会就黄仁勋被指遭中国间谍行动针对启动独立调查，黄仁勋承认与Alice Huang有婚外情；此后韩国确认Nvidia重申供应26万块GPU，台湾称海外总部项目照常，VC则警告Nvidia或收紧初创投资。",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "2026年11月，Nvidia联合创始人兼CEO黄仁勋在执掌公司33年后离任，导火索是董事会于11月8日启动的独立调查：此前有报道称黄仁勋被中国间谍行动针对，他本人承认与曾任职于新加坡芯片公司Megaspeed的Alice Huang存在婚外情（TechCrunch报道）。离任迅速引发亚洲多方回应：韩国科技部称Nvidia已重申向韩国供应26万块先进GPU并继续联合AI项目；台北市政府表示Nvidia在当地设立的海外总部按计划推进；日本经济产业省称将密切关注，内阁官房副长官尾崎正直表示评估全球AI产业影响为时尚早（TechCrunch）。同一天，The Verge报道称黄仁勋的离开使Nvidia失去其长期以来的“愿景型创始人CEO”，并提到公司此前未安排继任计划。风险投资界则警告，Nvidia近年是AI初创最大投资方之一，今年参与105轮融资，黄仁勋离任可能使早期AI初创融资出现缺口（TechCrunch）。",
+          "sourceIds": [
+            "299cfd655b5df2e6",
+            "f88fcfa12fe4eda6",
+            "9d694fa95af0cfae"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "机制在于Nvidia在黄仁勋任内同时扮演“芯片供应商”和“初创出资人”，后者高度依赖他个人的决策，而不是一套可以平滑交接的流程。TechCrunch采访的投资人称，多数重大投资决定往往由黄仁勋本人拍板；IDC分析师Tom Mainelli和行业分析师Jon Peddie也指出，公司围绕他个人运转，“Jensen is Nvidia，Nvidia is Jensen”。一个具体例子是Nvidia今年以130亿美元收购Hugging Face（预计2027年完成交割），并投资Mistral AI、Lambda、Black Forest Labs，且常是最大出资方。这类大额、早期、无收入阶段的支票，给其他投资人提供了信心，因为当Nvidia在股东名册上时，所有人都觉得安全（Seligman Ventures的Umesh Padval语）。因此，黄仁勋离任后，短期芯片供应可以照合同延续，但初创融资的关键变量变成了接任者——临时CEO Colette Kress——是否愿意继续以同等规模承担风险，投资人预期她更保守。这一解释基于分析师和投资人的公开判断，属于对机制的分析，而非Nvidia披露的内部决策流程。",
+          "sourceIds": [
+            "9d694fa95af0cfae",
+            "f88fcfa12fe4eda6"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把三篇材料放在一起看，它们各自覆盖不同层面，合起来才拼出完整图景：TechCrunch的亚洲政府报道提供可核实的具体动作——韩国确认26万块GPU供应、台北称总部项目照约推进、日本表示评估尚早——说明供应链层面目前是“确认与观望”，而非中断；同一媒体的VC报道则把风险落在融资侧，多位投资人称Nvidia常是AI初创最大出资方、决策多由黄仁勋本人拍板，并预期临时CEO Colette Kress更保守；The Verge提供的是人物与治理视角，强调公司未安排继任、高度依赖个人。编辑推断：三者并不矛盾，官方表态管的是已签合同，VC担忧管的是尚未发生的早期支票，因此短期供应稳定与中期融资收紧可以并存。对行业的具体影响是，依赖Nvidia背书定价的neocloud和早期基础设施初创可能面临估值与融资节奏压力，而亚洲政府项目暂按合同执行。",
+          "sourceIds": [
+            "299cfd655b5df2e6",
+            "f88fcfa12fe4eda6",
+            "9d694fa95af0cfae"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "需要区分几类信息：韩国科技部所说“Nvidia重申供应26万块GPU”属于厂商自报、由政府转述，材料中没有Nvidia公告或第三方核验，不能当作已交付的供应量；台北市所称总部“按合同推进”同样是官方表态，项目后续是否受人事变动影响未知。融资侧的“缺口”目前主要是VC和创始人的预期，TechCrunch采访的多位投资人预期临时CEO Colette Kress更保守，但材料没有Nvidia投资节奏的官方数据，也没有Kress本人的表态，因此“融资收紧”是待验证的判断而非既成事实。此外，材料未提供Nvidia独立调查结论、继任安排细节，也未说明亚洲各国政府项目是否会在合同之外追加承诺，相关影响只适用于当前已披露的合同与早期融资层面。",
+          "sourceIds": [
+            "299cfd655b5df2e6",
+            "9d694fa95af0cfae"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "299cfd655b5df2e6",
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+          "source": "TechCrunch AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-14T16:34:15.000Z"
+        },
+        {
+          "id": "f88fcfa12fe4eda6",
+          "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+          "source": "The Verge AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-14T12:00:00.000Z"
+        },
+        {
+          "id": "9d694fa95af0cfae",
+          "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+          "source": "TechCrunch AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-13T22:43:00.000Z"
+        }
+      ],
+      "watchNext": [
+        "Nvidia临时CEO Colette Kress是否调整对AI初创的投资节奏与单笔金额",
+        "韩国260,000块GPU供应承诺及联合AI项目是否按期落地",
+        "亚洲各国调查与Nvidia自身调查的后续披露"
+      ],
+      "updatedAt": "2026-11-15",
+      "origin": "generated"
+    },
+    {
+      "id": "8a523d39a52eb053",
+      "title": "Agent 基础设施走向「可管理」：LangChain 以 30 亿美元估值融资，DeepSeek 与 Anthropic 的常驻 agent 架构被开发者复现",
+      "thesis": "常驻 agent 的竞争重心正从模型能力转向可管理的运行架构：谁能让 agent 稳定在线、少打扰人、控制权限与成本，谁就掌握企业入口。",
+      "whyNow": "11月13日 LangChain 宣布以 30 亿美元估值完成 3 亿美元 C 轮，估值约一年前 12.5 亿美元的逾两倍，称 LangSmith 有 7000 家客户；同日 Anthropic 发布 Building always-on agents；11月14日开发者花叔称已按该文在开源项目 FanBox 2.20.0 做出本地版本。",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "11月13日，TechCrunch 的 Julie Bort 报道 LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元，由 CapitalG 领投，GIC、DFJ Growth、IVP 和 Sapphire Ventures 参投，估值较约一年前 IVP 领投时的 12.5 亿美元翻倍有余；报道称，LangChain 从 2022 年的开源项目转向 agent 管理，其 LangSmith 强调不锁定特定模型、云或生态，并称已有 7000 家客户，包括 Harvey、Rippling、Nvidia、Toyota 等。同期，人人都是产品经理刊出作者花叔的文章：他称 10 月 31 日 DeepSeek Harness 发布关于 super-agent 设计思路的文章、11 月 13 日 Anthropic 发布 Building always-on agents，他参照后者在开源项目 FanBox 2.20.0 中实现本地常驻 agent，能在人离开电脑后通过微信或飞书提醒。",
+          "sourceIds": [
+            "49f0b0840b1ef26a",
+            "6eee76776c835ef8"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "机制上，模型能力一旦被各家模型厂商的 harness 拉平，企业采购的难点就从「模型能不能干」变成「agent 一连跑几十个小时会不会乱来、会不会吵人、花多少钱」。花叔复现 Anthropic 那套常驻架构时给出了具体例子：他定下没人触发的轮次只能读文件、不能改文件或跑命令，遇到冒充系统的话要求执行删除命令时，agent 醒来后原样上报，没有照做；他还实测每次唤醒成本约 0.14 至 0.16 美元，于是设了两次唤醒至少隔 3 分钟、每天最多 48 次的上限。分析来看，这些约束不提升模型分数，却直接决定 agent 能否长期留在生产环境，也解释了 LangChain 把卖点放在不锁定模型和生态、管理 agent 行为上的商业逻辑。",
+          "sourceIds": [
+            "6eee76776c835ef8",
+            "49f0b0840b1ef26a"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两篇材料放在一起看，它们讲的其实是同一件事的两侧：LangChain 融资报道给出的是商业侧信号，即资本市场愿意为「管理 agent」而非某个模型本身买单，报道称 LangSmith 已有 7000 家客户，并主打不锁定模型、云和生态；花叔的文章给出的是工程侧样本，他用 Anthropic 的五个部件在本地做出可运行的常驻 agent，并补上权限限制、唤醒频率和成本上限。两者互补之处在于，一边说明企业入口正转向 agent 管理，另一边说明这类管理落到单机上也已有可操作的约束清单；分歧主要在部署选择上，花叔明确说自己不上云，这是他的个人取舍，而非对 LangChain 路线的否定。编辑推断，若权限和成本控制成为采购门槛，这类管理能力会比模型分数更直接影响落地。",
+          "sourceIds": [
+            "49f0b0840b1ef26a",
+            "6eee76776c835ef8"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "至少有三处证据缺口需要注意。LangChain 的客户数量与估值由公司自行公布、经 TechCrunch 转述，缺少独立审计或第三方统计；花叔的常驻 agent 属于个人开源项目复现，其唤醒成本、拦截冒充指令等数据是单人单机测试，样本与复现次数未披露，不能当作产业级验证。Anthropic 与 DeepSeek Harness 的文章在材料中仅有转述，DeepSeek 原文自称实验用合成消息流、结果只作初步参考。因此上述判断只适用于中文开发者与早期企业采购场景，能否推广到大规模生产环境仍是未知。",
+          "sourceIds": [
+            "6eee76776c835ef8",
+            "49f0b0840b1ef26a"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "49f0b0840b1ef26a",
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+          "source": "TechCrunch AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-13T19:37:57.000Z"
+        },
+        {
+          "id": "6eee76776c835ef8",
+          "title": "Anthropic刚教的24小时agent，我当天做出来了",
+          "url": "https://www.woshipm.com/ai/6493965.html",
+          "source": "人人都是产品经理",
+          "kind": "reporting",
+          "publishedAt": "2026-11-14T07:30:26.000Z"
+        }
+      ],
+      "watchNext": [
+        "LangSmith 的 7000 家客户数后续是否更新，以及其“不锁定模型、云、生态”的定位能否转化为留存",
+        "Anthropic 那套五部件架构（收件箱、定时器、记忆、权限、发件箱）在开源或商业产品中的复现数量与形态",
+        "常驻 agent 每次唤醒的成本与频率上限是否成为产品默认约束，例如 FanBox 实测每次约 0.14 至 0.16 美元"
+      ],
+      "updatedAt": "2026-11-15",
+      "origin": "generated"
+    }
+  ],
+  "topicGeneration": {
+    "status": "complete",
+    "attempted": 3,
+    "published": 3,
+    "failures": []
+  },
+  "highlights": [
+    {
+      "id": "55cb0588b3e8436e",
+      "title": "Gemini 4 Carbon is now available",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Carbon，主打长程 Agent 工作流与网络安全能力",
+      "summary": "Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link <iframe src=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Components/brand/4-carbon/16-9/index.html\" title=\"an illustrated carbon with several number 4&#x27;s around it\" class=\"uni-dynamic-ifram",
+      "summaryZh": "Google DeepMind 宣布 Gemini 4 Carbon 面向开发者、企业、科研人员和消费者开放。据官方博客，Carbon 在复杂多步编码、调试和开放式科研等任务上使用更多 token 做深度推理与验证循环，定位在已完成软件工程和知识工作的 Gemini 4 Argon 之上。谷歌称其位列 CursorBench 4.0、Perplexity 的 WANDR 和 Zapier 的 AutomationBench 首位，每任务成本低于次优外部模型 2 倍以上；并在 Antigravity 中预览 /swarm，让单条提示生成可实时跟踪的多 Agent 团队。网络安全方面，谷歌称经 Fairwind 计划访问时，Carbon 在 SEC-bench Pro、ExploitGym、CWE-bench v1 上领先，内部 Project Fortify 扫描召回达 100%、分诊精度 95%。",
+      "whyItMatters": "如果多 Agent 编排与长程验证循环的实际表现接近官方描述，企业复杂工程与科研任务的自动化边界会被推进，同时网络安全攻防两侧的能力差距可能扩大。定价与 Argon 持平也影响采购决策。",
+      "limitations": "以上性能数据、基准排名和漏洞发现案例均来自谷歌官方博客及合作方评估，尚无独立复现；/swarm 仍为预览功能；定价为介绍期价格，后续可能调整。",
+      "insight": "厂商把'更强推理'与'更多 token 消耗'绑定，并以单位任务成本作为卖点，说明前沿模型的竞争正从单次准确率转向单位成本下的端到端任务完成度。",
+      "importance": 9,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "多Agent",
+        "网络安全",
+        "基准测试"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "299cfd655b5df2e6",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "titleZh": "亚洲多国政府就黄仁勋离开英伟达作出反应",
+      "summary": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations. On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed. Nvidia’s ",
+      "summaryZh": "TechCrunch 汇总了黄仁勋离开英伟达后亚洲各方的表态。报道称英伟达董事会启动独立调查，起因是有关黄仁勋遭中国间谍行动针对的报告，黄本人承认与曾任职新加坡芯片公司 Megaspeed 的 Alice Huang 有婚外情。中国外交部否认相关间谍指控，称系无端抹黑，并重申反对扰乱全球供应链的出口管制；路透审阅采购公告等材料后称，逾 30 亿美元依赖英伟达受限处理器的中国 AI 算力项目面临不确定性。新加坡称 2025 年 6 月扣押 Alice Huang 护照调查服务器采购虚假申报，2026 年 2 月认定相关刑事证据不足但就其职务陈述发出警告并禁止入境。韩国称英伟达重申供应 26 万块 GPU；台湾称台北总部项目照常；日本称将密切跟踪。",
+      "whyItMatters": "英伟达领导层变动牵动亚洲供应链与各国算力计划，出口管制下的中国项目风险尤为直接。事件也暴露头部芯片公司治理与地缘政治风险如何传导至下游 AI 投资。",
+      "limitations": "报道混合了调查进展、政府表态与路透的间接测算，30 亿美元规模等数字未经独立核实；间谍指控与调查结论均以“据报”“称”呈现，事实链尚未闭合。",
+      "insight": "（分析）该事件把公司治理风险与出口管制风险叠加到同一节点上，短期看是供应承诺重申，中期看亚洲各国可能加速算力来源多元化。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "出口管制",
+        "亚洲",
+        "供应链"
+      ],
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "9d694fa95af0cfae",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "titleZh": "黄仁勋离任后，风投担忧英伟达对AI初创的投资收缩",
+      "summary": "It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down. “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Over the last several years, Nvidia has been a prolific investor, pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook. “If that direction chang",
+      "summaryZh": "TechCrunch报道称，英伟达CEO黄仁勋离任后，多位风投和创始人担心英伟达对AI初创企业的投资节奏会明显放缓。据PitchBook数据，英伟达近年每年向初创投入数十亿美元，今年参与105轮融资，且常为最大投资方，重点押注neocloud、推理服务与开放权重模型。投资人称，许多重大投资决定来自黄仁勋本人；临时CEO Colette Kress被认为更保守，可能减少对早期生态的投入。另有观点认为，英伟达投资也起到锁定初创使用其芯片的作用，收缩或为竞争对手留出空间；但多数受访者不认为这会单独终止更广泛的AI热潮。",
+      "whyItMatters": "英伟达既是算力供应商又是重要出资方，其投资策略变化会直接影响AI基础设施初创的融资难度、估值和芯片选择，进而影响算力供给格局与竞争。",
+      "limitations": "材料主要基于匿名风投与创始人的说法，未提供英伟达官方投资计划或具体削减金额；公司收购、投资时间线等细节以报道为准，需后续验证。",
+      "insight": "分析：若英伟达从“最大出资方”转向更保守，短期冲击的是高估值、重资产的基础设施初创；能否由云厂商或其它芯片商补位，取决于其生态成熟度与出资意愿，而不仅是有无资金。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "风险投资",
+        "AI初创",
+        "neocloud",
+        "算力"
+      ],
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "754f24889ed9e00a",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "titleZh": "OpenAI 推出 ChatGPT Wallet，Dots Agent 可代用户下单",
+      "summary": "AINewsTechChatGPT Wallet lets OpenAI’s Dots agents make purchases for youOpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents. by Stevie BonifieldNov 13, 2026, 8:45 PM UTCLinkShareGiftImage: Cath Virginia / The Verge, Getty ImagesStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, ",
+      "summaryZh": "据 The Verge 报道，OpenAI 在 Dots Agent 平台之后推出 ChatGPT Wallet。首批面向美国 18 岁以上、使用美国账单地址和符合条件的美国运通、Chase、Mastercard、Visa 卡的 ChatGPT Pro 订阅用户。用户绑卡后，Dots Agent 可按指令购物，但每次结账前须经用户确认，并通过 Face ID 或指纹等生物识别验证。OpenAI 称支付时用支付令牌替代真实卡号，Agent 与商家均不获取卡信息。未来计划允许用户设定消费限额、品类或时间范围后预授权、完全委托购买。文章同时指出部分零售商限制或封禁 AI Agent，例如亚马逊曾封禁 Meta 的 Muse Agent；OpenAI 表示网站需避免误封 Agent，支付与风控系统需识别合法 Agent 交易。",
+      "whyItMatters": "这是 Agent 从'建议'走向'代为交易'的关键一步，涉及支付令牌化、逐笔确认与生物识别等信任设计；商家侧封禁与风控识别问题决定了这类能力能否规模化落地。",
+      "limitations": "为上线初期的产品报道，仅覆盖美国 Pro 用户与部分卡组织；委托购买、限额预授权均属未来计划，未验证。文章未披露交易规模、失败率与商家接受度数据。",
+      "insight": "分析：Agent 支付的核心摩擦不在模型能力，而在商户风控与责任归属；逐笔确认的体验与预授权额度机制之间的取舍，将决定 Agent 商务的实际转化率。",
+      "importance": 8,
+      "relevance": "agent-ads",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "Agent支付",
+        "Dots"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "579aa129bfed87fd",
+      "title": "The avalanche that hit math is coming for AI development",
+      "titleZh": "Dwarkesh Patel：AI自动化AI研究可能只需数年，数学进展是预演",
+      "summary": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay. You can watch or listen to me narrate this essay on YouTube, Spotify, and Apple Podcasts.If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade. But over the last three months, I’ve updated my views a ton. I’ve been debating people about this question, both on and off the p",
+      "summaryZh": "Dwarkesh Patel在这篇长文中称，自己过去三个月大幅上调了对AI研发自动化速度的判断：他估计距“和顶尖人类AI研究者一样好”的AI中位年份是2028年，并认为此后一年内可能出现各领域达到顶尖人类专家的AI。其论据包括：METR在Anthropic驻场三个月后认为后者在界定清晰任务上的进展速度是一年前的两倍，其中大部分加速可能归因于用AI做研发；OpenAI称其研究者中前10%的重度用户每日内部编码agent花费从约1000美元升至8月底的超7000美元；Anthropic称截至8月Claude“主导”其AI研发工作超过26%，而2月还不到1%。他以数学能力的快速提升作为预演，并援引Toby Ord的观点指出当前系统擅长证明但少有证据表明能提出深刻新问题。",
+      "whyItMatters": "若AI研发本身成为可被自动化的高反馈领域，模型迭代速度可能脱离人力瓶颈，影响算力投入节奏、研究者岗位和实验室竞争格局。文章提供了可核查的机构数据点，是讨论“递归自我改进”时少见的实证线索。",
+      "limitations": "核心时间预测是作者个人判断，非共识；所引METR、OpenAI、Anthropic数据均为机构自述或合作结论，缺乏独立复现。作者也承认AI研究可验证性低于数学，且未讨论实验室主动减速等情形。",
+      "insight": "分析：文章最有价值的部分不是2028年这个数字，而是把“AI研究是否可验证”作为判断自动化速度的关键变量——数学、竞赛编程等高反馈领域的跃迁能否迁移到目标和评价都更模糊的研发工作，仍是未决问题。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI研发自动化",
+        "递归自我改进",
+        "METR",
+        "数学推理",
+        "AGI时间线"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-13T18:37:51.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "id": "dbd22669440bd406",
+      "title": "lance-format/lance",
+      "titleZh": "Lance：面向多模态 AI 的开源湖仓格式",
+      "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..\n当前星数 7299，当日增加 6；语言 Rust。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "Lance 是面向多模态 AI 的开源湖仓（Lakehouse）数据格式，宣称可从 Parquet 用两行代码转换，并支持更快的随机访问、向量索引与数据版本管理，兼容 Pandas、DuckDB、Polars、PyArrow、PyTorch 等工具。该仓库以 Rust 实现，当前星标约 7300。其定位是解决多模态数据（向量、图像等）在训练与检索场景下的存储与读取效率问题：以列式格式承载向量索引，使随机访问与版本化在同一层完成。仓库简介是该项目的自我描述，不是今日发布公告；其中的“100 倍”等数字来自仓库文案，未经独立验证。",
+      "whyItMatters": "多模态与向量检索工作流中，数据格式与索引常被拆分在多个系统里，Lance 试图把两者合并，可减少训练与检索链路的数据搬运成本，对构建 RAG 或向量数据库的团队有参考价值。",
+      "limitations": "仅有仓库简介这一短文本来源；性能倍数、与 Parquet 的实际兼容程度、索引更新与版本化在生产规模下的表现均未验证。",
+      "insight": "（分析）数据格式层是 Agent 与多模态应用的基础设施，若 Lance 的索引与版本化能力可用，可能降低向量检索系统的自建成本；但格式类项目往往需长期生态积累。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "湖仓格式",
+        "向量检索",
+        "多模态",
+        "Rust"
+      ],
+      "url": "https://github.com/lance-format/lance",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "agents"
+      ]
+    },
+    {
+      "id": "94784d27d75bc9c9",
+      "title": "SigNoz/signoz",
+      "titleZh": "SigNoz：原生 OpenTelemetry 的可观测性平台，加入 MCP 与 AI 同事",
+      "summary": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.\n当前星数 32641，当日增加 20；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "SigNoz 是开源、原生 OpenTelemetry 的可观测性平台，整合日志、指标和链路追踪，提供 APM、分布式追踪、日志管理与基础设施监控。仓库简介称，配合 SigNoz MCP 与 SigNoz Cloud 中的“原生 AI 同事”，可帮助构建更有韧性的应用。当前星标约 3.26 万。其机制是采集 OTel 标准数据并统一存储分析；MCP 部分意味着 AI Agent 可经由协议查询观测数据。简介未说明 AI 同事的具体能力边界与可用区域。",
+      "whyItMatters": "可观测性是运行 AI Agent 应用的必要环节；若 Agent 能通过 MCP 主动查询日志与追踪，故障定位与运维自动化会有新入口，对平台工程和 SRE 团队有直接意义。",
+      "limitations": "仅仓库简介；MCP 与 AI 同事的功能细节、是否开源、计费与效果均未披露，星标增长不代表产品采用度。",
+      "insight": "（分析）可观测性平台接入 MCP 是把 Agent 纳入运维闭环的典型路径，但“AI 同事”类能力多处于早期，需观察其准确性评估方式。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "可观测性",
+        "OpenTelemetry",
+        "MCP",
+        "AIOps"
+      ],
+      "url": "https://github.com/SigNoz/signoz",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "c5a32632e586ab2c",
+      "title": "langchain-ai/langchain",
+      "titleZh": "LangChain：自称“Agent 工程平台”的框架仓库",
+      "summary": "The agent engineering platform.\n当前星数 149501，当日增加 56；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "LangChain 仓库简介仅一句话：面向 Agent 工程的平台，以 Python 实现，当前星标约 14.95 万。该简介未提供版本更新、架构变化或新功能说明，本文只能概括其公开定位：为构建基于大模型的 Agent 应用提供编排与集成能力。作为长期高星项目，其星标数反映历史关注度，而非今日新增热度；当日增加约 56 星。具体能力、稳定性与适用边界需查看文档与代码，材料不足以展开。",
+      "whyItMatters": "LangChain 是许多团队搭建 Agent 与 RAG 应用时的默认起点之一，其定位变化会影响生态内的工具选择与工程实践；但单条仓库简介不足以判断其当前技术进展。",
+      "limitations": "证据仅为一句仓库简介，无发布说明、无功能细节；星标高属长期积累，不能作为新近重要性依据。",
+      "insight": "（分析）从“框架”改称“Agent 工程平台”，可能反映其向部署与运维层延伸的意图，但需官方文档与发布记录佐证，当前材料不足。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Agent",
+        "框架",
+        "Python"
+      ],
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "GitHub Trending",
+      "category": "github-new",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents"
+      ]
+    },
+    {
+      "id": "ac6052de3047a038",
+      "title": "facebookresearch/faiss",
+      "titleZh": "FAISS：稠密向量相似检索与聚类库",
+      "summary": "A library for efficient similarity search and clustering of dense vectors.\n当前星数 41659，当日增加 65；语言 C++。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "FAISS 是 Meta（facebookresearch）开源的稠密向量相似检索与聚类库，以 C++ 实现，当前星标约 4.17 万，当日增加约 65。它提供多种向量索引结构与近似最近邻算法，常被用作向量检索的底层组件，属于长期维护的基础库。材料未包含本次版本更新或性能变化信息，因此只能说明其公开定位与热度状态，无法据此推断向量检索领域的新进展。",
+      "whyItMatters": "FAISS 是向量数据库与 RAG 系统常见的底层检索组件，其维护状态影响大量应用的性能与升级路径；但星标增长本身不构成技术变化的证据。",
+      "limitations": "仅仓库简介一句；无版本发布、基准或维护状态信息，不能据此判断其当前活跃度或相对其他库的优劣。",
+      "insight": "（分析）FAISS 属于成熟基础库，其新闻价值通常来自版本更新或与其他索引方案的对比基准，而非星标变化；本条仅可作背景收录。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "向量检索",
+        "相似搜索",
+        "C++"
+      ],
+      "url": "https://github.com/facebookresearch/faiss",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-15",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure"
+      ]
+    }
+  ],
+  "coverage": {
+    "fetchedAt": "2026-11-14T18:16:07.490Z",
+    "lookbackDays": 14,
+    "sources": [
+      {
+        "source": "Karpathy Newsletter",
+        "url": "https://karpathy.beehiiv.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 404"
+      },
+      {
+        "source": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Ethan Mollick (One Useful Thing)",
+        "url": "https://www.oneusefulthing.org/feed",
+        "status": "ok",
+        "items": 1,
+        "undated": 0
+      },
+      {
+        "source": "Nathan Lambert (Interconnects)",
+        "url": "https://interconnects.ai/feed",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "SemiAnalysis",
+        "url": "https://www.semianalysis.com/feed",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Jack Clark (Import AI)",
+        "url": "https://jack-clark.net/feed/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "HackerNews AI",
+        "url": "https://hnrss.org/frontpage?q=AI+OR+LLM+OR+agent&points=50",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 502"
+      },
+      {
+        "source": "HackerNews Models",
+        "url": "https://hnrss.org/frontpage?q=GPT+OR+Claude+OR+Gemini+OR+Llama&points=30",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 502"
+      },
+      {
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/api/rss/ai",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "VentureBeat AI",
+        "url": "https://venturebeat.com/category/ai/feed/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 429"
+      },
+      {
+        "source": "OpenAI News",
+        "url": "https://openai.com/news/rss/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 403"
+      },
+      {
+        "source": "Anthropic News",
+        "url": "https://www.anthropic.com/news",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv CS.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv ML",
+        "url": "https://rss.arxiv.org/rss/cs.LG",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "36氪",
+        "url": "https://36kr.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Unencoded <\nLine: 9\nColumn: 169\nChar: <"
+      },
+      {
+        "source": "雷锋网",
+        "url": "https://www.leiphone.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "人人都是产品经理",
+        "url": "https://www.woshipm.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "机器之心",
+        "url": "https://www.jiqizhixin.com/rss",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Unexpected close tag\nLine: 16\nColumn: 19\nChar: >"
+      },
+      {
+        "source": "少数派",
+        "url": "https://sspai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "爱范儿",
+        "url": "https://www.ifanr.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Latent Space · 访谈与工程",
+        "url": "https://www.latent.space/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Dwarkesh Podcast · 深度访谈",
+        "url": "https://www.dwarkesh.com/feed",
+        "status": "ok",
+        "items": 5,
+        "undated": 0
+      },
+      {
+        "source": "Lex Fridman · 访谈",
+        "url": "https://lexfridman.com/feed/podcast/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "status": "ok",
+        "items": 8,
+        "undated": 0
+      },
+      {
+        "source": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/",
+        "status": "ok",
+        "items": 9,
+        "undated": 0
+      },
+      {
+        "source": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+        "status": "ok",
+        "items": 4,
+        "undated": 0
+      }
+    ],
+    "selected": 68,
+    "published": 50,
+    "warnings": []
+  }
+}
