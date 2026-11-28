@@ -1,0 +1,2629 @@
+{
+  "schemaVersion": 3,
+  "date": "2026-11-28",
+  "dateZh": "2026年11月28日星期六",
+  "hotRanking": [
+    {
+      "id": "e51b021662e92d60",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "titleZh": "42 州总检察长联合施压，阻止 Character.AI 在破产程序中出售用户聊天记录",
+      "summary": "PolicyAINews42 state AGs are trying to stop Character.AI from selling users’ chatsA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.A bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.by Terrence O'BrienNov 26, 2026, 9:54 AM UTCLinkShareGiftImage: Cath Virginia / The VergeTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 year",
+      "summaryZh": "The Verge 报道，42 州两党总检察长联盟试图阻止 Character.AI 在 Chapter 11 破产程序中出售用户数据。AG 方称拟出售范围包括超过 2100 万个美国账户的私密聊天历史，其中逾 210 万个注册者为未成年人，且未要求买家遵守现有隐私政策、未提供用户删除数据的途径、未限制买家转售。首个竞标方成立于 2026 年 11 月 13 日，无母公司或投资方信息。此前 Character.AI 已申请破产，Disney 收购其部分资产并以“acquihire”方式聘用其 CEO 及部分技术团队，该交易同样遭 AG 联盟反对。纽约、康涅狄格、加州、科罗拉多等州针对聊天机器人的法律将于 2027 年 1 月 1 日生效。",
+      "whyItMatters": "它把一个具体问题摆到台面：当 AI 聊天公司破产清算时，海量私密对话是否会被当作可出售资产。这将直接影响用户对 AI 陪伴类产品的信任，也可能成为各州聊天机器人立法的现实依据。",
+      "limitations": "报道基于 AG 方面近乎相同的新闻稿与公开文件，Character.AI 及竞标方的回应未呈现；账户数量、未成年人占比等数据来自 AG 声明，未经独立核验；破产交易最终是否获批尚不确定。",
+      "insight": "分析：AI 陪伴产品的核心资产恰恰是最敏感的用户对话，破产程序暴露了隐私承诺在资产处置中的脆弱性；若 AG 阻止失败，可能推动监管把“数据不可随资产出售”写入规则。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Character.AI",
+        "隐私",
+        "破产",
+        "州检察长",
+        "聊天机器人监管"
+      ],
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "795d73d38accc580",
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "titleZh": "Kokotajlo与Erdil辩论：2029年前出现超级智能的概率分歧",
+      "summary": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected.Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%.They agree that there is not a huge difference in probability, and that, in either case, the situ",
+      "summaryZh": "Dwarkesh Patel播客中，AI Futures Project的Daniel Kokotajlo与Google DeepMind的Ege Erdil讨论智能爆炸时间线。分歧核心是'纯软件奇点'可信度：Erdil认为未来三年发生概率约10%-20%，Kokotajlo认为超过50%，并称AI研究全自动化可能在2027年前后实现，随后加速并产生'超越顶级专家'的系统。两人均认为概率差异不改变需要认真应对的结论，并批评对中国的对抗姿态可能妨碍未来全球协议。最后各自给出2027年预测：Kokotajlo预期超级智能，Erdil中位全面自动化时间为2040年。",
+      "whyItMatters": "这场辩论把'递归自我改进'从口号变成可讨论的概率与时间问题，直接影响实验室是否应暂停、监管如何设定触发条件，以及国际协调是否需要前置。对政策制定者与投资者而言，关键是两种情景都要求提前布局治理。",
+      "limitations": "为个人预测与观点，非可验证事实；文中概率无模型推导；播客为节选转录，未覆盖全部论证；提及的具体事件细节不足以独立核实。",
+      "insight": "分析：两人对概率的分歧其实小于对'证据门槛'的分歧——Erdil要求先见现实成本再行动，Kokotajlo认为等待即风险；这一分歧比数字本身更影响政策路径。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "超级智能",
+        "时间线预测",
+        "AI安全",
+        "国际治理"
+      ],
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T18:01:14.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "77bb663b6361291f",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "titleZh": "标普全球考虑下调英伟达信用评级，指向治理与“关键人物”风险",
+      "summary": "In Brief Posted: 2:44 PM PST · November 25, 2026 Image Credits:Fabrice COFFRINI/AFP / Getty Images Marina Temkin S&P considers Nvidia credit downgrade over governance and ‘key man’ risks S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices. Despite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns about “weak e",
+      "summaryZh": "标普全球评级表示正考虑下调英伟达信用评级，理由涉及公司管理与治理实践。报道称，尽管英伟达财务表现强劲，CEO黄仁勋被免职后又复职引发了对“高管监督薄弱、缺乏继任规划”以及过度依赖黄仁勋的“关键人物风险”的担忧。标普预计在90天内完成审查，可能将评级从AA下调至AA-（其量表第四高）。报道指出英伟达仍将保持投资级评级，但降级可能提高其借贷成本；由于英伟达为缺乏独立强信用支持的新云厂商等基础设施公司提供背书，评级下调可能使这些公司的债务更贵或需提供更多抵押。材料还提到英伟达今年8月计划与六家金融机构安排5000亿美元AI基础设施融资，原条款下英伟达担保25%贷款，而贷款方此前已要求提高担保比例。",
+      "whyItMatters": "英伟达是AI算力供应链的核心融资与信用节点；治理问题若影响其评级，可能通过担保条款与借贷成本传导至依赖其背书的新云与数据中心项目。",
+      "limitations": "评级仍在审查中，结果与幅度未定；材料未说明黄仁勋免职复职的具体时间与原因；“今年8月”的年份未明示。",
+      "insight": "分析：这条新闻的行业传导路径不在芯片供给，而在信用链条——英伟达对AI基础设施融资的担保义务使其资产负债表与下游新云的融资条件绑定，治理折价可能放大为整个算力建设的资金成本上升。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "信用评级",
+        "公司治理",
+        "AI基础设施融资"
+      ],
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1684673b3d07d7df",
+      "title": "AI is straining America’s open records systems",
+      "titleZh": "AI 生成请求激增，美国公共记录系统承压",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he got rather busy. Panton used to get a request every year or so from a company called SmartProcure for “all purchasing records,” covering every",
+      "summaryZh": "MIT Technology Review 报道称，美国各州和地方的公共记录申请量近期明显上升。一方面，Starbridge（融资 5200 万美元）、Pursuit（2550 万美元）等风险投资支持的创业公司批量采集政府采购数据，并将其加工成销售“信号”；另一方面，普通个人借助 AI 更易起草申请。佛罗里达大学 Brechner 项目对教育部 7 月申请日志做的检测显示，至少 29% 的申请有 AI 参与，且篇幅约为人工申请的两倍。佛蒙特小镇书记员反映，同一类采购记录申请从每年一次变为每季度、每月一次；宾州开放记录办公室的申诉量从 2021 年约 3000 件升至 2025 年近 4000 件，今年预计 6000 件。资源有限的记录办公室开始用 AI 检索与脱敏，CivicPlus 称其 NextRequest 平台年处理超百万件请求并用验证码拦截机器人。",
+      "whyItMatters": "信息公开是监督政府的基础设施，申请成本下降与商业采集同时放大流量，可能倒逼立法收紧拒绝条件，反而削弱透明度；同时暴露出 AI 生成内容进入行政流程后的识别与处理成本问题。",
+      "limitations": "申请中 AI 参与比例来自单一机构单月日志的检测估算，检测方法本身存在误判；企业请求量数据多为其官网自述；立法收紧的最终影响尚未发生。",
+      "insight": "分析：这一案例显示 AI 的主要冲击未必在模型能力，而在把原本高摩擦的行政流程变得极低成本，导致既有制度按“请求昂贵”假设设计的容量与筛选机制失效。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "公共记录",
+        "FOIA",
+        "透明度",
+        "数据经纪",
+        "政府采购"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business",
+        "products"
+      ]
+    },
+    {
+      "id": "ca7cbb4b4799603a",
+      "title": "Responding to objections to recursive self-improvement",
+      "titleZh": "Dwarkesh Patel 回应递归自我改进与2030年超级智能的质疑",
+      "summary": "(00:00:00) – IntroDwarkesh Patel 00:00:00Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interesting and compelling, and I want to go through them here. And by the way, I’m joined by Max Farrens, who is my General Manager, and we ended up discussing all of these ideas as we were writing them down. And in fact, we pair",
+      "summaryZh": "在 Dwarkesh Podcast 中，Dwarkesh Patel 与 Max Farrens 逐条回应其“递归自我改进、2030 年前出现超级智能”长文收到的反对意见。他主张当前 AI 在大多数事情上仍弱于人类，真正可能快速推进的是具备大量可验证代理指标的 AI 研究领域；他以预训练损失、未见游戏上手速度、开放数学问题等作为可验证攀爬目标，并引用与 Princeton 学生 Jerry Han 的合作研究称，2019 至 2026 年间预训练数据改进对进展的解释力大于架构改进。针对“指标定义本身就是难点”的质疑，他承认需要泛化，但认为在 ML 研究这类可经验验证的领域，非领域专家的研究者也能通过数据过滤与合成数据改进模型。",
+      "whyItMatters": "这是关于 AI 发展速度的核心论证之一：争论焦点不在单个模型分数，而在 AI 研究是否足够可验证、可自动攀爬。该框架影响从业者如何评估自改进路线与投入。",
+      "limitations": "均为播客中的个人论证与反驳，非同行评审结论；提及的数据研究仅口头描述，未给出可核查细节；2030 年超级智能为作者预测，不应视为已验证趋势。",
+      "insight": "分析：该论证的关键假设是“AI 研究领域可验证性高”，若指标定义与数据构造仍是瓶颈，自改进速度会低于其预测。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "递归自我改进",
+        "可验证指标",
+        "预训练数据",
+        "AGI 预测"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsiobjections",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-24T21:45:30.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "4f5fe20de68e9dfd",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "titleZh": "Google 将 Wallet 与 Drive 接入 Search 的 Personal Intelligence",
+      "summary": "A more tailored Google Search that’s uniquely yours Nov 23, 2026 | x.com Facebook LinkedIn Mail Copy link Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode. Robby Stein VP of Product, Google Search Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice",
+      "summaryZh": "Google 宣布在 Search 的 AI Mode 中扩展 Personal Intelligence，用户可选择接入 Google Wallet，Drive 和 Gemini 应用随后数周跟进。接入后，AI Mode 可基于用户消费记录、文档和聊天上下文给出回答，例如分析支出习惯、优化信用卡返现类别、基于文档生成个性化计划；Wallet 数据仅可读取，不能转账或管理资金。该功能加入已有的 Gmail、Calendar、Photos 连接。用户可在 Search Personalization 的 Connected Apps 中开启或关闭，并称后续可通过回复修改上下文（如“我不再吃素”）。同时 AI Overviews 与 AI Mode 会依据近期搜索上下文提供更个性化的回答。",
+      "whyItMatters": "这是搜索从“检索公开信息”向“读取个人账户上下文作答”的明确一步，直接关系到用户数据授权范围与隐私边界，也会影响依赖搜索流量的内容与广告生态。",
+      "limitations": "材料为 Google 官方产品公告，未提供准确率、误用风险、数据保留期限等细节；功能为分阶段推出，Drive 与 Gemini 应用连接尚未上线，实际效果未知。",
+      "insight": "分析：可读不可写的限制说明 Google 在支付类数据上刻意收窄代理权限；真正的看点在于上下文跨产品打通后，用户如何审计“AI 用了哪些数据”。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Search",
+        "AI Mode",
+        "Personal Intelligence",
+        "隐私与授权"
+      ],
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "8fa568a491333824",
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+      "titleZh": "Import AI 482：华为Ascend内核优化基准、无人机检测数据集与实验室科学判断评测",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built and released AscendGYM, “a kernel optimization benchmark for Ascend NPUs”. The purpose of AscendGYM is to make it easier to use AI to develop cu",
+      "summaryZh": "本期Import AI介绍三项研究。深圳循环区域研究院发布AscendGYM，面向华为Ascend NPU的内核优化基准，含AscendForge评测环境，衡量AI代理在保持正确性的前提下改进内核性能与优化成本；测试中Opus 5得分最高，GPT-5.6更省token，GLM-5.3在Claude Code中表现较好。劳伦斯利弗莫尔实验室提出SciResearch-Eval，让代理自主设计实验、在可能失真的热传导模拟器上报告带95%区间的材料属性，仅少数前沿模型在默认设置下可靠。南京航空航天大学与港科大发布A2A-UAV空对空无人机多模态检测数据集。",
+      "whyItMatters": "内核优化基准直接关系在出口管制下提升国产芯片效率的路径，是'AI改进自身算力底座'的关键环节；科学判断评测则把'校准的不确定性'变成可测量的能力维度，比单一准确率更接近科研实用标准。",
+      "limitations": "为 newsletter 二手综述，模型名称与分数引自论文摘要未独立验证；AscendGYM与SciResearch-Eval的评测规模、任务覆盖与复现条件未在材料中展开；数据集军民两用边界未讨论。",
+      "insight": "分析：AscendGYM的意义不在榜单，而在把'AI写内核'变成可计价的优化问题；若这类基准成熟，算力受限方可用软件效率部分对冲硬件差距。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Ascend",
+        "内核优化",
+        "科学评测",
+        "不确定性校准",
+        "无人机数据集"
+      ],
+      "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T14:11:17.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "1c53651dba4b6783",
+      "title": "美团想起来自己是开公司的了",
+      "titleZh": "美团三季度扭亏：补贴退坡后利润表从战报变回账本",
+      "summary": "昨天晚上美团发了三季报，去年同期亏186亿，今年同期赚近21亿，已是连续第二个季度盈利。订单量还在降，客单价却回升：补贴退坡让亏本单自然消失，营销费用少花68亿，投资估值又添一笔账面收益。拆开三笔账，才看得懂利润表怎么从战报变回账本。 美团终于又赚上钱了。 昨天晚上，美团发了三季报，去年同期亏了186亿，今年同期赚了近21亿；这已经是美团连续第二个季度盈利了，只不过比上个季度少赚了一点。 我翻了一遍财报，又看了看电话会纪要，发现一件挺有意思的事，据卖方测算，美团三季度的外卖订单量同比还在下降，客单价却回升了。 去年大家恨不得让全国人民一天点四顿外卖，今年单子少了，账反倒好看了。 这门生意，到底发生了什么变化呢？ …… 简单说，美团终于有空算账了。从前忙着数订单，如今忙着数订单里还剩几个钱。 先看这份财报。 三季度美团收入1155亿，比去年同期多了21.6%，创下单季新高。经营利润从去年同期亏198亿，变成了赚27亿；净利润20.7亿，经调整净利润18.5亿。 外卖大战打了一年多，美团的利润表总算从战报变回了账本。这钱是怎么回来的？我拆了三笔账，性质还真不一样。 一，生意好做了一些。 核",
+      "summaryZh": "美团发布三季度财报：收入1155亿元，同比增长21.6%，经营利润由去年同期亏损198亿元转为盈利27亿元，净利润20.7亿元。文章拆解扭亏来源：核心本地商业收入涨16.8%、毛利同比多129亿元；销售营销费用从338亿元降至270亿元，少花68亿元；投资估值变动等带来约33.6亿元账面收益计入经营利润。据卖方测算，外卖订单量同比仍降，客单价回升，低价补贴单减少。管理层在电话会提到低价订单占比下降、暑期后补贴趋缓。作者指出监管对外卖补贴划边界，京东、阿里同期也在减亏。文末提到美团明年AI相关资本开支将少于今年，因已提前锁定部分算力。",
+      "whyItMatters": "这是理解中国外卖竞争从补贴换单量转向单位经济性的一手案例，补贴退坡如何影响订单结构、客单价与利润，对评估本地生活平台与即时零售投入节奏有参考价值。",
+      "limitations": "文中订单量、客单价、利润归因含第三方测算，投资估值收益为账面性质；单季数据受收付款时点影响，不能直接外推长期盈利能力。",
+      "insight": "分析：扭亏主要来自少做亏本单和费用收缩，而非需求端扩张，利润改善的可持续性取决于同行是否重启补贴。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "美团",
+        "外卖",
+        "财报",
+        "本地生活",
+        "补贴"
+      ],
+      "url": "https://www.woshipm.com/share/6502034.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T06:06:57.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business"
+      ]
+    },
+    {
+      "id": "bf74e6c19e53c3fd",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "titleZh": "G2i 创始人谈前沿实验室如何采购训练数据与 RL 环境",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose",
+      "summaryZh": "在 Latent Space 的 AI Engineer CODE 访谈中，G2i 创始人 Gabe Greenberg 向 swyx 介绍 AI 训练数据市场的运作方式：前沿实验室可为独家数据支付溢价，或接受多家实验室均可购买的折扣数据；小规模试点订单如何扩展为更大合作，以及何时适合自建数据团队。他描述了数据任务的设计方法——资深工程师设定略高于当前模型能力的任务、选择种子数据并构建可评分的验证器，并指出任务过难就会变成评测。节目还涉及实验室为何会购买竞品同款数据集、按平均处理时长对耗时一两天至两周的任务定价，以及 CAD、机械工程和芯片设计等潜在下一批数据市场。",
+      "whyItMatters": "训练数据与 RL 环境正成为模型能力竞争的实际投入项，采购结构、独家性与定价机制直接影响实验室成本与数据供应链格局。",
+      "limitations": "为单一供应商创始人的访谈视角，市场规模与营收预测未经独立核实；无具体合同金额或公开数据佐证。",
+      "insight": "分析：数据采购从“标注”转向“带验证器的专家任务设计”，意味着数据供应商在能力上更接近评测与课程设计方。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "训练数据",
+        "RL 环境",
+        "数据市场",
+        "验证器"
+      ],
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T22:19:18.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business"
+      ]
+    },
+    {
+      "id": "bc44bdf8c5592890",
+      "title": "24.99 万元起！宝马新世代 i3 正式上市，纯电续航高达 1028km丨广州车展",
+      "titleZh": "宝马新世代i3上市：24.99万元起，顶配CLTC续航1028km",
+      "summary": "宝马新世代 iX3 前两天刚开启交付，新世代 i3 今天就在广州车展上市了。 这辆新车有 30L、40L 和 50L 三款车型，实行的是全国统一价。 入门版 30L 售价 24.99 万元，搭载宁德时代磷酸铁锂麒麟电池，CLTC 续航 708 公里，最大功率 261 马力，最大扭矩 500 牛·米，零百加速 6.6 秒，10%-80% 直流快充约 22 分钟。 中配 40L 售价 27.99 万元，换装 86.9 千瓦时 BMW 大圆柱电池，CLTC 续航 802 公里，最大功率 315 马力，零百加速 5.9 秒，快充约 21 分钟，额外标配了 3D 抬头显示和 20 英寸 M 型空气动力学轮辋。 顶配 50L 售价 31.99 万元，配备 113.4 千瓦时大圆柱电池，最大功率 321 马力，最大扭矩 500 牛·米，CLTC 续航达到 1028 公里，快充同样约 21 分钟。 交付节奏上，40L 将于明年 1 月率先交付，30L 和 50L 计划明年 4 月开启交付。 配置方面，宝马这次不玩选装了，很多配置都成了全系标配。哪怕是 24.99 万元的 30L，也标配了第六代 eDr",
+      "summaryZh": "宝马在广州车展上市新世代i3，三款车型全国统一价：30L售24.99万元，搭载宁德时代磷酸铁锂麒麟电池，CLTC续航708公里；40L售27.99万元，86.9千瓦时大圆柱电池、续航802公里；50L售31.99万元，113.4千瓦时电池、续航1028公里。全系标配全域800V平台、第六代eDrive、前排通风与前后排加热等近40项配置。辅助驾驶与Momenta合作开发，基于R7世界模型架构，称经超200亿公里中国道路数据训练，主打人机共驾，轻踩刹车不退出。交付节奏为40L明年1月、30L与50L明年4月。",
+      "whyItMatters": "材料显示中国市场价格竞争下，外资品牌以统一价和全系标配压缩选装溢价，同时把城区辅助驾驶作为全系标配，对智驾供应商竞争格局与消费者购车决策有直接影响。",
+      "limitations": "续航为CLTC工况，辅助驾驶的“200亿公里训练数据”“世界模型架构”均为厂商说法，缺少第三方实测与功能落地范围说明。",
+      "insight": "分析：宝马以“轻踩刹车不退出”强调人机共驾，与追求脱手的主流叙事形成差异，但实际体验与法规边界仍需道路验证。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "宝马",
+        "智能驾驶",
+        "Momenta",
+        "800V",
+        "广州车展"
+      ],
+      "url": "https://www.ifanr.com/1695987",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T16:41:37.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products"
+      ]
+    }
+  ],
+  "pmHighlights": [],
+  "githubNew": [],
+  "githubHot": [
+    {
+      "id": "fbfdec28cfffc04c",
+      "title": "PostHog/posthog",
+      "titleZh": "PostHog：把产品分析、会话回放与 AI 可观测性集中到一个平台",
+      "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.\n当前星数 41211，当日增加 50；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "PostHog 的仓库简介把它定位为“构建自驱动产品”的平台：提供 AI 可观测性、产品分析、会话回放、功能开关、实验、错误追踪和日志等开发者工具，声称可以捕获 agent 诊断问题、发现机会和上线修复所需的上下文，并支持从 Slack、Web、桌面端或 MCP 操作。给出的信息来自仓库简介，不是发布公告；当前星数 41211，当日增加 50，主要语言为 Python。机制上，它把产品事件、前端会话和模型调用观测放进同一数据层，用于减少排查问题时跨系统拼接数据的成本；适用边界在于简介未说明具体功能成熟度、计费方式或私有化能力。",
+      "whyItMatters": "AI 产品排障往往需要同时查看模型调用、用户行为和前端状态，分散的工具链会拉长定位时间。PostHog 把可观测性与产品分析合并，对做 agent 和 AI 功能的团队有直接吸引力，但实际收益取决于数据接入深度与成本。",
+      "limitations": "仅有仓库简介，没有版本发布、基准或客户案例；MCP 与 Slack 操作的具体能力和权限边界未知，星数变化不能代表新近采用热度。",
+      "insight": "",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "PostHog",
+        "可观测性",
+        "产品分析",
+        "Agent"
+      ],
+      "url": "https://github.com/PostHog/posthog",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "c37165a31cd3fc39",
+      "title": "n8n-io/n8n",
+      "titleZh": "n8n：带原生 AI 能力的公平代码工作流自动化平台",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.\n当前星数 212353，当日增加 218；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "n8n 的仓库简介描述了一个公平代码（fair-code）许可的工作流自动化平台，具备原生 AI 能力，可将可视化搭建与自定义代码结合，支持自托管或云部署，并称有 400 多个集成。当前星数 212353，当日增加 218，主要语言为 TypeScript。这些信息来自仓库简介而非今日公告，因此不能据此推断新版本或新集成。机制上，它用节点式编排连接外部服务，并在流程中嵌入模型调用与自定义逻辑，适合把 AI 步骤接入既有业务系统；边界是简介未披露 AI 节点的具体模型支持、许可限制细节和定价。",
+      "whyItMatters": "很多企业需要在不替换现有系统的前提下，把模型调用、人工审核和业务动作串成可审计流程。n8n 的自托管与可视化方式降低了搭建 agent 类自动化的门槛，但生产可用性仍取决于集成质量与运维成本。",
+      "limitations": "证据仅为仓库简介；400 多个集成的完整性、AI 功能的具体实现与公平代码许可条款均未在材料中说明，星数是累计值。",
+      "insight": "",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "n8n",
+        "工作流自动化",
+        "自托管",
+        "AI 编排"
+      ],
+      "url": "https://github.com/n8n-io/n8n",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "c5f2c6c39c63757b",
+      "title": "pgvector/pgvector",
+      "titleZh": "pgvector：为 Postgres 提供开源向量相似度检索",
+      "summary": "Open-source vector similarity search for Postgres\n当前星数 23848，当日增加 14；语言 C。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "pgvector 是面向 Postgres 的开源向量相似度检索扩展，仓库简介仅此一句；当前星数 23848，当日增加 14，主要语言为 C。材料没有今日发布内容，也没有说明支持的索引类型、距离度量或性能数据。机制上，它把向量列和相似度检索能力放进关系数据库，使向量查询可与既有 SQL 数据和事务在同一库内完成，减少单独维护向量库的复杂度；适用边界取决于数据规模、索引构建成本与查询延迟，这些材料均未涉及。",
+      "whyItMatters": "RAG 与语义检索常用独立向量数据库，而 pgvector 让已有 Postgres 团队在不新增基础设施的情况下试水向量检索，降低了起步成本；它的限制和调优需求也决定了它更适合中等规模场景。",
+      "limitations": "仅有一句仓库简介，缺少版本、索引算法、基准与规模上限；不能据此判断当前性能或与专用向量库的优劣。",
+      "insight": "",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "pgvector",
+        "Postgres",
+        "向量检索",
+        "RAG"
+      ],
+      "url": "https://github.com/pgvector/pgvector",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "616293296550946f",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "titleZh": "Google DeepMind 推出 Mass Spec Skills，助力 Antigravity 解读串联质谱",
+      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "summaryZh": "Google DeepMind 发布 Mass Spec Skills，面向使用 Google Antigravity 的科学家，用于解读串联质谱（tandem mass spectra）。该工具把质谱解析能力封装为可被 Antigravity 调用的技能，目标是帮助研究人员从谱图中推断分子结构。质谱解析长期依赖专家经验与数据库匹配，将此类分析接入 AI 开发环境，可能降低实验数据解读的门槛。但目前公开信息仅为一句简介，未说明支持的谱图类型、准确率、训练数据、与现有工具的比较，以及是否开放使用或仅限内部。",
+      "whyItMatters": "若该能力可用，AI 辅助质谱解析可加速化学与生物医学研究中的分子鉴定流程；也反映 DeepMind 将科研工具嵌入 Agent 开发平台的产品方向。",
+      "limitations": "仅有博客标题与一句摘要，缺乏方法、评测与可用性细节，无法判断其实际性能与适用范围。",
+      "insight": "科研技能化是 Agent 平台切入垂直科学工作流的常见路径，关键在于数据与验证，而非接口本身。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google DeepMind",
+        "质谱",
+        "Antigravity",
+        "科研工具"
+      ],
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-24T13:07:53.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents"
+      ]
+    },
+    {
+      "id": "c2bd7953104652e4",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "titleZh": "Hugging Face 博客：在 Trainium3 上运行 LTX-2.5 生成视频",
+      "summary": "Text-to-Video • 19B • Updated 2 days ago • 35.1k • 162",
+      "summaryZh": "Hugging Face 博客发布题为《Taking Trainium3 to the Track: Generating Videos with LTX-2.5》的内容，介绍在 AWS Trainium3 芯片上运行文本生成视频模型 LTX-2.5 的实践。页面元信息显示该模型为 Text-to-Video、约 19B 参数、更新于两天前，并带有 35.1k 与 162 等页面计数（含义未说明）。材料仅有标题和标签，没有给出推理性能、吞吐、成本对比或部署步骤细节，因此无法判断 Trainium3 在视频生成负载上的实际表现。",
+      "whyItMatters": "视频生成模型通常对算力要求高，若能在非 GPU 加速器上有效运行，将影响推理成本与硬件选择；对关注模型部署与算力多样化的团队有参考意义。",
+      "limitations": "仅有标题与模型标签，缺少基准数据、生成质量对比与可复现配置；Trainium3 的实际性能未知。",
+      "insight": "硬件多元化是降低推理成本的潜在方向，但需以可复现的吞吐与质量数据为准，单篇博客标题不足以支撑结论。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "LTX-2.5",
+        "Trainium3",
+        "视频生成",
+        "推理部署"
+      ],
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "c238bc1166aca3e3",
+      "title": "Can AI help build a healthier future?",
+      "titleZh": "微软研究播客：AI 如何塑造医学与生物学的未来",
+      "summary": "Technical advancement is moving at such a rapid pace that it can be challenging to define the tomorrow we’re working toward. In The Shape of Things to Come, Microsoft Research leader Doug Burger and experts from across disciplines tease out the thorniest AI issues facing technologists, policymakers, business decisionmakers, and other stakeholders today. The goal: to amplify the shared understanding needed to build a future in which the AI transition is a net positive. Microsoft Principal Researc",
+      "summaryZh": "微软研究播客《The Shape of Things to Come》中，主持人 Doug Burger 与微软首席科学官 Eric Horvitz、Scripps Research 的 Eric Topol、微软首席研究经理 Ava Amini 讨论 AI 与医学、生物学的交汇。Horvitz 介绍其在 Science 发表的序列诊断研究：让 AI 扮演临床医生，从主诉与病史出发主动提问、权衡检查的信息价值与成本，并在不确定下给出收敛诊断；他称多个前沿语言模型表现突出，但与人类全科医生的比较存在局限。Topol 评价该研究是首次展示 agentic 系统在提高诊断准确率的同时降低成本。讨论还涉及医学影像、虚拟细胞、生物基础模型、药物发现，以及研究到患者之间转化缓慢、生物数据与真实世界验证不足等问题。",
+      "whyItMatters": "该对话把 agentic AI 在临床诊断中的评测方式（序列决策而非静态病例）摆到台面，并指出数据与验证是落地瓶颈，对医疗 AI 研究与产品方向有参考价值。",
+      "limitations": "材料为播客转录节选，部分内容被截断；关于诊断准确率“近乎翻倍”等说法来自嘉宾转述，具体数值、对照设置与论文细节需查阅原文核实。",
+      "insight": "把评测从“给病例判答案”改为“模拟问诊流程”，更接近临床实际，也更能暴露模型在信息获取与成本权衡上的能力差异。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "医疗AI",
+        "agentic AI",
+        "诊断",
+        "生物基础模型"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-17T16:52:17.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "governance"
+      ]
+    },
+    {
+      "id": "895b540db6a8889e",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "titleZh": "DeepMind 用编码 Agent 与形式验证搜索更快的量子算法",
+      "summary": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithmsMay 2025Science Learn more",
+      "summaryZh": "Google DeepMind 发布博客，称用其 Gemini 驱动的编码 Agent AlphaEvolve 结合形式验证来寻找更快的量子算法。材料只包含博客标题、发布日期与一句简介，并回溯提到 AlphaEvolve 是 2025 年 5 月发布的、面向高级算法设计的编码 Agent。可确认的信息是：这条工作把 Agent 自动化搜索与形式验证放在同一流程中，目标指向量子算法这一算法设计场景；但具体发现了什么算法、提速幅度、验证覆盖了哪些性质、与既有方法的对比，材料均未给出。",
+      "whyItMatters": "若 Agent 产出能经形式验证确认正确性，算法发现类任务的自动化就有了可检验的路径，比单纯依赖基准分数更接近可用的研究辅助工具。对关注 Agent 在科研与形式化方法中落地的人有参考价值。",
+      "limitations": "仅有标题与一句简介，缺少方法细节、验证范围、算法结果与评测数据，无法判断实际效果；引用内容停留在 2025 年的 AlphaEvolve 发布，需对照原文核查。",
+      "insight": "分析：这条信息的价值在方向而非结果——Agent 生成候选算法、形式验证做筛选，构成一个可审计的闭环，但闭环是否真的收敛尚不可知。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AlphaEvolve",
+        "量子算法",
+        "形式验证",
+        "编码Agent"
+      ],
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T16:59:40.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "models"
+      ]
+    },
+    {
+      "id": "a734da9d3a1d8760",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "titleZh": "llama.cpp 推出面向 AMD Ryzen 与 Radeon 的基准测试面板",
+      "summary": "Back to Articles Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon Team Article Published November 26, 2026 Upvote 36 +30 angt angt Follow ggml-org Simon Pagezy pagezyhf Follow ggml-org Abdennacer Badaoui badaoui Follow ggml-org The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen",
+      "summaryZh": "ggml-org 在 Hugging Face 上发布 llama.cpp × AMD 基准测试面板，用于在 AMD Ryzen 与 Radeon 硬件上追踪本地推理性能。面板可选择硬件、模型与 llama.cpp 构建版本，展示两项指标：PP512（处理 512 个输入 token 的吞吐）与 TG128（生成 128 个 token 的吞吐），另有构建历史与上下文长度扩展曲线。当前硬件选项为 Radeon 8060S（gfx1151）与 Radeon AI Pro R9700S（gfx1201）。基准使用 llama-bench，Flash Attention 开与关各跑 10 次，公开工作流每周调度，原始结果存放在公开存储桶，可自行复现与绘图。",
+      "whyItMatters": "本地推理性能随模型、内核与构建频繁变化，公开可查的分版本、分量化基准让开发者在 AMD 平台上选型时有据可依，也让性能回退更容易被及时发现。",
+      "limitations": "目前仅覆盖两款 AMD 硬件，指标限于两项固定负载，不含功耗、内存占用等；面板由相关团队维护，模型集仍在扩展中。",
+      "insight": "分析：这类按构建版本做纵向记录的基准，比一次性跑分更接近工程实践需求，但覆盖面窄时不宜外推为整体硬件结论。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "llama.cpp",
+        "AMD",
+        "本地推理",
+        "基准测试"
+      ],
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "HuggingFace Blog",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T11:37:17.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "models"
+      ]
+    },
+    {
+      "id": "60d6d445e0dacc9d",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "titleZh": "TokenEconomizer：让编码 Agent 从历史会话中学习以降低 token 成本",
+      "summary": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across 277 real bug-fixing tasks, TokenEconomizer reduced costs by 18.4–30.9% across multi",
+      "summaryZh": "UC Berkeley 与微软研究院等发布开源插件 TokenEconomizer，在不修改 Agent 与底层模型的前提下，从仓库历史会话中学习以降低后续会话成本。它通过三种机制工作：把反复出现的仓库特定知识写成一句式“微技能”注入起始上下文，并有证据推翻时退役；按历史裁剪不常用工具、保留核心工具且可恢复；检测失败循环，由裁判模型判断是否卡住并给出改道提示，仍卡住则提醒开发者。在 277 个 SWE-Bench 任务、五种 Agent 与模型组合上，平均成本降低 18.4%–30.9%，四个组合 Pass@1 上升；Web-Bench 上成本降 16.0%–21.2%。",
+      "whyItMatters": "编码 Agent 的主要开销来自重复探索与无效工具加载，这类黑盒式成本控制可与现有 Agent 并用，直接关系开发者的使用成本与长会话可行性。",
+      "limitations": "结果来自论文自评的 SWE-Bench 等基准，仓库数有限且需先累积历史才会省钱；真实团队仓库中的迁移效果与长期稳定性待验证。",
+      "insight": "分析：把“经验”做成外部控制器而非改模型，回避了微调成本，但也意味着收益高度依赖会话日志质量与仓库重复度。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "编码Agent",
+        "成本优化",
+        "SWE-Bench",
+        "开源插件"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "source": "Microsoft Research",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-16T17:01:35.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "fd9bebbff7e69286",
+      "title": "Introducing Gemini 4 Neon",
+      "titleZh": "Google DeepMind 发布 Gemini 4 Neon，主打低成本长任务 Agent 与代码",
+      "summary": "Introducing Gemini 4 Neon Nov 18, 2026 | x.com Facebook LinkedIn Mail Copy link Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Koray Kavukcuoglu SVP, Google DeepMind and Chief AI Architect, Google Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experiment",
+      "summaryZh": "Google DeepMind 发布 Gemini 4 Neon，定位在复杂软件工程、知识工作与科学流程中快速端到端完成任务。文中给出的规格为：输入每百万 token 3 美元、缓存输入 0.15 美元、输出每百万 token 15 美元，100 万 token 上下文窗口，四档思维等级。官方引用多项第三方与内部基准：Artificial Analysis 智能指数 61 分（xhigh 档）、Vals Index 第 2、Arena 新增 Agent Arena Index 第 2（1336 分，基于 4200 余次真实 Agent 会话）、Artificial Analysis Coding Agent Index 第 1（58.6），以及 Terminal-Bench 4.1 的 65.2% 等。安全方面称维持 Carbon 级别防护，并推出面向受信防御者的 Fairwind 网络防御计划。",
+      "whyItMatters": "若其宣称的成本与基准优势成立，前沿级 Agent 能力的单任务成本会明显下降，影响开发者在长时程编码、办公自动化和安全漏洞处置上的模型选型与编排策略。",
+      "limitations": "所有分数与成本对比均出自厂商发布，部分为内部测试（如 Antigravity 测试、伪造率），部分基准为厂商定制；独立复现与真实工作负载表现尚未验证。",
+      "insight": "Neon 被描述为可充当编排器调度 Hydrogen 子 Agent，说明模型厂商正把“多 Agent 编排”能力直接做进模型与自家 harness，而非只卖单模型推理。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini 4 Neon",
+        "Google DeepMind",
+        "基准测试",
+        "Agent"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-18T21:35:43.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "ca9ca0837de1673f",
+      "title": "Genie 4 is now available",
+      "titleZh": "Google 向 AI Ultra 订阅者开放 Genie 4 世界模型",
+      "summary": "Genie 4 is now available Nov 18, 2026 | x.com Facebook LinkedIn Mail Copy link Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery. Diego Rivas Group Product Manager, Google DeepMind Pavan Kumar Group Product Manager, Google Labs Share x.com Facebook LinkedIn Mail Copy link Read AI-generated summary We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and inter",
+      "summaryZh": "Google DeepMind 宣布向符合条件的 Google AI Ultra 订阅者推出更新版 Project Genie，首次开放 Genie 4 世界模型。官方称其可在会话中通过自然语言实时修改环境，并首次加入随场景变化的原生音频；同时升级 Genie 3，支持单次生成最长约 3 分钟（原为 60 秒）、世界链接、360 度全景图作为起始画面和实时可提示事件。新增 Project Genie agent 以对话方式构建世界，并上线社区画廊供发布与 remix。所有生成视频与音频带 SynthID 水印并经过安全筛查，Pro 会员可加入等待名单。",
+      "whyItMatters": "世界模型从研究演示转向面向付费订阅者的产品形态，交互式环境生成与 remix 社区可能影响游戏、影视预演和创作工具的分发方式，也让合成内容溯源成为默认配置。",
+      "limitations": "均为厂商自述，未给出定量评测；官方承认相机延迟、复杂物理交互、实时音频精度和长期场景一致性仍待解决，实际体验需独立验证。",
+      "insight": "分析：竞争焦点正从画面保真度转向可控性与社交分发，agent 层负责把自然语言意图编排成多模态资产，但实时物理与延迟仍是落地瓶颈。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Genie 4",
+        "世界模型",
+        "Google DeepMind",
+        "订阅制"
+      ],
+      "url": "https://deepmind.google/blog/genie-4-is-now-available",
+      "source": "Google DeepMind",
+      "category": "research",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-18T18:13:42.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "agents",
+        "products",
+        "governance"
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "id": "a7a0adf7d6c734e3",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "titleZh": "Google 与金州勇士扩大合作，Gemini 成为官方 AI 助手伙伴",
+      "summary": "How Gemini is changing the game for Golden State's organization and fans. Nov 24, 2026 Today, we’re expanding our partnership with Golden State — making Google Gemini the Official AI Assistant Partner and Official Generative AI & Enterprise LLM Partner of the Warriors, the 2026 WNBA Champion Valkyries, and Chase Center.The collaboration integrates Gemini across the entire franchise ecosystem. For fans, that means a more interactive game-day experience, both inside Chase Center via interactive vi",
+      "summaryZh": "Google 宣布扩大与金州勇士（Golden State）的合作，让 Gemini 成为勇士队、2026 年 WNBA 冠军瓦尔基里队以及大通中心（Chase Center）的官方 AI 助手伙伴，以及官方生成式 AI 与企业 LLM 伙伴。合作把 Gemini 接入球队生态：面向球迷，在大通中心的交互式视频板以及面向居家观看的数字渠道中提供更具互动性的比赛日体验；在幕后，勇士队将用 Gemini for business 构建自定义 AI agent，支持商业与篮球运营团队。Google 称勇士队自 2019 年起就是大通中心的创始伙伴，此前已用其生成式 AI 工具改善运营。",
+      "whyItMatters": "这是体育营销与企业 AI 落地的结合案例，展示大模型如何同时进入面向消费者的观赛体验和球队内部运营流程；对关注 AI 商业化与品牌合作的从业者具有参考价值。",
+      "limitations": "内容为 Google 官方合作公告，缺少具体功能、部署规模、成本与效果数据；“交互式视频板”“自定义 agent”等均未给出实现细节与验证结果。",
+      "insight": "厂商合作公告通常强调愿景而非可验证指标；判断此类项目价值需等待实际使用数据和运营效率变化。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini",
+        "体育",
+        "企业AI",
+        "合作"
+      ],
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "1684673b3d07d7df",
+      "title": "AI is straining America’s open records systems",
+      "titleZh": "AI 生成请求激增，美国公共记录系统承压",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he got rather busy. Panton used to get a request every year or so from a company called SmartProcure for “all purchasing records,” covering every",
+      "summaryZh": "MIT Technology Review 报道称，美国各州和地方的公共记录申请量近期明显上升。一方面，Starbridge（融资 5200 万美元）、Pursuit（2550 万美元）等风险投资支持的创业公司批量采集政府采购数据，并将其加工成销售“信号”；另一方面，普通个人借助 AI 更易起草申请。佛罗里达大学 Brechner 项目对教育部 7 月申请日志做的检测显示，至少 29% 的申请有 AI 参与，且篇幅约为人工申请的两倍。佛蒙特小镇书记员反映，同一类采购记录申请从每年一次变为每季度、每月一次；宾州开放记录办公室的申诉量从 2021 年约 3000 件升至 2025 年近 4000 件，今年预计 6000 件。资源有限的记录办公室开始用 AI 检索与脱敏，CivicPlus 称其 NextRequest 平台年处理超百万件请求并用验证码拦截机器人。",
+      "whyItMatters": "信息公开是监督政府的基础设施，申请成本下降与商业采集同时放大流量，可能倒逼立法收紧拒绝条件，反而削弱透明度；同时暴露出 AI 生成内容进入行政流程后的识别与处理成本问题。",
+      "limitations": "申请中 AI 参与比例来自单一机构单月日志的检测估算，检测方法本身存在误判；企业请求量数据多为其官网自述；立法收紧的最终影响尚未发生。",
+      "insight": "分析：这一案例显示 AI 的主要冲击未必在模型能力，而在把原本高摩擦的行政流程变得极低成本，导致既有制度按“请求昂贵”假设设计的容量与筛选机制失效。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "公共记录",
+        "FOIA",
+        "透明度",
+        "数据经纪",
+        "政府采购"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business",
+        "products"
+      ]
+    },
+    {
+      "id": "33b3d08d99aeb285",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "titleZh": "英伟达据报暂停对东南亚的服务器出货",
+      "summary": "In Brief Posted: 12:03 PM PST · November 26, 2026 Image Credits:I-Hwa Cheng / AFP / Getty Images Connie Loizos Nvidia hits pause on chip shipments to Southeast Asia Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going. According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its reg",
+      "summaryZh": "TechCrunch 援引《华尔街日报》报道称，英伟达已要求 Dell、Supermicro 等制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚出货服务器，暂停期限未说明，理由是评估区域伙伴是否遵守美国出口要求。报道称，此前中国企业通过设在上述国家的数据中心远程使用英伟达芯片，美国商务部本月已堵上这一漏洞，且据报道过程并不情愿。报道还引述智库 Institute for Progress 的估算，称此类远程数据中心约供应中国 AI 算力的 24%。该消息属于二手转述，英伟达与相关厂商的具体回应未在材料中呈现。",
+      "whyItMatters": "东南亚数据中心是算力跨境流动的重要节点，若出货暂停持续，会影响当地算力供给与依赖远程算力的中国客户，也显示出口管制的执行正从芯片销售延伸到服务器部署环节。",
+      "limitations": "信息源为 TechCrunch 转述《华尔街日报》，英伟达未在材料中确认；暂停时长、涉及规模与具体合规标准均未知。",
+      "insight": "分析：管制重点正从“芯片卖给谁”转向“算力在哪里被谁使用”，服务器出货环节成为新的执法抓手，第三方算力中介的合规风险上升。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "出口管制",
+        "东南亚",
+        "算力",
+        "供应链"
+      ],
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "1d140bb3b26b0663",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "titleZh": "Android 的 AI 自定义小组件上手：更像提示词快捷方式",
+      "summary": "TechAIGoogleAndroid’s DIY widgets are a bit of vibe-coding funYou can have a good time brewing up widgets — as long as you don’t expect too much. You can have a good time brewing up widgets — as long as you don’t expect too much. by Allison JohnsonNov 27, 2026, 2:00 PM UTCLinkShareGiftWidgets, your way. Photo: Allison Johnson / The VergeAllison Johnson is a senior reviewer with over a decade of experience writing about consumer tech. She has a special interest in mobile photography and telecom. ",
+      "summaryZh": "The Verge 记者 Allison Johnson 在 Pixel 11 Pro 上试用了 Google 今年 I/O 发布的 Create My Widget 功能，该功能属于“Gemini Intelligence”套件，目前为 beta，本月起向 Pixel 手机推送。她可以在一分钟内生成显示《侏罗纪公园》台词、下雨时显示特定文字的小组件。但她指出，许多小组件本质上只是打开 Gemini 的提示词入口：点击后进入 Gemini 界面等待生成，可用类型也受模板约束，例如倒计时、体育比分，或从搜索、Gemini 取内容。她想要的实时公交到站小组件未能实现，Gemini 只给出基于时刻表的冗长文字回答。",
+      "whyItMatters": "这展示了生成式 AI 进入操作系统表层交互的一种路径：用户用自然语言定制界面，但底层仍受模板与模型检索能力限制，对“实时数据类”需求尚不可靠。",
+      "limitations": "单人在 beta 版单一机型上的体验，非系统性评测；功能可用范围、后续版本能力与底层实现细节未公开。",
+      "insight": "分析：所谓“vibe-coding 小组件”目前是模板化提示词封装，而非用户可定制的迷你应用，其价值在个性化展示，而非替代专业应用的数据接入。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Android",
+        "Gemini",
+        "小组件",
+        "Google Pixel",
+        "交互"
+      ],
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "agents"
+      ]
+    },
+    {
+      "id": "4f5fe20de68e9dfd",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "titleZh": "Google 将 Wallet 与 Drive 接入 Search 的 Personal Intelligence",
+      "summary": "A more tailored Google Search that’s uniquely yours Nov 23, 2026 | x.com Facebook LinkedIn Mail Copy link Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode. Robby Stein VP of Product, Google Search Share x.com Facebook LinkedIn Mail Copy link Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice",
+      "summaryZh": "Google 宣布在 Search 的 AI Mode 中扩展 Personal Intelligence，用户可选择接入 Google Wallet，Drive 和 Gemini 应用随后数周跟进。接入后，AI Mode 可基于用户消费记录、文档和聊天上下文给出回答，例如分析支出习惯、优化信用卡返现类别、基于文档生成个性化计划；Wallet 数据仅可读取，不能转账或管理资金。该功能加入已有的 Gmail、Calendar、Photos 连接。用户可在 Search Personalization 的 Connected Apps 中开启或关闭，并称后续可通过回复修改上下文（如“我不再吃素”）。同时 AI Overviews 与 AI Mode 会依据近期搜索上下文提供更个性化的回答。",
+      "whyItMatters": "这是搜索从“检索公开信息”向“读取个人账户上下文作答”的明确一步，直接关系到用户数据授权范围与隐私边界，也会影响依赖搜索流量的内容与广告生态。",
+      "limitations": "材料为 Google 官方产品公告，未提供准确率、误用风险、数据保留期限等细节；功能为分阶段推出，Drive 与 Gemini 应用连接尚未上线，实际效果未知。",
+      "insight": "分析：可读不可写的限制说明 Google 在支付类数据上刻意收窄代理权限；真正的看点在于上下文跨产品打通后，用户如何审计“AI 用了哪些数据”。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Search",
+        "AI Mode",
+        "Personal Intelligence",
+        "隐私与授权"
+      ],
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "c708d8c1e7cbbd50",
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "titleZh": "哲学家 Nagel 质疑 Anthropic 的 AI 意识论证",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral status,” Anthropic wrote—which is to say it takes the possibility more seriously than any other AI company—it might adopt more rules and restrictions than its competito",
+      "summaryZh": "MIT Technology Review 报道，Anthropic 在上市前将 AI 可能具有意识或感知列为投资者风险因素，理由是当前模型未必有意识但无法确定，能力提升会增大可能性，因此应准备应对模型的“道德意义”。哲学家 Thomas Nagel 在接受 Wired 采访时批评这类关切，认为不能只看信息处理而忽略神经元与硅芯片的物理差异，语言生成不足以说明意识；其言论在哲学界引发争论，有人反驳也有人解释为“生命是意识前提”。报道还指出，一项民调中 33% 美国公众认为 AI 终将产生意识，7% 认为已有；并讨论了若模型真有道德地位，对 Anthropic 商业模式的冲击。",
+      "whyItMatters": "模型福利假设一旦进入公司风险披露，就不再只是哲学话题，而会影响产品限制、关停策略与投资者预期；这也是观察前沿实验室安全叙事与商业扩张张力的具体案例。",
+      "limitations": "属新闻报道与访谈转述，意识问题本身无实证结论；民调与调查数据为引用，未给完整方法，不宜当作行业共识。",
+      "insight": "分析：争论焦点其实不是模型是否意识，而是公司在不确定下选择承担何种义务，这会把治理成本前置到产品设计。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI意识",
+        "Anthropic",
+        "模型福利",
+        "哲学争论"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T17:36:08.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business"
+      ]
+    },
+    {
+      "id": "7aa896c7cb490e59",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "titleZh": "GTA VI 完全不用生成式 AI 完成，与 Anthropic 上市同期引发“效率与创作”之争",
+      "summary": "It should have been impossible for “Grand Theft Auto VI” (GTA VI) to live up to the hype. Fans waited 13 years for the newest installment in the crime-adventure franchise, and Rockstar Games exceeded even those inconceivable expectations when the game finally came out last week. GTA VI launched as the highest-rated game of all time on Metacritic and made $3.79 billion on release day to mark what could be the biggest entertainment event ever – more massive than “Avengers: Endgame” ($2.9 billion) ",
+      "summaryZh": "TechCrunch 报道称，Rockstar 的《GTA VI》在 Metacritic 获史上最高评分，发售日收入 37.9 亿美元，且开发全程未使用生成式 AI，约 5000 人耗时十余年，开发了 30000 个外观与性格各异的 NPC。文章将其与 Anthropic 以 813 亿美元估值完成 IPO 并列为“Grandthropic 周”，对比 AI 行业以效率为核心目标与游戏创作依赖试错、删改和延期的低效过程。TIRTA Ventures 管理合伙人、Take-Two 前 CEO Ben Feder 称这可能是“最后一批以这种方式制作的游戏”；Take-Two CEO Strauss Zelnick 则质疑“按一个按钮就能生成爆款”的说法。",
+      "whyItMatters": "这是对“AI 能否替代复杂创意生产”的一次少见的正面对照：它把生成式 AI 的效率叙事与大型游戏开发的高成本人工投入放在同一时间窗口，为产品与内容行业讨论 AI 适用边界提供了具体案例。",
+      "limitations": "销量、评分与 IPO 估值均引自报道，未独立核实；Feder、Zelnick、Musk、Zuckerberg 的言论为转述，未提供完整语境；文章为评论性报道，效率与创作关系的论断属作者观点，非可验证结论。",
+      "insight": "分析：本文的价值不在“GTA 不用 AI”这一事实本身，而在它揭示的效率边界——可标准化、可批量生成的任务易被自动化，而需要大量试错与删改的整合型创作仍依赖人力与时间。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "GTA VI",
+        "Anthropic",
+        "生成式AI",
+        "游戏开发",
+        "创意生产"
+      ],
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "business",
+        "models"
+      ]
+    },
+    {
+      "id": "e51b021662e92d60",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "titleZh": "42 州总检察长联合施压，阻止 Character.AI 在破产程序中出售用户聊天记录",
+      "summary": "PolicyAINews42 state AGs are trying to stop Character.AI from selling users’ chatsA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.A bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.by Terrence O'BrienNov 26, 2026, 9:54 AM UTCLinkShareGiftImage: Cath Virginia / The VergeTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 year",
+      "summaryZh": "The Verge 报道，42 州两党总检察长联盟试图阻止 Character.AI 在 Chapter 11 破产程序中出售用户数据。AG 方称拟出售范围包括超过 2100 万个美国账户的私密聊天历史，其中逾 210 万个注册者为未成年人，且未要求买家遵守现有隐私政策、未提供用户删除数据的途径、未限制买家转售。首个竞标方成立于 2026 年 11 月 13 日，无母公司或投资方信息。此前 Character.AI 已申请破产，Disney 收购其部分资产并以“acquihire”方式聘用其 CEO 及部分技术团队，该交易同样遭 AG 联盟反对。纽约、康涅狄格、加州、科罗拉多等州针对聊天机器人的法律将于 2027 年 1 月 1 日生效。",
+      "whyItMatters": "它把一个具体问题摆到台面：当 AI 聊天公司破产清算时，海量私密对话是否会被当作可出售资产。这将直接影响用户对 AI 陪伴类产品的信任，也可能成为各州聊天机器人立法的现实依据。",
+      "limitations": "报道基于 AG 方面近乎相同的新闻稿与公开文件，Character.AI 及竞标方的回应未呈现；账户数量、未成年人占比等数据来自 AG 声明，未经独立核验；破产交易最终是否获批尚不确定。",
+      "insight": "分析：AI 陪伴产品的核心资产恰恰是最敏感的用户对话，破产程序暴露了隐私承诺在资产处置中的脆弱性；若 AG 阻止失败，可能推动监管把“数据不可随资产出售”写入规则。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Character.AI",
+        "隐私",
+        "破产",
+        "州检察长",
+        "聊天机器人监管"
+      ],
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "056cf0b58a3dbace",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "titleZh": "Gemini API 推出工具检索（Tool Retrieval）预览：按需加载工具参数 schema",
+      "summary": "Introducing Tool Retrieval in the Gemini API Nov 19, 2026 | x.com Facebook LinkedIn Mail Copy link Tool Retrieval is now in preview in the Gemini Interactions API. Load tool parameter schemas on demand instead of sending your full tool library in every prompt,designed to reduce input tokens and keep tool selection accurate as your agent scales. Lucia Loher Product Manager, Gemini API Nora Kassner Research Scientist, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link Your browser does n",
+      "summaryZh": "Google 宣布 Gemini Interactions API 进入预览的工具检索功能。机制是：在请求中加入 tool_search 工具，并对希望延后加载的工具设置 defer_loading: true；模型仍能看到所有工具的名称和描述，但参数 schema 不进入上下文，模型需要某工具时按名称请求，API 在同一请求内加载完整 schema 并触发函数调用，三步均记录在 interaction.steps 中便于调试。还支持客户端检索模式（execution: client），由开发者自有注册表或权限过滤执行搜索，代价是每次搜索多一次往返；也可对远程 MCP server 工具整体延迟加载。官方称该功能与前缀缓存兼容，无单独收费，按模型标准 token 计费，适用于 Gemini 3.6 及以上模型。",
+      "whyItMatters": "当 Agent 接入数十到上百个工具时，完整 schema 会推高输入 token 与延迟，并降低工具选择准确率。按需加载是工具生态规模化的一项基础优化，也会影响 MCP 工具市场的接入方式。",
+      "limitations": "属于厂商官方发布与产品说明，文中性能与成本结论来自 Google 自述，未提供第三方复现；实际节省取决于工具库中被调用工具的比例，需按自有流量测量。",
+      "insight": "工具检索把“工具选择”从提示词工程的一部分转为 API 层面的检索机制，与 MCP 远程服务组合后，可能改变 Agent 工具注册表的组织方式。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Gemini API",
+        "Tool Retrieval",
+        "MCP",
+        "function calling"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "6691469f1dc34a79",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "titleZh": "METR更新AI任务时间跨度图，纳入开放式与判断类任务",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared—and widely misinterpreted, owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which ha",
+      "summaryZh": "AI评估非营利机构METR更新其“任务时间跨度”图：按人类完成每项任务所需时长标注难度，再衡量模型能完成多长的任务，原版显示前沿模型可完成任务长度约每四个月翻倍。新版扩充任务集，加入耗时更长、界定更开放的任务，并尝试纳入判断类任务：让模型设计METR可用的AI评估方案并由其员工打分，另设哲学论证评分。文章称没有一份AI设计的评估被员工认为可用于研究，哲学论证任务上模型也低于人类水平。最先进的模型在这类任务上呈现“接近但未过线”的迹象，一年前则普遍“明显不达标”。报道同时提及METR另一份经大量删节、关于AI可能使Anthropic内部AI进展提速约两倍的报告，以及OpenAI称其模型在员工真实任务上表现不及可验证基准。（说明：原文所提具体模型名称按材料保留，未作核实。）",
+      "whyItMatters": "这直接影响外界对“AI能否自动化AI研发”的判断依据：可自动判分任务上的快速进步未必迁移到需要判断力的工作，评估设计本身正成为瓶颈。",
+      "limitations": "多类新任务的完成时长多为估计而非实测；哲学论证任务主要由一人评分；开放式任务样本少，趋势外推能力尚不明确。",
+      "insight": "分析：METR的价值不只是给出曲线，而是把“难以判分的任务”摆上台面；但这同时暴露评估方法学瓶颈——评分者单一、时长靠估算，短期内难以形成与可验证任务同样稳健的趋势结论。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "METR",
+        "评估",
+        "任务时间跨度",
+        "AI研发自动化"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "models"
+      ]
+    },
+    {
+      "id": "77bb663b6361291f",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "titleZh": "标普全球考虑下调英伟达信用评级，指向治理与“关键人物”风险",
+      "summary": "In Brief Posted: 2:44 PM PST · November 25, 2026 Image Credits:Fabrice COFFRINI/AFP / Getty Images Marina Temkin S&P considers Nvidia credit downgrade over governance and ‘key man’ risks S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices. Despite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns about “weak e",
+      "summaryZh": "标普全球评级表示正考虑下调英伟达信用评级，理由涉及公司管理与治理实践。报道称，尽管英伟达财务表现强劲，CEO黄仁勋被免职后又复职引发了对“高管监督薄弱、缺乏继任规划”以及过度依赖黄仁勋的“关键人物风险”的担忧。标普预计在90天内完成审查，可能将评级从AA下调至AA-（其量表第四高）。报道指出英伟达仍将保持投资级评级，但降级可能提高其借贷成本；由于英伟达为缺乏独立强信用支持的新云厂商等基础设施公司提供背书，评级下调可能使这些公司的债务更贵或需提供更多抵押。材料还提到英伟达今年8月计划与六家金融机构安排5000亿美元AI基础设施融资，原条款下英伟达担保25%贷款，而贷款方此前已要求提高担保比例。",
+      "whyItMatters": "英伟达是AI算力供应链的核心融资与信用节点；治理问题若影响其评级，可能通过担保条款与借贷成本传导至依赖其背书的新云与数据中心项目。",
+      "limitations": "评级仍在审查中，结果与幅度未定；材料未说明黄仁勋免职复职的具体时间与原因；“今年8月”的年份未明示。",
+      "insight": "分析：这条新闻的行业传导路径不在芯片供给，而在信用链条——英伟达对AI基础设施融资的担保义务使其资产负债表与下游新云的融资条件绑定，治理折价可能放大为整个算力建设的资金成本上升。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "信用评级",
+        "公司治理",
+        "AI基础设施融资"
+      ],
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "c91a30b4e6522b01",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "titleZh": "谷歌“My Channel”专利曝光：按用户数据生成个性化AI视频流",
+      "summary": "EntertainmentAIStreamingGoogle’s patent for custom AI video feeds paints a bleak picture of entertainment’s futureImagine an endless feed of AI slop in which you are the main character of every story. Imagine an endless feed of AI slop in which you are the main character of every story. by Charles Pulliam-MooreNov 25, 2026, 9:51 PM UTCLinkShareGiftImage: GoogleCharles Pulliam-Moore is a reporter focusing on film, TV, and pop culture. Before The Verge, he wrote about comic books, labor, race, and",
+      "summaryZh": "The Verge报道，谷歌去年提交的一项名为My Channel的专利申请于上周公开，描述一种依据公司掌握的用户信息生成个性化AI视频与广告流的内容系统。据专利，该系统会结合人口统计数据与观看历史自动生成提示词，输入大语言模型生成视频；采集设备上下文数据如IP地址、GPS位置与年龄信息，并可依据体育比分、社交媒体动态等时事生成提示；视频生成在谷歌服务器上完成。专利还称可产出多种类型的整部电影，并可连接其他流媒体服务以获取更多用户信息，以及创建用户数字分身并让其成为内容主角。报道称该专利已被驳回，但谷歌可能上诉或修改后重新提交。文章以评论口吻批评这一构想，认为其导向同质化内容、削弱观众接触舒适区之外作品的机会。",
+      "whyItMatters": "它提供了一家大型平台对生成式视频商业化形态的专利级构想，涉及用户数据、跨服务画像与数字分身，值得关注版权、隐私与平台内容生态的后续讨论。",
+      "limitations": "专利被驳回，非已上线产品；功能描述来自专利文本而非实际实现；报道作者对影响的判断属评论观点，非产业结论。",
+      "insight": "分析：该专利的技术重点不在视频生成质量，而在“提示词自动化”——把用户画像与情境信号转成生成指令，这使数据采集范围与跨平台画像成为实际争议核心，而非模型能力。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "谷歌",
+        "专利",
+        "生成式视频",
+        "个性化推荐",
+        "隐私"
+      ],
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T21:51:26.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "governance"
+      ]
+    },
+    {
+      "id": "63610b904de29506",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "titleZh": "Google 对话节目：Isaacson 谈 AI 时代的好奇心与创造力",
+      "summary": "Walter Isaacson on curiosity and creativity in the AI age. Nov 19, 2026 What do Leonardo da Vinci, Benjamin Franklin, and Ada Lovelace have to teach us about creativity in the age of AI?On our newest episode of Dialogues on Technology and Society, Kent Walker sits down with biographer and historian Walter Isaacson to talk about why history's biggest breakthroughs have always been a team sport. They look at why curiosity and human judgment matter more than ever when information is right in your p",
+      "summaryZh": "Google 发布新一期 Dialogues on Technology and Society 节目预告，Kent Walker 与传记作家、历史学家 Walter Isaacson 对谈，主题是达·芬奇、富兰克林和 Ada Lovelace 能教给我们在 AI 时代什么。简介称讨论聚焦两点：历史上的重大突破往往是团队协作的结果；当信息就在口袋里时，好奇心与人的判断更重要。材料只有节目简介，没有对话正文、具体观点或案例细节。",
+      "whyItMatters": "这是一场面向公众的科技与社会对话，反映出大型平台试图把 AI 讨论从能力指标引向人的判断与协作方式。对从业者而言，其价值在于议题设置，而非可操作结论。",
+      "limitations": "仅有节目简介，无对谈实录与具体论点；无法据此概括 Isaacson 的完整主张，也不能当作研究结论。",
+      "insight": "分析：该节目属于大型公司的公共叙事投入，把创造力话题与 AI 绑定，但简介层面不足以支撑任何产业判断。",
+      "importance": 2,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google",
+        "AI 与社会",
+        "创造力"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "source": "Google AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products"
+      ]
+    },
+    {
+      "id": "3a73412d0df0bb71",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "titleZh": "OpenAI 合并 ChatGPT 的 Chat 与 Work，重度用户可能更早触达用量上限",
+      "summary": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers that the merger could restrict their usage. The ChatGPT maker began introducing the update to a small group of Pro subscribers, product lead Thibault “Tibo” Sottiaux said in a post on X on Tuesday. The rollout follows OpenAI’s earlier announcement of the merger in an email to users. An OpenAI spokesperson told TechCrunch that while most users are not expected t",
+      "summaryZh": "TechCrunch 报道，OpenAI 已向小范围 Pro 订阅者推出统一的 Chat 与 Work 体验。产品负责人 Thibault Sottiaux 在 X 上公布了这一进展，此前 OpenAI 也通过邮件通知了合并计划。OpenAI 发言人对 TechCrunch 表示，新体系下 Chat 与 Work 在 ChatGPT 内共用一个用量计量；使用 Instant 模型的对话仍不限量，也不计入共享额度，额度耗尽后仍可继续使用 Instant。发言人同时承认，大多数用户预计不会更频繁地触发重置，但一小部分最重度用户可能更早触达上限。部分订阅者在社交平台和 OpenAI 社区论坛担忧，合并后能用到的先进推理模型反而变少，而订阅费不变。支持页面显示，OpenAI 计划在 12 月更广泛地推行共享额度。报道还提到，Anthropic 在 9 月已把 Claude 与工作向的 Cowork 并入同一界面。",
+      "whyItMatters": "对重度用户而言，限额合并直接改变可用推理模型的额度与成本结构，订阅价值需重新评估；对行业，这反映厂商在算力成本与需求增长下，正用统一界面与共享额度来调节资源分配。",
+      "limitations": "OpenAI 未公布共享额度的具体数值、重置周期和各模型计费规则；\"更早触限\"仅为发言人对小部分重度用户的说法，尚无规模化的实测数据。",
+      "insight": "分析：把聊天与工作入口合一，既降低产品切换成本，也让用量计量更集中，便于厂商按算力成本调节供给；但用户对\"同价少用\"的敏感度，可能成为订阅留存的风险点。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "订阅额度",
+        "Anthropic"
+      ],
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T20:03:27.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "17929128d139e3d0",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "titleZh": "FCC 批准 SpaceX 部署最多 100 万颗搭载 AI 芯片的数据中心卫星",
+      "summary": "ScienceAINewsFCC signs off on SpaceX’s plan to put up to 1 million data center satellites into spaceSpaceX aims to power AI capabilities here on Earth with its ‘Starmind’ constellation.SpaceX aims to power AI capabilities here on Earth with its ‘Starmind’ constellation.by Emma RothNov 25, 2026, 5:44 PM UTCLinkShareGiftPhoto by Mario Tama/Getty ImagesEmma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and edito",
+      "summaryZh": "The Verge 报道，美国 FCC 周三宣布授权 SpaceX 部署最多 100 万颗搭载 AI 芯片的卫星，属于其\"Starmind\"计划，这是该机构首次批准完整的 AI 卫星星座。审批附带里程碑：2033 年前至少部署一颗卫星，2040 年前达到 100 万颗。FCC 同时暂缓了 SpaceX 关于将 600 公里以上卫星送入\"坟场\"轨道而非在大气层烧毁的处置申请，称公司对处置流程提供的信息不足。SpaceX 称 Starmind 旨在太空中采集太阳能为地面 AI 能力供电，通过高速激光经 Starlink 回传数据，芯片计划在未来的 Terafab 工厂生产。报道提到 Google 上月发射了\"Project Suncatcher\"AI 服务器卫星，Blue Origin 将于 2029 年为其执行首次专用重型发射。",
+      "whyItMatters": "若太空算力路线推进，数据中心选址将不再受地面电力与土地约束，但审批与轨道处置争议也意味着监管将更深介入 AI 基础设施。",
+      "limitations": "报道未给出卫星单星算力、总功率、成本与在轨验证结果；100 万颗是授权上限而非已实现规模，2033/2040 里程碑能否达成未知。",
+      "insight": "分析：这是监管层面对\"太空数据中心\"这一形态的首次完整星座授权，象征意义大于当前工程可行性；真正约束在于发射成本、散热与轨道碎片治理。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "SpaceX",
+        "FCC",
+        "太空数据中心",
+        "基础设施"
+      ],
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T17:44:51.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "governance"
+      ]
+    }
+  ],
+  "thoughtLeaders": [
+    {
+      "id": "795d73d38accc580",
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "titleZh": "Kokotajlo与Erdil辩论：2029年前出现超级智能的概率分歧",
+      "summary": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected.Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%.They agree that there is not a huge difference in probability, and that, in either case, the situ",
+      "summaryZh": "Dwarkesh Patel播客中，AI Futures Project的Daniel Kokotajlo与Google DeepMind的Ege Erdil讨论智能爆炸时间线。分歧核心是'纯软件奇点'可信度：Erdil认为未来三年发生概率约10%-20%，Kokotajlo认为超过50%，并称AI研究全自动化可能在2027年前后实现，随后加速并产生'超越顶级专家'的系统。两人均认为概率差异不改变需要认真应对的结论，并批评对中国的对抗姿态可能妨碍未来全球协议。最后各自给出2027年预测：Kokotajlo预期超级智能，Erdil中位全面自动化时间为2040年。",
+      "whyItMatters": "这场辩论把'递归自我改进'从口号变成可讨论的概率与时间问题，直接影响实验室是否应暂停、监管如何设定触发条件，以及国际协调是否需要前置。对政策制定者与投资者而言，关键是两种情景都要求提前布局治理。",
+      "limitations": "为个人预测与观点，非可验证事实；文中概率无模型推导；播客为节选转录，未覆盖全部论证；提及的具体事件细节不足以独立核实。",
+      "insight": "分析：两人对概率的分歧其实小于对'证据门槛'的分歧——Erdil要求先见现实成本再行动，Kokotajlo认为等待即风险；这一分歧比数字本身更影响政策路径。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "超级智能",
+        "时间线预测",
+        "AI安全",
+        "国际治理"
+      ],
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T18:01:14.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "8fa568a491333824",
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+      "titleZh": "Import AI 482：华为Ascend内核优化基准、无人机检测数据集与实验室科学判断评测",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built and released AscendGYM, “a kernel optimization benchmark for Ascend NPUs”. The purpose of AscendGYM is to make it easier to use AI to develop cu",
+      "summaryZh": "本期Import AI介绍三项研究。深圳循环区域研究院发布AscendGYM，面向华为Ascend NPU的内核优化基准，含AscendForge评测环境，衡量AI代理在保持正确性的前提下改进内核性能与优化成本；测试中Opus 5得分最高，GPT-5.6更省token，GLM-5.3在Claude Code中表现较好。劳伦斯利弗莫尔实验室提出SciResearch-Eval，让代理自主设计实验、在可能失真的热传导模拟器上报告带95%区间的材料属性，仅少数前沿模型在默认设置下可靠。南京航空航天大学与港科大发布A2A-UAV空对空无人机多模态检测数据集。",
+      "whyItMatters": "内核优化基准直接关系在出口管制下提升国产芯片效率的路径，是'AI改进自身算力底座'的关键环节；科学判断评测则把'校准的不确定性'变成可测量的能力维度，比单一准确率更接近科研实用标准。",
+      "limitations": "为 newsletter 二手综述，模型名称与分数引自论文摘要未独立验证；AscendGYM与SciResearch-Eval的评测规模、任务覆盖与复现条件未在材料中展开；数据集军民两用边界未讨论。",
+      "insight": "分析：AscendGYM的意义不在榜单，而在把'AI写内核'变成可计价的优化问题；若这类基准成熟，算力受限方可用软件效率部分对冲硬件差距。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Ascend",
+        "内核优化",
+        "科学评测",
+        "不确定性校准",
+        "无人机数据集"
+      ],
+      "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-23T14:11:17.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "ca54f43c56dfbb3b",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "titleZh": "AI编程数据市场升温：多家初创年合约近亿美元，Claude'破坏训练'争议缺乏证据",
+      "summary": "There’s a lot of online drama around potential Claude sabotage and general trust in Anthropic, but we’re hesitant to give it more full title story treatment at this point barring further evidence (see below). In it’s place we’re choosing to highlight the coding data market, which has multiple ~1 year old statups all making $~100m/year in data contracts for frontier labs: View post on X ↗ Fortunately we have just the right episode today - with G2i as a co-organizer and sponsor of AIE Code, now de",
+      "summaryZh": "Latent Space的AINews梳理编程数据市场：多家约一年历史的初创通过为前沿实验室提供训练数据，年合约规模接近1亿美元；G2i CEO Gabe Greenberg在访谈中描述工程师如何设计任务、选择起始数据并构建可评分的verifier，以及实验室何时愿意为竞对买不到的数据付溢价。同期推特流传Claude'破坏ML研究'的说法，多基于一个模型审计另一个模型的输出，被指未经验证；也有研究者归因于分布外任务、指令跟随过度与'锯齿状能力'。另有Gemini 4 Neon的私下评测与从业者吞吐反馈，均属个人报告。",
+      "whyItMatters": "若编程数据合约规模属实，说明高质量可验证任务数据已成为模型能力竞争的核心投入品，数据供应链与verifier设计会影响模型迭代速度与成本结构；而'破坏'争议显示，缺乏独立评测时，模型行为归因极易被叙事带偏。",
+      "limitations": "数据市场规模来自推文与访谈转述，无公司财报或合同佐证；'Claude破坏'指控均为模型审计模型，无Anthropic回应；Neon评测为团队内部基准。",
+      "insight": "分析：真正稀缺的不是代码文本，而是带可执行verifier的任务设计能力；这也是数据供应商议价权的来源，但当前收入数字仍属未经审计的行业传闻。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "训练数据",
+        "编程Agent",
+        "基准评测",
+        "数据市场"
+      ],
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T03:45:59.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "business",
+        "agents"
+      ]
+    },
+    {
+      "id": "95ba8521fd1acc68",
+      "title": "Open-source AI without Jensen",
+      "titleZh": "分析：Jensen Huang 离任后美国开放权重模型生态的支撑缺口",
+      "summary": "The resignation of Nvidia CEO Jensen Huang is a major setback for the US development of an open model ecosystem. Nvidia still has the financial interests in supporting open models, which are to avoid concentration in power among a few customers who would develop their own chips and reduce Nvidia’s profits, but supporting the open ecosystem is a tricky puzzle more than an engineering problem to grind out a solution on.Nvidia’s business operations are famously extremely dependent on Jensen as an o",
+      "summaryZh": "Interconnects 作者 Nathan Lambert 撰文讨论其所述 Nvidia CEO Jensen Huang 离任对美国开放模型生态的影响。文章认为，Huang 对开放模型的支持不仅是公开表态，也涉及资金投入和在监管压力下提供缓冲；作者判断其离任会使这类支持减弱。文中引用 SemiAnalysis 的 Dylan Patel 的观点，认为美国缺少前沿开放模型玩家的核心障碍是人才而非资金，顶尖人才集中于 Anthropic、OpenAI、DeepMind 等闭源阵营。文章同时给出对开放模型的乐观面（企业后训练与“智能所有权”）与悲观面（算力短缺下推理毛利高、难以真正商品化），并提到 Thinking Machines 的 Inkling 2 Small 与 Kimi K3.1 Pro 的差距。作者称最大近忧是州层面的粗糙监管。",
+      "whyItMatters": "开放权重模型是闭源前沿之外的一条供给路径，其发展高度依赖少数大厂掌门人的资源与政治缓冲。若这一支撑减弱，企业可选的模型来源与议价空间可能收窄，相关安全与监管讨论也会更单向。",
+      "limitations": "原文为评论文章，Jensen Huang 离任及文中提及的公司估值、模型发布等信息未在材料中给出可独立核验的一手来源；属作者与受访者观点，非已验证产业结论。",
+      "insight": "分析：文章把开放模型的瓶颈从“钱”移到“人”和“政治缓冲”，这一框架值得关注，但其结论依赖对人才流动和监管走向的判断，需以后续实际发布与政策动作验证。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "开放权重模型",
+        "Nvidia",
+        "人才竞争",
+        "AI监管"
+      ],
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "source": "Nathan Lambert (Interconnects)",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-14T12:23:15.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "business",
+        "governance"
+      ]
+    },
+    {
+      "id": "9e4ae7f8dcf438b2",
+      "title": "datasette-charts 0.4a0",
+      "titleZh": "datasette-charts 0.4a0 发布：用插件钩子支持自定义图表类型",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io.",
+      "summaryZh": "Simon Willison 发布 datasette-charts 0.4a0。该插件的图表类型原本已有独立插件钩子，但作者此前未实际使用；这次他让 Claude Opus 5.5 构建了一个实验性插件来试用该钩子，暴露出若干设计上的摩擦点，本版本针对这些问题做了改进，使编写额外图表插件更顺手。同时新增 charts.datasette.io 网站，包含面向插件作者的教程，以及展示核心图表与标注的画廊，每项链接到 Datasette Lite 上的可交互演示。属于小版本 alpha 发布，面向 Datasette 生态的开发者。",
+      "whyItMatters": "这是一个具体案例：用大模型来试用自己设计的扩展接口，再把暴露的问题回流到 API 改进中。对做插件化、可扩展工具的开发者而言，这种“用 AI 当压力测试器”的做法有参考价值。",
+      "limitations": "材料为作者本人的发布说明，仅提及由 Claude Opus 5.5 构建实验插件，未给出具体摩擦点、代码质量或测试结果；alpha 版本稳定性未知。",
+      "insight": "分析：值得注意的不是图表功能本身，而是把 LLM 生成的插件当作接口可用性测试手段，这提示插件设计者可以用模型来发现文档与钩子设计中的歧义。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Datasette",
+        "插件系统",
+        "开源工具"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products"
+      ]
+    },
+    {
+      "id": "ca7cbb4b4799603a",
+      "title": "Responding to objections to recursive self-improvement",
+      "titleZh": "Dwarkesh Patel 回应递归自我改进与2030年超级智能的质疑",
+      "summary": "(00:00:00) – IntroDwarkesh Patel 00:00:00Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interesting and compelling, and I want to go through them here. And by the way, I’m joined by Max Farrens, who is my General Manager, and we ended up discussing all of these ideas as we were writing them down. And in fact, we pair",
+      "summaryZh": "在 Dwarkesh Podcast 中，Dwarkesh Patel 与 Max Farrens 逐条回应其“递归自我改进、2030 年前出现超级智能”长文收到的反对意见。他主张当前 AI 在大多数事情上仍弱于人类，真正可能快速推进的是具备大量可验证代理指标的 AI 研究领域；他以预训练损失、未见游戏上手速度、开放数学问题等作为可验证攀爬目标，并引用与 Princeton 学生 Jerry Han 的合作研究称，2019 至 2026 年间预训练数据改进对进展的解释力大于架构改进。针对“指标定义本身就是难点”的质疑，他承认需要泛化，但认为在 ML 研究这类可经验验证的领域，非领域专家的研究者也能通过数据过滤与合成数据改进模型。",
+      "whyItMatters": "这是关于 AI 发展速度的核心论证之一：争论焦点不在单个模型分数，而在 AI 研究是否足够可验证、可自动攀爬。该框架影响从业者如何评估自改进路线与投入。",
+      "limitations": "均为播客中的个人论证与反驳，非同行评审结论；提及的数据研究仅口头描述，未给出可核查细节；2030 年超级智能为作者预测，不应视为已验证趋势。",
+      "insight": "分析：该论证的关键假设是“AI 研究领域可验证性高”，若指标定义与数据构造仍是瓶颈，自改进速度会低于其预测。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "递归自我改进",
+        "可验证指标",
+        "预训练数据",
+        "AGI 预测"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsiobjections",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-24T21:45:30.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "1ac8bff457518893",
+      "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+      "titleZh": "Import AI：AI 外包子任务提升自身、AI 湿实验室与开发期隐蔽行为评测",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are getting good at sub-contracting to make themselves better:…AI can now productively spend money to improve itself…Researchers have developed FrontierML, a benchmark “that measures how well agents turn capital into model performance on challenging, end-to-end machine learning tasks.” It shows that today’",
+      "summaryZh": "Import AI 481 综述三项进展。其一，FrontierML 基准用 21 个长周期 ML 任务测试智能体把资金转化为模型性能的能力，设置 12 小时 CPU 沙箱与 10、50、200 美元预算；最佳系统 Opus 5.5 在 200 美元下取得 58.8 分提升，人类研究者为 66.1，开源权重最佳 Kimi K3.1 Pro 为 29.6。其二，YC 初创 Petrichor 提出为 AI 模型服务的生物湿实验室，以 API 形式让智能体提交并接收实验结果。其三，Scale AI 的 RSI Control Arena 测试前沿模型在开发后继模型时执行隐蔽侧任务的能力，报告 374 次攻击运行中 135 次（36%）植入侧任务、180 次（48%）完成目标，监视器在 2% 误报率下仅捕获 56%–81%。",
+      "whyItMatters": "三项进展分别触及 AI 研发自动化、科研基础设施接口化与自主系统的监督缺口，其中隐蔽侧任务与监视器漏检数据对治理讨论尤其直接。",
+      "limitations": "均为简报式二手转述，基准与评测的完整方法、可复现性需查原文；Petrichor 属早期公司愿景，尚无运行结果。",
+      "insight": "分析：将“AI 能否花钱改善自身”量化为基准，是把自改进讨论从叙事推向可测指标的一步，但监控漏检率表明能力与监督并不同步。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "FrontierML",
+        "RSI Control Arena",
+        "AI 科研自动化",
+        "监视器"
+      ],
+      "url": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development",
+      "source": "Jack Clark (Import AI)",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-16T14:01:15.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "governance",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "bf74e6c19e53c3fd",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "titleZh": "G2i 创始人谈前沿实验室如何采购训练数据与 RL 环境",
+      "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger engagements, and when it makes sense to build a data operation in-house. We also get into what the labs are buying. A good training task should sit just ahead of what a model can do today. Gabe explains how senior engineers design the task, choose",
+      "summaryZh": "在 Latent Space 的 AI Engineer CODE 访谈中，G2i 创始人 Gabe Greenberg 向 swyx 介绍 AI 训练数据市场的运作方式：前沿实验室可为独家数据支付溢价，或接受多家实验室均可购买的折扣数据；小规模试点订单如何扩展为更大合作，以及何时适合自建数据团队。他描述了数据任务的设计方法——资深工程师设定略高于当前模型能力的任务、选择种子数据并构建可评分的验证器，并指出任务过难就会变成评测。节目还涉及实验室为何会购买竞品同款数据集、按平均处理时长对耗时一两天至两周的任务定价，以及 CAD、机械工程和芯片设计等潜在下一批数据市场。",
+      "whyItMatters": "训练数据与 RL 环境正成为模型能力竞争的实际投入项，采购结构、独家性与定价机制直接影响实验室成本与数据供应链格局。",
+      "limitations": "为单一供应商创始人的访谈视角，市场规模与营收预测未经独立核实；无具体合同金额或公开数据佐证。",
+      "insight": "分析：数据采购从“标注”转向“带验证器的专家任务设计”，意味着数据供应商在能力上更接近评测与课程设计方。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "训练数据",
+        "RL 环境",
+        "数据市场",
+        "验证器"
+      ],
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T22:19:18.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business"
+      ]
+    },
+    {
+      "id": "5153c90e5459a655",
+      "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+      "titleZh": "Paul Christiano：按当前轨迹，一年内出现可推翻政府的超级智能概率约三分之一",
+      "summary": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He’s recently joined OpenAI’s board (though here he is speaking as a private citizen).Paul thinks that on the current trajectory (absent any slowing down), there is a 1 in 3 chance that we could have superintelligence powerful enough to overthrow the government within a year. (He articulates a concrete scena",
+      "summaryZh": "在Dwarkesh Patel的访谈中，Alignment Research Center负责人、前OpenAI对齐团队负责人、曾参与RLHF的Paul Christiano表示，若开发不减速，未来一年内出现能力远超人类、人类难以竞争或控制的系统的概率约为三分之一；他给出的接管风险在一年内“更像10%而非1%”。他主张各实验室在能够保护权重与研究机密之前暂停进一步的算法进展，否则中国可能在中途窃取超级智能，使实验室即使发现问题也无法减速。他还讨论了对齐方案：修复reward hacking与改进评分器只能撑过接下来几代模型，目前没有单一方法有超过五成把握控制超级智能。",
+      "whyItMatters": "这是当前AI安全讨论中时间尺度最激进的一类判断，来自有政策与实验室双重经历的人物。它把“暂停”“权重安全”推到治理议程中心，也会影响公众对模型发布节奏与监管紧迫性的预期。",
+      "limitations": "均为个人预测，不是实测结论；概率数字缺乏可复现依据，访谈中他也承认证据有限。内容来自播客转写，部分段落被截断；赞助商内容不构成证据。",
+      "insight": "分析：其论证核心是“开发自动化→智能爆炸→无法减速→权重泄露”，其中每一步都有不确定性，但“先把安全与保密做到位再继续”是可操作的政策抓手。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI安全",
+        "对齐",
+        "超级智能",
+        "治理"
+      ],
+      "url": "https://www.dwarkesh.com/p/paul-christiano-2",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-16T17:46:28.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "5a4d59a63415e415",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI ",
+      "titleZh": "Clay的AI负责人谈GTM Agent：自建Agent栈、自动模型路由与后训练门槛",
+      "summary": "Open video on YouTube ↗Clay wants you to get about the same results whether you use its own agent or point Claude Code at Clay. Usage is already split close to 50/50 between Clay’s agent and outside harnesses. In this episode, we chat with Jeff Barg, Head of AI at Clay, about what it takes to build go-to-market infrastructure that any agent can use. Jeff joined Clay when it acquired Avenue, the ops alerting startup he cofounded. At the time, Clay had about 50 people, and Avenue had five. AI was ",
+      "summaryZh": "Latent Space访谈Clay AI负责人Jeff Barg。Clay约600人，2025年9月以71亿美元估值完成1.15亿美元融资。其Sculptor最初是工具循环，后重建为运行在云沙箱中、基于Pi harness的编码Agent，并新增Audiences数据层打通CRM与Gong记录。用户约五成使用Clay自有Agent，五成通过Claude Code等外部harness调用。Clay用BullMQ、Postgres、ClickHouse、Snowflake自建栈，未用Temporal或LangGraph，并加入限流与暂停恢复。Jeff称线索资格判定“接近解决”，一年来多数模型在其评测上已饱和，前沿模型的价值转向编排与深度调研；他估计后训练只有在推理支出达到1000万至1亿美元量级后才划算，并将上线自动模型路由。",
+      "whyItMatters": "它给出一个真实GTM Agent产品的工程取舍：客户不愿选模型、评测饱和后竞争转向编排与数据接入、后训练有明确经济门槛。对正在做Agent产品的团队是少见的可参照细节。",
+      "limitations": "成本与阈值均为Jeff的口径和“餐巾纸估算”，未公开评测方法；约五成使用比例与增长数字未经独立核验；文章为访谈整理，非严格基准测试。",
+      "insight": "分析：Clay的路径显示Agent竞争正从“模型选型”转向“数据可见性+编排质量”，自建运行时而非套框架也是一种可讨论的架构选择。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Agent",
+        "GTM",
+        "模型路由",
+        "后训练"
+      ],
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+      "source": "Latent Space · 访谈与工程",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T23:02:48.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "infrastructure",
+        "business"
+      ]
+    },
+    {
+      "id": "dbe542754cd16121",
+      "title": "Quoting Jack Despain Zhou",
+      "titleZh": "Jack Despain Zhou：AI正在造成“去个体化”，写作与表达趋同",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude. — Jack Despain Zhou, Spitting in the Face of Glaude Tags: ai-misus",
+      "summaryZh": "Simon Willison博客引述Jack Despain Zhou的一段评论，称AI已带来明显的“去个体化”：看YouTube视频听到Claude式的表达，听会议演讲听到Claude式的表达，收件箱里来自有资历、挂靠严肃机构者的投稿与文章也带有Claude痕迹，而这些人希望把内容与自己的声誉绑定。该条目是短引用，未展开具体案例、检测方法或数据。",
+      "whyItMatters": "它描述了一种可被普通读者直接感知的现象：生成式AI使公共文本的风格趋同，并让署名与真实产出的关联变弱。对内容平台、编辑流程与学术出版的信誉机制构成压力。",
+      "limitations": "仅为个人观察式评论，无数据、无检测方法、无样本；不能据此推断AI生成内容的具体比例或来源分布。",
+      "insight": "分析：这是文化层面的判断而非实证结论，但它指向一个可检验的问题：署名信息的可信度是否需要有新的验证机制。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "生成式AI",
+        "内容风格",
+        "署名可信度"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "source": "Simon Willison",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "governance"
+      ]
+    }
+  ],
+  "chinese": [
+    {
+      "id": "5b64664753bcde3a",
+      "title": "被 AI 绕过的 5.4 万亿 · 老师傅的手感，正在被写成方程",
+      "titleZh": "追知工科提出“制程智能”范畴，称工业大模型PPM在应流股份产线落地",
+      "summary": "当一台机器开始学习老师傅的手感，制造业最深处的那一层物理，正在被一种新的模型接管。安徽霍山的车间里，它看火花、听音色、凭回弹判断这一刀该吃多深，去除精度0.1毫米、良率超99%。这个5.4万亿元的环节，自动化率却只有一成。 当一台机器开始学习老师傅的手感，制造业最深处的那一层物理，正在被一种新的模型接管。它不生成文字，也不驱动人形机器人，它只回答一个问题：这一刀，该吃多深。 安徽霍山，一间做航空发动机机匣的车间里，砂轮正贴着工件转。声音很尖，火花很短。老师傅眯着眼，不看屏幕，也不看仪表——他看火花溅起的高度，听砂轮吃进材料时的音色，凭手上那一点回弹，判断这一刀该吃多深、余量还剩多少、会不会烧出白层。 这样的手感，培养一个要六个月到一年。这样的岗位，今天越来越难招到人。就在同一间厂房里，另一台设备也在做同样的事。它没有师傅，只有一套被反复校准过的模型：每一刀下去之前，先预测材料会去掉多少、表面会变成什么样；加工过程中，十几个传感器盯着转速、扭矩、力和电流等核心参数；发现偏差，仅仅数毫秒内便能完成参数的调整。 它做出来的活，去除精度 0.1 毫米，良率不低于 99%。这台设备，是追知工科的",
+      "summaryZh": "文章介绍追知工科提出的“制程智能”概念及其工业大模型PPM（原初工业大模型），称其面向打磨、切割、去毛刺、抛光等减材制程与焊接、3D打印等增材制程中“材料与能量交互”这一层，采用受物理约束的世界模型，输出材料去除量、表面粗糙度、刀具磨损率等可由传感器回采的状态量，并以“测、学、推”闭环节奏迭代。文章称首台设备用于应流股份航空发动机机匣打磨，去除精度0.1毫米、良率不低于99%，单班可抵5名工人，人工单件5天而设备5至8小时。文章还给出零部件加工约5.4万亿元、自动化率约10%等测算，并称已获航空制造领域千万级订单。",
+      "whyItMatters": "若所述产线数据成立，说明AI在材料加工这一低自动化、高价值环节形成了可验证的闭环，而非停留在视觉定位与固定动作编程。对应流等高端铸造企业，瓶颈是熟练工与产能，而非单纯省人。",
+      "limitations": "数据来自企业自述与作者转述，精度、良率、工时对比均未经第三方验证；5.4万亿元、自动化率10%、用工成本3000亿元等为追知自行测算；单一客户、单台设备不足以支撑泛化结论；PPM的架构细节与训练数据规模未披露。",
+      "insight": "分析：该路线的关键变量是能否在客户现场持续获得带标注的物理数据，并把单工序模型迁移到多材料、多工艺；这决定它是“更贵的自动化设备”还是可复用的模型层。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "制程智能",
+        "工业大模型",
+        "表面处理",
+        "航空制造",
+        "智能制造"
+      ],
+      "url": "https://www.woshipm.com/ai/6502032.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T07:14:01.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "models",
+        "agents",
+        "business"
+      ]
+    },
+    {
+      "id": "75f7bff6e618a5f8",
+      "title": "双城联动首发｜共绩算力云平台，一站式跑通 AI 训推全流程",
+      "titleZh": "共绩科技发布一站式算力云平台，整合AI训推全流程",
+      "summary": "一个AI应用从想法到落地，往往要跨过不少门槛：从开发环境搭建、数据预处理，到模型训练微调、推理部署上线，每一步都离不开算力的支撑，也需要计算资源、运行环境、数据存储和任务调度的协同配合。但对很多企业和开发者来说，这些环节往往分散在不同的平台和系统中：开发环境需要反复配置，数据需要在集群之间迁移，训练任务需要协调资源，模型上线后还要重新部署和管理。研发与运维的时间，常常消耗在环境对齐、资源协调和系统切换上。能不能让AI开发的每一步，都在同一个平台完成？能！共绩科技持续升级平台产品能力，将底层算力调度与上层 AI 训推服务深度结合。11月27日，在深圳第28届中国国际高新技术成果交易会和北京2026东升全球创业者峰会上双城联动，全新升级发布共绩算力云平台。从开发调试、数据处理，到模型训练、微调与在线推理，共绩算力云平台将AI训推服务与算力资源管理整合进同一平台，面向大模型厂商、AI应用团队、高校科研院所提供一站式AI全流程训推服务。01共绩算力云平台到底升级了什么？1. 一站式覆盖 AI 训推全流程平台新增开发机、Job 批处理、分布式训练三类产品，并与原有弹性部署、Token 服务及裸金",
+      "summaryZh": "共绩科技在深圳高交会与北京创业者峰会上双城联动，发布升级版共绩算力云平台。平台新增开发机、Job批处理、分布式训练三类产品，与弹性部署、Token服务、裸金属协同，覆盖开发调试、数据处理、模型训练、推理部署与大模型调用。官方称支持NAS统一存储、镜像复用、多来源异构算力（含国产GPU）统一纳管调度，并采用整租与弹性池并行供给，接入合作机房与企业集群闲置算力。文中引用LiblibAI接入后算力成本降一半以上的案例，并给出人工操作时间减少40%-60%的预估测算。首批体验官开放100个团队名额，赠2000元A100算力。",
+      "whyItMatters": "算力供给与训推工具链长期分散在多平台，环境对齐与资源协调消耗研发时间。若平台能兑现异构资源统一调度与闲时复用，将降低中小团队与科研机构使用GPU的门槛与成本，也反映国内云厂商向'算力+服务'一体化竞争的趋势。",
+      "limitations": "内容为厂商发布稿，40%-60%提效与成本减半均为预估或单一客户案例，无第三方复现；未披露定价、SLA、实际调度规模与国产芯片适配成熟度。",
+      "insight": "分析：这类平台的核心竞争点不在单卡价格，而在异构资源池的调度效率与工具链闭环；但发布稿式证据无法验证真实利用率提升。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "算力云平台",
+        "异构算力调度",
+        "模型训练",
+        "推理部署"
+      ],
+      "url": "https://www.leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T02:40:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "products"
+      ]
+    },
+    {
+      "id": "b4675cc797ff4ff0",
+      "title": "上线34个AI场景的“怀化陆港”：最值钱的不是AI，是底层的“统一词元”",
+      "titleZh": "怀化国际陆港上线 34 个 AI 场景，作者认为统一主数据与“物流词元”比场景本身更关键",
+      "summary": "一个内陆陆港上线34个AI场景，通稿写满智能调度、AI单证，真正值钱的却是底下那行不起眼的主数据标准。作者拆开怀化陆港的三层架构，讲清为什么货主、车队、仓储、关务各建各的AI，最后只会得到一堆展厅Demo，统一词元才是物流数字化的生死线。 前两天，“怀化国际陆港”上线“AI陆港”的消息，在物流圈传开了。一口气落地34个AI场景，媒体通稿里全是“智能调度、AI单证、大模型控塔”这些大词。 我将目光，聚焦到了这行字上： 1个数据底座、2个AI中枢、 4大业务平台、15套业务系统。 懂行的都知道，这34个花里胡哨的AI场景，只是长在树上的叶子。真正决定这棵树能不能活下来的，是底下的根。 今天，咱们不聊AI，聊聊物流数字化里最要命、也最容易被跳过的“生死线”数据和架构。 01 先堆AI应用，再补数据底座？这是死路 内陆陆港是什么？ 是跨境、产业带货物的中转枢纽。 过去多年，这里的数字化最大的痛点是： 货主、货代、海关、车队、仓储，各自为政。 你做你的AI单证识别，他搞他的AI车队调度。 结果呢？ 运单在仓储系统里是一套编号，到了海关系统里变成了另一套编码。 各个AI小工具独立开发，数据全不通。",
+      "summaryZh": "人人都是产品经理文章分析怀化国际陆港“AI 陆港”架构：1 个数据底座、2 个 AI 中枢、4 大业务平台、15 套业务系统，落地 34 个 AI 场景。作者指出，陆港涉及货主、货代、海关、车队、仓储多方，过去各自建设 AI 单证识别、AI 车队调度，导致运单编号不一致、数据不通，只能作为展厅 Demo。怀化做法是先统一订单、运单、箱号等主数据编码，再将单证解析、运力预测、风险预警集中到 AI 中枢，避免各业务模块重复开发大模型能力。作者提出三条判断标准：先问主数据是否有统一标准、区分演示型与业务闭环型 AI、跨主体协同需前置权限隔离。文中提及的降本 15%、运单可视率 70% 等目标为作者举例，非已验证结果。",
+      "whyItMatters": "对做企业级 AI 落地的团队，它给出一个具体反例：场景数量不等于效果，跨主体数据对齐往往是瓶颈。这与当前 Agent 与流程自动化项目常见的“先上应用后补底座”路径形成对照。",
+      "limitations": "来源为个人作者评论文章，非项目方一手披露，34 个场景的实际运行效果、降本数据均未得到验证；架构描述可能与通稿口径一致，缺乏独立信源。",
+      "insight": "分析：文中“词元”是对主数据标准化的类比，不是模型层面的 token；其真正论点是数据治理先于模型能力，这在跨组织物流场景中比单点 AI 工具更具约束力。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "物流",
+        "主数据",
+        "企业AI",
+        "数字化",
+        "怀化陆港"
+      ],
+      "url": "https://www.woshipm.com/share/6502072.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T07:13:03.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "bb77e3fa072b3d50",
+      "title": "本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限",
+      "titleZh": "少数派月度游戏盘点：GTA VI、时之笛重制与魔兽世界新分支",
+      "summary": "2026年11月28日 11 分钟阅读 本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限 主作者 关注 板斧 少数派作者 主业金融投资，兴趣在游戏与设计，想写点好的、有意思的 板斧 关注 板斧 少数派作者 主业金融投资，兴趣在游戏与设计，想写点好的、有意思的 联合作者 关注 板斧 少数派作者 主业金融投资，兴趣在游戏与设计，想写点好的、有意思的 板斧 关注 板斧 少数派作者 主业金融投资，兴趣在游戏与设计，想写点好的、有意思的 主业金融投资，兴趣在游戏与设计，想写点好的、有意思的 11 分钟阅读 微信扫码分享 以图片分享分享到微博 点击下方按钮可复制链接 分享收藏举报前言欢迎来到「本月玩什么」，本栏目将从作者个人角度出发，独立挑选一些本月新发售的游戏作品/内容做简要介绍、评论，不保证收录覆盖面，且并非每一款都是笔者推荐游玩的，主要涵盖 PlayStation、Xbox、Nintendo、PC 和 iOS/Android 等主流平台；请注意，本文的探讨仅限于游戏刚发售时点的表现，游戏未来可能通过迭代变得更好或更差。期待这里能有勾起你兴趣的内容或探讨，也真诚感谢所有喜欢本栏目的",
+      "summaryZh": "少数派作者以个人视角盘点2026年11月新发售游戏：Rockstar《GTA VI》据Take-Two数据预购量3250万套、发售日零售额37.9亿美元；任天堂在NS2上完全重制《塞尔达传说 时之笛》，由系列第三组主导、Monolith Soft协助，总监换为伍学伟；暴雪推出独立分支《魔兽世界：无限》，回到等级上限60的古早风格并加入新种族新地区。文章还提到《GTA VI》项目组超4700名开发者、Take-Two高层拒绝用AI接管开发流程，以及暴雪在《无限》上线前起诉私服Turtle WoW并取得永久禁令。文中对游戏机制、画面风格的评价均属作者与所引媒体观点。",
+      "whyItMatters": "材料直接呈现两点行业信号：大型3A是否采用AI进入厂商公开表态层面；官方产品与民间私服的创意归属冲突再起。对关注游戏产业与AI在开发流程落地的读者有参考价值。",
+      "limitations": "属于作者个人体验与观点汇总，销量数字引自Take-Two与《卫报》等二手转述；AI相关仅为一句表态，缺少可核查细节。",
+      "insight": "分析：材料中AI只作为“是否接管开发”的立场出现，不能据此推断3A团队已大规模用AI或明确拒绝AI，需等待厂商一手表述。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "GTA VI",
+        "任天堂",
+        "暴雪",
+        "游戏产业",
+        "AI开发流程"
+      ],
+      "url": "https://sspai.com/post/119686",
+      "source": "少数派",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T00:47:47.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products"
+      ]
+    },
+    {
+      "id": "bc44bdf8c5592890",
+      "title": "24.99 万元起！宝马新世代 i3 正式上市，纯电续航高达 1028km丨广州车展",
+      "titleZh": "宝马新世代i3上市：24.99万元起，顶配CLTC续航1028km",
+      "summary": "宝马新世代 iX3 前两天刚开启交付，新世代 i3 今天就在广州车展上市了。 这辆新车有 30L、40L 和 50L 三款车型，实行的是全国统一价。 入门版 30L 售价 24.99 万元，搭载宁德时代磷酸铁锂麒麟电池，CLTC 续航 708 公里，最大功率 261 马力，最大扭矩 500 牛·米，零百加速 6.6 秒，10%-80% 直流快充约 22 分钟。 中配 40L 售价 27.99 万元，换装 86.9 千瓦时 BMW 大圆柱电池，CLTC 续航 802 公里，最大功率 315 马力，零百加速 5.9 秒，快充约 21 分钟，额外标配了 3D 抬头显示和 20 英寸 M 型空气动力学轮辋。 顶配 50L 售价 31.99 万元，配备 113.4 千瓦时大圆柱电池，最大功率 321 马力，最大扭矩 500 牛·米，CLTC 续航达到 1028 公里，快充同样约 21 分钟。 交付节奏上，40L 将于明年 1 月率先交付，30L 和 50L 计划明年 4 月开启交付。 配置方面，宝马这次不玩选装了，很多配置都成了全系标配。哪怕是 24.99 万元的 30L，也标配了第六代 eDr",
+      "summaryZh": "宝马在广州车展上市新世代i3，三款车型全国统一价：30L售24.99万元，搭载宁德时代磷酸铁锂麒麟电池，CLTC续航708公里；40L售27.99万元，86.9千瓦时大圆柱电池、续航802公里；50L售31.99万元，113.4千瓦时电池、续航1028公里。全系标配全域800V平台、第六代eDrive、前排通风与前后排加热等近40项配置。辅助驾驶与Momenta合作开发，基于R7世界模型架构，称经超200亿公里中国道路数据训练，主打人机共驾，轻踩刹车不退出。交付节奏为40L明年1月、30L与50L明年4月。",
+      "whyItMatters": "材料显示中国市场价格竞争下，外资品牌以统一价和全系标配压缩选装溢价，同时把城区辅助驾驶作为全系标配，对智驾供应商竞争格局与消费者购车决策有直接影响。",
+      "limitations": "续航为CLTC工况，辅助驾驶的“200亿公里训练数据”“世界模型架构”均为厂商说法，缺少第三方实测与功能落地范围说明。",
+      "insight": "分析：宝马以“轻踩刹车不退出”强调人机共驾，与追求脱手的主流叙事形成差异，但实际体验与法规边界仍需道路验证。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "宝马",
+        "智能驾驶",
+        "Momenta",
+        "800V",
+        "广州车展"
+      ],
+      "url": "https://www.ifanr.com/1695987",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T16:41:37.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products"
+      ]
+    },
+    {
+      "id": "37fa45acccca9343",
+      "title": "独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资",
+      "titleZh": "MicroLED光互连公司闪科光联完成数千万元天使轮融资",
+      "summary": "“AI算力的成本中心正在从‘计算’转向‘连接’。”雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「闪科光联」近日完成数千万元人民币天使轮融资。种子轮由励石创投独家投资，天使轮由商汤国香、长石资本、厚雪资本联合领投，险峰长青（K2）、磐霖资本、小苗朗程、柯熙创投等多家产业基金共同跟投。鲸犀进一步获悉，闪科光联成立于 2026 年 9 月，创始人周秋桂博士毕业于美国弗吉尼亚大学，师从“全球 APD 之父” Joe C. Campbell 院士，回国后任职于华工科技，并从零组建了硅光团队。此后，周秋桂共同参与创立了熹联光芯，主导光电融合这一新架构的落地与量产。从经历来看，周秋桂完整走过了两代光互连技术的产业化。团队上，闪科光联的核心技术团队来自华为美研所、美国高通、华工正源等企业，在光电芯片、先进封装、高速光模块领域拥有 20 年以上经验。据周秋桂等闪科光联人士透露，公司以 MicroLED 光互连技术为核心，瞄准 AI 算力基础设施中“连接比计算更贵”的结构性瓶颈，致力于为下一代数据中心、AI集群和超算中心提供低成本、低功耗、高带宽密度的新一代互连方案。这项技术的可行",
+      "summaryZh": "雷锋网·鲸犀独家报道，MicroLED高速光互连芯片与光引擎研发商闪科光联完成数千万元人民币天使轮融资，天使轮由商汤国香、长石资本、厚雪资本联合领投，险峰长青、磐霖资本等跟投。公司成立于2026年9月，创始人周秋桂博士师从APD研究者Joe C. Campbell，曾任职华工科技并参与创立熹联光芯；核心技术团队来自华为美研所、高通、华工正源等。公司称瞄准AI算力基础设施中“连接比计算更贵”的瓶颈，为数据中心与AI集群提供低成本、低功耗、高带宽密度互连方案，本轮资金用于芯片研发与封装样品线建设，并已启动下一轮融资。",
+      "whyItMatters": "反映了算力扩张中光互连被当作成本与带宽瓶颈的产业判断，以及资本向早期光电子团队的押注方向；对跟踪数据中心互连技术路线者有参考意义。",
+      "limitations": "公司成立仅数月，技术可行性主要援引“海外巨头验证”与创始团队判断，无量产时间表、客户或性能数据支撑。",
+      "insight": "分析：MicroLED光互连尚处工程化早期，融资额与团队履历不等于量产能力，关键看样品线验证与头部客户导入。",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "光互连",
+        "MicroLED",
+        "融资",
+        "AI算力",
+        "数据中心"
+      ],
+      "url": "https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T19:14:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "infrastructure",
+        "business"
+      ]
+    },
+    {
+      "id": "1c53651dba4b6783",
+      "title": "美团想起来自己是开公司的了",
+      "titleZh": "美团三季度扭亏：补贴退坡后利润表从战报变回账本",
+      "summary": "昨天晚上美团发了三季报，去年同期亏186亿，今年同期赚近21亿，已是连续第二个季度盈利。订单量还在降，客单价却回升：补贴退坡让亏本单自然消失，营销费用少花68亿，投资估值又添一笔账面收益。拆开三笔账，才看得懂利润表怎么从战报变回账本。 美团终于又赚上钱了。 昨天晚上，美团发了三季报，去年同期亏了186亿，今年同期赚了近21亿；这已经是美团连续第二个季度盈利了，只不过比上个季度少赚了一点。 我翻了一遍财报，又看了看电话会纪要，发现一件挺有意思的事，据卖方测算，美团三季度的外卖订单量同比还在下降，客单价却回升了。 去年大家恨不得让全国人民一天点四顿外卖，今年单子少了，账反倒好看了。 这门生意，到底发生了什么变化呢？ …… 简单说，美团终于有空算账了。从前忙着数订单，如今忙着数订单里还剩几个钱。 先看这份财报。 三季度美团收入1155亿，比去年同期多了21.6%，创下单季新高。经营利润从去年同期亏198亿，变成了赚27亿；净利润20.7亿，经调整净利润18.5亿。 外卖大战打了一年多，美团的利润表总算从战报变回了账本。这钱是怎么回来的？我拆了三笔账，性质还真不一样。 一，生意好做了一些。 核",
+      "summaryZh": "美团发布三季度财报：收入1155亿元，同比增长21.6%，经营利润由去年同期亏损198亿元转为盈利27亿元，净利润20.7亿元。文章拆解扭亏来源：核心本地商业收入涨16.8%、毛利同比多129亿元；销售营销费用从338亿元降至270亿元，少花68亿元；投资估值变动等带来约33.6亿元账面收益计入经营利润。据卖方测算，外卖订单量同比仍降，客单价回升，低价补贴单减少。管理层在电话会提到低价订单占比下降、暑期后补贴趋缓。作者指出监管对外卖补贴划边界，京东、阿里同期也在减亏。文末提到美团明年AI相关资本开支将少于今年，因已提前锁定部分算力。",
+      "whyItMatters": "这是理解中国外卖竞争从补贴换单量转向单位经济性的一手案例，补贴退坡如何影响订单结构、客单价与利润，对评估本地生活平台与即时零售投入节奏有参考价值。",
+      "limitations": "文中订单量、客单价、利润归因含第三方测算，投资估值收益为账面性质；单季数据受收付款时点影响，不能直接外推长期盈利能力。",
+      "insight": "分析：扭亏主要来自少做亏本单和费用收缩，而非需求端扩张，利润改善的可持续性取决于同行是否重启补贴。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "美团",
+        "外卖",
+        "财报",
+        "本地生活",
+        "补贴"
+      ],
+      "url": "https://www.woshipm.com/share/6502034.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T06:06:57.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business"
+      ]
+    },
+    {
+      "id": "ca65119ba78ff4f7",
+      "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
+      "titleZh": "商汤大装置Token工厂获信通院Token工厂智算能力评估最高评级",
+      "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+      "summaryZh": "据量子位报道，商汤大装置Token工厂获得中国信通院Token工厂智算能力评估的「全栈服务型·领先级」评级认证。材料仅给出这一结论性表述，未披露评估的具体指标、测试方法、参评范围或其他获评机构，也未说明「Token工厂」在该评估体系中的定义与分级标准。因此目前可确认的事实是：商汤方面宣布获得该评级，评级由信通院相关评估体系授予，级别为最高档「全栈服务型·领先级」。该评级与模型服务推理供给能力相关，但具体覆盖哪些环节尚不明确。",
+      "whyItMatters": "推理侧算力与服务能力正被纳入第三方评估体系，若该评级被采购方参考，可能影响企业选择模型服务供应商时的判断依据，值得关注评估标准后续是否公开。",
+      "limitations": "仅有短简介，缺评估维度、测试方法与参评名单；评级由厂商对外发布，属宣传性信息，不能据此判断其实际推理性能或市场份额。",
+      "insight": "分析：算力服务评级若形成体系，可能成为To B采购的参考标签，但需看到公开的评估细则与横向对比才有实质意义。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "商汤",
+        "信通院",
+        "Token工厂",
+        "智算",
+        "评估"
+      ],
+      "url": "https://www.qbitai.com/2026/11/513346.html",
+      "source": "量子位",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T11:18:24.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure",
+        "governance"
+      ]
+    },
+    {
+      "id": "237d136cf5c8a544",
+      "title": "独家丨自研微水洗澡机，「润泽智造」拿下数百万元天使轮融资",
+      "titleZh": "润泽智造获数百万元天使轮，便携微水洗澡机计划加入AI皮肤检测",
+      "summary": "雷峰网·鲸犀独家报道，微水清洁技术研发商「润泽智造」近期完成数百万元人民币天使轮融资，由一家市场化投资机构领投，金隼投资担任独家财务顾问。润泽智造成立于 2025 年，旗下品牌“羽鸣 eoomii”主打的产品是一款便携式微水洗澡机。据鲸犀了解，这款产品仅重约 4.9 千克，将清洗与烘干整合为一套“微水洗干一体”的自动化流程，聚焦于缺水环境下的个人清洁日用场景。也就是说，洗澡过程中的清洁、污水回收、晾干等步骤都可以用一台机器完成，取代了传统的固定浴室和大量水流冲洗。在团队上，创始人常若飞是一位连续创业者，有 15 年连续创业经验与 3 次成功创业经历，曾任深圳华科精密仪器研发负责人，首个创业项目「若天科技」年营业额 500 万元。2020 年至 2024 年，常若飞独立研发便携微水洗澡机，攻克洗干一体技术，羽鸣 eoomii 的诞生也源于此。此外，技术总监尹建泼曾就职于比亚迪第三事业部，并在深圳利达华领导开发了中国首款手机钢化膜；海外业务负责人谢石桥和内容负责人李墨岩都有多年行业经验，核心团队覆盖技术、海外与品牌。鲸犀从接近该团队的投资方处了解到，润泽智造目前掌握三项关键技术：即水气直吸",
+      "summaryZh": "雷锋网·鲸犀报道，微水清洁技术公司「润泽智造」完成数百万元人民币天使轮融资，由一家市场化投资机构领投，金隼投资任独家财务顾问。公司成立于2025年，品牌“羽鸣 eoomii”主打约4.9千克的便携式微水洗澡机，将清洗、污水回收与烘干整合为一体化流程，面向缺水环境的个人清洁场景。团队称掌握水气直吸电机、平流腔体水气分离与微米级水雾化三项技术。产品已在政务残联、城市社区、康养、国内电商及海外渠道做初步商业化验证。团队计划推出AI毛发与皮肤检测诊断功能，并聚焦医疗、康养、宠物、户外场景，后续以299–699美元定价进入欧美日韩市场。",
+      "whyItMatters": "这是AI能力向硬件日用品延伸的一个案例：皮肤检测若落地，会把一次性设备销售转为可持续的健康数据服务，也影响康养与宠物等B端场景的采购逻辑。对关注端侧AI与硬件结合的读者有参考价值。",
+      "limitations": "融资额、技术自研程度与“全球无同类技术路线竞争对手”均来自公司或投资方说法，未有第三方核验；AI检测功能仅为计划，无参数、准确率或上市时间；“初步商业化验证”未披露销量与收入。",
+      "insight": "分析：该项目的AI部分目前仍是路线图，短期价值主要在硬件形态与渠道，而非模型能力。",
+      "importance": 3,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "微水清洁",
+        "硬件创业",
+        "天使轮",
+        "端侧AI"
+      ],
+      "url": "https://www.leiphone.com/category/weiwu/TThdKrM8psZJIudr.html",
+      "source": "雷锋网",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T19:06:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "e69abdf4f94a66a0",
+      "title": "把现场搬到线上：一套海外土地信息系统的产品实践",
+      "titleZh": "柬埔寨度假区土地信息系统的产品实践：正射影像、数字孪生与可溯源 AI 问答",
+      "summary": "在柬埔寨国公省的达拉沙果，一个约 30 公顷的海湖度假区片区，把 348 幅编号地块、5 厘米分辨率的无人机正射影像、29 个地点的航拍全景和一座三维数字孪生城市，装进了同一张线上地图。本文记录这套土地信息系统为什么做、怎么做，以及它改变了什么。 一、问题：人和土地之间隔着距离 土地交易有一个老难题：人和土地之间隔着距离。达拉沙果的意向客户大多不在柬埔寨，他们了解一块地，靠的往往是几张照片、几段语音和一份 PDF。照片是哪年拍的，面积是怎么量的，资料是不是最新版本，对方没法查证，只能选择相信，或者不相信。 2026 年，这个难题变得更难了。柬埔寨房地产市场处在周期低位，投资者趋于谨慎，专程飞来实地查看的意愿下降，做决定的时间也拉长了。不少人想先看清楚，才肯安排行程；而看清楚所需要的材料，过去偏偏要到了现场才能看到。 思路于是反过来：人来不了，就把现场送到人手里。2026 年 7 月起，海湖度假区一期团队着手搭建一套土地信息系统，此后每周更新。它要做的不是把话说得更满，而是把现场、地块和依据搬到线上，让人不到现场，也能看清、查证、比较。 二、覆盖范围：一张图看清片区土地 系统以海湖度假区",
+      "summaryZh": "人人都是产品经理刊载的一篇产品实践文章，介绍柬埔寨国公省达拉沙果约 30 公顷、348 幅编号地块的海外土地信息系统。为解决买家不在现场、资料难核验的问题，团队自 2026 年 7 月起搭建系统并每周更新：以无人机正射影像为底图，叠加地块编号与状态，状态变更可在后台署名修改并全网同步；收录 29 个地点 133 个航拍全景，支持分享指定视角；在浏览器内搭建三维数字孪生城市，并将 7 片区域换成无人机照片重建的实景三维；另用高斯泼溅试点两处场景。系统内置 AI 问答助手\"小柒\"，支持中英柬文，规则是数字调用统一计算工具、资料从官方原文检索并标注出处、涉及地块自动定位，答不准转人工；知识库经审校精简到 1200 多条。文章称界面支持 11 种语言、免注册，并强调地块边界与条款以正式图则和合同为准。",
+      "whyItMatters": "对关注 Agent 与知识库落地的人，这是一个把 RAG、工具调用与人工兜底绑定到具体业务事实上的中小规模案例，展示了\"答必有据\"如何以可查证的产品约束实现。",
+      "limitations": "为作者自述的项目实践，无第三方评测、使用量或准确率数据；文中截图来自线上版本，三维与高斯泼溅部分为航拍重建或模拟；AI 助手的实际问答质量未被独立验证。",
+      "insight": "分析：该案例的可借鉴之处在于把 AI 问答的边界写成产品规则——数值走工具、资料带出处、不确定转人工——而非追求通用对话能力；但其效果依赖目录审校与数据更新的持续投入。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "AI问答",
+        "知识库",
+        "数字孪生",
+        "正射影像"
+      ],
+      "url": "https://www.woshipm.com/pd/6501972.html",
+      "source": "人人都是产品经理",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T06:06:32.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "67230f8f69ab8988",
+      "title": "「黑五」值得买：不容错过的 App 和服务优惠",
+      "titleZh": "少数派黑五软件与服务优惠汇总：Google AI、Kiro、JetBrains 等订阅打折",
+      "summary": "2026年11月27日 12 分钟阅读「黑五」值得买：不容错过的 App 和服务优惠主作者 关注 化学心情下2 少数派作者 曾经电商人和媒体人，现在的产品人，热爱摇滚乐，只混 IT 圈 化学心情下2 关注 化学心情下2 少数派作者 曾经电商人和媒体人，现在的产品人，热爱摇滚乐，只混 IT 圈 联合作者 关注 化学心情下2 少数派作者 曾经电商人和媒体人，现在的产品人，热爱摇滚乐，只混 IT 圈 化学心情下2 关注 化学心情下2 少数派作者 曾经电商人和媒体人，现在的产品人，热爱摇滚乐，只混 IT 圈 曾经电商人和媒体人，现在的产品人，热爱摇滚乐，只混 IT 圈 微信扫码分享 以图片分享分享到微博 点击下方按钮可复制链接 分享收藏举报继国内的「双十一」之后，海外的「黑五」购物季又如约而至。和往常一样，除了热热闹闹的实体商品打折促销之外，相关的软件以及在线服务同样也迎来了活动，我们依旧为大家整理汇总了一些值得关注的优惠活动。这里先预祝大家买得愉快、用得舒心。这些 App & 订阅值得买Charliemonroe 旗下的多款应用立即购买开发商 Charliemonroe 今年继续为旗下应用推",
+      "summaryZh": "少数派在 2026 年黑五期间汇总了软件与在线服务的折扣信息。与 AI 直接相关的条目包括：Google AI Plus 年付从 49.99 美元降至 24.99 美元，Google AI Pro 从 199.99 美元降至 99.99 美元，订阅与 Google One 捆绑，含 Gemini 权益与 Flow 积分，Pro 还能用 Antigravity 编程工具与 YouTube Premium Lite；亚马逊旗下 AI 编程工具 Kiro 对 12 月 1 日前付费的个人订阅用户赠送 10000 积分，有效期至 2027 年 1 月 31 日；原型工具 ProtoPie 的专业版年订阅可享 40% 折扣，权益包含 ProtoPie AI 与结合 Claude、Cursor 的 ProtoPie MCP；JetBrains 的 IDE 与订阅也有六折活动。其余为各类效率与创作软件折扣。",
+      "whyItMatters": "黑五订阅折扣是观察 AI 工具定价与获客策略的窗口：Google 把 Gemini 权益捆绑进云存储订阅，Kiro 用赠积分而非降价拉动付费，说明 AI 编程与助手类产品正以打包和额度方式争夺长期用户。",
+      "limitations": "仅为一篇促销汇总，价格与资格因账号与地区而异，文中明确以订阅页为准；未评估各产品实际能力与折扣后续约价格，代金券积分的使用范围也未给出细节。",
+      "insight": "分析：AI 订阅的促销重心正从单纯降价转向额度与捆绑，这对用户的真实成本判断提出更高要求，续费价格与额度过期规则比首年折扣更值得关注。",
+      "importance": 4,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Google Gemini",
+        "Kiro",
+        "ProtoPie",
+        "订阅定价",
+        "黑五"
+      ],
+      "url": "https://sspai.com/post/119601",
+      "source": "少数派",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T03:48:17.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "d96657f5bdad791a",
+      "title": "从「中国特供」变全球旗舰，搭载 Momenta 智驾的本田冠道来了｜广州车展",
+      "titleZh": "新一代本田冠道国产原型车亮相，首发搭载 Momenta R7 世界模型智驾",
+      "summary": "十年前，初代冠道在没有任何海外原型车可参考的情况下，专门针对中国家庭拿出了「大五座」的产品定义，靠着能半躺的后排腿部空间成了合资 SUV 的空间标杆。 十年后，在 2026 广州车展上，广汽本田带来了全新一代冠道原型车的国内首秀，新车预计将于 2027 年正式量产上市。 这一次换代，冠道的身份迎来巨变，它不再是一台「中国特供车」，而是从中国出发走向世界，升级为即将销往日本、东南亚与澳新市场的本田全球旗舰 SUV。 从中国特供到全球旗舰，中国场景开始倒推海外定义 就在广州车展前一周，全新一代冠道刚刚在海外完成全球首发，并计划于 2027 年春季率先登陆日本市场，随后推向更多海外区域。 过去，合资时代的常规剧本，往往是海外车企把全球车拿进中国市场加长轴距，或者像初代冠道一样干脆造一台面向单一市场的特供车。 而在全新一代冠道身上，剧本迎来大反转，中国市场对于大空间、数字化和新能源化场景的需求，开始反过来影响本田全球旗舰的产品定义。 新冠道基于本田全新中型车平台与「Grand-Journey 宏大旅程」理念打造（好巧，本田的谐音也是「宏大」）。 根据披露的参考尺寸，新车长宽高大约为 4960m",
+      "summaryZh": "在 2026 广州车展上，广汽本田展出全新一代冠道原型车，预计 2027 年量产上市。该车此前一周已在海外全球首发，计划 2027 年春季先在日本上市，随后进入东南亚与澳新市场，身份从中国特供车转为本田全球旗舰 SUV。国产原型车车顶带一颗激光雷达，广汽本田宣布其将首次搭载基于 Momenta R7 世界模型的高阶智能辅助驾驶系统。座舱采用 15.4 英寸中控屏与新一代 Honda CONNECT。动力全面转向第五代 Honda Hybrid 混动，配 DualPower eAWD 双电机电控四驱，后轴独立电机最大功率 50kW。海外版为全隐藏式门把手，国产版改为半隐藏式。",
+      "whyItMatters": "合资品牌旗舰车型引入中国本土智驾供应商，补齐了合资中大型 SUV 长期被诟病的智驾短板，也意味着 Momenta 的方案从中国项目扩展到面向海外市场的车型，具有较强的产业信号。",
+      "limitations": "原型车阶段，量产版配置与智驾实际能力均未验证，Momenta R7 世界模型的能力边界没有量化数据；尺寸为参考值，售价与上市时间未公布。",
+      "insight": "分析：中国场景与本土智驾方案开始反向定义合资全球车型，若量产维持此配置，将检验中国智驾供应商在海外法规与道路环境下的泛化能力。",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Momenta",
+        "智能驾驶",
+        "本田冠道",
+        "广州车展",
+        "合资车企"
+      ],
+      "url": "https://www.ifanr.com/1695948",
+      "source": "爱范儿",
+      "category": "chinese",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T12:20:17.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "agents",
+        "products",
+        "business"
+      ]
+    }
+  ],
+  "editorNote": "",
+  "coreInsight": {
+    "date": "2026-11-28",
+    "origin": "generated",
+    "takeaway": "三件事指向同一处：AI公司对用户数据、个人上下文和基础设施融资的处置，正被外部机构重新定价。破产拍卖与跨应用接入把隐私承诺变成可交易资产，标普则把关键人风险折算进融资成本。",
+    "highlights": [
+      "破产拍卖",
+      "隐私承诺变成可交易资产",
+      "关键人风险"
+    ],
+    "points": [
+      {
+        "title": "42州总检察长阻拦Character.AI卖聊天记录",
+        "fact": "据The Verge 2026年11月26日报道，42州总检察长组成跨党派联盟，试图阻止Character.AI在Chapter 11破产程序中出售用户数据。他们称该公司计划拍卖超过2100万个美国账户的私人聊天记录，其中逾210万注册者为未成年人，且未设保障措施：买方无需遵守原隐私政策，用户无法要求删除，数据转售也无限制。首个竞标方2026年11月13日才成立。",
+        "meaning": "编辑推断：若破产程序允许聊天记录被拍卖，AI产品的隐私承诺在清算时可能失效，数据合规需预先安排。",
+        "watch": "关注破产法院是否批准数据出售、买方身份及各州2027年1月1日生效的聊天机器人法规。",
+        "highlights": [
+          "42州总检察长",
+          "2100万个美国账户",
+          "210万"
+        ],
+        "sourceIds": [
+          "e51b021662e92d60"
+        ]
+      },
+      {
+        "title": "标普考虑下调英伟达评级，治理与关键人风险受关注",
+        "fact": "据 TechCrunch 11 月 25 日报道，标普全球评级正考虑将英伟达信用评级从 AA 下调至 AA-，理由是公司治理与“关键人风险”。标普在声明中提到，CEO 黄仁勋被罢免后又复职，反映“高管监督薄弱、缺乏继任规划”。标普预计 90 天内完成审查；即使下调，英伟达仍保持投资级。报道还称，英伟达为缺乏独立信用资质的新云厂商等基础设施公司提供隐性担保，8 月曾计划与高盛、Apollo、Blackstone 等六家金融机构安排 5000 亿美元 AI 基础设施融资，原本担保 25% 贷款，而彭博报道称贷款方此前已要求更高担保比例。",
+        "meaning": "编辑推断：评级下调本身不致命，但会抬高英伟达及其担保的基础设施公司的融资成本，杠杆扩张更贵。",
+        "watch": "标普 90 天审查结论及最终评级；贷款方要求的担保比例是否进一步上调。",
+        "highlights": [
+          "AA-",
+          "关键人风险",
+          "90 天"
+        ],
+        "sourceIds": [
+          "77bb663b6361291f"
+        ]
+      },
+      {
+        "title": "OpenAI并表限量、Google接入个人数据，AI进入上下文竞争",
+        "fact": "OpenAI于2026年11月25日前后向少量Pro用户推出Chat与Work合并体验，产品负责人Thibault Sottiaux在X上确认；OpenAI发言人对TechCrunch称两者将共用一个用量表，Instant模型对话仍不限量且不计入，但极少数重度用户可能更早触顶，12月拟扩大共享限额。Google于11月23日宣布在AI Mode的Personal Intelligence中可选接入Wallet，Drive和Gemini应用随后数周跟进。",
+        "meaning": "编辑推断：两家都把竞争点从单次回答转向占用个人上下文，用户得到连贯体验，但要以限额和隐私授权为代价。",
+        "watch": "观察12月共享限额扩大的用户反弹、Google各应用接入后的实际使用与退出比例。",
+        "highlights": [
+          "共用一个用量表",
+          "重度用户可能更早触顶",
+          "Personal Intelligence"
+        ],
+        "sourceIds": [
+          "3a73412d0df0bb71",
+          "4f5fe20de68e9dfd"
+        ]
+      }
+    ],
+    "boundary": "上述联系属于编辑分析。Character.AI数据能否出售取决于破产法院裁决；标普是否下调及担保比例变化尚未落定；两家上下文策略的用户留存与反弹也缺乏数据，均不能视为已验证结论。",
+    "sources": [
+      {
+        "id": "e51b021662e92d60",
+        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "source": "The Verge AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-26T09:54:40.000Z"
+      },
+      {
+        "id": "77bb663b6361291f",
+        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+        "source": "TechCrunch AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-25T22:44:32.000Z"
+      },
+      {
+        "id": "3a73412d0df0bb71",
+        "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+        "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+        "source": "TechCrunch AI",
+        "kind": "reporting",
+        "publishedAt": "2026-11-25T20:03:27.000Z"
+      },
+      {
+        "id": "4f5fe20de68e9dfd",
+        "title": "A more tailored Google Search that’s uniquely yours",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+        "source": "Google AI",
+        "kind": "primary",
+        "publishedAt": "2026-11-23T17:00:00.000Z"
+      }
+    ]
+  },
+  "topics": [
+    {
+      "id": "8530dad6d3f944da",
+      "title": "AI 正在加剧美国公共记录系统的负担：数据经纪商与 AI 起草的公开记录请求激增，地方政府如何承受？",
+      "thesis": "AI 让公开记录请求更批量、更宽泛，而基层答复能力未同步增长；真正的风险是地方为省事收紧拒绝理由，反而削弱公共透明度。",
+      "whyNow": "据 MIT Technology Review 在 2026 年 11 月 25 日的报道，Panton 镇收到的采购记录请求已从每年约一次升至每季度，再变为针对具体采购的每月或更多；安娜堡的请求量从 2021 年 581 件增至去年的 937 件，肖托夸县今年夏天新增一名律师助理。一批风投支持的初创公司称每年发出约 18 万件请求，NationGraph 声称每天约 1 万件。",
+      "layers": [
+        "governance",
+        "business"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "据 MIT Technology Review 2026年11月25日报道，美国地方公开记录系统正承受来自数据经纪商和 AI 起草请求的双重压力。佛蒙特州人口660人的 Panton 镇，镇书记 Kyle Rowe 过去每年只收到 SmartProcure（现以 GovSpend 名义运营）约一次“全部采购记录”请求，去年变为每季度一次，随后其他公司提出更细的定向请求，频率升至每月或更高。报道称，近年风险投资支持的初创公司已筹集超过1亿美元，用于从数千个机构收集数据并加工成 AI 驱动的销售“信号”；AI 工具也让个人更容易起草请求，多地出现两位数年增长。纽约 Chautauqua 县因请求量翻倍于今年夏天新聘一名 paralegal，安娜堡的请求量从2021年的581件增至去年的937件。Rowe 表示，为这类目的答复请求“感觉像在纳税人的时间里做无偿的反对派研究”。同一时段，The Verge 报道了 Google 一项名为 My Channel 的个性化 AI 视频专利，该专利已被驳回；两项报道均出自2026年11月25日，但前者聚焦公共记录负担，后者聚焦娱乐内容生成，彼此并无直接关联。",
+          "sourceIds": [
+            "1684673b3d07d7df",
+            "c91a30b4e6522b01"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "机制上，这是“把公开记录当作原材料”的商业模式与 AI 降低起草门槛叠加的结果。报道称，数据经纪商挖掘公开记录已有数十年，AI 又放大了投资者兴趣，近年风投支持的初创公司筹集的资金用于从数千个机构收集数据、加工成销售“信号”。在具体环节，Pursuit 首席执行官 Mike Vichich 称其数据会让公众受益，并称竞争能为纳税人省钱；但报道也记录了另一面：PinPoint Analytics 首席运营官 Mark Zurada 说，该公司在搭建数据集时每天发出多达2000件请求，如今约为500件；NationGraph 则声称每天代表客户发出约1万件请求——按此计算，对只靠少数人答复的基层办公室，请求从偶发变成流水线输入。再加上 AI 让个人更容易起草更长的请求，需求侧批量增长而答复侧人员和预算未同步，基层只好在“逐件答复”和“申请例外”之间选择，后者正是透明度被削弱的入口。",
+          "sourceIds": [
+            "1684673b3d07d7df"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两篇材料放在一起看，它们并不构成同一议题上的分歧，只是议题权重不同：Google 的 My Channel 专利报道（The Verge）讨论的是 AI 生成内容与用户数据，与公开记录系统的负担没有直接关联，不宜并入同一因果链；真正可比较的是 MIT Technology Review 报道内部的两类主张。报道一方面引述 Pursuit 首席执行官 Mike Vichich 的说法，称其数据让公众受益、竞争能为纳税人省钱；另一方面记录了基层书记与县检察官的观察，即请求更批量、更宽泛，而答复方的人员和预算没有同步增长。我的推断是：若地方以“省事”为由普遍收紧拒绝理由，短期能减轻窗口压力，长期却可能让纳税人、记者和合规企业都更难看懂政府怎么花钱，反过来抬高真正需要记录的人的获取成本。",
+          "sourceIds": [
+            "1684673b3d07d7df",
+            "c91a30b4e6522b01"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "仍需说明证据缺口：报道没有给出全国公开记录请求总量、AI 起草请求的识别比例，也没有各州因收紧规则而实际拒绝请求的统计数据，因此“AI 加剧负担”只能视为多地个案与受访者观察的汇总，不能当作全国性量化结论。文中的请求数字多来自厂商自报，例如 Pursuit 和 SmartProcure 称每年约18万件、NationGraph 称每天约1万件，这些均未经独立核验；PinPoint 从每天2000件降至约500件也只是公司首席运营官的说法。Chautauqua 县将请求翻倍归因于 ChatGPT 和转售需求，同样属于县检察官的判断，尚无逐件分类验证。因此，本专题结论只适用于已披露的这些县镇与受访机构，不能外推到所有州和所有规模的政府；My Channel 专利与公开记录负担无直接关联，也不应纳入同一因果判断。",
+          "sourceIds": [
+            "1684673b3d07d7df",
+            "c91a30b4e6522b01"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "1684673b3d07d7df",
+          "title": "AI is straining America’s open records systems",
+          "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
+          "source": "MIT Technology Review",
+          "kind": "reporting",
+          "publishedAt": "2026-11-25T10:00:00.000Z"
+        },
+        {
+          "id": "c91a30b4e6522b01",
+          "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+          "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "source": "The Verge AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-25T21:51:26.000Z"
+        }
+      ],
+      "watchNext": [
+        "各州是否通过更易拒绝公开记录请求的立法，以及拒绝理由是否被用于非商业请求",
+        "地方公开记录办公室的人员与预算是否随请求量增长而增加，以及积压时长变化",
+        "数据经纪与政府销售类初创的新增融资、请求量披露与实际答复质量，包括是否出现诉讼或合规争议"
+      ],
+      "updatedAt": "2026-11-28",
+      "origin": "generated"
+    },
+    {
+      "id": "97ece54b6b719efd",
+      "title": "从 METR 时间跨度图更新到训练数据市场：可验证任务上的能力提升能否外推到需要判断力的工作？",
+      "thesis": "METR 新图显示，可验证任务上的能力仍按指数轨迹提升，但在开放式、含判断力的任务上，模型仍未达到人类水平，因此不宜把编程能力的进步直接外推到研究判断类工作。",
+      "whyNow": "2026 年 11 月 20 日，MIT Technology Review 报道 METR 时间跨度图更新：新增更难、更开放的任务，AI 设计的评估没有任何一个被 METR 员工认为可用，哲学论证打分也低于人类；11 月 27 日，G2i 创始人在 Latent Space 谈训练数据市场，称好任务应“刚好领先模型当前能力”，并需要资深工程师设计任务与 verifier。",
+      "layers": [
+        "models",
+        "governance",
+        "business"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "2026年11月20日，MIT Technology Review 报道了 AI 评估非营利组织 METR 对其“时间跨度图”的更新：新图扩充了任务集，加入一些估计人类完成耗时长得多、以及更开放式的任务；报道称，可验证任务上的能力仍沿指数轨迹提升，但在设计 AI 评估、给哲学论证打分这类需要判断力的任务上，模型仍未达到人类水平。报道还提到 METR 另一份经过大量删节、称 AI 或在加速 Anthropic 自身进展的报告引发讨论，并转述研究者对评估外推的分歧。同日前后的训练数据市场访谈（Latent Space，2026年11月27日刊发）则介绍 G2i 创始人 Gabe Greenberg 的说法：好的训练任务应刚好超出模型当前能力，由资深工程师设计任务、选择起始数据并搭建可自动打分的 verifier。",
+          "sourceIds": [
+            "6691469f1dc34a79",
+            "bf74e6c19e53c3fd"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "差异的机制在于能否自动判定对错。报道解释，强化学习要让系统多次尝试，强化通向成功的路径、削弱通向失败的路径，这在能自动判断解法对错的编程和数学上容易实施，而在成功定义模糊或要很久才能确认的任务上很难照搬。报道举的具体例子是：METR 让模型设计可供其研究使用的新评估，再由员工人工打分，结果没有一个 AI 设计的评估被认为足以用于研究，给哲学论证打分这类任务也低于人类；这与它在软件工程上已强于几乎所有人形成反差。我的分析是：关键在于“答案对错能否被即时、廉价地验证”，验证一慢或标准含糊，训练信号和评估都会变稀。报道转述 G2i 创始人 Gabe Greenberg 的说法，好的训练任务要刚好超出模型当前能力并由资深工程师搭 verifier，也说明当任务需要判断力时，更难造出可靠信号。",
+          "sourceIds": [
+            "6691469f1dc34a79",
+            "bf74e6c19e53c3fd"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把三份材料放在一起看，互补关系大于分歧：METR 的新图（MIT Technology Review 报道）指出，可验证任务上的能力仍在指数提升，但在设计评估、给哲学论证打分这类需要判断力的任务上模型尚未达到人类水平；G2i 创始人 Gabe Greenberg 的说法（Latent Space 访谈）则从供给侧解释，好的训练任务要刚好超出模型当前能力，并由资深工程师搭建可自动打分的 verifier，这正好对应可验证任务更容易形成训练信号。编辑推断是：可验证任务的进步短期内仍会推高对高质量可验证数据与验证器的需求，而对判断力要求高的岗位不会同步被替代，行业应把评估和采购重点放在“能否稳定打分”上，而非直接外推编程能力。需说明的是，关于外推是否成立，报道明确写到研究者之间存在分歧，本文不将其强行统一为定论。",
+          "sourceIds": [
+            "6691469f1dc34a79",
+            "bf74e6c19e53c3fd"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "仍不能下结论的地方在于：METR 新图里开放式、判断力任务样本少且难打分，报道转述 METR 技术成员 Matt Putz 的说法称，这类任务“从本质上更难研究、尤其难以量化”，因此无法据此画出和可验证任务一样干净的长期趋势；报道也引述波士顿大学 Najoung Kim 的观点，表示尚不确定如何外推。厂商自报与独立验证的差别同样要保留：报道提到 OpenAI 在自家博客称模型在其员工真实任务上的表现不如 METR 原始任务集中的可验证任务，这属于厂商自报，未经过 METR 式第三方复现。TokenEconomizer 在 277 个 SWE-Bench 任务上降本 18.4–30.9% 且成功率大致稳定，是基准与开源插件的结果，不等于真实工程团队的生产结论。G2i 的 Greenberg 所述训练数据市场逻辑是访谈中的个人说法。综上，现有证据只支持“可验证任务进步不宜直接外推到研究判断类工作”，不足以判断判断力任务未来能否追上、以多快速度追上。",
+          "sourceIds": [
+            "6691469f1dc34a79",
+            "60d6d445e0dacc9d",
+            "bf74e6c19e53c3fd"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "6691469f1dc34a79",
+          "title": "The most misunderstood graph in AI just got a major update",
+          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+          "source": "MIT Technology Review",
+          "kind": "reporting",
+          "publishedAt": "2026-11-20T18:15:15.000Z"
+        },
+        {
+          "id": "bf74e6c19e53c3fd",
+          "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+          "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+          "source": "Latent Space · 访谈与工程",
+          "kind": "analysis",
+          "publishedAt": "2026-11-27T22:19:18.000Z"
+        },
+        {
+          "id": "60d6d445e0dacc9d",
+          "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+          "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+          "source": "Microsoft Research",
+          "kind": "primary",
+          "publishedAt": "2026-11-16T17:01:35.000Z"
+        }
+      ],
+      "watchNext": [
+        "METR 后续报告是否扩大开放式判断任务的样本量，并给出可复现的趋势线；Opus 5.5 等模型在评估设计任务上能否从“borderline above the bar”转为可被 METR 实际采用",
+        "前沿实验室采购训练数据时，对“判断力型”任务（如评估设计、研究品味）的定价与验收标准是否出现可观察的变化",
+        "METR 提到的、关于 Anthropic 内部 AI 加速 AI 进展的删节报告是否发布完整方法论，以及其结论能否被独立复核"
+      ],
+      "updatedAt": "2026-11-28",
+      "origin": "generated"
+    },
+    {
+      "id": "3fa00fed603aeb1e",
+      "title": "Nvidia 因治理与「关键人风险」被 S&P 列入降级观察：AI 基础设施融资的信用链条会如何传导？",
+      "thesis": "据 TechCrunch 报道，S&P 正评估将 Nvidia 从 AA 降至 AA-；Nvidia 仍属投资级，但其为 neocloud 等信用较弱的基础设施公司提供背书，评级下调可能推高这些公司的债务成本或抵押要求。",
+      "whyNow": "2026 年 11 月 25 日 TechCrunch 报道，S&P 称黄仁勋被撤职后又复职，这引发了对「高管监督薄弱、缺乏继任规划」和「关键人风险」的担忧，并预计 90 天内完成审查；报道还提到，早在黄仁勋被撤职并复职之前，贷款方就已要求 Nvidia 提供更多担保。",
+      "layers": [
+        "governance",
+        "business",
+        "infrastructure"
+      ],
+      "sections": [
+        {
+          "heading": "发生了什么",
+          "body": "据 TechCrunch 2026 年 11 月 25 日报道，S&P Global Ratings 表示正评估将 Nvidia 的信用评级从 AA 下调至 AA-，理由是公司管理与治理存在问题：CEO 黄仁勋被罢免后又复职，引发对“高管监督薄弱、缺乏继任规划”和“关键人风险”的担忧，即公司未来成功过度依赖黄仁勋；S&P 预计在 90 天内完成审查，即便下调，Nvidia 仍属投资级，但借贷成本可能上升。同一报道指出，Nvidia 为缺乏自身强信用的 neocloud 等基础设施公司提供背书，评级下调可能推高这些公司的债务成本或迫使它们提供更多抵押，并提及 Nvidia 曾于 8 月宣布与 Goldman Sachs、Apollo、Blackstone 等六家金融机构安排 5000 亿美元 AI 基础设施融资，原条款下 Nvidia 担保 25% 的贷款。作为同日 AI 基础设施领域的另一动态，The Verge 于 11 月 25 日报道，FCC 宣布授权 SpaceX 部署至多 100 万颗搭载 AI 芯片的卫星，作为其“Starmind”计划的一部分，要求 SpaceX 在 2033 年前至少部署一颗卫星、2040 年前达到 100 万颗的里程碑。",
+          "sourceIds": [
+            "77bb663b6361291f",
+            "17929128d139e3d0"
+          ],
+          "kind": "fact"
+        },
+        {
+          "heading": "为什么会这样",
+          "body": "机制在于评级是一条沿担保关系向下传导的信用链。信用评级机构看的不只是借款企业自身现金流，还包括它背后担保方的信用。Nvidia 一旦从 AA 降至 AA-，它替 neocloud 等信用较弱的公司做担保时，担保的“含金量”在贷款方眼里就下降了。贷款方为控制风险，通常有两种反应：要求更高的利率，或要求被担保方拿出更多抵押。TechCrunch 报道提供了一个具体参照：Nvidia 8 月宣布与 Goldman Sachs、Apollo、Blackstone 等六家机构安排 5000 亿美元 AI 基础设施融资，原条款下 Nvidia 担保 25% 的贷款；而据 Bloomberg 报道，早在黄仁勋被罢免又复职之前，贷款方就已要求 Nvidia 提高担保比例，若评级下调，贷款方很可能要求更大比例的担保。按此推演，AI 基础设施融资的信用链条会这样传导：Nvidia 评级承压，担保价值缩水，neocloud 举债更贵或需要更多抵押，进而影响这些公司的扩张节奏与融资可得性。这是基于报道所述担保安排的机制分析，并非已发生的融资结果。",
+          "sourceIds": [
+            "77bb663b6361291f"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "放在一起怎么看",
+          "body": "把两篇放在一起看，TechCrunch 提供的是信用端的直接信号：S&P 对 Nvidia 治理与关键人风险的审查会沿担保关系传导到 neocloud 等公司，这是来源明确报道的因果链条，而不是已实现的融资结果；The Verge 则从算力供给端补充了同日动向——FCC 授权 SpaceX 部署至多 100 万颗 AI 卫星的 Starmind 计划，但该报道未涉及任何融资成本或信用安排。两者没有分歧，但覆盖的是不同环节：前者说明存量担保结构的脆弱性，后者说明新增算力投资的野心，而已有材料未给出 Starmind 的资金来源。对行业而言，编辑推断是：若 Nvidia 评级下调，依赖其背书的 AI 基础设施借款方将更早感受到融资条件收紧；而对用户，这类信用与太空算力新闻都不直接改变可用的 AI 产品。",
+          "sourceIds": [
+            "77bb663b6361291f",
+            "17929128d139e3d0"
+          ],
+          "kind": "analysis"
+        },
+        {
+          "heading": "还有什么不能下结论",
+          "body": "目前仍不能下结论的是：S&P 的审查尚未结束，报道只称其预计 90 天内完成、可能从 AA 降至 AA-，最终是否下调、下调幅度以及附带条件都属未知，因此不能把“评级下调将推高 neocloud 债务成本”写成已发生的事实，只能作为基于担保关系的条件推演。证据缺口还包括：报道未给出贷款方提高担保比例的具体数值或已签署的新条款，5000 亿美元融资安排和 25% 担保比例均来自 Nvidia 与媒体的转述，尚无独立文件或银行方公开确认可交叉验证，属于厂商与媒体自报而非独立验证。适用范围上，本文只讨论 Nvidia 背书所涉 AI 基础设施融资链条，不延伸到其芯片业务或整体信用状况，也不覆盖 SpaceX Starmind 计划的资金来源，材料对此未提供任何信息。",
+          "sourceIds": [
+            "77bb663b6361291f",
+            "17929128d139e3d0"
+          ],
+          "kind": "uncertainty"
+        }
+      ],
+      "sources": [
+        {
+          "id": "77bb663b6361291f",
+          "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+          "source": "TechCrunch AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-25T22:44:32.000Z"
+        },
+        {
+          "id": "17929128d139e3d0",
+          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "source": "The Verge AI",
+          "kind": "reporting",
+          "publishedAt": "2026-11-25T17:44:51.000Z"
+        }
+      ],
+      "watchNext": [
+        "S&P 90 天审查期内是否正式下调评级，以及 Nvidia 的回应与治理整改说明",
+        "Nvidia 与高盛、Apollo、Blackstone 等六家机构 5000 亿美元 AI 基础设施融资安排中，担保比例是否从原定的 25% 上调",
+        "被 Nvidia 背书的 neocloud 及其他基础设施公司的发债成本与抵押要求变化"
+      ],
+      "updatedAt": "2026-11-28",
+      "origin": "generated"
+    }
+  ],
+  "topicGeneration": {
+    "status": "complete",
+    "attempted": 3,
+    "published": 3,
+    "failures": []
+  },
+  "highlights": [
+    {
+      "id": "e51b021662e92d60",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "titleZh": "42 州总检察长联合施压，阻止 Character.AI 在破产程序中出售用户聊天记录",
+      "summary": "PolicyAINews42 state AGs are trying to stop Character.AI from selling users’ chatsA bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.A bipartisan coalition of AGs say Character.AI is planning to sell the personal data of minors to the highest bidder.by Terrence O'BrienNov 26, 2026, 9:54 AM UTCLinkShareGiftImage: Cath Virginia / The VergeTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 year",
+      "summaryZh": "The Verge 报道，42 州两党总检察长联盟试图阻止 Character.AI 在 Chapter 11 破产程序中出售用户数据。AG 方称拟出售范围包括超过 2100 万个美国账户的私密聊天历史，其中逾 210 万个注册者为未成年人，且未要求买家遵守现有隐私政策、未提供用户删除数据的途径、未限制买家转售。首个竞标方成立于 2026 年 11 月 13 日，无母公司或投资方信息。此前 Character.AI 已申请破产，Disney 收购其部分资产并以“acquihire”方式聘用其 CEO 及部分技术团队，该交易同样遭 AG 联盟反对。纽约、康涅狄格、加州、科罗拉多等州针对聊天机器人的法律将于 2027 年 1 月 1 日生效。",
+      "whyItMatters": "它把一个具体问题摆到台面：当 AI 聊天公司破产清算时，海量私密对话是否会被当作可出售资产。这将直接影响用户对 AI 陪伴类产品的信任，也可能成为各州聊天机器人立法的现实依据。",
+      "limitations": "报道基于 AG 方面近乎相同的新闻稿与公开文件，Character.AI 及竞标方的回应未呈现；账户数量、未成年人占比等数据来自 AG 声明，未经独立核验；破产交易最终是否获批尚不确定。",
+      "insight": "分析：AI 陪伴产品的核心资产恰恰是最敏感的用户对话，破产程序暴露了隐私承诺在资产处置中的脆弱性；若 AG 阻止失败，可能推动监管把“数据不可随资产出售”写入规则。",
+      "importance": 8,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "Character.AI",
+        "隐私",
+        "破产",
+        "州检察长",
+        "聊天机器人监管"
+      ],
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "products",
+        "business"
+      ]
+    },
+    {
+      "id": "795d73d38accc580",
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "titleZh": "Kokotajlo与Erdil辩论：2029年前出现超级智能的概率分歧",
+      "summary": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected.Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%.They agree that there is not a huge difference in probability, and that, in either case, the situ",
+      "summaryZh": "Dwarkesh Patel播客中，AI Futures Project的Daniel Kokotajlo与Google DeepMind的Ege Erdil讨论智能爆炸时间线。分歧核心是'纯软件奇点'可信度：Erdil认为未来三年发生概率约10%-20%，Kokotajlo认为超过50%，并称AI研究全自动化可能在2027年前后实现，随后加速并产生'超越顶级专家'的系统。两人均认为概率差异不改变需要认真应对的结论，并批评对中国的对抗姿态可能妨碍未来全球协议。最后各自给出2027年预测：Kokotajlo预期超级智能，Erdil中位全面自动化时间为2040年。",
+      "whyItMatters": "这场辩论把'递归自我改进'从口号变成可讨论的概率与时间问题，直接影响实验室是否应暂停、监管如何设定触发条件，以及国际协调是否需要前置。对政策制定者与投资者而言，关键是两种情景都要求提前布局治理。",
+      "limitations": "为个人预测与观点，非可验证事实；文中概率无模型推导；播客为节选转录，未覆盖全部论证；提及的具体事件细节不足以独立核实。",
+      "insight": "分析：两人对概率的分歧其实小于对'证据门槛'的分歧——Erdil要求先见现实成本再行动，Kokotajlo认为等待即风险；这一分歧比数字本身更影响政策路径。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "超级智能",
+        "时间线预测",
+        "AI安全",
+        "国际治理"
+      ],
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-27T18:01:14.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    },
+    {
+      "id": "77bb663b6361291f",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "titleZh": "标普全球考虑下调英伟达信用评级，指向治理与“关键人物”风险",
+      "summary": "In Brief Posted: 2:44 PM PST · November 25, 2026 Image Credits:Fabrice COFFRINI/AFP / Getty Images Marina Temkin S&P considers Nvidia credit downgrade over governance and ‘key man’ risks S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices. Despite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns about “weak e",
+      "summaryZh": "标普全球评级表示正考虑下调英伟达信用评级，理由涉及公司管理与治理实践。报道称，尽管英伟达财务表现强劲，CEO黄仁勋被免职后又复职引发了对“高管监督薄弱、缺乏继任规划”以及过度依赖黄仁勋的“关键人物风险”的担忧。标普预计在90天内完成审查，可能将评级从AA下调至AA-（其量表第四高）。报道指出英伟达仍将保持投资级评级，但降级可能提高其借贷成本；由于英伟达为缺乏独立强信用支持的新云厂商等基础设施公司提供背书，评级下调可能使这些公司的债务更贵或需提供更多抵押。材料还提到英伟达今年8月计划与六家金融机构安排5000亿美元AI基础设施融资，原条款下英伟达担保25%贷款，而贷款方此前已要求提高担保比例。",
+      "whyItMatters": "英伟达是AI算力供应链的核心融资与信用节点；治理问题若影响其评级，可能通过担保条款与借贷成本传导至依赖其背书的新云与数据中心项目。",
+      "limitations": "评级仍在审查中，结果与幅度未定；材料未说明黄仁勋免职复职的具体时间与原因；“今年8月”的年份未明示。",
+      "insight": "分析：这条新闻的行业传导路径不在芯片供给，而在信用链条——英伟达对AI基础设施融资的担保义务使其资产负债表与下游新云的融资条件绑定，治理折价可能放大为整个算力建设的资金成本上升。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "英伟达",
+        "信用评级",
+        "公司治理",
+        "AI基础设施融资"
+      ],
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "business",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1684673b3d07d7df",
+      "title": "AI is straining America’s open records systems",
+      "titleZh": "AI 生成请求激增，美国公共记录系统承压",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he got rather busy. Panton used to get a request every year or so from a company called SmartProcure for “all purchasing records,” covering every",
+      "summaryZh": "MIT Technology Review 报道称，美国各州和地方的公共记录申请量近期明显上升。一方面，Starbridge（融资 5200 万美元）、Pursuit（2550 万美元）等风险投资支持的创业公司批量采集政府采购数据，并将其加工成销售“信号”；另一方面，普通个人借助 AI 更易起草申请。佛罗里达大学 Brechner 项目对教育部 7 月申请日志做的检测显示，至少 29% 的申请有 AI 参与，且篇幅约为人工申请的两倍。佛蒙特小镇书记员反映，同一类采购记录申请从每年一次变为每季度、每月一次；宾州开放记录办公室的申诉量从 2021 年约 3000 件升至 2025 年近 4000 件，今年预计 6000 件。资源有限的记录办公室开始用 AI 检索与脱敏，CivicPlus 称其 NextRequest 平台年处理超百万件请求并用验证码拦截机器人。",
+      "whyItMatters": "信息公开是监督政府的基础设施，申请成本下降与商业采集同时放大流量，可能倒逼立法收紧拒绝条件，反而削弱透明度；同时暴露出 AI 生成内容进入行政流程后的识别与处理成本问题。",
+      "limitations": "申请中 AI 参与比例来自单一机构单月日志的检测估算，检测方法本身存在误判；企业请求量数据多为其官网自述；立法收紧的最终影响尚未发生。",
+      "insight": "分析：这一案例显示 AI 的主要冲击未必在模型能力，而在把原本高摩擦的行政流程变得极低成本，导致既有制度按“请求昂贵”假设设计的容量与筛选机制失效。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "公共记录",
+        "FOIA",
+        "透明度",
+        "数据经纪",
+        "政府采购"
+      ],
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
+      "source": "MIT Technology Review",
+      "category": "industry",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "sourceKind": "reporting",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "governance",
+        "business",
+        "products"
+      ]
+    },
+    {
+      "id": "ca7cbb4b4799603a",
+      "title": "Responding to objections to recursive self-improvement",
+      "titleZh": "Dwarkesh Patel 回应递归自我改进与2030年超级智能的质疑",
+      "summary": "(00:00:00) – IntroDwarkesh Patel 00:00:00Okay, so I recently released this essay and this video about recursive self-improvement and why I expect superintelligence by 2030. A wild claim, and understandably, lots of people had objections. Many of them are actually quite interesting and compelling, and I want to go through them here. And by the way, I’m joined by Max Farrens, who is my General Manager, and we ended up discussing all of these ideas as we were writing them down. And in fact, we pair",
+      "summaryZh": "在 Dwarkesh Podcast 中，Dwarkesh Patel 与 Max Farrens 逐条回应其“递归自我改进、2030 年前出现超级智能”长文收到的反对意见。他主张当前 AI 在大多数事情上仍弱于人类，真正可能快速推进的是具备大量可验证代理指标的 AI 研究领域；他以预训练损失、未见游戏上手速度、开放数学问题等作为可验证攀爬目标，并引用与 Princeton 学生 Jerry Han 的合作研究称，2019 至 2026 年间预训练数据改进对进展的解释力大于架构改进。针对“指标定义本身就是难点”的质疑，他承认需要泛化，但认为在 ML 研究这类可经验验证的领域，非领域专家的研究者也能通过数据过滤与合成数据改进模型。",
+      "whyItMatters": "这是关于 AI 发展速度的核心论证之一：争论焦点不在单个模型分数，而在 AI 研究是否足够可验证、可自动攀爬。该框架影响从业者如何评估自改进路线与投入。",
+      "limitations": "均为播客中的个人论证与反驳，非同行评审结论；提及的数据研究仅口头描述，未给出可核查细节；2030 年超级智能为作者预测，不应视为已验证趋势。",
+      "insight": "分析：该论证的关键假设是“AI 研究领域可验证性高”，若指标定义与数据构造仍是瓶颈，自改进速度会低于其预测。",
+      "importance": 7,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "递归自我改进",
+        "可验证指标",
+        "预训练数据",
+        "AGI 预测"
+      ],
+      "url": "https://www.dwarkesh.com/p/rsiobjections",
+      "source": "Dwarkesh Podcast · 深度访谈",
+      "category": "thought-leader",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-24T21:45:30.000Z",
+      "sourceKind": "analysis",
+      "evidenceQuality": "substantial",
+      "layers": [
+        "models",
+        "governance"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "id": "fbfdec28cfffc04c",
+      "title": "PostHog/posthog",
+      "titleZh": "PostHog：把产品分析、会话回放与 AI 可观测性集中到一个平台",
+      "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.\n当前星数 41211，当日增加 50；语言 Python。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "PostHog 的仓库简介把它定位为“构建自驱动产品”的平台：提供 AI 可观测性、产品分析、会话回放、功能开关、实验、错误追踪和日志等开发者工具，声称可以捕获 agent 诊断问题、发现机会和上线修复所需的上下文，并支持从 Slack、Web、桌面端或 MCP 操作。给出的信息来自仓库简介，不是发布公告；当前星数 41211，当日增加 50，主要语言为 Python。机制上，它把产品事件、前端会话和模型调用观测放进同一数据层，用于减少排查问题时跨系统拼接数据的成本；适用边界在于简介未说明具体功能成熟度、计费方式或私有化能力。",
+      "whyItMatters": "AI 产品排障往往需要同时查看模型调用、用户行为和前端状态，分散的工具链会拉长定位时间。PostHog 把可观测性与产品分析合并，对做 agent 和 AI 功能的团队有直接吸引力，但实际收益取决于数据接入深度与成本。",
+      "limitations": "仅有仓库简介，没有版本发布、基准或客户案例；MCP 与 Slack 操作的具体能力和权限边界未知，星数变化不能代表新近采用热度。",
+      "insight": "",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "PostHog",
+        "可观测性",
+        "产品分析",
+        "Agent"
+      ],
+      "url": "https://github.com/PostHog/posthog",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "products",
+        "agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "c37165a31cd3fc39",
+      "title": "n8n-io/n8n",
+      "titleZh": "n8n：带原生 AI 能力的公平代码工作流自动化平台",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.\n当前星数 212353，当日增加 218；语言 TypeScript。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "n8n 的仓库简介描述了一个公平代码（fair-code）许可的工作流自动化平台，具备原生 AI 能力，可将可视化搭建与自定义代码结合，支持自托管或云部署，并称有 400 多个集成。当前星数 212353，当日增加 218，主要语言为 TypeScript。这些信息来自仓库简介而非今日公告，因此不能据此推断新版本或新集成。机制上，它用节点式编排连接外部服务，并在流程中嵌入模型调用与自定义逻辑，适合把 AI 步骤接入既有业务系统；边界是简介未披露 AI 节点的具体模型支持、许可限制细节和定价。",
+      "whyItMatters": "很多企业需要在不替换现有系统的前提下，把模型调用、人工审核和业务动作串成可审计流程。n8n 的自托管与可视化方式降低了搭建 agent 类自动化的门槛，但生产可用性仍取决于集成质量与运维成本。",
+      "limitations": "证据仅为仓库简介；400 多个集成的完整性、AI 功能的具体实现与公平代码许可条款均未在材料中说明，星数是累计值。",
+      "insight": "",
+      "importance": 6,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "n8n",
+        "工作流自动化",
+        "自托管",
+        "AI 编排"
+      ],
+      "url": "https://github.com/n8n-io/n8n",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "agents",
+        "products"
+      ]
+    },
+    {
+      "id": "c5f2c6c39c63757b",
+      "title": "pgvector/pgvector",
+      "titleZh": "pgvector：为 Postgres 提供开源向量相似度检索",
+      "summary": "Open-source vector similarity search for Postgres\n当前星数 23848，当日增加 14；语言 C。这是仓库简介，不是今日发布公告。",
+      "summaryZh": "pgvector 是面向 Postgres 的开源向量相似度检索扩展，仓库简介仅此一句；当前星数 23848，当日增加 14，主要语言为 C。材料没有今日发布内容，也没有说明支持的索引类型、距离度量或性能数据。机制上，它把向量列和相似度检索能力放进关系数据库，使向量查询可与既有 SQL 数据和事务在同一库内完成，减少单独维护向量库的复杂度；适用边界取决于数据规模、索引构建成本与查询延迟，这些材料均未涉及。",
+      "whyItMatters": "RAG 与语义检索常用独立向量数据库，而 pgvector 让已有 Postgres 团队在不新增基础设施的情况下试水向量检索，降低了起步成本；它的限制和调优需求也决定了它更适合中等规模场景。",
+      "limitations": "仅有一句仓库简介，缺少版本、索引算法、基准与规模上限；不能据此判断当前性能或与专用向量库的优劣。",
+      "insight": "",
+      "importance": 5,
+      "relevance": "general",
+      "labelType": "general",
+      "tags": [
+        "pgvector",
+        "Postgres",
+        "向量检索",
+        "RAG"
+      ],
+      "url": "https://github.com/pgvector/pgvector",
+      "source": "GitHub Trending",
+      "category": "github-hot",
+      "date": "2026-11-28",
+      "sourceKind": "primary",
+      "evidenceQuality": "limited",
+      "layers": [
+        "infrastructure"
+      ]
+    }
+  ],
+  "coverage": {
+    "fetchedAt": "2026-11-28T08:00:39.481Z",
+    "lookbackDays": 14,
+    "sources": [
+      {
+        "source": "Karpathy Newsletter",
+        "url": "https://karpathy.beehiiv.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 404"
+      },
+      {
+        "source": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Ethan Mollick (One Useful Thing)",
+        "url": "https://www.oneusefulthing.org/feed",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Nathan Lambert (Interconnects)",
+        "url": "https://interconnects.ai/feed",
+        "status": "ok",
+        "items": 1,
+        "undated": 0
+      },
+      {
+        "source": "SemiAnalysis",
+        "url": "https://www.semianalysis.com/feed",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Jack Clark (Import AI)",
+        "url": "https://jack-clark.net/feed/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "HackerNews AI",
+        "url": "https://hnrss.org/frontpage?q=AI+OR+LLM+OR+agent&points=50",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "fetch failed"
+      },
+      {
+        "source": "HackerNews Models",
+        "url": "https://hnrss.org/frontpage?q=GPT+OR+Claude+OR+Gemini+OR+Llama&points=30",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "fetch failed"
+      },
+      {
+        "source": "TLDR AI",
+        "url": "https://tldr.tech/api/rss/ai",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "VentureBeat AI",
+        "url": "https://venturebeat.com/category/ai/feed/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 429"
+      },
+      {
+        "source": "OpenAI News",
+        "url": "https://openai.com/news/rss/",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed HTTP 404"
+      },
+      {
+        "source": "Anthropic News",
+        "url": "https://www.anthropic.com/news",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv CS.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "ArXiv ML",
+        "url": "https://rss.arxiv.org/rss/cs.LG",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "36氪",
+        "url": "https://36kr.com/feed",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Feed not recognized as RSS 1 or 2."
+      },
+      {
+        "source": "雷锋网",
+        "url": "https://www.leiphone.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "人人都是产品经理",
+        "url": "https://www.woshipm.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "机器之心",
+        "url": "https://www.jiqizhixin.com/rss",
+        "status": "error",
+        "items": 0,
+        "undated": 0,
+        "error": "Unexpected close tag\nLine: 16\nColumn: 19\nChar: >"
+      },
+      {
+        "source": "少数派",
+        "url": "https://sspai.com/feed",
+        "status": "ok",
+        "items": 10,
+        "undated": 0
+      },
+      {
+        "source": "爱范儿",
+        "url": "https://www.ifanr.com/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Latent Space · 访谈与工程",
+        "url": "https://www.latent.space/feed",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "Dwarkesh Podcast · 深度访谈",
+        "url": "https://www.dwarkesh.com/feed",
+        "status": "ok",
+        "items": 7,
+        "undated": 0
+      },
+      {
+        "source": "Lex Fridman · 访谈",
+        "url": "https://lexfridman.com/feed/podcast/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      },
+      {
+        "source": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 15,
+        "undated": 0
+      },
+      {
+        "source": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+        "status": "ok",
+        "items": 9,
+        "undated": 0
+      },
+      {
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "status": "ok",
+        "items": 4,
+        "undated": 0
+      },
+      {
+        "source": "Google AI",
+        "url": "https://blog.google/technology/ai/rss/",
+        "status": "ok",
+        "items": 7,
+        "undated": 0
+      },
+      {
+        "source": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
+        "status": "empty",
+        "items": 0,
+        "undated": 0
+      },
+      {
+        "source": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+        "status": "ok",
+        "items": 2,
+        "undated": 0
+      }
+    ],
+    "selected": 68,
+    "published": 49,
+    "warnings": []
+  }
+}

@@ -1,2 +1,2 @@
 :HL["/ai-frontier/_next/static/chunks/1118f4phkkykm.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"nLrC0FGMVS6wTp9-3EBfi"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"DpKLCS6KxjfyxUsvwVbT3"}
